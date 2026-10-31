@@ -1,0 +1,17 @@
+name: check
+on:
+  pull_request:
+  push:
+    branches: [main]
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Syntax check
+        run: for f in js/*.js tools/*.mjs; do node --check "$f"; done
+      - name: Vocabulary data is up to date and valid
+        run: node tools/build-data.mjs && git diff --exit-code data/lessons.js

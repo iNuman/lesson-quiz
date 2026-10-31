@@ -1,0 +1,64 @@
+# Lesson 19
+ダイナマイト | dainamaito | Dynamite | n
+ほし | hoshi | Star | n
+さる | saru | Monkey | n
+かきます・かく(えを～) | kakimasu / kaku (e o ~) | To draw, to paint (a picture) | v
+入ります・入る((お)ふろに～) | hairimasu / hairu ((o-)furo ni ~) | To take (a bath) | v
+盛田昭夫 | Morita Akio | Akio Morita (person's name) | n
+知ります・知る | shirimasu / shiru | To know | v
+持ちます・持つ | mochimasu / motsu | To have | v
+クレジットカード | kurejitto-kādo | Credit card | n
+けっこんします・けっこんする | kekkon-shimasu / kekkon-suru | To marry | v
+住みます・住む | sumimasu / sumu | To live | v
+プログラミング | puroguramingu | Programming | n
+ジャカルタ | Jakaruta | Jakarta (name of place) | n
+―さい | -sai | -years old | suf
+～ちゃん | ~chan | Suffix often added to a child's name | suf
+ようちえん | yōchien | Kindergarten | n
+通います・通う(ようちえんに～) | kayoimasu / kayou (yōchien ni ~) | To commute, to go (to kindergarten) | v
+何人 | nan-nin | How many persons | q
+会社 | kaisha | Company | n
+生産します・生産する | seisan-shimasu / seisan-suru | To produce | v
+輸出します・輸出する | yushutsu-shimasu / yushutsu-suru | To export | v
+輸入します・輸入する | yunyū-shimasu / yunyū-suru | To import | v
+米 | kome | Rice | n
+産業 | sangyō | Industry | n
+きかい | kikai | Machinery, machine | n
+せきゆ | sekiyu | Petroleum | n
+お父さん | otōsan | Your (someone's) father | fam
+父 | chichi | My father | fam
+お母さん | okāsan | Your (someone's) mother | fam
+母 | haha | My mother | fam
+お兄さん | oniisan | Your (someone's) elder brother | fam
+兄 | ani | My elder brother | fam
+お姉さん | onēsan | Your (someone's) elder sister | fam
+姉 | ane | My elder sister | fam
+弟さん | otōto-san | Your (someone's) younger brother | fam
+弟 | otōto | My younger brother | fam
+妹さん | imōto-san | Your (someone's) younger sister | fam
+妹 | imōto | My younger sister | fam
+ご主人 | go-shujin | Your (someone's) husband | fam
+主人 | shujin | My husband | fam
+おっと | otto | My husband | fam
+おくさん | okusan | Your (someone's) wife | fam
+家内 | kanai | My wife | fam
+つま | tsuma | My wife | fam
+お子さん | okosan | Your (someone's) child | fam
+子ども | kodomo | My child | fam
+むすこさん | musuko-san | Your (someone's) son | fam
+むすこ | musuko | My son | fam
+むすめさん | musume-san | Your (someone's) daughter | fam
+むすめ | musume | My daughter | fam
+ご兄弟 | go-kyōdai | Your (someone's) brothers and sisters | fam
+兄弟 | kyōdai | My brothers and sisters | fam
+ご家族 | go-kazoku | Your (someone's) family | fam
+家族 | kazoku | My family | fam
+医者 | isha | Medical doctor | n
+看護婦 | kangofu | Nurse | n
+教師 | kyōshi | Teacher | n
+弁護士 | bengoshi | Lawyer | n
+警察官 | keisatsu-kan | Policeman | n
+公務員 | kōmuin | Government employee | n
+会社員 | kaishain | Company employee | n
+建築家 | kenchiku-ka | Architect | n
+技術者 | gijutsu-sha | Engineer | n

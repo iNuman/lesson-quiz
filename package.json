@@ -1,0 +1,11 @@
+{
+  "name": "japanese-vocab-quiz",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Static Japanese vocabulary quiz, Lessons 16-30",
+  "type": "module",
+  "scripts": {
+    "build": "node tools/build-data.mjs",
+    "start": "node serve.mjs 8000"
+  }
+}

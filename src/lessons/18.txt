@@ -1,0 +1,53 @@
+# Lesson 18 — ja | romaji | english | group | distractor ids (1-based, within this lesson)
+かお | Kao | Face | daily | 2,4,5
+あらいます・あらう | Araimasu / arau | To wash | daily | 1,4,3
+チェックします・チェックする | Chekkushimasu / chekkusuru | To check | research | 16,13,15
+あびます・あびる | Abimasu / abiru | To take a shower | daily | 2,1,5
+こんばん | Konban | Tonight | time | 25,28,26
+どうやって | Dō yatte | How / in what way | question-words | 26,33,35
+ファックス | Fakkusu | Fax | office | 8,10,14
+げんこう | Genkō | Manuscript | research | 12,14,7
+いれます・いれる | Iremasu / ireru | To insert | office | 11,24,15
+スタートボタン | Sutāto botan | Start button | office | 7,23,19
+おします・おす | Oshimasu / osu | To push | office | 9,3,24
+テーマ | Tēma | Theme | research | 8,14,47
+きめます・きめる | Kimemasu / kimeru | To decide | research | 3,38,16
+データ | Dēta | Data | research | 37,8,12
+あつめます・あつめる | Atsumemasu / atsumeru | To collect | research | 16,9,24
+ぶんせきします・ぶんせきする | Bunsekishimasu / bunsekisuru | To analyze | research | 3,15,13
+NASA | Nasa | NASA | space | 31,18,20
+うちゅう | Uchū | Outer space | space | 20,23,17
+トレーニング | Torēningu | Training | space | 12,18,20
+スペースシャトル | Supēsu shatoru | Space shuttle | space | 23,29,18
+のります・のる | Norimasu / noru | To get on / ride | transport | 43,44,27
+ネアンデルタールじん | Neanderutāru-jin | Neanderthal person | space | 25,23,18
+タイムマシン | Taimu mashin | Time machine | space | 20,25,22
+つくります・つくる | Tsukurimasu / tsukuru | To make | research | 13,15,9
+むかし | Mukashi | Ancient times / long ago | time | 5,22,28
+どのぐらい | Dono gurai | How long / how much | time | 6,28,35
+かかります・かかる | Kakarimasu / kakaru | To take time | time | 28,21,44
+～じかん | ~jikan | ~hours | time | 26,48,5
+ふね | Fune | Ship | transport | 30,20,50
+うま | Uma | Horse | transport | 29,50,22
+JR | Jēāru | Japan Railways | transport | 51,42,17
+しぶやえき | Shibuya-eki | Shibuya Station | places | 39,52,40
+いきかた | Ikikata | How to get there | directions | 6,36,45
+えきいん | Ekiin | Station staff | directions | 45,33,32
+どの | Dono | Which | question-words | 36,26,6
+なにせん | Nani-sen | Which railway line | transport | 41,35,42
+インフォメーション | Infomēshon | Information | directions | 14,47,34
+こたえます・こたえる | Kotaemasu / kotaeru | To answer | research | 47,3,13
+しぶや | Shibuya | Shibuya | places | 40,32,49
+かまくら | Kamakura | Kamakura | places | 39,49,46
+～せん | ~sen | Railway line | transport | 36,42,31
+よこすかせん | Yokosuka-sen | Yokosuka Line | transport | 41,51,31
+おります・おりる | Orimasu / oriru | To get off a train | transport | 21,44,27
+のりかえます・のりかえる | Norikaemasu / norikaeru | To transfer | transport | 43,21,33
+あんないじょ | Annaijo | Information center | directions | 34,33,47
+だいぶつ | Daibutsu | Great Buddha statue | places | 49,40,25
+しつもん | Shitsumon | Question | research | 38,12,48
+～ばん | ~ban | Number | time | 28,47,35
+だいぶつまえ | Daibutsumae | Daibutsumae (bus stop) | places | 46,52,32
+レンタサイクル | Renta saikuru | Rental bicycle | transport | 29,30,51
+えのでん | Enoden | Enoshima Electric Railway | transport | 31,42,52
+はせえき | Hase-eki | Hase Station | places | 32,49,51

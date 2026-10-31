@@ -1,0 +1,66 @@
+# Lesson 16 — ja | romaji | english | pos(n,v,adj,adv,q,suf,exp,conj)
+まど | mado | Window | n
+急ぎます・急ぐ | isogimasu / isogu | To hurry | v
+病気 | byōki | Illness | n
+飲みます・飲む(薬を～) | nomimasu / nomu (kusuri o~) | To take medicine | v
+薬 | kusuri | Medicine | n
+暗い | kurai | Dark | adj
+電気 | denki | Light | n
+つけます・つける | tsukemasu / tsukeru | To turn on | v
+さんぽします・さんぽする | sanpo-shimasu / sanpo-suru | To take a walk | v
+ひつよう(な) | hitsuyō(na) | Necessary | adj
+もう | mō | Already | adv
+おなか | onaka | Stomach | n
+おなかが すきました。 | Onaka ga sukimashita. | (I'm) hungry. | exp
+ええ | ē | Yes (casual) | exp
+そう | sō | So | adv
+こんな | konna | Such | adj
+おそい | osoi | Late | adj
+早く | hayaku | Early, quickly | adv
+むし暑い | mushiatsui | Humid | adj
+のど | nodo | Throat | n
+のどが かわきました。 | Nodo ga kawakimashita. | (I'm) thirsty. | exp
+―キロ | -kiro | -kilometer, -kilogram | suf
+走ります・走る | hashirimasu / hashiru | To run | v
+つかれます・つかれる | tsukaremasu / tsukareru | To get tired | v
+つかれました。 | Tsukaremashita. | (I'm) tired. | exp
+あまい物 | amai-mono | Sweets | n
+(お)酒 | (o-)sake | Rice wine | n
+イスラム教徒 | Isuramu-kyōto | Muslim | n
+ベジタリアン | bejitarian | Vegetarian | n
+アイスクリーム | aisukuriimu | Ice cream | n
+ダイエット中 | daietto-chū | On a diet | exp
+アレルギー | arerugii | Allergy | n
+店 | mise | Store | n
+どうして | dōshite | Why | q
+使います・使う | tsukaimasu / tsukau | To use | v
+あります・ある | arimasu / aru | To have | v
+アルバイト | arubaito | Part-time job | n
+もしもし | moshi moshi | Hello (used on the phone) | exp
+おたく | otaku | House (respectful) | n
+～夫人 | ~fujin | Mrs. ~ | suf
+どちらさま | dochira-sama | Who (respectful) | q
+もうします・もうす | mōshimasu / mōsu | To say, tell, call (humble) | v
+いらっしゃいます・いらっしゃる | irasshaimasu / irassharu | To be, to exist (respectful) | v
+少々 | shōshō | A little | adv
+主人 | shujin | My husband | n
+待ちます・待つ | machimasu / matsu | To wait | v
+お待ち ください。 | O-machi kudasai. | Please wait. (respectful) | exp
+出かけます・出かける | dekakemasu / dekakeru | To go out | v
+でかけて おります | dekakete orimasu | To be out (humble) | exp
+では | dewa | Then | conj
+また | mata | Again | adv
+あとで | ato de | Later | adv
+つたえます・つたえる | tsutaemasu / tsutaeru | To convey (a message) | v
+よろしく おつたえ ください。 | Yoroshiku o-tsutae kudasai. | Please convey my best regards. (respectful) | exp
+しつれいします。 | Shitsurei-shimasu. | Good-bye., Excuse me. | exp
+ただいま | tadaima | Right now | adv
+るすに して おります | rusu ni shite orimasu | To be out (humble) | exp
+ピーッ | piii | Beep | n
+なります・なる | narimasu / naru | To sound, to ring | v
+(ご)ようけん | (go-)yōken | Business | n
+話します・話す | hanashimasu / hanasu | To speak | v
+かぶき | kabuki | Kabuki | n
+れんらくします・れんらくする | renraku-shimasu / renraku-suru | To contact | v
+切符 | kippu | Ticket | n
+―まい | -mai | Counter for tickets, paper, etc. | suf
