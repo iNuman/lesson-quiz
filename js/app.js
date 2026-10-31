@@ -44,12 +44,14 @@
       if (!e.target.closest(".topbar")) closeSheets();
     });
     document.addEventListener("keydown", (e) => { if (e.key === "Escape") closeSheets(); });
+    window.addEventListener("scroll", () => { if (navEl.classList.contains("open")) closeSheets(); }, { passive: true });
   }
   function toggle(btn, panel) {
     const open = btn.getAttribute("aria-expanded") !== "true";
     closeSheets();
     if (!open) return;
     btn.setAttribute("aria-expanded", "true");
+    panel.style.top = `${document.querySelector(".topbar").getBoundingClientRect().bottom}px`;
     panel.classList.add("open");
   }
   function closeSheets() {
@@ -96,8 +98,8 @@
     const r = E.choose(s, option);
     if (r === "ignored") return;
     const info = G.answered(s, r);
-    render();
-    G.fx(info);
+    if (paintAnswer(s)) { scoreEl.innerHTML = `Score <b>${s.score}</b>`; G.renderHud(s); } else render();
+    requestAnimationFrame(() => G.fx(info));   // let the tap paint first, then sound/particles
     if (r === "correct") {
       const at = s.index;
       timer = setTimeout(() => {
@@ -125,6 +127,52 @@
     if (s.status === "completed") renderComplete(s); else renderQuestion(s);
   }
 
+  // The area under the options: "✓ Correct" toast or the wrong-answer feedback with the Next button.
+  function belowHtml(s, q, w, total) {
+    if (s.status === "wrong_answer_feedback") {
+      return `<section class="feedback" aria-live="assertive">
+        <dl>
+          <dt>Word</dt><dd class="jp" lang="ja">${jaHtml(w)}</dd>
+          <dt>Romaji</dt><dd>${esc(w.romaji)}</dd>
+          <dt>Your answer</dt><dd class="yours">${esc(s.lastSelected)}</dd>
+          <dt>Correct answer</dt><dd class="right">${esc(q.correct)}</dd>
+        </dl>
+        <button type="button" class="btn" id="next">${s.index === total - 1 ? "See Results" : "Next Question"}</button>
+      </section>`;
+    }
+    return `<div class="toast" aria-live="polite">${s.status === "correct_feedback" ? "✓ Correct" : ""}</div>`;
+  }
+  function bindNext() {
+    const n = document.getElementById("next");
+    if (!n) return;
+    n.addEventListener("click", () => { n.disabled = true; onNext(); });
+    n.focus({ preventScroll: true });
+    n.scrollIntoView({ block: "nearest" });   // keep "Next" reachable under the sticky bar
+  }
+
+  // Answering only touches what changed (option classes, toast/feedback, progress) instead of
+  // rebuilding the whole card, which keeps the tap response instant. Returns false if it can't.
+  function paintAnswer(s) {
+    const card = app.querySelector(".card");
+    const opts = app.querySelectorAll(".opt");
+    if (!card || opts.length !== 4 || s.status === "question" || s.status === "completed") return false;
+    const q = s.questions[s.index], total = s.words.length, done = s.index + 1;
+    opts.forEach((b) => {
+      b.disabled = true;
+      b.classList.add(b.dataset.opt === q.correct ? "is-correct" : b.dataset.opt === s.lastSelected ? "is-wrong" : "is-dim");
+    });
+    const slot = card.querySelector(".toast, .feedback");
+    if (!slot) return false;
+    slot.outerHTML = belowHtml(s, q, E.currentWord(s), total);
+    app.querySelector(".progress-label span:last-child").textContent = `${Math.round((done / total) * 100)}%`;
+    app.querySelector(".bar").setAttribute("aria-valuenow", done);
+    const target = done / total;
+    G.glide(app.querySelector(".bar > span"), shown.bar, target);
+    shown.bar = target;
+    if (s.status === "wrong_answer_feedback") bindNext();
+    return true;
+  }
+
   function renderQuestion(s) {
     const total = s.words.length;
     const q = s.questions[s.index];
@@ -139,18 +187,7 @@
         <span class="key" aria-hidden="true">${LETTERS[i]}</span><span>${esc(o)}</span></button>`;
     }).join("");
 
-    let below = `<div class="toast" aria-live="polite">${s.status === "correct_feedback" ? "✓ Correct" : ""}</div>`;
-    if (s.status === "wrong_answer_feedback") {
-      below = `<section class="feedback" aria-live="assertive">
-        <dl>
-          <dt>Word</dt><dd class="jp" lang="ja">${jaHtml(w)}</dd>
-          <dt>Romaji</dt><dd>${esc(w.romaji)}</dd>
-          <dt>Your answer</dt><dd class="yours">${esc(s.lastSelected)}</dd>
-          <dt>Correct answer</dt><dd class="right">${esc(q.correct)}</dd>
-        </dl>
-        <button type="button" class="btn" id="next">${s.index === total - 1 ? "See Results" : "Next Question"}</button>
-      </section>`;
-    }
+    const below = belowHtml(s, q, w, total);
 
     const long = w.ja.length > 12 ? " long" : "";
     const isNewQuestion = shown.lesson !== s.lesson || shown.index !== s.index;
@@ -172,10 +209,7 @@
       G.questionShown(s);
       app.querySelectorAll(".opt").forEach((b) => b.addEventListener("click", () => onChoose(b.dataset.opt)));
     } else if (s.status === "wrong_answer_feedback") {
-      const n = document.getElementById("next");
-      n.addEventListener("click", () => { n.disabled = true; onNext(); });
-      n.focus({ preventScroll: true });
-      n.scrollIntoView({ block: "nearest" });   // keep "Next" reachable under the sticky bar
+      bindNext();
     }
   }
 
