@@ -80,7 +80,7 @@
       canvas.className = "fx-canvas"; canvas.setAttribute("aria-hidden", "true");
       document.body.appendChild(canvas);
     }
-    const dpr = Math.min(window.devicePixelRatio || 1, 2);
+    const dpr = 1;   // confetti does not need retina resolution; 1x keeps the canvas cheap
     const w = Math.round(innerWidth * dpr), h = Math.round(innerHeight * dpr);
     if (canvas.width !== w || canvas.height !== h) { canvas.width = w; canvas.height = h; }
     count = Math.min(count, 90);
@@ -152,14 +152,11 @@
     glide(el.querySelector(".xpline > span"), lastXp === null || lastXp > frac ? frac : lastXp, frac);
     lastXp = frac;
   }
-  // Starts a bar at `from`, then transitions to `to` (transform only, so it stays on the GPU).
+  // Slides a bar from `from` to `to` with the Web Animations API (compositor-driven, no forced layout).
   function glide(bar, from, to) {
     if (!bar) return;
-    bar.style.transition = "none";
-    bar.style.transform = `scaleX(${from})`;
-    void bar.offsetWidth;
-    bar.style.transition = "";
     bar.style.transform = `scaleX(${to})`;
+    if (from !== to && bar.animate) bar.animate([{ transform: `scaleX(${from})` }, { transform: `scaleX(${to})` }], { duration: 450, easing: "cubic-bezier(.3,.8,.3,1)" });
   }
   function bindHud() {
     const el = hudEl();
@@ -257,6 +254,9 @@
   }
   const lessonStars = (n) => p.stars[n] || 0;
   const level = () => levelOf(p.xp);
+
+  // Create the AudioContext on the first touch so the first answer does not stall setting it up.
+  document.addEventListener("pointerdown", () => audio(), { once: true, passive: true });
 
   window.Game = { glide, questionShown, answered, fx, finish, finishFx, renderHud, bindHud, lessonStars, level, DAILY_GOAL };
 })();
