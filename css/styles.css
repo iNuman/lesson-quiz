@@ -14,7 +14,7 @@
   --bad: #b3261e;
   --bad-bg: #fbe9e7;
   --focus: #1a5fb4;
-  --radius: 16px;
+  --radius: 14px;
   --btn-radius: 12px;
 }
 @media (prefers-color-scheme: dark) {
