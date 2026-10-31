@@ -7,6 +7,8 @@
   const DATA = window.LESSON_DATA;
   const LESSON_NUMS = Object.keys(DATA).map(Number).sort((a, b) => a - b);
   const LETTERS = ["A", "B", "C", "D"];
+  const TYPE_LABELS = { n: "Noun", v: "Verb", adj: "Adjective", adv: "Adverb", exp: "Expression", suf: "Suffix", conj: "Conjunction", q: "Question word", "question-words": "Question word", fam: "Family", transport: "Transport", research: "Research", time: "Time", space: "Space", places: "Places", office: "Office", directions: "Directions", daily: "Daily life" };
+  const typeLabel = (g) => TYPE_LABELS[g] || (g ? g[0].toUpperCase() + g.slice(1) : "Word");
   const CORRECT_PAUSE_MS = 450;
   const STORE_KEY = "jpquiz.lastLesson";
 
@@ -140,7 +142,7 @@
         <button type="button" class="btn" id="next">${s.index === total - 1 ? "See Results" : "Next Question"}</button>
       </section>`;
     }
-    return `<div class="toast" aria-live="polite">${s.status === "correct_feedback" ? "✓ Correct" : ""}</div>`;
+    return `<div class="toast" aria-live="polite">${s.status === "correct_feedback" ? `✓ Correct<span class="rom"> · ${esc(w.romaji)}</span>` : ""}</div>`;
   }
   function bindNext() {
     const n = document.getElementById("next");
@@ -165,10 +167,11 @@
     if (!slot) return false;
     slot.outerHTML = belowHtml(s, q, E.currentWord(s), total);
     app.querySelector(".progress-label span:last-child").textContent = `${Math.round((done / total) * 100)}%`;
-    app.querySelector(".bar").setAttribute("aria-valuenow", done);
-    const target = done / total;
-    G.glide(app.querySelector(".bar > span"), shown.bar, target);
-    shown.bar = target;
+    app.querySelector(".track").setAttribute("aria-valuenow", done);
+    const seg = app.querySelector(".track").children[s.index];
+    if (seg) { seg.className = (s.status === "correct_feedback" ? "ok" : "bad") + " pop"; }
+    const speed = card.querySelector(".speed");
+    if (speed) speed.remove();
     if (s.status === "wrong_answer_feedback") bindNext();
     return true;
   }
@@ -188,22 +191,22 @@
     }).join("");
 
     const below = belowHtml(s, q, w, total);
+    const wrongIds = new Set(s.wrong.map((x) => x.id));
+    const segs = s.words.map((x, i) => `<i class="${i < s.index || (i === s.index && locked) ? (wrongIds.has(x.id) ? "bad" : "ok") : i === s.index ? "now" : ""}"></i>`).join("");
 
     const long = w.ja.length > 12 ? " long" : "";
     const isNewQuestion = shown.lesson !== s.lesson || shown.index !== s.index;
     app.innerHTML = `
       <div class="progress-label"><span>Question ${s.index + 1} of ${total}</span><span>${Math.round((done / total) * 100)}%</span></div>
-      <div class="bar" role="progressbar" aria-valuemin="0" aria-valuemax="${total}" aria-valuenow="${done}"><span></span></div>
+      <div class="track" role="progressbar" aria-label="Lesson progress" aria-valuemin="0" aria-valuemax="${total}" aria-valuenow="${done}">${segs}</div>
       <div class="card${isNewQuestion ? " enter" : ""}">
+        <div class="qmeta"><span class="tag">${esc(typeLabel(w.group))}</span>${locked ? "" : '<span class="speed" aria-hidden="true" title="Answer fast for bonus XP"><b>⚡</b><span class="speed-bar"><i></i></span></span>'}</div>
         <div class="prompt jp${long}" lang="ja" id="prompt">${jaHtml(w)}</div>
         <div class="options" role="group" aria-labelledby="prompt">${opts}</div>
         ${below}
       </div>`;
 
-    const barEl = app.querySelector(".bar > span");
-    const target = done / total;
-    G.glide(barEl, shown.lesson === s.lesson ? Math.min(shown.bar, target) : target, target);
-    shown = { lesson: s.lesson, index: s.index, bar: target };
+    shown = { lesson: s.lesson, index: s.index };
 
     if (s.status === "question") {
       G.questionShown(s);
@@ -254,13 +257,14 @@
         ${review}
         <button type="button" class="btn" id="restart">Restart Quiz</button>
         ${nextN ? `<button type="button" class="btn ghost" id="next-lesson">Next: Lesson ${nextN} →</button>` : ""}
-        <div class="credit-card" id="credit-card">
-          <p>Enjoying it? Made with <span class="heart">♥</span> by <strong>Ali Noman</strong> — ideas and contributions welcome.</p>
+        <div class="credit-card">
+          <p><strong>Enjoying it?</strong> Thank you for practising with me! A ⭐ on GitHub or a 👍 on LinkedIn would mean a lot.</p>
+          <div class="footer-links">
+            <a href="https://github.com/iNuman/lesson-quiz" target="_blank" rel="noopener noreferrer">⭐ Star on GitHub</a>
+            <a href="https://www.linkedin.com/in/-inuman/" target="_blank" rel="noopener noreferrer">👍 Like on LinkedIn</a>
+          </div>
         </div>
       </div>`;
-    const links = document.querySelector(".footer-links").cloneNode(true);
-    links.classList.remove("hero-links");   // the banner copy is icon-only and single-row; this one wraps with labels
-    document.getElementById("credit-card").appendChild(links);
     document.getElementById("restart").addEventListener("click", onRestart);
     const nl = document.getElementById("next-lesson");
     if (nl) nl.addEventListener("click", () => { location.hash = `#/lesson/${nextN}`; });

@@ -6,6 +6,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
+import { makeRuby } from "./furigana.mjs";
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const srcDir = path.join(root, "src", "lessons");
@@ -35,6 +36,11 @@ function parse(file) {
     const p = raw.split("|").map((x) => x.trim());
     if (p.length < 4) throw new Error(`L${n}: bad line: ${raw}`);
     const e = { id: `${n}-${entries.length + 1}`, ja: p[0], romaji: p[1], en: p[2], group: p[3] };
+    // Furigana: derived from the romaji so every kanji shows its hiragana reading above it.
+    if (/[㐀-鿿0-9]/.test(e.ja)) {
+      const ruby = makeRuby(e.ja, e.romaji);
+      if (ruby) e.ruby = ruby; else console.warn(`No furigana for L${n} "${e.ja}" (${e.romaji}): romaji does not line up with the kana`);
+    }
     if (p[4]) e.curated = p[4].split(",").map((x) => Number(x));
     entries.push(e);
   }
