@@ -209,6 +209,18 @@
     if (i >= 0 && i < 4) { e.preventDefault(); onChoose(current.questions[current.index].options[i]); }
   });
 
+  /* "Suggest an idea": phones follow the mailto link (opens the Gmail app / default mail app);
+     desktop browsers open a Gmail compose tab instead of needing a mail client set up. */
+  const suggest = document.getElementById("suggest-link");
+  if (suggest) {
+    suggest.addEventListener("click", (e) => {
+      if (/Android|iPhone|iPad|iPod|Mobi/i.test(navigator.userAgent)) return;
+      e.preventDefault();
+      const q = new URLSearchParams({ view: "cm", fs: "1", to: "inuumaan@gmail.com", su: "Suggestion for lesson-quiz", body: "Hi Ali,\n\nMy suggestion:\n\n" });
+      window.open(`https://mail.google.com/mail/?${q}`, "_blank", "noopener");
+    });
+  }
+
   window.addEventListener("hashchange", route);
   if (/[?&]debug\b/.test(location.search)) window.__quizDebug = { DATA, getState: () => current, sessions };
   buildNav();

@@ -7,6 +7,8 @@ Made by Ali Noman · [GitHub](https://github.com/iNuman) · [LinkedIn](https://w
 A fully static site (no server code, no dependencies). Four-choice Japanese→English quiz for each lesson,
 automatic advance on a correct answer, manual "Next Question" after a wrong one, and a wrong-answer review.
 
+**Live:** https://inuman.github.io/lesson-quiz/
+
 ## Run locally
     node serve.mjs 8000        # or: npm start
     # then open http://localhost:8000
