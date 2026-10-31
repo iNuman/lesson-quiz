@@ -6,6 +6,8 @@
   const KEY = "jpquiz.profile.v1";
   const DAILY_GOAL = 30;
   const GOAL_BONUS = 50;
+  // Timed mode pays more XP: the shorter the clock, the bigger the multiplier.
+  const TIMER_MULT = { 5: 2, 10: 1.5, 15: 1.3, 20: 1.2, 30: 1.1 };
   const COMBO_CALLS = { 3: "Nice!", 5: "On fire!", 8: "Unstoppable!", 12: "Legendary!", 20: "GODLIKE!" };
   const COLORS = ["#e8643c", "#f0a04b", "#c0392b", "#ffd166", "#06d6a0", "#4cc9f0", "#b388ff"];
   const reduceMotion = () => window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
@@ -68,6 +70,7 @@
     level() { [523.25, 659.25, 783.99, 1046.5].forEach((f, i) => tone(f, i * 0.09, 0.3, "triangle", 0.14)); },
     done(stars) { const n = [523.25, 659.25, 783.99, 1046.5, 1318.5]; n.slice(0, 2 + stars).forEach((f, i) => tone(f, i * 0.11, 0.35, "triangle", 0.14)); },
     tick() { tone(880, 0, 0.06, "sine", 0.08); },
+    swoosh() { tone(220, 0, 0.2, "sine", 0.07); tone(440, 0.05, 0.2, "sine", 0.06); tone(880, 0.1, 0.18, "sine", 0.05); },
   };
   const buzz = (ms) => { try { if (navigator.vibrate) navigator.vibrate(ms); } catch (e) { /* ignore */ } };
 
@@ -181,9 +184,12 @@
       s.combo = (s.combo || 0) + 1;
       s.maxCombo = Math.max(s.maxCombo || 0, s.combo);
       const secs = (Date.now() - (s._qStart || Date.now())) / 1000;
+      info.hinted = !!(s._ui && s._ui.i === s.index && s._ui.used);   // romaji was shown: half the base XP
       info.speed = secs <= 3 ? 5 : secs <= 6 ? 2 : 0;
       info.combo = s.combo;
-      info.gain = 10 + info.speed + Math.min(s.combo - 1, 5) * 2;
+      info.gain = (info.hinted ? 5 : 10) + info.speed + Math.min(s.combo - 1, 5) * 2;
+      info.timed = TIMER_MULT[s.timerSec] || 1;
+      info.gain = Math.round(info.gain * info.timed);
       s.xpEarned = (s.xpEarned || 0) + info.gain;
       info.levelUp = addXp(info.gain);
       p.totalCorrect += 1; p.todayCount += 1;
@@ -206,7 +212,10 @@
       const el = document.querySelector(".opt.is-correct");
       const c = el ? center(el) : { x: innerWidth / 2, y: innerHeight / 2 };
       sfx.correct(info.combo); buzz(12);
+      const happy = document.querySelector(".card");
+      if (happy && happy.animate) happy.animate([{ transform: "scale(1)" }, { transform: "scale(1.035, .965)" }, { transform: "scale(.99, 1.02)" }, { transform: "scale(1)" }], { duration: 460, easing: "ease-out" });
       pop(`+${info.gain} XP`, c.x, c.y - 10, info.speed ? "fast" : "");
+      if (info.hinted) setTimeout(() => pop("あ romaji used", c.x, c.y - 44, "lost"), 120);
       if (info.speed >= 5) setTimeout(() => pop("⚡ Quick!", c.x, c.y - 44, "fast"), 120);
       if (info.combo >= 3) {
         const chip = document.getElementById("combo-chip");
@@ -258,5 +267,5 @@
   // Create the AudioContext on the first touch so the first answer does not stall setting it up.
   document.addEventListener("pointerdown", () => audio(), { once: true, passive: true });
 
-  window.Game = { glide, questionShown, answered, fx, finish, finishFx, renderHud, bindHud, lessonStars, level, DAILY_GOAL };
+  window.Game = { burst: confetti, whoosh: () => sfx.swoosh(), TIMER_MULT, glide, questionShown, answered, fx, finish, finishFx, renderHud, bindHud, lessonStars, level, DAILY_GOAL };
 })();

@@ -7,6 +7,7 @@ import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { makeRuby } from "./furigana.mjs";
+import { grammarOf } from "./grammar.mjs";
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const srcDir = path.join(root, "src", "lessons");
@@ -36,6 +37,8 @@ function parse(file) {
     const p = raw.split("|").map((x) => x.trim());
     if (p.length < 4) throw new Error(`L${n}: bad line: ${raw}`);
     const e = { id: `${n}-${entries.length + 1}`, ja: p[0], romaji: p[1], en: p[2], group: p[3] };
+    // Grammar label for the Hint button (Verb · Group II, i-adjective, …), derived from the word itself.
+    Object.assign(e, grammarOf(e));
     // Furigana: derived from the romaji so every kanji shows its hiragana reading above it.
     if (/[㐀-鿿0-9]/.test(e.ja)) {
       const ruby = makeRuby(e.ja, e.romaji);

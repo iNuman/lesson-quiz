@@ -257,7 +257,7 @@ rt { font-weight: 500; color: var(--muted); letter-spacing: .02em; }
 .feedback dd.jp, .review .w { line-height: 1.9; }
 
 /* ---------- Effects (transform/opacity only) ---------- */
-.fx-canvas { position: fixed; inset: 0; width: 100vw; height: 100vh; pointer-events: none; z-index: 60; }
+.fx-canvas { position: fixed; inset: 0; width: 100vw; height: 100vh; pointer-events: none; z-index: 95; }
 .fx-pop { position: fixed; z-index: 55; font-weight: 800; font-size: 1.2rem; color: var(--ok); pointer-events: none; white-space: nowrap; will-change: transform, opacity; animation: floatup .9s ease-out forwards; }
 .fx-pop.fast { color: #d98a00; }
 .fx-pop.lost { color: var(--bad); }
@@ -360,7 +360,8 @@ rt { font-weight: 500; color: var(--muted); letter-spacing: .02em; }
 .track i.pop { animation: seg-pop .4s cubic-bezier(.3,1.6,.5,1); }
 @keyframes seg-pulse { from { opacity: .45; } to { opacity: 1; } }
 @keyframes seg-pop { 40% { transform: scaleY(2); } }
-.qmeta { display: flex; align-items: center; justify-content: space-between; gap: 10px; min-height: 26px; }
+.qmeta { display: flex; align-items: center; justify-content: space-between; gap: 10px; min-height: 40px; }
+.qtools { display: inline-flex; align-items: center; gap: 10px; }
 .tag { padding: 3px 10px; font-size: .74rem; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; color: var(--accent); background: color-mix(in srgb, var(--accent-2) 14%, var(--surface)); border-radius: 999px; }
 .speed { display: inline-flex; align-items: center; gap: 6px; font-size: .8rem; }
 .speed-bar { display: block; width: 84px; height: 5px; border-radius: 99px; background: var(--line); overflow: hidden; }
@@ -373,3 +374,162 @@ rt { font-weight: 500; color: var(--muted); letter-spacing: .02em; }
 
 /* ---------- Thank-you card ---------- */
 .credit-card p { line-height: 1.5; }
+
+/* ---------- Romaji hint (top right of the card, current word only) ---------- */
+.hint-btn { display: inline-flex; align-items: center; gap: 5px; min-height: 40px; padding: 0 12px; font: inherit; font-size: .82rem; font-weight: 700; color: var(--accent); background: color-mix(in srgb, var(--accent-2) 12%, var(--surface)); border: 1px solid color-mix(in srgb, var(--accent-2) 40%, var(--line)); border-radius: 999px; cursor: pointer; -webkit-appearance: none; appearance: none; -webkit-tap-highlight-color: transparent; touch-action: manipulation; transition: transform .12s ease; }
+.hint-btn:active:not(:disabled) { transform: scale(.95); }
+.hint-btn:disabled { cursor: default; color: var(--muted); background: var(--bg); border-color: var(--line); }
+.hint-btn:focus-visible { outline: none; box-shadow: 0 0 0 3px var(--surface), 0 0 0 6px var(--focus); }
+@media (hover: hover) and (pointer: fine) { .hint-btn:hover:not(:disabled) { border-color: var(--accent); } }
+.romaji { margin: -8px 0 16px; text-align: center; font-size: 1.1rem; font-weight: 600; letter-spacing: .05em; color: var(--accent); overflow-wrap: anywhere; animation: rise .2s ease-out both; }
+@media (max-width: 420px) { .speed-bar { width: 48px; } .qtools { gap: 6px; } .hint-btn { padding: 0 10px; } }
+
+
+/* Two toggle buttons: Hint (word type) and Romaji. Pressed = filled. */
+.qmeta { flex-wrap: wrap; row-gap: 8px; }
+.qtools { margin-left: auto; flex-wrap: wrap; justify-content: flex-end; }
+.hint-btn[aria-pressed="true"] { color: #fff; background: var(--grad); border-color: transparent; }
+@media (max-width: 420px) { .qtools { gap: 6px; } .hint-btn { padding: 0 9px; font-size: .78rem; } .speed-bar { width: 40px; } }
+
+/* ---------- Timer mode ---------- */
+.head-tools { position: relative; display: flex; align-items: center; gap: 10px; }
+.timer-btn { display: inline-flex; align-items: center; gap: 4px; min-height: 40px; padding: 0 12px; font: inherit; font-size: .85rem; font-weight: 700; color: var(--ink); background: var(--surface); border: 1px solid var(--line); border-radius: 999px; cursor: pointer; -webkit-appearance: none; appearance: none; -webkit-tap-highlight-color: transparent; touch-action: manipulation; }
+.timer-btn[aria-pressed="true"] { color: #fff; background: var(--grad); border-color: transparent; }
+.timer-btn:active { transform: scale(.96); }
+.timer-btn:focus-visible { outline: none; box-shadow: 0 0 0 3px var(--surface), 0 0 0 6px var(--focus); }
+.timer-pop { position: absolute; right: 0; top: calc(100% + 8px); z-index: 30; width: min(300px, calc(100vw - 28px)); padding: 14px; background: var(--surface); border: 1px solid var(--line); border-radius: 18px; box-shadow: 0 18px 40px -12px rgba(0,0,0,.35); animation: rise .18s ease both; }
+.tp-title { margin: 0; font-weight: 800; }
+.tp-sub { margin: 2px 0 12px; font-size: .82rem; color: var(--muted); }
+.tp-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; }
+.tp-grid button { display: flex; flex-direction: column; align-items: center; justify-content: center; min-height: 52px; font: inherit; font-weight: 800; color: var(--ink); background: var(--bg); border: 2px solid var(--line); border-radius: 14px; cursor: pointer; -webkit-appearance: none; appearance: none; -webkit-tap-highlight-color: transparent; touch-action: manipulation; }
+.tp-grid small { font-size: .66rem; font-weight: 600; color: var(--muted); }
+.tp-grid button[aria-pressed="true"] { color: #fff; background: var(--grad); border-color: transparent; }
+.tp-grid button[aria-pressed="true"] small { color: rgba(255,255,255,.85); }
+.tp-grid button:focus-visible { outline: none; box-shadow: 0 0 0 3px var(--surface), 0 0 0 6px var(--focus); }
+.countdown { display: inline-flex; align-items: center; gap: 6px; font-size: .85rem; }
+.countdown .speed-bar { width: 72px; }
+.countdown em { min-width: 1.5em; font-style: normal; font-weight: 800; font-variant-numeric: tabular-nums; text-align: right; }
+.countdown .speed-bar i { animation: speed-scale var(--t) linear forwards, clock-hue var(--t) steps(1, end) forwards; }
+@keyframes clock-hue { 0% { background: #1e9e5a; } 50% { background: #f0a04b; } 75% { background: #d93025; } }
+@media (max-width: 420px) { .countdown .speed-bar { width: 44px; } .timer-btn { padding: 0 10px; } }
+
+/* Grammar hint: main part of speech + a softer detail tag */
+#tag-slot { display: inline-flex; flex-wrap: wrap; gap: 6px; min-width: 0; }
+.tag.sub { text-transform: none; letter-spacing: 0; font-weight: 600; color: var(--muted); background: var(--bg); border: 1px solid var(--line); }
+
+/* =====================================================================
+   Playful cards: jelly lesson cards + a bouncy sticker-style quiz card.
+   Motion is transform/opacity only; springs come from one easing curve.
+   ===================================================================== */
+:root { --spring: cubic-bezier(.34, 1.56, .64, 1); }
+@keyframes jelly { 0% { transform: scale(1, 1); } 30% { transform: scale(1.18, .84); } 50% { transform: scale(.88, 1.14); } 70% { transform: scale(1.06, .95); } 100% { transform: scale(1, 1); } }
+@keyframes card-pop { from { opacity: 0; transform: translate3d(0, 14px, 0) scale(.7) rotate(-6deg); } }
+@keyframes card-in { from { opacity: 0; transform: translate3d(0, 26px, 0) scale(.93) rotate(-1.4deg); } 60% { transform: translate3d(0, -4px, 0) scale(1.01) rotate(.4deg); } }
+@keyframes float { 0%, 100% { transform: translate3d(0, 0, 0) rotate(-.5deg); } 50% { transform: translate3d(0, -4px, 0) rotate(.5deg); } }
+@keyframes wiggle { 0%, 100% { transform: rotate(0); } 25% { transform: rotate(-3deg); } 75% { transform: rotate(3deg); } }
+
+/* ---- Lesson cards ---- */
+.lesson-nav { display: grid; grid-template-columns: repeat(auto-fill, minmax(72px, 1fr)); justify-content: stretch; gap: 10px; padding: 16px 14px 18px; }
+.lesson-nav button {
+  display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 1px;
+  min-height: 80px; min-width: 0; padding: 8px 4px 6px; border-radius: 22px; border-width: 2px;
+  background: color-mix(in srgb, hsl(var(--h) 90% 55%) 13%, var(--surface));
+  border-color: color-mix(in srgb, hsl(var(--h) 80% 55%) 35%, var(--line));
+  color: color-mix(in srgb, hsl(var(--h) 85% 45%) 78%, var(--ink));
+  transition: transform .4s var(--spring), box-shadow .2s ease;
+}
+.lesson-nav button .lbl { display: block; font-size: .6rem; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; opacity: .75; }
+.lesson-nav button .num { font-size: 1.7rem; line-height: 1.1; font-weight: 800; font-variant-numeric: tabular-nums; }
+.lesson-nav button .sts { display: flex; gap: 1px; font-size: .62rem; line-height: 1; }
+.lesson-nav button .sts i { font-style: normal; color: color-mix(in srgb, currentColor 22%, transparent); }
+.lesson-nav button[data-stars="1"] .sts i:nth-child(-n+1),
+.lesson-nav button[data-stars="2"] .sts i:nth-child(-n+2),
+.lesson-nav button[data-stars="3"] .sts i { color: #f5b301; }
+.lesson-nav button[data-stars]::after { content: none; }
+.lesson-nav button:active { transform: scale(.9, 1.06); transition-duration: .08s; }
+@media (hover: hover) and (pointer: fine) {
+  .lesson-nav button:not([aria-current="true"]):hover { animation: jelly .6s; border-color: hsl(var(--h) 80% 55%); box-shadow: 0 8px 18px -8px hsl(var(--h) 80% 45% / .55); }
+}
+.lesson-nav button[aria-current="true"] { color: #fff; background: var(--grad); border-color: transparent; box-shadow: 0 10px 22px -8px rgba(192, 57, 43, .65); animation: jelly .6s; }
+.lesson-nav button[aria-current="true"] .sts i { color: rgba(255, 255, 255, .35); }
+.lesson-nav button[aria-current="true"][data-stars="1"] .sts i:nth-child(-n+1),
+.lesson-nav button[aria-current="true"][data-stars="2"] .sts i:nth-child(-n+2),
+.lesson-nav button[aria-current="true"][data-stars="3"] .sts i { color: #ffe27a; }
+/* cards pop in one after another when the picker opens (and once on desktop load) */
+.lesson-nav.open button { animation: card-pop .45s var(--spring) backwards; animation-delay: calc(var(--i) * 28ms); }
+.lesson-nav.open button[aria-current="true"] { animation: card-pop .45s var(--spring) backwards, jelly .6s .5s; animation-delay: calc(var(--i) * 28ms), .5s; }
+@media (min-width: 1000px) {
+  .lesson-nav { grid-template-columns: repeat(3, 1fr); }
+  .lesson-nav button { animation: card-pop .5s var(--spring) backwards; animation-delay: calc(var(--i) * 30ms + 150ms); }
+  .lesson-nav button[aria-current="true"] { animation: card-pop .5s var(--spring) backwards, jelly .6s .9s; animation-delay: calc(var(--i) * 30ms + 150ms), .9s; }
+}
+
+/* ---- Quiz card ---- */
+.card {
+  position: relative; overflow: hidden; border-radius: 30px; border: 2px solid color-mix(in srgb, var(--accent-2) 28%, var(--line));
+  background: linear-gradient(180deg, color-mix(in srgb, var(--accent-2) 9%, var(--surface)) 0%, var(--surface) 46%);
+}
+.card::before, .card::after { content: ""; position: absolute; z-index: 0; border-radius: 50%; pointer-events: none; }
+.card::before { width: 190px; height: 190px; right: -70px; top: -90px; background: color-mix(in srgb, var(--accent-2) 16%, transparent); }
+.card::after { width: 130px; height: 130px; left: -50px; bottom: -60px; background: color-mix(in srgb, #4cc9f0 14%, transparent); }
+.card > * { position: relative; z-index: 1; }
+.card.enter { animation: card-in .6s var(--spring) both; }
+.prompt { animation: float 4.5s ease-in-out infinite; }
+.card:has(.opt:disabled) .prompt { animation: none; }
+
+/* sticker-style tags */
+.tag { transform: rotate(-2.5deg); box-shadow: 0 2px 0 color-mix(in srgb, var(--accent-2) 35%, transparent); }
+.tag.sub { transform: rotate(1.5deg); box-shadow: none; }
+.hint-btn { transition: transform .35s var(--spring); }
+.hint-btn:active:not(:disabled) { transform: scale(.88, 1.08); }
+@media (hover: hover) and (pointer: fine) { .hint-btn:hover:not(:disabled) { animation: wiggle .5s; } }
+
+/* answer buttons: coloured letter badges + squishy press */
+.opt { border-radius: 18px; transition: transform .38s var(--spring), border-color .12s ease, background-color .12s ease; }
+.opt:active:not(:disabled) { transform: scale(.96, 1.03); transition-duration: .08s; }
+.opt:nth-child(1) .key { color: #fff; background: #ef6c57; }
+.opt:nth-child(2) .key { color: #5a3a00; background: #ffc247; }
+.opt:nth-child(3) .key { color: #fff; background: #26b5a6; }
+.opt:nth-child(4) .key { color: #fff; background: #8a6cf0; }
+.opt .key { border-radius: 10px; box-shadow: 0 2px 0 rgba(0, 0, 0, .12); }
+@media (hover: hover) and (pointer: fine) { .opt:hover:not(:disabled) { transform: translate3d(0, -4px, 0) rotate(-.6deg); } }
+.opt.is-correct .key { background: var(--ok) !important; color: #fff !important; }
+.opt.is-wrong .key { background: var(--bad) !important; color: #fff !important; }
+.toast { font-size: 1.1rem; }
+.toast:not(:empty) { animation: card-pop .4s var(--spring) both; }
+
+/* progress squares bounce a little more */
+.track i { border-radius: 5px; }
+.track i.pop { animation: seg-pop .5s var(--spring); }
+
+/* the wrong-answer shake must win over the entrance animation */
+.card.enter.shake, .card.shake { animation: shake .4s cubic-bezier(.36,.07,.19,.97); }
+
+/* When a swap transition drives the card, skip the CSS entrance (options still stagger in). */
+.card.enter.swap { animation: none; }
+
+/* ---------- Transition show ---------- */
+/* Bars start paused and run once the arriving card has landed (the "go" class is added by app.js). */
+.card .speed-bar i { animation-play-state: paused; }
+.card.go .speed-bar i { animation-play-state: running; }
+
+.fx-layer { position: fixed; inset: 0; z-index: 90; overflow: hidden; pointer-events: none; }
+.fx-curtain { position: absolute; top: 0; bottom: 0; width: 50.5%; will-change: transform;
+  background-image: repeating-linear-gradient(90deg, rgba(255, 255, 255, .1) 0 16px, transparent 16px 32px); }
+.fx-curtain.left { left: 0; box-shadow: 8px 0 24px rgba(0, 0, 0, .25); }
+.fx-curtain.right { right: 0; box-shadow: -8px 0 24px rgba(0, 0, 0, .25); }
+.fx-seal { position: absolute; left: 50%; top: 50%; width: 104px; height: 104px; margin: -52px 0 0 -52px; display: grid; place-items: center;
+  font: 800 2.1rem/1 "Hiragino Kaku Gothic ProN", "Noto Sans JP", "Yu Gothic", system-ui, sans-serif; color: var(--accent); background: #fff; border-radius: 50%;
+  box-shadow: 0 0 0 6px rgba(255, 255, 255, .35), 0 16px 40px rgba(0, 0, 0, .35); will-change: transform; }
+.fx-iris { position: absolute; border-radius: 50%; will-change: transform; }
+.fx-emoji { position: absolute; font-size: 6.5rem; line-height: 1; transform: translate(-50%, -50%) scale(0); opacity: 0; filter: drop-shadow(0 8px 16px rgba(0, 0, 0, .3)); }
+.fx-stamp { position: absolute; padding: 14px 30px; font: 800 clamp(2rem, 9vw, 3.4rem)/1.1 "Hiragino Kaku Gothic ProN", "Noto Sans JP", "Yu Gothic", system-ui, sans-serif; color: #fff; white-space: nowrap;
+  border: 5px solid #fff; border-radius: 26px; box-shadow: 0 18px 44px rgba(0, 0, 0, .35); text-shadow: 0 3px 0 rgba(0, 0, 0, .18); transform: translate(-50%, -50%); opacity: 0; will-change: transform; }
+.fx-ring { position: absolute; width: 220px; height: 220px; border: 8px solid #fff; border-radius: 50%; box-shadow: 0 0 0 4px rgba(232, 100, 60, .5); transform: translate(-50%, -50%) scale(.2); opacity: 0; }
+.fx-shards { position: fixed; z-index: 90; pointer-events: none; perspective: 1000px; }
+.fx-shards > .card { box-shadow: none; will-change: transform; backface-visibility: hidden; }
+
+.tp-toggle { display: flex; align-items: center; justify-content: space-between; gap: 8px; width: 100%; margin-top: 12px; min-height: 44px; padding: 0 14px; font: inherit; font-weight: 700; color: var(--ink); background: var(--bg); border: 2px solid var(--line); border-radius: 14px; cursor: pointer; -webkit-appearance: none; appearance: none; -webkit-tap-highlight-color: transparent; touch-action: manipulation; }
+.tp-toggle b { color: var(--accent); }
+.tp-toggle[aria-pressed="true"] { border-color: color-mix(in srgb, var(--accent-2) 55%, var(--line)); background: color-mix(in srgb, var(--accent-2) 10%, var(--surface)); }
+.tp-toggle:focus-visible { outline: none; box-shadow: 0 0 0 3px var(--surface), 0 0 0 6px var(--focus); }

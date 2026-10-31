@@ -10,6 +10,8 @@ window.LESSON_DATA = {
     "romaji": "mado",
     "en": "Window",
     "group": "n",
+    "pos": "Noun",
+    "sub": "",
     "distractors": [
      64,
      20,
@@ -22,6 +24,8 @@ window.LESSON_DATA = {
     "romaji": "isogimasu / isogu",
     "en": "To hurry",
     "group": "v",
+    "pos": "Verb",
+    "sub": "Group I · u-verb",
     "ruby": [
      [
       "急",
@@ -52,6 +56,8 @@ window.LESSON_DATA = {
     "romaji": "byōki",
     "en": "Illness",
     "group": "n",
+    "pos": "Noun",
+    "sub": "",
     "ruby": [
      [
       "病気",
@@ -70,6 +76,8 @@ window.LESSON_DATA = {
     "romaji": "nomimasu / nomu (kusuri o~)",
     "en": "To take medicine",
     "group": "v",
+    "pos": "Verb",
+    "sub": "Group I · u-verb",
     "ruby": [
      [
       "飲",
@@ -108,6 +116,8 @@ window.LESSON_DATA = {
     "romaji": "kusuri",
     "en": "Medicine",
     "group": "n",
+    "pos": "Noun",
+    "sub": "",
     "ruby": [
      [
       "薬",
@@ -126,6 +136,8 @@ window.LESSON_DATA = {
     "romaji": "kurai",
     "en": "Dark",
     "group": "adj",
+    "pos": "Adjective",
+    "sub": "i-adjective · ends in い",
     "ruby": [
      [
       "暗",
@@ -148,6 +160,8 @@ window.LESSON_DATA = {
     "romaji": "denki",
     "en": "Light",
     "group": "n",
+    "pos": "Noun",
+    "sub": "",
     "ruby": [
      [
       "電気",
@@ -166,6 +180,8 @@ window.LESSON_DATA = {
     "romaji": "tsukemasu / tsukeru",
     "en": "To turn on",
     "group": "v",
+    "pos": "Verb",
+    "sub": "Group II · ru-verb (drop る)",
     "distractors": [
      63,
      48,
@@ -178,6 +194,8 @@ window.LESSON_DATA = {
     "romaji": "sanpo-shimasu / sanpo-suru",
     "en": "To take a walk",
     "group": "v",
+    "pos": "Verb",
+    "sub": "Group III · irregular (する / 来る)",
     "distractors": [
      4,
      24,
@@ -190,6 +208,8 @@ window.LESSON_DATA = {
     "romaji": "hitsuyō(na)",
     "en": "Necessary",
     "group": "adj",
+    "pos": "Adjective",
+    "sub": "na-adjective · takes な before a noun",
     "distractors": [
      19,
      16,
@@ -202,6 +222,8 @@ window.LESSON_DATA = {
     "romaji": "mō",
     "en": "Already",
     "group": "adv",
+    "pos": "Adverb",
+    "sub": "",
     "distractors": [
      44,
      56,
@@ -214,6 +236,8 @@ window.LESSON_DATA = {
     "romaji": "onaka",
     "en": "Stomach",
     "group": "n",
+    "pos": "Noun",
+    "sub": "",
     "distractors": [
      32,
      3,
@@ -226,6 +250,8 @@ window.LESSON_DATA = {
     "romaji": "Onaka ga sukimashita.",
     "en": "(I'm) hungry.",
     "group": "exp",
+    "pos": "Expression",
+    "sub": "set phrase",
     "distractors": [
      21,
      25,
@@ -238,6 +264,8 @@ window.LESSON_DATA = {
     "romaji": "ē",
     "en": "Yes (casual)",
     "group": "exp",
+    "pos": "Expression",
+    "sub": "set phrase",
     "distractors": [
      25,
      13,
@@ -250,6 +278,8 @@ window.LESSON_DATA = {
     "romaji": "sō",
     "en": "So",
     "group": "adv",
+    "pos": "Adverb",
+    "sub": "",
     "distractors": [
      51,
      52,
@@ -262,6 +292,8 @@ window.LESSON_DATA = {
     "romaji": "konna",
     "en": "Such",
     "group": "adj",
+    "pos": "Adjective",
+    "sub": "pre-noun word · always comes before a noun",
     "distractors": [
      17,
      6,
@@ -274,6 +306,8 @@ window.LESSON_DATA = {
     "romaji": "osoi",
     "en": "Late",
     "group": "adj",
+    "pos": "Adjective",
+    "sub": "i-adjective · ends in い",
     "distractors": [
      16,
      6,
@@ -286,6 +320,8 @@ window.LESSON_DATA = {
     "romaji": "hayaku",
     "en": "Early, quickly",
     "group": "adv",
+    "pos": "Adverb",
+    "sub": "",
     "ruby": [
      [
       "早",
@@ -308,6 +344,8 @@ window.LESSON_DATA = {
     "romaji": "mushiatsui",
     "en": "Humid",
     "group": "adj",
+    "pos": "Adjective",
+    "sub": "i-adjective · ends in い",
     "ruby": [
      [
       "むし",
@@ -334,6 +372,8 @@ window.LESSON_DATA = {
     "romaji": "nodo",
     "en": "Throat",
     "group": "n",
+    "pos": "Noun",
+    "sub": "",
     "distractors": [
      64,
      26,
@@ -346,6 +386,8 @@ window.LESSON_DATA = {
     "romaji": "Nodo ga kawakimashita.",
     "en": "(I'm) thirsty.",
     "group": "exp",
+    "pos": "Expression",
+    "sub": "set phrase",
     "distractors": [
      13,
      14,
@@ -358,6 +400,8 @@ window.LESSON_DATA = {
     "romaji": "-kiro",
     "en": "-kilometer, -kilogram",
     "group": "suf",
+    "pos": "Suffix",
+    "sub": "attaches to a word",
     "distractors": [
      65,
      40,
@@ -370,6 +414,8 @@ window.LESSON_DATA = {
     "romaji": "hashirimasu / hashiru",
     "en": "To run",
     "group": "v",
+    "pos": "Verb",
+    "sub": "Group I · u-verb",
     "ruby": [
      [
       "走",
@@ -400,6 +446,8 @@ window.LESSON_DATA = {
     "romaji": "tsukaremasu / tsukareru",
     "en": "To get tired",
     "group": "v",
+    "pos": "Verb",
+    "sub": "Group II · ru-verb (drop る)",
     "distractors": [
      9,
      63,
@@ -412,6 +460,8 @@ window.LESSON_DATA = {
     "romaji": "Tsukaremashita.",
     "en": "(I'm) tired.",
     "group": "exp",
+    "pos": "Expression",
+    "sub": "set phrase",
     "distractors": [
      14,
      13,
@@ -424,6 +474,8 @@ window.LESSON_DATA = {
     "romaji": "amai-mono",
     "en": "Sweets",
     "group": "n",
+    "pos": "Noun",
+    "sub": "",
     "ruby": [
      [
       "あまい",
@@ -446,6 +498,8 @@ window.LESSON_DATA = {
     "romaji": "(o-)sake",
     "en": "Rice wine",
     "group": "n",
+    "pos": "Noun",
+    "sub": "",
     "ruby": [
      [
       "(お)",
@@ -468,6 +522,8 @@ window.LESSON_DATA = {
     "romaji": "Isuramu-kyōto",
     "en": "Muslim",
     "group": "n",
+    "pos": "Noun",
+    "sub": "",
     "ruby": [
      [
       "イスラム",
@@ -490,6 +546,8 @@ window.LESSON_DATA = {
     "romaji": "bejitarian",
     "en": "Vegetarian",
     "group": "n",
+    "pos": "Noun",
+    "sub": "",
     "distractors": [
      45,
      27,
@@ -502,6 +560,8 @@ window.LESSON_DATA = {
     "romaji": "aisukuriimu",
     "en": "Ice cream",
     "group": "n",
+    "pos": "Noun",
+    "sub": "",
     "distractors": [
      27,
      45,
@@ -514,6 +574,8 @@ window.LESSON_DATA = {
     "romaji": "daietto-chū",
     "en": "On a diet",
     "group": "exp",
+    "pos": "Expression",
+    "sub": "set phrase",
     "ruby": [
      [
       "ダイエット",
@@ -536,6 +598,8 @@ window.LESSON_DATA = {
     "romaji": "arerugii",
     "en": "Allergy",
     "group": "n",
+    "pos": "Noun",
+    "sub": "",
     "distractors": [
      12,
      3,
@@ -548,6 +612,8 @@ window.LESSON_DATA = {
     "romaji": "mise",
     "en": "Store",
     "group": "n",
+    "pos": "Noun",
+    "sub": "",
     "ruby": [
      [
       "店",
@@ -566,6 +632,8 @@ window.LESSON_DATA = {
     "romaji": "dōshite",
     "en": "Why",
     "group": "q",
+    "pos": "Question word",
+    "sub": "",
     "distractors": [
      41,
      6,
@@ -578,6 +646,8 @@ window.LESSON_DATA = {
     "romaji": "tsukaimasu / tsukau",
     "en": "To use",
     "group": "v",
+    "pos": "Verb",
+    "sub": "Group I · u-verb",
     "ruby": [
      [
       "使",
@@ -608,6 +678,8 @@ window.LESSON_DATA = {
     "romaji": "arimasu / aru",
     "en": "To have",
     "group": "v",
+    "pos": "Verb",
+    "sub": "Group I · u-verb",
     "distractors": [
      23,
      48,
@@ -620,6 +692,8 @@ window.LESSON_DATA = {
     "romaji": "arubaito",
     "en": "Part-time job",
     "group": "n",
+    "pos": "Noun",
+    "sub": "",
     "distractors": [
      29,
      45,
@@ -632,6 +706,8 @@ window.LESSON_DATA = {
     "romaji": "moshi moshi",
     "en": "Hello (used on the phone)",
     "group": "exp",
+    "pos": "Expression",
+    "sub": "set phrase",
     "distractors": [
      47,
      55,
@@ -644,6 +720,8 @@ window.LESSON_DATA = {
     "romaji": "otaku",
     "en": "House (respectful)",
     "group": "n",
+    "pos": "Noun",
+    "sub": "",
     "distractors": [
      37,
      45,
@@ -656,6 +734,8 @@ window.LESSON_DATA = {
     "romaji": "~fujin",
     "en": "Mrs. ~",
     "group": "suf",
+    "pos": "Suffix",
+    "sub": "attaches to a word",
     "ruby": [
      [
       "～",
@@ -678,6 +758,8 @@ window.LESSON_DATA = {
     "romaji": "dochira-sama",
     "en": "Who (respectful)",
     "group": "q",
+    "pos": "Question word",
+    "sub": "",
     "distractors": [
      34,
      4,
@@ -690,6 +772,8 @@ window.LESSON_DATA = {
     "romaji": "mōshimasu / mōsu",
     "en": "To say, tell, call (humble)",
     "group": "v",
+    "pos": "Verb",
+    "sub": "Group I · u-verb",
     "distractors": [
      4,
      43,
@@ -702,6 +786,8 @@ window.LESSON_DATA = {
     "romaji": "irasshaimasu / irassharu",
     "en": "To be, to exist (respectful)",
     "group": "v",
+    "pos": "Verb",
+    "sub": "Group I · u-verb",
     "distractors": [
      53,
      59,
@@ -714,6 +800,8 @@ window.LESSON_DATA = {
     "romaji": "shōshō",
     "en": "A little",
     "group": "adv",
+    "pos": "Adverb",
+    "sub": "",
     "ruby": [
      [
       "少々",
@@ -732,6 +820,8 @@ window.LESSON_DATA = {
     "romaji": "shujin",
     "en": "My husband",
     "group": "n",
+    "pos": "Noun",
+    "sub": "",
     "ruby": [
      [
       "主人",
@@ -750,6 +840,8 @@ window.LESSON_DATA = {
     "romaji": "machimasu / matsu",
     "en": "To wait",
     "group": "v",
+    "pos": "Verb",
+    "sub": "Group I · u-verb",
     "ruby": [
      [
       "待",
@@ -780,6 +872,8 @@ window.LESSON_DATA = {
     "romaji": "O-machi kudasai.",
     "en": "Please wait. (respectful)",
     "group": "exp",
+    "pos": "Expression",
+    "sub": "set phrase",
     "ruby": [
      [
       "お",
@@ -806,6 +900,8 @@ window.LESSON_DATA = {
     "romaji": "dekakemasu / dekakeru",
     "en": "To go out",
     "group": "v",
+    "pos": "Verb",
+    "sub": "Group II · ru-verb (drop る)",
     "ruby": [
      [
       "出",
@@ -836,6 +932,8 @@ window.LESSON_DATA = {
     "romaji": "dekakete orimasu",
     "en": "To be out (humble)",
     "group": "exp",
+    "pos": "Expression",
+    "sub": "set phrase",
     "distractors": [
      55,
      21,
@@ -848,6 +946,8 @@ window.LESSON_DATA = {
     "romaji": "dewa",
     "en": "Then",
     "group": "conj",
+    "pos": "Conjunction",
+    "sub": "joins sentences",
     "distractors": [
      16,
      58,
@@ -860,6 +960,8 @@ window.LESSON_DATA = {
     "romaji": "mata",
     "en": "Again",
     "group": "adv",
+    "pos": "Adverb",
+    "sub": "",
     "distractors": [
      52,
      11,
@@ -872,6 +974,8 @@ window.LESSON_DATA = {
     "romaji": "ato de",
     "en": "Later",
     "group": "adv",
+    "pos": "Adverb",
+    "sub": "",
     "distractors": [
      51,
      11,
@@ -884,6 +988,8 @@ window.LESSON_DATA = {
     "romaji": "tsutaemasu / tsutaeru",
     "en": "To convey (a message)",
     "group": "v",
+    "pos": "Verb",
+    "sub": "Group II · ru-verb (drop る)",
     "distractors": [
      59,
      43,
@@ -896,6 +1002,8 @@ window.LESSON_DATA = {
     "romaji": "Yoroshiku o-tsutae kudasai.",
     "en": "Please convey my best regards. (respectful)",
     "group": "exp",
+    "pos": "Expression",
+    "sub": "set phrase",
     "distractors": [
      47,
      38,
@@ -908,6 +1016,8 @@ window.LESSON_DATA = {
     "romaji": "Shitsurei-shimasu.",
     "en": "Good-bye., Excuse me.",
     "group": "exp",
+    "pos": "Expression",
+    "sub": "set phrase",
     "distractors": [
      47,
      38,
@@ -920,6 +1030,8 @@ window.LESSON_DATA = {
     "romaji": "tadaima",
     "en": "Right now",
     "group": "adv",
+    "pos": "Adverb",
+    "sub": "",
     "distractors": [
      44,
      11,
@@ -932,6 +1044,8 @@ window.LESSON_DATA = {
     "romaji": "rusu ni shite orimasu",
     "en": "To be out (humble)",
     "group": "exp",
+    "pos": "Expression",
+    "sub": "set phrase",
     "distractors": [
      55,
      21,
@@ -944,6 +1058,8 @@ window.LESSON_DATA = {
     "romaji": "piii",
     "en": "Beep",
     "group": "n",
+    "pos": "Noun",
+    "sub": "",
     "distractors": [
      7,
      33,
@@ -956,6 +1072,8 @@ window.LESSON_DATA = {
     "romaji": "narimasu / naru",
     "en": "To sound, to ring",
     "group": "v",
+    "pos": "Verb",
+    "sub": "Group I · u-verb",
     "distractors": [
      9,
      53,
@@ -968,6 +1086,8 @@ window.LESSON_DATA = {
     "romaji": "(go-)yōken",
     "en": "Business",
     "group": "n",
+    "pos": "Noun",
+    "sub": "",
     "distractors": [
      5,
      30,
@@ -980,6 +1100,8 @@ window.LESSON_DATA = {
     "romaji": "hanashimasu / hanasu",
     "en": "To speak",
     "group": "v",
+    "pos": "Verb",
+    "sub": "Group I · u-verb",
     "ruby": [
      [
       "話",
@@ -1010,6 +1132,8 @@ window.LESSON_DATA = {
     "romaji": "kabuki",
     "en": "Kabuki",
     "group": "n",
+    "pos": "Noun",
+    "sub": "",
     "distractors": [
      28,
      20,
@@ -1022,6 +1146,8 @@ window.LESSON_DATA = {
     "romaji": "renraku-shimasu / renraku-suru",
     "en": "To contact",
     "group": "v",
+    "pos": "Verb",
+    "sub": "Group III · irregular (する / 来る)",
     "distractors": [
      8,
      48,
@@ -1034,6 +1160,8 @@ window.LESSON_DATA = {
     "romaji": "kippu",
     "en": "Ticket",
     "group": "n",
+    "pos": "Noun",
+    "sub": "",
     "ruby": [
      [
       "切符",
@@ -1052,6 +1180,8 @@ window.LESSON_DATA = {
     "romaji": "-mai",
     "en": "Counter for tickets, paper, etc.",
     "group": "suf",
+    "pos": "Suffix",
+    "sub": "counter · attaches to a number or word",
     "distractors": [
      22,
      40,
@@ -1070,6 +1200,8 @@ window.LESSON_DATA = {
     "romaji": "yobimasu / yobu",
     "en": "To call",
     "group": "v",
+    "pos": "Verb",
+    "sub": "Group I · u-verb",
     "distractors": [
      6,
      17,
@@ -1082,6 +1214,8 @@ window.LESSON_DATA = {
     "romaji": "mō ichido",
     "en": "Once again",
     "group": "adv",
+    "pos": "Adverb",
+    "sub": "",
     "ruby": [
      [
       "もう ",
@@ -1104,6 +1238,8 @@ window.LESSON_DATA = {
     "romaji": "iimasu / iu",
     "en": "To say",
     "group": "v",
+    "pos": "Verb",
+    "sub": "Group I · u-verb",
     "ruby": [
      [
       "言",
@@ -1134,6 +1270,8 @@ window.LESSON_DATA = {
     "romaji": "oshiemasu / oshieru",
     "en": "To teach",
     "group": "v",
+    "pos": "Verb",
+    "sub": "Group II · ru-verb (drop る)",
     "ruby": [
      [
       "教",
@@ -1164,6 +1302,8 @@ window.LESSON_DATA = {
     "romaji": "chotto",
     "en": "While, a little",
     "group": "adv",
+    "pos": "Adverb",
+    "sub": "",
     "distractors": [
      10,
      24,
@@ -1176,6 +1316,8 @@ window.LESSON_DATA = {
     "romaji": "kashimasu / kasu",
     "en": "To lend",
     "group": "v",
+    "pos": "Verb",
+    "sub": "Group I · u-verb",
     "ruby": [
      [
       "貸",
@@ -1206,6 +1348,8 @@ window.LESSON_DATA = {
     "romaji": "denwa-shimasu / denwa-suru",
     "en": "To telephone",
     "group": "v",
+    "pos": "Verb",
+    "sub": "Group III · irregular (する / 来る)",
     "ruby": [
      [
       "電話",
@@ -1236,6 +1380,8 @@ window.LESSON_DATA = {
     "romaji": "koko",
     "en": "Here, this place",
     "group": "n",
+    "pos": "Noun",
+    "sub": "",
     "distractors": [
      34,
      22,
@@ -1248,6 +1394,8 @@ window.LESSON_DATA = {
     "romaji": "akemasu / akeru",
     "en": "To open",
     "group": "v",
+    "pos": "Verb",
+    "sub": "Group II · ru-verb (drop る)",
     "ruby": [
      [
       "開",
@@ -1278,6 +1426,8 @@ window.LESSON_DATA = {
     "romaji": "mō sukoshi",
     "en": "A little more",
     "group": "adv",
+    "pos": "Adverb",
+    "sub": "",
     "ruby": [
      [
       "もう ",
@@ -1304,6 +1454,8 @@ window.LESSON_DATA = {
     "romaji": "yukkuri",
     "en": "Slowly",
     "group": "adv",
+    "pos": "Adverb",
+    "sub": "",
     "distractors": [
      44,
      25,
@@ -1316,6 +1468,8 @@ window.LESSON_DATA = {
     "romaji": "sugu",
     "en": "Soon",
     "group": "adv",
+    "pos": "Adverb",
+    "sub": "",
     "distractors": [
      11,
      44,
@@ -1328,6 +1482,8 @@ window.LESSON_DATA = {
     "romaji": "ki o tsukemasu / ki o tsukeru",
     "en": "To take care, to pay attention",
     "group": "v",
+    "pos": "Verb",
+    "sub": "Group II · ru-verb (drop る)",
     "ruby": [
      [
       "気",
@@ -1358,6 +1514,8 @@ window.LESSON_DATA = {
     "romaji": "enryo naku",
     "en": "Without hesitation, without reserve",
     "group": "adv",
+    "pos": "Adverb",
+    "sub": "",
     "distractors": [
      5,
      10,
@@ -1370,6 +1528,8 @@ window.LESSON_DATA = {
     "romaji": "hiitā",
     "en": "Heater",
     "group": "n",
+    "pos": "Noun",
+    "sub": "",
     "distractors": [
      32,
      37,
@@ -1382,6 +1542,8 @@ window.LESSON_DATA = {
     "romaji": "yomi-kata",
     "en": "How to read",
     "group": "n",
+    "pos": "Noun",
+    "sub": "",
     "ruby": [
      [
       "読",
@@ -1408,6 +1570,8 @@ window.LESSON_DATA = {
     "romaji": "tetsudaimasu / tetsudau",
     "en": "To help",
     "group": "v",
+    "pos": "Verb",
+    "sub": "Group I · u-verb",
     "ruby": [
      [
       "手伝",
@@ -1438,6 +1602,8 @@ window.LESSON_DATA = {
     "romaji": "kotoba",
     "en": "Word",
     "group": "n",
+    "pos": "Noun",
+    "sub": "",
     "distractors": [
      38,
      32,
@@ -1450,6 +1616,8 @@ window.LESSON_DATA = {
     "romaji": "imi",
     "en": "Meaning",
     "group": "n",
+    "pos": "Noun",
+    "sub": "",
     "ruby": [
      [
       "意味",
@@ -1468,6 +1636,8 @@ window.LESSON_DATA = {
     "romaji": "shimemasu / shimeru",
     "en": "To close",
     "group": "v",
+    "pos": "Verb",
+    "sub": "Group II · ru-verb (drop る)",
     "ruby": [
      [
       "閉",
@@ -1498,6 +1668,8 @@ window.LESSON_DATA = {
     "romaji": "Wakarimashita.",
     "en": "All right.",
     "group": "exp",
+    "pos": "Expression",
+    "sub": "set phrase",
     "distractors": [
      31,
      43,
@@ -1510,6 +1682,8 @@ window.LESSON_DATA = {
     "romaji": "omawarisan",
     "en": "Police officer",
     "group": "n",
+    "pos": "Noun",
+    "sub": "",
     "distractors": [
      48,
      27,
@@ -1522,6 +1696,8 @@ window.LESSON_DATA = {
     "romaji": "byōin",
     "en": "Hospital",
     "group": "n",
+    "pos": "Noun",
+    "sub": "",
     "ruby": [
      [
       "病院",
@@ -1540,6 +1716,8 @@ window.LESSON_DATA = {
     "romaji": "mazu",
     "en": "First of all",
     "group": "adv",
+    "pos": "Adverb",
+    "sub": "",
     "distractors": [
      10,
      2,
@@ -1552,6 +1730,8 @@ window.LESSON_DATA = {
     "romaji": "massugu",
     "en": "Straight",
     "group": "adv",
+    "pos": "Adverb",
+    "sub": "",
     "distractors": [
      2,
      11,
@@ -1564,6 +1744,8 @@ window.LESSON_DATA = {
     "romaji": "magarimasu / magaru",
     "en": "To turn",
     "group": "v",
+    "pos": "Verb",
+    "sub": "Group I · u-verb",
     "distractors": [
      9,
      4,
@@ -1576,6 +1758,8 @@ window.LESSON_DATA = {
     "romaji": "shingō",
     "en": "Traffic light",
     "group": "n",
+    "pos": "Noun",
+    "sub": "",
     "distractors": [
      22,
      48,
@@ -1588,6 +1772,8 @@ window.LESSON_DATA = {
     "romaji": "~gurai",
     "en": "Approximately",
     "group": "suf",
+    "pos": "Suffix",
+    "sub": "attaches to a word",
     "distractors": [
      27,
      10,
@@ -1600,6 +1786,8 @@ window.LESSON_DATA = {
     "romaji": "ja",
     "en": "Well, then (casual)",
     "group": "conj",
+    "pos": "Conjunction",
+    "sub": "joins sentences",
     "distractors": [
      34,
      8,
@@ -1612,6 +1800,8 @@ window.LESSON_DATA = {
     "romaji": "Dōmo arigatō gozaimashita.",
     "en": "Thank you very much (for what you have done).",
     "group": "exp",
+    "pos": "Expression",
+    "sub": "set phrase",
     "distractors": [
      42,
      52,
@@ -1624,6 +1814,8 @@ window.LESSON_DATA = {
     "romaji": "Ki o tsukete.",
     "en": "Take care.",
     "group": "exp",
+    "pos": "Expression",
+    "sub": "set phrase",
     "ruby": [
      [
       "気",
@@ -1646,6 +1838,8 @@ window.LESSON_DATA = {
     "romaji": "kado",
     "en": "Corner",
     "group": "n",
+    "pos": "Noun",
+    "sub": "",
     "distractors": [
      15,
      37,
@@ -1658,6 +1852,8 @@ window.LESSON_DATA = {
     "romaji": "tsugi no kado",
     "en": "Next corner",
     "group": "n",
+    "pos": "Noun",
+    "sub": "",
     "distractors": [
      34,
      16,
@@ -1670,6 +1866,8 @@ window.LESSON_DATA = {
     "romaji": "ni-ban-me no kado",
     "en": "The second corner",
     "group": "n",
+    "pos": "Noun",
+    "sub": "",
     "ruby": [
      [
       "2",
@@ -1700,6 +1898,8 @@ window.LESSON_DATA = {
     "romaji": "tsukiatari",
     "en": "Dead end",
     "group": "n",
+    "pos": "Noun",
+    "sub": "",
     "distractors": [
      23,
      37,
@@ -1712,6 +1912,8 @@ window.LESSON_DATA = {
     "romaji": "kōsaten",
     "en": "Intersection",
     "group": "n",
+    "pos": "Noun",
+    "sub": "",
     "distractors": [
      27,
      16,
@@ -1724,6 +1926,8 @@ window.LESSON_DATA = {
     "romaji": "(o-)chawan",
     "en": "Tea cup",
     "group": "n",
+    "pos": "Noun",
+    "sub": "",
     "ruby": [
      [
       "(お)",
@@ -1750,6 +1954,8 @@ window.LESSON_DATA = {
     "romaji": "ojigi",
     "en": "Bow",
     "group": "n",
+    "pos": "Noun",
+    "sub": "",
     "distractors": [
      18,
      32,
@@ -1762,6 +1968,8 @@ window.LESSON_DATA = {
     "romaji": "ryōte",
     "en": "Both hands",
     "group": "n",
+    "pos": "Noun",
+    "sub": "",
     "ruby": [
      [
       "両手",
@@ -1780,6 +1988,8 @@ window.LESSON_DATA = {
     "romaji": "kaeshimasu / kaesu",
     "en": "To return",
     "group": "v",
+    "pos": "Verb",
+    "sub": "Group I · u-verb",
     "distractors": [
      1,
      6,
@@ -1792,6 +2002,8 @@ window.LESSON_DATA = {
     "romaji": "Gomen kudasai.",
     "en": "Excuse me. (used when visiting somebody's home)",
     "group": "exp",
+    "pos": "Expression",
+    "sub": "set phrase",
     "distractors": [
      45,
      30,
@@ -1804,6 +2016,8 @@ window.LESSON_DATA = {
     "romaji": "Ojama-shimasu.",
     "en": "I'll disturb you. (used on entering someone's room/house)",
     "group": "exp",
+    "pos": "Expression",
+    "sub": "set phrase",
     "distractors": [
      52,
      30,
@@ -1816,6 +2030,8 @@ window.LESSON_DATA = {
     "romaji": "Irasshai.",
     "en": "How nice of you to come.",
     "group": "exp",
+    "pos": "Expression",
+    "sub": "set phrase",
     "distractors": [
      30,
      45,
@@ -1828,6 +2044,8 @@ window.LESSON_DATA = {
     "romaji": "dōzo",
     "en": "Please",
     "group": "adv",
+    "pos": "Adverb",
+    "sub": "",
     "distractors": [
      11,
      25,
@@ -1840,6 +2058,8 @@ window.LESSON_DATA = {
     "romaji": "sā",
     "en": "Please, come on (used to encourage some action)",
     "group": "exp",
+    "pos": "Expression",
+    "sub": "set phrase",
     "distractors": [
      43,
      41,
@@ -1852,6 +2072,8 @@ window.LESSON_DATA = {
     "romaji": "agarimasu / agaru",
     "en": "To come/go in",
     "group": "v",
+    "pos": "Verb",
+    "sub": "Group I · u-verb",
     "ruby": [
      [
       "上",
@@ -1882,6 +2104,8 @@ window.LESSON_DATA = {
     "romaji": "suwarimasu / suwaru",
     "en": "To sit down",
     "group": "v",
+    "pos": "Verb",
+    "sub": "Group I · u-verb",
     "distractors": [
      7,
      46,
@@ -1894,6 +2118,8 @@ window.LESSON_DATA = {
     "romaji": "(o-)kashi",
     "en": "Sweets, snacks",
     "group": "n",
+    "pos": "Noun",
+    "sub": "",
     "distractors": [
      22,
      27,
@@ -1906,6 +2132,8 @@ window.LESSON_DATA = {
     "romaji": "Honno kimochi desu.",
     "en": "A small token of my gratitude. (used when offering a present)",
     "group": "exp",
+    "pos": "Expression",
+    "sub": "set phrase",
     "ruby": [
      [
       "ほんの ",
@@ -1932,6 +2160,8 @@ window.LESSON_DATA = {
     "romaji": "meshiagarimasu / meshiagaru",
     "en": "To eat (respectful)",
     "group": "v",
+    "pos": "Verb",
+    "sub": "Group I · u-verb",
     "distractors": [
      46,
      7,
@@ -1944,6 +2174,8 @@ window.LESSON_DATA = {
     "romaji": "Sorosoro shitsurei-shimasu.",
     "en": "I am ready to leave. (expression)",
     "group": "exp",
+    "pos": "Expression",
+    "sub": "set phrase",
     "distractors": [
      42,
      52,
@@ -1956,6 +2188,8 @@ window.LESSON_DATA = {
     "romaji": "Ojama-shimashita.",
     "en": "I have disturbed you. (used when leaving someone's house/room)",
     "group": "exp",
+    "pos": "Expression",
+    "sub": "set phrase",
     "distractors": [
      42,
      30,
@@ -1974,6 +2208,8 @@ window.LESSON_DATA = {
     "romaji": "Kao",
     "en": "Face",
     "group": "daily",
+    "pos": "Noun",
+    "sub": "",
     "distractors": [
      2,
      4,
@@ -1986,6 +2222,8 @@ window.LESSON_DATA = {
     "romaji": "Araimasu / arau",
     "en": "To wash",
     "group": "daily",
+    "pos": "Verb",
+    "sub": "Group I · u-verb",
     "distractors": [
      1,
      4,
@@ -1998,6 +2236,8 @@ window.LESSON_DATA = {
     "romaji": "Chekkushimasu / chekkusuru",
     "en": "To check",
     "group": "research",
+    "pos": "Verb",
+    "sub": "Group III · irregular (する / 来る)",
     "distractors": [
      16,
      13,
@@ -2010,6 +2250,8 @@ window.LESSON_DATA = {
     "romaji": "Abimasu / abiru",
     "en": "To take a shower",
     "group": "daily",
+    "pos": "Verb",
+    "sub": "Group II · ru-verb (drop る)",
     "distractors": [
      2,
      1,
@@ -2022,6 +2264,8 @@ window.LESSON_DATA = {
     "romaji": "Konban",
     "en": "Tonight",
     "group": "time",
+    "pos": "Noun",
+    "sub": "",
     "distractors": [
      25,
      28,
@@ -2034,6 +2278,8 @@ window.LESSON_DATA = {
     "romaji": "Dō yatte",
     "en": "How / in what way",
     "group": "question-words",
+    "pos": "Question word",
+    "sub": "",
     "distractors": [
      26,
      33,
@@ -2046,6 +2292,8 @@ window.LESSON_DATA = {
     "romaji": "Fakkusu",
     "en": "Fax",
     "group": "office",
+    "pos": "Noun",
+    "sub": "",
     "distractors": [
      8,
      10,
@@ -2058,6 +2306,8 @@ window.LESSON_DATA = {
     "romaji": "Genkō",
     "en": "Manuscript",
     "group": "research",
+    "pos": "Noun",
+    "sub": "",
     "distractors": [
      12,
      14,
@@ -2070,6 +2320,8 @@ window.LESSON_DATA = {
     "romaji": "Iremasu / ireru",
     "en": "To insert",
     "group": "office",
+    "pos": "Verb",
+    "sub": "Group II · ru-verb (drop る)",
     "distractors": [
      11,
      24,
@@ -2082,6 +2334,8 @@ window.LESSON_DATA = {
     "romaji": "Sutāto botan",
     "en": "Start button",
     "group": "office",
+    "pos": "Noun",
+    "sub": "",
     "distractors": [
      7,
      23,
@@ -2094,6 +2348,8 @@ window.LESSON_DATA = {
     "romaji": "Oshimasu / osu",
     "en": "To push",
     "group": "office",
+    "pos": "Verb",
+    "sub": "Group I · u-verb",
     "distractors": [
      9,
      3,
@@ -2106,6 +2362,8 @@ window.LESSON_DATA = {
     "romaji": "Tēma",
     "en": "Theme",
     "group": "research",
+    "pos": "Noun",
+    "sub": "",
     "distractors": [
      8,
      14,
@@ -2118,6 +2376,8 @@ window.LESSON_DATA = {
     "romaji": "Kimemasu / kimeru",
     "en": "To decide",
     "group": "research",
+    "pos": "Verb",
+    "sub": "Group II · ru-verb (drop る)",
     "distractors": [
      3,
      38,
@@ -2130,6 +2390,8 @@ window.LESSON_DATA = {
     "romaji": "Dēta",
     "en": "Data",
     "group": "research",
+    "pos": "Noun",
+    "sub": "",
     "distractors": [
      37,
      8,
@@ -2142,6 +2404,8 @@ window.LESSON_DATA = {
     "romaji": "Atsumemasu / atsumeru",
     "en": "To collect",
     "group": "research",
+    "pos": "Verb",
+    "sub": "Group II · ru-verb (drop る)",
     "distractors": [
      16,
      9,
@@ -2154,6 +2418,8 @@ window.LESSON_DATA = {
     "romaji": "Bunsekishimasu / bunsekisuru",
     "en": "To analyze",
     "group": "research",
+    "pos": "Verb",
+    "sub": "Group III · irregular (する / 来る)",
     "distractors": [
      3,
      15,
@@ -2166,6 +2432,8 @@ window.LESSON_DATA = {
     "romaji": "Nasa",
     "en": "NASA",
     "group": "space",
+    "pos": "Noun",
+    "sub": "",
     "distractors": [
      31,
      18,
@@ -2178,6 +2446,8 @@ window.LESSON_DATA = {
     "romaji": "Uchū",
     "en": "Outer space",
     "group": "space",
+    "pos": "Noun",
+    "sub": "",
     "distractors": [
      20,
      23,
@@ -2190,6 +2460,8 @@ window.LESSON_DATA = {
     "romaji": "Torēningu",
     "en": "Training",
     "group": "space",
+    "pos": "Noun",
+    "sub": "",
     "distractors": [
      12,
      18,
@@ -2202,6 +2474,8 @@ window.LESSON_DATA = {
     "romaji": "Supēsu shatoru",
     "en": "Space shuttle",
     "group": "space",
+    "pos": "Noun",
+    "sub": "",
     "distractors": [
      23,
      29,
@@ -2214,6 +2488,8 @@ window.LESSON_DATA = {
     "romaji": "Norimasu / noru",
     "en": "To get on / ride",
     "group": "transport",
+    "pos": "Verb",
+    "sub": "Group I · u-verb",
     "distractors": [
      43,
      44,
@@ -2226,6 +2502,8 @@ window.LESSON_DATA = {
     "romaji": "Neanderutāru-jin",
     "en": "Neanderthal person",
     "group": "space",
+    "pos": "Noun",
+    "sub": "",
     "distractors": [
      25,
      23,
@@ -2238,6 +2516,8 @@ window.LESSON_DATA = {
     "romaji": "Taimu mashin",
     "en": "Time machine",
     "group": "space",
+    "pos": "Noun",
+    "sub": "",
     "distractors": [
      20,
      25,
@@ -2250,6 +2530,8 @@ window.LESSON_DATA = {
     "romaji": "Tsukurimasu / tsukuru",
     "en": "To make",
     "group": "research",
+    "pos": "Verb",
+    "sub": "Group I · u-verb",
     "distractors": [
      13,
      15,
@@ -2262,6 +2544,8 @@ window.LESSON_DATA = {
     "romaji": "Mukashi",
     "en": "Ancient times / long ago",
     "group": "time",
+    "pos": "Noun",
+    "sub": "",
     "distractors": [
      5,
      22,
@@ -2274,6 +2558,8 @@ window.LESSON_DATA = {
     "romaji": "Dono gurai",
     "en": "How long / how much",
     "group": "time",
+    "pos": "Question word",
+    "sub": "",
     "distractors": [
      6,
      28,
@@ -2286,6 +2572,8 @@ window.LESSON_DATA = {
     "romaji": "Kakarimasu / kakaru",
     "en": "To take time",
     "group": "time",
+    "pos": "Verb",
+    "sub": "Group I · u-verb",
     "distractors": [
      28,
      21,
@@ -2298,6 +2586,8 @@ window.LESSON_DATA = {
     "romaji": "~jikan",
     "en": "~hours",
     "group": "time",
+    "pos": "Suffix",
+    "sub": "attaches to a word",
     "distractors": [
      26,
      48,
@@ -2310,6 +2600,8 @@ window.LESSON_DATA = {
     "romaji": "Fune",
     "en": "Ship",
     "group": "transport",
+    "pos": "Noun",
+    "sub": "",
     "distractors": [
      30,
      20,
@@ -2322,6 +2614,8 @@ window.LESSON_DATA = {
     "romaji": "Uma",
     "en": "Horse",
     "group": "transport",
+    "pos": "Noun",
+    "sub": "",
     "distractors": [
      29,
      50,
@@ -2334,6 +2628,8 @@ window.LESSON_DATA = {
     "romaji": "Jēāru",
     "en": "Japan Railways",
     "group": "transport",
+    "pos": "Noun",
+    "sub": "",
     "distractors": [
      51,
      42,
@@ -2346,6 +2642,8 @@ window.LESSON_DATA = {
     "romaji": "Shibuya-eki",
     "en": "Shibuya Station",
     "group": "places",
+    "pos": "Noun",
+    "sub": "Place name",
     "distractors": [
      39,
      52,
@@ -2358,6 +2656,8 @@ window.LESSON_DATA = {
     "romaji": "Ikikata",
     "en": "How to get there",
     "group": "directions",
+    "pos": "Noun",
+    "sub": "",
     "distractors": [
      6,
      36,
@@ -2370,6 +2670,8 @@ window.LESSON_DATA = {
     "romaji": "Ekiin",
     "en": "Station staff",
     "group": "directions",
+    "pos": "Noun",
+    "sub": "",
     "distractors": [
      45,
      33,
@@ -2382,6 +2684,8 @@ window.LESSON_DATA = {
     "romaji": "Dono",
     "en": "Which",
     "group": "question-words",
+    "pos": "Question word",
+    "sub": "",
     "distractors": [
      36,
      26,
@@ -2394,6 +2698,8 @@ window.LESSON_DATA = {
     "romaji": "Nani-sen",
     "en": "Which railway line",
     "group": "transport",
+    "pos": "Noun",
+    "sub": "",
     "distractors": [
      41,
      35,
@@ -2406,6 +2712,8 @@ window.LESSON_DATA = {
     "romaji": "Infomēshon",
     "en": "Information",
     "group": "directions",
+    "pos": "Noun",
+    "sub": "",
     "distractors": [
      14,
      47,
@@ -2418,6 +2726,8 @@ window.LESSON_DATA = {
     "romaji": "Kotaemasu / kotaeru",
     "en": "To answer",
     "group": "research",
+    "pos": "Verb",
+    "sub": "Group II · ru-verb (drop る)",
     "distractors": [
      47,
      3,
@@ -2430,6 +2740,8 @@ window.LESSON_DATA = {
     "romaji": "Shibuya",
     "en": "Shibuya",
     "group": "places",
+    "pos": "Noun",
+    "sub": "Place name",
     "distractors": [
      40,
      32,
@@ -2442,6 +2754,8 @@ window.LESSON_DATA = {
     "romaji": "Kamakura",
     "en": "Kamakura",
     "group": "places",
+    "pos": "Noun",
+    "sub": "Place name",
     "distractors": [
      39,
      49,
@@ -2454,6 +2768,8 @@ window.LESSON_DATA = {
     "romaji": "~sen",
     "en": "Railway line",
     "group": "transport",
+    "pos": "Suffix",
+    "sub": "attaches to a word",
     "distractors": [
      36,
      42,
@@ -2466,6 +2782,8 @@ window.LESSON_DATA = {
     "romaji": "Yokosuka-sen",
     "en": "Yokosuka Line",
     "group": "transport",
+    "pos": "Noun",
+    "sub": "",
     "distractors": [
      41,
      51,
@@ -2478,6 +2796,8 @@ window.LESSON_DATA = {
     "romaji": "Orimasu / oriru",
     "en": "To get off a train",
     "group": "transport",
+    "pos": "Verb",
+    "sub": "Group II · ru-verb (drop る)",
     "distractors": [
      21,
      44,
@@ -2490,6 +2810,8 @@ window.LESSON_DATA = {
     "romaji": "Norikaemasu / norikaeru",
     "en": "To transfer",
     "group": "transport",
+    "pos": "Verb",
+    "sub": "Group II · ru-verb (drop る)",
     "distractors": [
      43,
      21,
@@ -2502,6 +2824,8 @@ window.LESSON_DATA = {
     "romaji": "Annaijo",
     "en": "Information center",
     "group": "directions",
+    "pos": "Noun",
+    "sub": "",
     "distractors": [
      34,
      33,
@@ -2514,6 +2838,8 @@ window.LESSON_DATA = {
     "romaji": "Daibutsu",
     "en": "Great Buddha statue",
     "group": "places",
+    "pos": "Noun",
+    "sub": "Place name",
     "distractors": [
      49,
      40,
@@ -2526,6 +2852,8 @@ window.LESSON_DATA = {
     "romaji": "Shitsumon",
     "en": "Question",
     "group": "research",
+    "pos": "Noun",
+    "sub": "",
     "distractors": [
      38,
      12,
@@ -2538,6 +2866,8 @@ window.LESSON_DATA = {
     "romaji": "~ban",
     "en": "Number",
     "group": "time",
+    "pos": "Suffix",
+    "sub": "attaches to a word",
     "distractors": [
      28,
      47,
@@ -2550,6 +2880,8 @@ window.LESSON_DATA = {
     "romaji": "Daibutsumae",
     "en": "Daibutsumae (bus stop)",
     "group": "places",
+    "pos": "Noun",
+    "sub": "Place name",
     "distractors": [
      46,
      52,
@@ -2562,6 +2894,8 @@ window.LESSON_DATA = {
     "romaji": "Renta saikuru",
     "en": "Rental bicycle",
     "group": "transport",
+    "pos": "Noun",
+    "sub": "",
     "distractors": [
      29,
      30,
@@ -2574,6 +2908,8 @@ window.LESSON_DATA = {
     "romaji": "Enoden",
     "en": "Enoshima Electric Railway",
     "group": "transport",
+    "pos": "Noun",
+    "sub": "",
     "distractors": [
      31,
      42,
@@ -2586,6 +2922,8 @@ window.LESSON_DATA = {
     "romaji": "Hase-eki",
     "en": "Hase Station",
     "group": "places",
+    "pos": "Noun",
+    "sub": "Place name",
     "distractors": [
      32,
      49,
@@ -2604,6 +2942,8 @@ window.LESSON_DATA = {
     "romaji": "dainamaito",
     "en": "Dynamite",
     "group": "n",
+    "pos": "Noun",
+    "sub": "",
     "distractors": [
      63,
      24,
@@ -2616,6 +2956,8 @@ window.LESSON_DATA = {
     "romaji": "hoshi",
     "en": "Star",
     "group": "n",
+    "pos": "Noun",
+    "sub": "",
     "distractors": [
      23,
      56,
@@ -2628,6 +2970,8 @@ window.LESSON_DATA = {
     "romaji": "saru",
     "en": "Monkey",
     "group": "n",
+    "pos": "Noun",
+    "sub": "",
     "distractors": [
      58,
      57,
@@ -2640,6 +2984,8 @@ window.LESSON_DATA = {
     "romaji": "kakimasu / kaku (e o ~)",
     "en": "To draw, to paint (a picture)",
     "group": "v",
+    "pos": "Verb",
+    "sub": "Group I · u-verb",
     "distractors": [
      17,
      5,
@@ -2652,6 +2998,8 @@ window.LESSON_DATA = {
     "romaji": "hairimasu / hairu ((o-)furo ni ~)",
     "en": "To take (a bath)",
     "group": "v",
+    "pos": "Verb",
+    "sub": "Group I · u-verb",
     "ruby": [
      [
       "入",
@@ -2682,6 +3030,8 @@ window.LESSON_DATA = {
     "romaji": "Morita Akio",
     "en": "Akio Morita (person's name)",
     "group": "n",
+    "pos": "Noun",
+    "sub": "",
     "ruby": [
      [
       "盛田昭夫",
@@ -2700,6 +3050,8 @@ window.LESSON_DATA = {
     "romaji": "shirimasu / shiru",
     "en": "To know",
     "group": "v",
+    "pos": "Verb",
+    "sub": "Group I · u-verb",
     "ruby": [
      [
       "知",
@@ -2730,6 +3082,8 @@ window.LESSON_DATA = {
     "romaji": "mochimasu / motsu",
     "en": "To have",
     "group": "v",
+    "pos": "Verb",
+    "sub": "Group I · u-verb",
     "ruby": [
      [
       "持",
@@ -2760,6 +3114,8 @@ window.LESSON_DATA = {
     "romaji": "kurejitto-kādo",
     "en": "Credit card",
     "group": "n",
+    "pos": "Noun",
+    "sub": "",
     "distractors": [
      12,
      16,
@@ -2772,6 +3128,8 @@ window.LESSON_DATA = {
     "romaji": "kekkon-shimasu / kekkon-suru",
     "en": "To marry",
     "group": "v",
+    "pos": "Verb",
+    "sub": "Group III · irregular (する / 来る)",
     "distractors": [
      22,
      21,
@@ -2784,6 +3142,8 @@ window.LESSON_DATA = {
     "romaji": "sumimasu / sumu",
     "en": "To live",
     "group": "v",
+    "pos": "Verb",
+    "sub": "Group I · u-verb",
     "ruby": [
      [
       "住",
@@ -2814,6 +3174,8 @@ window.LESSON_DATA = {
     "romaji": "puroguramingu",
     "en": "Programming",
     "group": "n",
+    "pos": "Noun",
+    "sub": "",
     "distractors": [
      9,
      16,
@@ -2826,6 +3188,8 @@ window.LESSON_DATA = {
     "romaji": "Jakaruta",
     "en": "Jakarta (name of place)",
     "group": "n",
+    "pos": "Noun",
+    "sub": "",
     "distractors": [
      6,
      60,
@@ -2838,6 +3202,8 @@ window.LESSON_DATA = {
     "romaji": "-sai",
     "en": "-years old",
     "group": "suf",
+    "pos": "Suffix",
+    "sub": "attaches to a word",
     "distractors": [
      15,
      41,
@@ -2850,6 +3216,8 @@ window.LESSON_DATA = {
     "romaji": "~chan",
     "en": "Suffix often added to a child's name",
     "group": "suf",
+    "pos": "Suffix",
+    "sub": "attaches to a word",
     "distractors": [
      14,
      45,
@@ -2862,6 +3230,8 @@ window.LESSON_DATA = {
     "romaji": "yōchien",
     "en": "Kindergarten",
     "group": "n",
+    "pos": "Noun",
+    "sub": "",
     "distractors": [
      12,
      9,
@@ -2874,6 +3244,8 @@ window.LESSON_DATA = {
     "romaji": "kayoimasu / kayou (yōchien ni ~)",
     "en": "To commute, to go (to kindergarten)",
     "group": "v",
+    "pos": "Verb",
+    "sub": "Group I · u-verb",
     "ruby": [
      [
       "通",
@@ -2904,6 +3276,8 @@ window.LESSON_DATA = {
     "romaji": "nan-nin",
     "en": "How many persons",
     "group": "q",
+    "pos": "Question word",
+    "sub": "",
     "ruby": [
      [
       "何人",
@@ -2922,6 +3296,8 @@ window.LESSON_DATA = {
     "romaji": "kaisha",
     "en": "Company",
     "group": "n",
+    "pos": "Noun",
+    "sub": "",
     "ruby": [
      [
       "会社",
@@ -2940,6 +3316,8 @@ window.LESSON_DATA = {
     "romaji": "seisan-shimasu / seisan-suru",
     "en": "To produce",
     "group": "v",
+    "pos": "Verb",
+    "sub": "Group III · irregular (する / 来る)",
     "ruby": [
      [
       "生産",
@@ -2970,6 +3348,8 @@ window.LESSON_DATA = {
     "romaji": "yushutsu-shimasu / yushutsu-suru",
     "en": "To export",
     "group": "v",
+    "pos": "Verb",
+    "sub": "Group III · irregular (する / 来る)",
     "ruby": [
      [
       "輸出",
@@ -3000,6 +3380,8 @@ window.LESSON_DATA = {
     "romaji": "yunyū-shimasu / yunyū-suru",
     "en": "To import",
     "group": "v",
+    "pos": "Verb",
+    "sub": "Group III · irregular (する / 来る)",
     "ruby": [
      [
       "輸入",
@@ -3030,6 +3412,8 @@ window.LESSON_DATA = {
     "romaji": "kome",
     "en": "Rice",
     "group": "n",
+    "pos": "Noun",
+    "sub": "",
     "ruby": [
      [
       "米",
@@ -3048,6 +3432,8 @@ window.LESSON_DATA = {
     "romaji": "sangyō",
     "en": "Industry",
     "group": "n",
+    "pos": "Noun",
+    "sub": "",
     "ruby": [
      [
       "産業",
@@ -3066,6 +3452,8 @@ window.LESSON_DATA = {
     "romaji": "kikai",
     "en": "Machinery, machine",
     "group": "n",
+    "pos": "Noun",
+    "sub": "",
     "distractors": [
      60,
      61,
@@ -3078,6 +3466,8 @@ window.LESSON_DATA = {
     "romaji": "sekiyu",
     "en": "Petroleum",
     "group": "n",
+    "pos": "Noun",
+    "sub": "",
     "distractors": [
      62,
      59,
@@ -3090,6 +3480,8 @@ window.LESSON_DATA = {
     "romaji": "otōsan",
     "en": "Your (someone's) father",
     "group": "fam",
+    "pos": "Noun",
+    "sub": "polite · for someone else's family",
     "ruby": [
      [
       "お",
@@ -3116,6 +3508,8 @@ window.LESSON_DATA = {
     "romaji": "chichi",
     "en": "My father",
     "group": "fam",
+    "pos": "Noun",
+    "sub": "humble · for your own family",
     "ruby": [
      [
       "父",
@@ -3134,6 +3528,8 @@ window.LESSON_DATA = {
     "romaji": "okāsan",
     "en": "Your (someone's) mother",
     "group": "fam",
+    "pos": "Noun",
+    "sub": "polite · for someone else's family",
     "ruby": [
      [
       "お",
@@ -3160,6 +3556,8 @@ window.LESSON_DATA = {
     "romaji": "haha",
     "en": "My mother",
     "group": "fam",
+    "pos": "Noun",
+    "sub": "humble · for your own family",
     "ruby": [
      [
       "母",
@@ -3178,6 +3576,8 @@ window.LESSON_DATA = {
     "romaji": "oniisan",
     "en": "Your (someone's) elder brother",
     "group": "fam",
+    "pos": "Noun",
+    "sub": "polite · for someone else's family",
     "ruby": [
      [
       "お",
@@ -3204,6 +3604,8 @@ window.LESSON_DATA = {
     "romaji": "ani",
     "en": "My elder brother",
     "group": "fam",
+    "pos": "Noun",
+    "sub": "humble · for your own family",
     "ruby": [
      [
       "兄",
@@ -3222,6 +3624,8 @@ window.LESSON_DATA = {
     "romaji": "onēsan",
     "en": "Your (someone's) elder sister",
     "group": "fam",
+    "pos": "Noun",
+    "sub": "polite · for someone else's family",
     "ruby": [
      [
       "お",
@@ -3248,6 +3652,8 @@ window.LESSON_DATA = {
     "romaji": "ane",
     "en": "My elder sister",
     "group": "fam",
+    "pos": "Noun",
+    "sub": "humble · for your own family",
     "ruby": [
      [
       "姉",
@@ -3266,6 +3672,8 @@ window.LESSON_DATA = {
     "romaji": "otōto-san",
     "en": "Your (someone's) younger brother",
     "group": "fam",
+    "pos": "Noun",
+    "sub": "polite · for someone else's family",
     "ruby": [
      [
       "弟",
@@ -3288,6 +3696,8 @@ window.LESSON_DATA = {
     "romaji": "otōto",
     "en": "My younger brother",
     "group": "fam",
+    "pos": "Noun",
+    "sub": "humble · for your own family",
     "ruby": [
      [
       "弟",
@@ -3306,6 +3716,8 @@ window.LESSON_DATA = {
     "romaji": "imōto-san",
     "en": "Your (someone's) younger sister",
     "group": "fam",
+    "pos": "Noun",
+    "sub": "polite · for someone else's family",
     "ruby": [
      [
       "妹",
@@ -3328,6 +3740,8 @@ window.LESSON_DATA = {
     "romaji": "imōto",
     "en": "My younger sister",
     "group": "fam",
+    "pos": "Noun",
+    "sub": "humble · for your own family",
     "ruby": [
      [
       "妹",
@@ -3346,6 +3760,8 @@ window.LESSON_DATA = {
     "romaji": "go-shujin",
     "en": "Your (someone's) husband",
     "group": "fam",
+    "pos": "Noun",
+    "sub": "polite · for someone else's family",
     "ruby": [
      [
       "ご",
@@ -3368,6 +3784,8 @@ window.LESSON_DATA = {
     "romaji": "shujin",
     "en": "My husband",
     "group": "fam",
+    "pos": "Noun",
+    "sub": "humble · for your own family",
     "ruby": [
      [
       "主人",
@@ -3386,6 +3804,8 @@ window.LESSON_DATA = {
     "romaji": "otto",
     "en": "My husband",
     "group": "fam",
+    "pos": "Noun",
+    "sub": "humble · for your own family",
     "distractors": [
      39,
      50,
@@ -3398,6 +3818,8 @@ window.LESSON_DATA = {
     "romaji": "okusan",
     "en": "Your (someone's) wife",
     "group": "fam",
+    "pos": "Noun",
+    "sub": "polite · for someone else's family",
     "distractors": [
      43,
      45,
@@ -3410,6 +3832,8 @@ window.LESSON_DATA = {
     "romaji": "kanai",
     "en": "My wife",
     "group": "fam",
+    "pos": "Noun",
+    "sub": "humble · for your own family",
     "ruby": [
      [
       "家内",
@@ -3428,6 +3852,8 @@ window.LESSON_DATA = {
     "romaji": "tsuma",
     "en": "My wife",
     "group": "fam",
+    "pos": "Noun",
+    "sub": "humble · for your own family",
     "distractors": [
      42,
      46,
@@ -3440,6 +3866,8 @@ window.LESSON_DATA = {
     "romaji": "okosan",
     "en": "Your (someone's) child",
     "group": "fam",
+    "pos": "Noun",
+    "sub": "polite · for someone else's family",
     "ruby": [
      [
       "お",
@@ -3466,6 +3894,8 @@ window.LESSON_DATA = {
     "romaji": "kodomo",
     "en": "My child",
     "group": "fam",
+    "pos": "Noun",
+    "sub": "humble · for your own family",
     "ruby": [
      [
       "子",
@@ -3488,6 +3918,8 @@ window.LESSON_DATA = {
     "romaji": "musuko-san",
     "en": "Your (someone's) son",
     "group": "fam",
+    "pos": "Noun",
+    "sub": "polite · for someone else's family",
     "distractors": [
      48,
      42,
@@ -3500,6 +3932,8 @@ window.LESSON_DATA = {
     "romaji": "musuko",
     "en": "My son",
     "group": "fam",
+    "pos": "Noun",
+    "sub": "humble · for your own family",
     "distractors": [
      47,
      44,
@@ -3512,6 +3946,8 @@ window.LESSON_DATA = {
     "romaji": "musume-san",
     "en": "Your (someone's) daughter",
     "group": "fam",
+    "pos": "Noun",
+    "sub": "polite · for someone else's family",
     "distractors": [
      50,
      39,
@@ -3524,6 +3960,8 @@ window.LESSON_DATA = {
     "romaji": "musume",
     "en": "My daughter",
     "group": "fam",
+    "pos": "Noun",
+    "sub": "humble · for your own family",
     "distractors": [
      49,
      40,
@@ -3536,6 +3974,8 @@ window.LESSON_DATA = {
     "romaji": "go-kyōdai",
     "en": "Your (someone's) brothers and sisters",
     "group": "fam",
+    "pos": "Noun",
+    "sub": "polite · for someone else's family",
     "ruby": [
      [
       "ご",
@@ -3558,6 +3998,8 @@ window.LESSON_DATA = {
     "romaji": "kyōdai",
     "en": "My brothers and sisters",
     "group": "fam",
+    "pos": "Noun",
+    "sub": "humble · for your own family",
     "ruby": [
      [
       "兄弟",
@@ -3576,6 +4018,8 @@ window.LESSON_DATA = {
     "romaji": "go-kazoku",
     "en": "Your (someone's) family",
     "group": "fam",
+    "pos": "Noun",
+    "sub": "polite · for someone else's family",
     "ruby": [
      [
       "ご",
@@ -3598,6 +4042,8 @@ window.LESSON_DATA = {
     "romaji": "kazoku",
     "en": "My family",
     "group": "fam",
+    "pos": "Noun",
+    "sub": "humble · for your own family",
     "ruby": [
      [
       "家族",
@@ -3616,6 +4062,8 @@ window.LESSON_DATA = {
     "romaji": "isha",
     "en": "Medical doctor",
     "group": "n",
+    "pos": "Noun",
+    "sub": "",
     "ruby": [
      [
       "医者",
@@ -3634,6 +4082,8 @@ window.LESSON_DATA = {
     "romaji": "kangofu",
     "en": "Nurse",
     "group": "n",
+    "pos": "Noun",
+    "sub": "",
     "ruby": [
      [
       "看護婦",
@@ -3652,6 +4102,8 @@ window.LESSON_DATA = {
     "romaji": "kyōshi",
     "en": "Teacher",
     "group": "n",
+    "pos": "Noun",
+    "sub": "",
     "ruby": [
      [
       "教師",
@@ -3670,6 +4122,8 @@ window.LESSON_DATA = {
     "romaji": "bengoshi",
     "en": "Lawyer",
     "group": "n",
+    "pos": "Noun",
+    "sub": "",
     "ruby": [
      [
       "弁護士",
@@ -3688,6 +4142,8 @@ window.LESSON_DATA = {
     "romaji": "keisatsu-kan",
     "en": "Policeman",
     "group": "n",
+    "pos": "Noun",
+    "sub": "",
     "ruby": [
      [
       "警察官",
@@ -3706,6 +4162,8 @@ window.LESSON_DATA = {
     "romaji": "kōmuin",
     "en": "Government employee",
     "group": "n",
+    "pos": "Noun",
+    "sub": "",
     "ruby": [
      [
       "公務員",
@@ -3724,6 +4182,8 @@ window.LESSON_DATA = {
     "romaji": "kaishain",
     "en": "Company employee",
     "group": "n",
+    "pos": "Noun",
+    "sub": "",
     "ruby": [
      [
       "会社員",
@@ -3742,6 +4202,8 @@ window.LESSON_DATA = {
     "romaji": "kenchiku-ka",
     "en": "Architect",
     "group": "n",
+    "pos": "Noun",
+    "sub": "",
     "ruby": [
      [
       "建築家",
@@ -3760,6 +4222,8 @@ window.LESSON_DATA = {
     "romaji": "gijutsu-sha",
     "en": "Engineer",
     "group": "n",
+    "pos": "Noun",
+    "sub": "",
     "ruby": [
      [
       "技術者",
@@ -3784,6 +4248,8 @@ window.LESSON_DATA = {
     "romaji": "rokuon-shimasu / rokuon-suru",
     "en": "To record",
     "group": "v",
+    "pos": "Verb",
+    "sub": "Group III · irregular (する / 来る)",
     "ruby": [
      [
       "録音",
@@ -3814,6 +4280,8 @@ window.LESSON_DATA = {
     "romaji": "tomemasu / tomeru",
     "en": "To park",
     "group": "v",
+    "pos": "Verb",
+    "sub": "Group II · ru-verb (drop る)",
     "ruby": [
      [
       "止",
@@ -3844,6 +4312,8 @@ window.LESSON_DATA = {
     "romaji": "sutemasu / suteru",
     "en": "To throw away",
     "group": "v",
+    "pos": "Verb",
+    "sub": "Group II · ru-verb (drop る)",
     "distractors": [
      17,
      1,
@@ -3856,6 +4326,8 @@ window.LESSON_DATA = {
     "romaji": "kan",
     "en": "Can",
     "group": "n",
+    "pos": "Noun",
+    "sub": "",
     "distractors": [
      22,
      24,
@@ -3868,6 +4340,8 @@ window.LESSON_DATA = {
     "romaji": "hairimasu / hairu (heya ni ~)",
     "en": "To enter (a room)",
     "group": "v",
+    "pos": "Verb",
+    "sub": "Group I · u-verb",
     "ruby": [
      [
       "入",
@@ -3906,6 +4380,8 @@ window.LESSON_DATA = {
     "romaji": "suimasu / suu (tabako o ~)",
     "en": "To smoke (a cigarette)",
     "group": "v",
+    "pos": "Verb",
+    "sub": "Group I · u-verb",
     "distractors": [
      23,
      5,
@@ -3918,6 +4394,8 @@ window.LESSON_DATA = {
     "romaji": "kinshi",
     "en": "Prohibition",
     "group": "n",
+    "pos": "Noun",
+    "sub": "",
     "ruby": [
      [
       "禁止",
@@ -3936,6 +4414,8 @@ window.LESSON_DATA = {
     "romaji": "shiyō-kinshi",
     "en": "Do not use.",
     "group": "exp",
+    "pos": "Expression",
+    "sub": "set phrase",
     "ruby": [
      [
       "使用禁止",
@@ -3954,6 +4434,8 @@ window.LESSON_DATA = {
     "romaji": "tachiiri-kinshi",
     "en": "Do not enter.",
     "group": "exp",
+    "pos": "Expression",
+    "sub": "set phrase",
     "ruby": [
      [
       "立入禁止",
@@ -3972,6 +4454,8 @@ window.LESSON_DATA = {
     "romaji": "satsuei-kinshi",
     "en": "Do not take photos.",
     "group": "exp",
+    "pos": "Expression",
+    "sub": "set phrase",
     "ruby": [
      [
       "撮影禁止",
@@ -3990,6 +4474,8 @@ window.LESSON_DATA = {
     "romaji": "yūei-kinshi",
     "en": "Do not swim.",
     "group": "exp",
+    "pos": "Expression",
+    "sub": "set phrase",
     "ruby": [
      [
       "遊泳禁止",
@@ -4008,6 +4494,8 @@ window.LESSON_DATA = {
     "romaji": "karai-mono",
     "en": "Spicy food",
     "group": "n",
+    "pos": "Noun",
+    "sub": "",
     "ruby": [
      [
       "からい",
@@ -4030,6 +4518,8 @@ window.LESSON_DATA = {
     "romaji": "jogingu",
     "en": "Jogging",
     "group": "n",
+    "pos": "Noun",
+    "sub": "",
     "distractors": [
      15,
      12,
@@ -4042,6 +4532,8 @@ window.LESSON_DATA = {
     "romaji": "oishasan",
     "en": "Medical doctor",
     "group": "n",
+    "pos": "Noun",
+    "sub": "",
     "ruby": [
      [
       "お",
@@ -4068,6 +4560,8 @@ window.LESSON_DATA = {
     "romaji": "uketsuke",
     "en": "Reception",
     "group": "n",
+    "pos": "Noun",
+    "sub": "",
     "distractors": [
      12,
      7,
@@ -4080,6 +4574,8 @@ window.LESSON_DATA = {
     "romaji": "shawā-shitsu",
     "en": "Shower room",
     "group": "n",
+    "pos": "Noun",
+    "sub": "",
     "ruby": [
      [
       "シャワー",
@@ -4102,6 +4598,8 @@ window.LESSON_DATA = {
     "romaji": "undō-shimasu / undō-suru",
     "en": "To exercise",
     "group": "v",
+    "pos": "Verb",
+    "sub": "Group III · irregular (する / 来る)",
     "ruby": [
      [
       "運動",
@@ -4132,6 +4630,8 @@ window.LESSON_DATA = {
     "romaji": "manshon",
     "en": "Apartment, condominium",
     "group": "n",
+    "pos": "Noun",
+    "sub": "",
     "distractors": [
      19,
      20,
@@ -4144,6 +4644,8 @@ window.LESSON_DATA = {
     "romaji": "kaikan",
     "en": "Hall of residence, dormitory",
     "group": "n",
+    "pos": "Noun",
+    "sub": "",
     "ruby": [
      [
       "会館",
@@ -4162,6 +4664,8 @@ window.LESSON_DATA = {
     "romaji": "kanri-hi",
     "en": "Management fee",
     "group": "n",
+    "pos": "Noun",
+    "sub": "",
     "ruby": [
      [
       "管理費",
@@ -4180,6 +4684,8 @@ window.LESSON_DATA = {
     "romaji": "kaimasu / kau (petto o ~)",
     "en": "To keep (a pet)",
     "group": "v",
+    "pos": "Verb",
+    "sub": "Group I · u-verb",
     "distractors": [
      5,
      23,
@@ -4192,6 +4698,8 @@ window.LESSON_DATA = {
     "romaji": "petto",
     "en": "Pet",
     "group": "n",
+    "pos": "Noun",
+    "sub": "",
     "distractors": [
      4,
      24,
@@ -4204,6 +4712,8 @@ window.LESSON_DATA = {
     "romaji": "tomemasu / tomeru (tomodachi o ~)",
     "en": "To put up (a friend)",
     "group": "v",
+    "pos": "Verb",
+    "sub": "Group II · ru-verb (drop る)",
     "ruby": [
      [
       "とめます・とめる(",
@@ -4230,6 +4740,8 @@ window.LESSON_DATA = {
     "romaji": "kisoku",
     "en": "Rule",
     "group": "n",
+    "pos": "Noun",
+    "sub": "",
     "distractors": [
      4,
      22,
@@ -4248,6 +4760,8 @@ window.LESSON_DATA = {
     "romaji": "(o-)bentō",
     "en": "Boxed lunch",
     "group": "n",
+    "pos": "Noun",
+    "sub": "",
     "distractors": [
      5,
      27,
@@ -4260,6 +4774,8 @@ window.LESSON_DATA = {
     "romaji": "nakimasu / naku",
     "en": "To cry",
     "group": "v",
+    "pos": "Verb",
+    "sub": "Group I · u-verb",
     "distractors": [
      3,
      26,
@@ -4272,6 +4788,8 @@ window.LESSON_DATA = {
     "romaji": "waraimasu / warau",
     "en": "To laugh",
     "group": "v",
+    "pos": "Verb",
+    "sub": "Group I · u-verb",
     "distractors": [
      26,
      30,
@@ -4284,6 +4802,8 @@ window.LESSON_DATA = {
     "romaji": "okorimasu / okoru",
     "en": "To get angry",
     "group": "v",
+    "pos": "Verb",
+    "sub": "Group I · u-verb",
     "distractors": [
      24,
      6,
@@ -4296,6 +4816,8 @@ window.LESSON_DATA = {
     "romaji": "kankyō",
     "en": "Environment",
     "group": "n",
+    "pos": "Noun",
+    "sub": "",
     "distractors": [
      1,
      27,
@@ -4308,6 +4830,8 @@ window.LESSON_DATA = {
     "romaji": "mamorimasu / mamoru",
     "en": "To protect",
     "group": "v",
+    "pos": "Verb",
+    "sub": "Group I · u-verb",
     "distractors": [
      20,
      4,
@@ -4320,6 +4844,8 @@ window.LESSON_DATA = {
     "romaji": "tsuri",
     "en": "Fishing",
     "group": "n",
+    "pos": "Noun",
+    "sub": "",
     "distractors": [
      8,
      25,
@@ -4332,6 +4858,8 @@ window.LESSON_DATA = {
     "romaji": "takibi",
     "en": "Bonfire",
     "group": "n",
+    "pos": "Noun",
+    "sub": "",
     "ruby": [
      [
       "たき",
@@ -4354,6 +4882,8 @@ window.LESSON_DATA = {
     "romaji": "takibi o shimasu / takibi o suru",
     "en": "To make a bonfire",
     "group": "v",
+    "pos": "Verb",
+    "sub": "Group III · irregular (する / 来る)",
     "ruby": [
      [
       "たき",
@@ -4388,6 +4918,8 @@ window.LESSON_DATA = {
     "romaji": "baiku",
     "en": "Motorbike",
     "group": "n",
+    "pos": "Noun",
+    "sub": "",
     "distractors": [
      12,
      29,
@@ -4400,6 +4932,8 @@ window.LESSON_DATA = {
     "romaji": "mushi",
     "en": "Insect",
     "group": "n",
+    "pos": "Noun",
+    "sub": "",
     "distractors": [
      8,
      7,
@@ -4412,6 +4946,8 @@ window.LESSON_DATA = {
     "romaji": "chō",
     "en": "Butterfly",
     "group": "n",
+    "pos": "Noun",
+    "sub": "",
     "distractors": [
      10,
      29,
@@ -4424,6 +4960,8 @@ window.LESSON_DATA = {
     "romaji": "torimasu / toru",
     "en": "To catch",
     "group": "v",
+    "pos": "Verb",
+    "sub": "Group I · u-verb",
     "distractors": [
      20,
      21,
@@ -4436,6 +4974,8 @@ window.LESSON_DATA = {
     "romaji": "kirimasu / kiru",
     "en": "To cut",
     "group": "v",
+    "pos": "Verb",
+    "sub": "Group I · u-verb",
     "ruby": [
      [
       "切",
@@ -4466,6 +5006,8 @@ window.LESSON_DATA = {
     "romaji": "gomi",
     "en": "Garbage",
     "group": "n",
+    "pos": "Noun",
+    "sub": "",
     "distractors": [
      25,
      8,
@@ -4478,6 +5020,8 @@ window.LESSON_DATA = {
     "romaji": "ryokan",
     "en": "Japanese-style inn",
     "group": "n",
+    "pos": "Noun",
+    "sub": "",
     "ruby": [
      [
       "旅館",
@@ -4496,6 +5040,8 @@ window.LESSON_DATA = {
     "romaji": "onna-yu",
     "en": "Bath for women",
     "group": "n",
+    "pos": "Noun",
+    "sub": "",
     "ruby": [
      [
       "女湯",
@@ -4514,6 +5060,8 @@ window.LESSON_DATA = {
     "romaji": "taoru",
     "en": "Towel",
     "group": "n",
+    "pos": "Noun",
+    "sub": "",
     "distractors": [
      11,
      8,
@@ -4526,6 +5074,8 @@ window.LESSON_DATA = {
     "romaji": "mizugi",
     "en": "Swimsuit",
     "group": "n",
+    "pos": "Noun",
+    "sub": "",
     "ruby": [
      [
       "水着",
@@ -4544,6 +5094,8 @@ window.LESSON_DATA = {
     "romaji": "iremasu / ireru",
     "en": "To put in",
     "group": "v",
+    "pos": "Verb",
+    "sub": "Group II · ru-verb (drop る)",
     "ruby": [
      [
       "入",
@@ -4574,6 +5126,8 @@ window.LESSON_DATA = {
     "romaji": "kimasu / kiru",
     "en": "To wear",
     "group": "v",
+    "pos": "Verb",
+    "sub": "Group II · ru-verb (drop る)",
     "ruby": [
      [
       "着",
@@ -4604,6 +5158,8 @@ window.LESSON_DATA = {
     "romaji": "ōkii oto de",
     "en": "Loud noise",
     "group": "exp",
+    "pos": "Expression",
+    "sub": "set phrase",
     "ruby": [
      [
       "大",
@@ -4634,6 +5190,8 @@ window.LESSON_DATA = {
     "romaji": "sofuto-kuriimu",
     "en": "Soft ice cream",
     "group": "n",
+    "pos": "Noun",
+    "sub": "",
     "distractors": [
      17,
      27,
@@ -4646,6 +5204,8 @@ window.LESSON_DATA = {
     "romaji": "hirogemasu / hirogeru",
     "en": "To spread out",
     "group": "v",
+    "pos": "Verb",
+    "sub": "Group II · ru-verb (drop る)",
     "ruby": [
      [
       "広",
@@ -4676,6 +5236,8 @@ window.LESSON_DATA = {
     "romaji": "nimotsu",
     "en": "Package",
     "group": "n",
+    "pos": "Noun",
+    "sub": "",
     "ruby": [
      [
       "荷物",
@@ -4694,6 +5256,8 @@ window.LESSON_DATA = {
     "romaji": "okimasu / oku",
     "en": "To put on",
     "group": "v",
+    "pos": "Verb",
+    "sub": "Group I · u-verb",
     "distractors": [
      20,
      30,
@@ -4706,6 +5270,8 @@ window.LESSON_DATA = {
     "romaji": "keitai-denwa",
     "en": "Mobile phone",
     "group": "n",
+    "pos": "Noun",
+    "sub": "",
     "ruby": [
      [
       "けいたい",
@@ -4728,6 +5294,8 @@ window.LESSON_DATA = {
     "romaji": "keshō-shimasu / keshō-suru",
     "en": "To put on makeup",
     "group": "v",
+    "pos": "Verb",
+    "sub": "Group III · irregular (する / 来る)",
     "distractors": [
      20,
      9,
@@ -4740,6 +5308,8 @@ window.LESSON_DATA = {
     "romaji": "ashi",
     "en": "Foot, leg",
     "group": "n",
+    "pos": "Noun",
+    "sub": "",
     "ruby": [
      [
       "足",
@@ -4758,6 +5328,8 @@ window.LESSON_DATA = {
     "romaji": "fumimasu / fumu",
     "en": "To step on",
     "group": "v",
+    "pos": "Verb",
+    "sub": "Group I · u-verb",
     "distractors": [
      26,
      3,
@@ -4776,6 +5348,8 @@ window.LESSON_DATA = {
     "romaji": "sashimi",
     "en": "Slices of raw fish",
     "group": "n",
+    "pos": "Noun",
+    "sub": "",
     "distractors": [
      11,
      12,
@@ -4788,6 +5362,8 @@ window.LESSON_DATA = {
     "romaji": "hashi",
     "en": "Chopsticks",
     "group": "n",
+    "pos": "Noun",
+    "sub": "",
     "distractors": [
      6,
      4,
@@ -4800,6 +5376,8 @@ window.LESSON_DATA = {
     "romaji": "kimono",
     "en": "Japanese dress",
     "group": "n",
+    "pos": "Noun",
+    "sub": "",
     "ruby": [
      [
       "着物",
@@ -4818,6 +5396,8 @@ window.LESSON_DATA = {
     "romaji": "onsen",
     "en": "Hot spring",
     "group": "n",
+    "pos": "Noun",
+    "sub": "",
     "distractors": [
      2,
      6,
@@ -4830,6 +5410,8 @@ window.LESSON_DATA = {
     "romaji": "shodō",
     "en": "Calligraphy",
     "group": "n",
+    "pos": "Noun",
+    "sub": "",
     "ruby": [
      [
       "書道",
@@ -4848,6 +5430,8 @@ window.LESSON_DATA = {
     "romaji": "jishin",
     "en": "Earthquake",
     "group": "n",
+    "pos": "Noun",
+    "sub": "",
     "ruby": [
      [
       "地震",
@@ -4866,6 +5450,8 @@ window.LESSON_DATA = {
     "romaji": "keiken-shimasu / keiken-suru",
     "en": "To experience",
     "group": "v",
+    "pos": "Verb",
+    "sub": "Group III · irregular (する / 来る)",
     "ruby": [
      [
       "経験",
@@ -4896,6 +5482,8 @@ window.LESSON_DATA = {
     "romaji": "mada",
     "en": "Not yet",
     "group": "adv",
+    "pos": "Adverb",
+    "sub": "",
     "distractors": [
      10,
      6,
@@ -4908,6 +5496,8 @@ window.LESSON_DATA = {
     "romaji": "ryokō-shimasu / ryokō-suru",
     "en": "To travel, to take a trip",
     "group": "v",
+    "pos": "Verb",
+    "sub": "Group III · irregular (する / 来る)",
     "ruby": [
      [
       "旅行",
@@ -4938,6 +5528,8 @@ window.LESSON_DATA = {
     "romaji": "sugoi",
     "en": "Great",
     "group": "adj",
+    "pos": "Adjective",
+    "sub": "i-adjective · ends in い",
     "distractors": [
      8,
      6,
@@ -4950,6 +5542,8 @@ window.LESSON_DATA = {
     "romaji": "gaikoku-go",
     "en": "Foreign language",
     "group": "n",
+    "pos": "Noun",
+    "sub": "",
     "ruby": [
      [
       "外国語",
@@ -4968,6 +5562,8 @@ window.LESSON_DATA = {
     "romaji": "gaikoku",
     "en": "Foreign country",
     "group": "n",
+    "pos": "Noun",
+    "sub": "",
     "ruby": [
      [
       "外国",
@@ -4992,6 +5588,8 @@ window.LESSON_DATA = {
     "romaji": "sōji-shimasu / sōji-suru",
     "en": "To clean",
     "group": "v",
+    "pos": "Verb",
+    "sub": "Group III · irregular (する / 来る)",
     "distractors": [
      12,
      13,
@@ -5004,6 +5602,8 @@ window.LESSON_DATA = {
     "romaji": "sentaku-shimasu / sentaku-suru",
     "en": "To wash (clothes)",
     "group": "v",
+    "pos": "Verb",
+    "sub": "Group III · irregular (する / 来る)",
     "distractors": [
      14,
      15,
@@ -5016,6 +5616,8 @@ window.LESSON_DATA = {
     "romaji": "~no ato de",
     "en": "After ~",
     "group": "exp",
+    "pos": "Suffix",
+    "sub": "attaches to a word",
     "distractors": [
      10,
      20,
@@ -5028,6 +5630,8 @@ window.LESSON_DATA = {
     "romaji": "sukii-jō",
     "en": "Ski slope, ski area",
     "group": "n",
+    "pos": "Noun",
+    "sub": "",
     "ruby": [
      [
       "スキー",
@@ -5050,6 +5654,8 @@ window.LESSON_DATA = {
     "romaji": "tsukimasu / tsuku (sukii-jō ni ~)",
     "en": "To arrive (at the ski area)",
     "group": "v",
+    "pos": "Verb",
+    "sub": "Group I · u-verb",
     "ruby": [
      [
       "着",
@@ -5088,6 +5694,8 @@ window.LESSON_DATA = {
     "romaji": "rotenburo",
     "en": "Open air hot spring",
     "group": "n",
+    "pos": "Noun",
+    "sub": "",
     "distractors": [
      4,
      16,
@@ -5100,6 +5708,8 @@ window.LESSON_DATA = {
     "romaji": "mori",
     "en": "Forest",
     "group": "n",
+    "pos": "Noun",
+    "sub": "",
     "ruby": [
      [
       "森",
@@ -5118,6 +5728,8 @@ window.LESSON_DATA = {
     "romaji": "yukidaruma",
     "en": "Snowman",
     "group": "n",
+    "pos": "Noun",
+    "sub": "",
     "ruby": [
      [
       "雪",
@@ -5140,6 +5752,8 @@ window.LESSON_DATA = {
     "romaji": "omiyage",
     "en": "Souvenir",
     "group": "n",
+    "pos": "Noun",
+    "sub": "",
     "distractors": [
      32,
      8,
@@ -5152,6 +5766,8 @@ window.LESSON_DATA = {
     "romaji": "kaigi-chū",
     "en": "In a meeting",
     "group": "exp",
+    "pos": "Expression",
+    "sub": "set phrase",
     "ruby": [
      [
       "会議中",
@@ -5170,6 +5786,8 @@ window.LESSON_DATA = {
     "romaji": "abunai",
     "en": "Dangerous",
     "group": "adj",
+    "pos": "Adjective",
+    "sub": "i-adjective · ends in い",
     "distractors": [
      22,
      32,
@@ -5182,6 +5800,8 @@ window.LESSON_DATA = {
     "romaji": "sawarimasu / sawaru",
     "en": "To touch",
     "group": "v",
+    "pos": "Verb",
+    "sub": "Group I · u-verb",
     "distractors": [
      1,
      13,
@@ -5194,6 +5814,8 @@ window.LESSON_DATA = {
     "romaji": "karimasu / kariru",
     "en": "To borrow",
     "group": "v",
+    "pos": "Verb",
+    "sub": "Group II · ru-verb (drop る)",
     "ruby": [
      [
       "借",
@@ -5224,6 +5846,8 @@ window.LESSON_DATA = {
     "romaji": "koshō-shimasu / koshō-suru",
     "en": "To be out of order",
     "group": "v",
+    "pos": "Verb",
+    "sub": "Group III · irregular (する / 来る)",
     "distractors": [
      2,
      21,
@@ -5236,6 +5860,8 @@ window.LESSON_DATA = {
     "romaji": "ryūgaku-shimasu / ryūgaku-suru",
     "en": "To study abroad",
     "group": "v",
+    "pos": "Verb",
+    "sub": "Group III · irregular (する / 来る)",
     "ruby": [
      [
       "留学",
@@ -5266,6 +5892,8 @@ window.LESSON_DATA = {
     "romaji": "koto",
     "en": "Thing, matter",
     "group": "n",
+    "pos": "Noun",
+    "sub": "",
     "distractors": [
      31,
      25,
@@ -5278,6 +5906,8 @@ window.LESSON_DATA = {
     "romaji": "adobaisu",
     "en": "Advice",
     "group": "n",
+    "pos": "Noun",
+    "sub": "",
     "distractors": [
      7,
      28,
@@ -5290,6 +5920,8 @@ window.LESSON_DATA = {
     "romaji": "onegai-shimasu / onegai-suru",
     "en": "To ask a favor",
     "group": "v",
+    "pos": "Verb",
+    "sub": "Group III · irregular (する / 来る)",
     "distractors": [
      27,
      15,
@@ -5302,6 +5934,8 @@ window.LESSON_DATA = {
     "romaji": "oboemasu / oboeru",
     "en": "To memorize",
     "group": "v",
+    "pos": "Verb",
+    "sub": "Group II · ru-verb (drop る)",
     "distractors": [
      24,
      13,
@@ -5314,6 +5948,8 @@ window.LESSON_DATA = {
     "romaji": "fuku",
     "en": "Clothes",
     "group": "n",
+    "pos": "Noun",
+    "sub": "",
     "ruby": [
      [
       "服",
@@ -5332,6 +5968,8 @@ window.LESSON_DATA = {
     "romaji": "motte kimasu / motte kuru",
     "en": "To bring (something)",
     "group": "v",
+    "pos": "Verb",
+    "sub": "Group III · irregular (する / 来る)",
     "ruby": [
      [
       "持",
@@ -5378,6 +6016,8 @@ window.LESSON_DATA = {
     "romaji": "tōi",
     "en": "Far",
     "group": "adj",
+    "pos": "Adjective",
+    "sub": "i-adjective · ends in い",
     "ruby": [
      [
       "遠",
@@ -5400,6 +6040,8 @@ window.LESSON_DATA = {
     "romaji": "motte ikimasu / motte iku",
     "en": "To take (something)",
     "group": "v",
+    "pos": "Verb",
+    "sub": "Group I · u-verb",
     "ruby": [
      [
       "持",
@@ -5446,6 +6088,8 @@ window.LESSON_DATA = {
     "romaji": "yoyaku-shimasu / yoyaku-suru",
     "en": "To reserve",
     "group": "v",
+    "pos": "Verb",
+    "sub": "Group III · irregular (する / 来る)",
     "distractors": [
      19,
      13,
@@ -5458,6 +6102,8 @@ window.LESSON_DATA = {
     "romaji": "rentakā",
     "en": "Rent-a-car",
     "group": "n",
+    "pos": "Noun",
+    "sub": "",
     "distractors": [
      31,
      32,
@@ -5470,6 +6116,8 @@ window.LESSON_DATA = {
     "romaji": "hajimete",
     "en": "For the first time",
     "group": "adv",
+    "pos": "Adverb",
+    "sub": "",
     "distractors": [
      30,
      6,
@@ -5482,6 +6130,8 @@ window.LESSON_DATA = {
     "romaji": "kinchō-shimasu / kinchō-suru",
     "en": "To get nervous",
     "group": "v",
+    "pos": "Verb",
+    "sub": "Group III · irregular (する / 来る)",
     "distractors": [
      18,
      15,
@@ -5494,6 +6144,8 @@ window.LESSON_DATA = {
     "romaji": "rejume",
     "en": "Resume",
     "group": "n",
+    "pos": "Noun",
+    "sub": "",
     "distractors": [
      17,
      7,
@@ -5506,6 +6158,8 @@ window.LESSON_DATA = {
     "romaji": "misemasu / miseru",
     "en": "To show",
     "group": "v",
+    "pos": "Verb",
+    "sub": "Group II · ru-verb (drop る)",
     "ruby": [
      [
       "見",
@@ -5536,6 +6190,8 @@ window.LESSON_DATA = {
     "romaji": "nan-kai mo",
     "en": "Many times",
     "group": "adv",
+    "pos": "Adverb",
+    "sub": "",
     "ruby": [
      [
       "何回",
@@ -5558,6 +6214,8 @@ window.LESSON_DATA = {
     "romaji": "maiku",
     "en": "Microphone",
     "group": "n",
+    "pos": "Noun",
+    "sub": "",
     "distractors": [
      25,
      32,
@@ -5570,6 +6228,8 @@ window.LESSON_DATA = {
     "romaji": "purojekutā",
     "en": "Projector",
     "group": "n",
+    "pos": "Noun",
+    "sub": "",
     "distractors": [
      25,
      31,
@@ -5588,6 +6248,8 @@ window.LESSON_DATA = {
     "romaji": "sukejūru",
     "en": "Schedule",
     "group": "n",
+    "pos": "Noun",
+    "sub": "",
     "distractors": [
      18,
      20,
@@ -5600,6 +6262,8 @@ window.LESSON_DATA = {
     "romaji": "kekkon-shiki",
     "en": "Wedding ceremony",
     "group": "n",
+    "pos": "Noun",
+    "sub": "",
     "distractors": [
      15,
      12,
@@ -5612,6 +6276,8 @@ window.LESSON_DATA = {
     "romaji": "arimasu / aru",
     "en": "To be held, to take place",
     "group": "v",
+    "pos": "Verb",
+    "sub": "Group I · u-verb",
     "distractors": [
      14,
      24,
@@ -5624,6 +6290,8 @@ window.LESSON_DATA = {
     "romaji": "tomarimasu / tomaru (Ōsaka ni ~)",
     "en": "To stay at Osaka",
     "group": "v",
+    "pos": "Verb",
+    "sub": "Group I · u-verb",
     "ruby": [
      [
       "とまります・とまる(",
@@ -5650,6 +6318,8 @@ window.LESSON_DATA = {
     "romaji": "soreja",
     "en": "Well, then (casual)",
     "group": "conj",
+    "pos": "Conjunction",
+    "sub": "joins sentences",
     "distractors": [
      13,
      8,
@@ -5662,6 +6332,8 @@ window.LESSON_DATA = {
     "romaji": "kondo",
     "en": "This coming, next time",
     "group": "adv",
+    "pos": "Adverb",
+    "sub": "",
     "ruby": [
      [
       "今度",
@@ -5680,6 +6352,8 @@ window.LESSON_DATA = {
     "romaji": "sasoimasu / sasou",
     "en": "To invite",
     "group": "v",
+    "pos": "Verb",
+    "sub": "Group I · u-verb",
     "distractors": [
      23,
      4,
@@ -5692,6 +6366,8 @@ window.LESSON_DATA = {
     "romaji": "shusseki-shimasu / shusseki-suru (kekkon-shiki ni ~)",
     "en": "To attend (a wedding)",
     "group": "v",
+    "pos": "Verb",
+    "sub": "Group III · irregular (する / 来る)",
     "ruby": [
      [
       "出席",
@@ -5722,6 +6398,8 @@ window.LESSON_DATA = {
     "romaji": "hon-ya",
     "en": "Book store",
     "group": "n",
+    "pos": "Noun",
+    "sub": "",
     "ruby": [
      [
       "本屋",
@@ -5740,6 +6418,8 @@ window.LESSON_DATA = {
     "romaji": "Nagoya",
     "en": "Nagoya",
     "group": "n",
+    "pos": "Noun",
+    "sub": "",
     "ruby": [
      [
       "名古屋",
@@ -5758,6 +6438,8 @@ window.LESSON_DATA = {
     "romaji": "umaremasu / umareru",
     "en": "To be born",
     "group": "v",
+    "pos": "Verb",
+    "sub": "Group II · ru-verb (drop る)",
     "ruby": [
      [
       "生",
@@ -5788,6 +6470,8 @@ window.LESSON_DATA = {
     "romaji": "Ōsaka Daigaku",
     "en": "Osaka University",
     "group": "n",
+    "pos": "Noun",
+    "sub": "",
     "ruby": [
      [
       "大阪大学",
@@ -5806,6 +6490,8 @@ window.LESSON_DATA = {
     "romaji": "rigaku-bu",
     "en": "Faculty of science",
     "group": "n",
+    "pos": "Noun",
+    "sub": "",
     "ruby": [
      [
       "理学部",
@@ -5824,6 +6510,8 @@ window.LESSON_DATA = {
     "romaji": "nyūgaku-shimasu / nyūgaku-suru",
     "en": "To enter a school",
     "group": "v",
+    "pos": "Verb",
+    "sub": "Group III · irregular (する / 来る)",
     "ruby": [
      [
       "入学",
@@ -5854,6 +6542,8 @@ window.LESSON_DATA = {
     "romaji": "toranjisuta-rajio",
     "en": "Transistor radio",
     "group": "n",
+    "pos": "Noun",
+    "sub": "",
     "distractors": [
      2,
      12,
@@ -5866,6 +6556,8 @@ window.LESSON_DATA = {
     "romaji": "kaihatsu-shimasu / kaihatsu-suru",
     "en": "To develop",
     "group": "v",
+    "pos": "Verb",
+    "sub": "Group III · irregular (する / 来る)",
     "ruby": [
      [
       "開発",
@@ -5896,6 +6588,8 @@ window.LESSON_DATA = {
     "romaji": "Amerika",
     "en": "USA",
     "group": "n",
+    "pos": "Noun",
+    "sub": "",
     "distractors": [
      10,
      20,
@@ -5908,6 +6602,8 @@ window.LESSON_DATA = {
     "romaji": "San Diego",
     "en": "San Diego",
     "group": "n",
+    "pos": "Noun",
+    "sub": "",
     "distractors": [
      9,
      1,
@@ -5920,6 +6616,8 @@ window.LESSON_DATA = {
     "romaji": "tatemasu / tateru",
     "en": "To build",
     "group": "v",
+    "pos": "Verb",
+    "sub": "Group II · ru-verb (drop る)",
     "ruby": [
      [
       "建",
@@ -5950,6 +6648,8 @@ window.LESSON_DATA = {
     "romaji": "Wōkuman",
     "en": "Walkman",
     "group": "n",
+    "pos": "Noun",
+    "sub": "",
     "distractors": [
      1,
      10,
@@ -5962,6 +6662,8 @@ window.LESSON_DATA = {
     "romaji": "hajimemasu / hajimeru",
     "en": "To start",
     "group": "v",
+    "pos": "Verb",
+    "sub": "Group II · ru-verb (drop る)",
     "ruby": [
      [
       "始",
@@ -5992,6 +6694,8 @@ window.LESSON_DATA = {
     "romaji": "Taimu-shi",
     "en": "Time magazine",
     "group": "n",
+    "pos": "Noun",
+    "sub": "",
     "ruby": [
      [
       "タイム",
@@ -6014,6 +6718,8 @@ window.LESSON_DATA = {
     "romaji": "erabimasu / erabu",
     "en": "To choose",
     "group": "v",
+    "pos": "Verb",
+    "sub": "Group I · u-verb",
     "distractors": [
      7,
      4,
@@ -6026,6 +6732,8 @@ window.LESSON_DATA = {
     "romaji": "nakunarimasu / nakunaru",
     "en": "To pass away",
     "group": "v",
+    "pos": "Verb",
+    "sub": "Group I · u-verb",
     "distractors": [
      16,
      11,
@@ -6038,6 +6746,8 @@ window.LESSON_DATA = {
     "romaji": "shiriaimasu / shiriau (Chiharu-san to ~)",
     "en": "To get acquainted with (Chiharu)",
     "group": "v",
+    "pos": "Verb",
+    "sub": "Group I · u-verb",
     "ruby": [
      [
       "知",
@@ -6098,6 +6808,8 @@ window.LESSON_DATA = {
     "romaji": "dekimasu / dekiru",
     "en": "To be able to do",
     "group": "v",
+    "pos": "Verb",
+    "sub": "Group II · ru-verb (drop る)",
     "distractors": [
      26,
      3,
@@ -6110,6 +6822,8 @@ window.LESSON_DATA = {
     "romaji": "unten",
     "en": "Driving",
     "group": "n",
+    "pos": "Noun",
+    "sub": "",
     "ruby": [
      [
       "運転",
@@ -6128,6 +6842,8 @@ window.LESSON_DATA = {
     "romaji": "hikimasu / hiku (gitā o ~)",
     "en": "To play (the guitar)",
     "group": "v",
+    "pos": "Verb",
+    "sub": "Group I · u-verb",
     "distractors": [
      5,
      4,
@@ -6140,6 +6856,8 @@ window.LESSON_DATA = {
     "romaji": "utaimasu / utau",
     "en": "To sing",
     "group": "v",
+    "pos": "Verb",
+    "sub": "Group I · u-verb",
     "ruby": [
      [
       "歌",
@@ -6170,6 +6888,8 @@ window.LESSON_DATA = {
     "romaji": "hakobimasu / hakobu",
     "en": "To carry",
     "group": "v",
+    "pos": "Verb",
+    "sub": "Group I · u-verb",
     "ruby": [
      [
       "運",
@@ -6200,6 +6920,8 @@ window.LESSON_DATA = {
     "romaji": "ondokei",
     "en": "Thermometer",
     "group": "n",
+    "pos": "Noun",
+    "sub": "",
     "ruby": [
      [
       "温度計",
@@ -6218,6 +6940,8 @@ window.LESSON_DATA = {
     "romaji": "hikari-faibā",
     "en": "Optical fiber",
     "group": "n",
+    "pos": "Noun",
+    "sub": "",
     "ruby": [
      [
       "光",
@@ -6240,6 +6964,8 @@ window.LESSON_DATA = {
     "romaji": "intānetto",
     "en": "Internet",
     "group": "n",
+    "pos": "Noun",
+    "sub": "",
     "distractors": [
      2,
      23,
@@ -6252,6 +6978,8 @@ window.LESSON_DATA = {
     "romaji": "kensaku",
     "en": "Search",
     "group": "n",
+    "pos": "Noun",
+    "sub": "",
     "distractors": [
      24,
      22,
@@ -6264,6 +6992,8 @@ window.LESSON_DATA = {
     "romaji": "kōsoku",
     "en": "High-speed",
     "group": "n",
+    "pos": "Noun",
+    "sub": "",
     "ruby": [
      [
       "高速",
@@ -6282,6 +7012,8 @@ window.LESSON_DATA = {
     "romaji": "tsūshin",
     "en": "Communication",
     "group": "n",
+    "pos": "Noun",
+    "sub": "",
     "ruby": [
      [
       "通信",
@@ -6300,6 +7032,8 @@ window.LESSON_DATA = {
     "romaji": "kion",
     "en": "Temperature",
     "group": "n",
+    "pos": "Noun",
+    "sub": "",
     "ruby": [
      [
       "気温",
@@ -6318,6 +7052,8 @@ window.LESSON_DATA = {
     "romaji": "sokutei",
     "en": "Measurement",
     "group": "n",
+    "pos": "Noun",
+    "sub": "",
     "distractors": [
      17,
      12,
@@ -6330,6 +7066,8 @@ window.LESSON_DATA = {
     "romaji": "fukuzatsu(na)",
     "en": "Complicated",
     "group": "adj",
+    "pos": "Adjective",
+    "sub": "na-adjective · takes な before a noun",
     "distractors": [
      17,
      15,
@@ -6342,6 +7080,8 @@ window.LESSON_DATA = {
     "romaji": "keisan",
     "en": "Calculation",
     "group": "n",
+    "pos": "Noun",
+    "sub": "",
     "ruby": [
      [
       "計算",
@@ -6360,6 +7100,8 @@ window.LESSON_DATA = {
     "romaji": "intabyū-shiito",
     "en": "Interview sheet",
     "group": "n",
+    "pos": "Noun",
+    "sub": "",
     "distractors": [
      20,
      11,
@@ -6372,6 +7114,8 @@ window.LESSON_DATA = {
     "romaji": "mensetsu-sha",
     "en": "Interviewer",
     "group": "n",
+    "pos": "Noun",
+    "sub": "",
     "ruby": [
      [
       "めんせつ",
@@ -6394,6 +7138,8 @@ window.LESSON_DATA = {
     "romaji": "kokuseki",
     "en": "Nationality",
     "group": "n",
+    "pos": "Noun",
+    "sub": "",
     "ruby": [
      [
       "国籍",
@@ -6412,6 +7158,8 @@ window.LESSON_DATA = {
     "romaji": "nenrei",
     "en": "Age",
     "group": "n",
+    "pos": "Noun",
+    "sub": "",
     "ruby": [
      [
       "年齢",
@@ -6430,6 +7178,8 @@ window.LESSON_DATA = {
     "romaji": "yōbi",
     "en": "Day of the week",
     "group": "n",
+    "pos": "Noun",
+    "sub": "",
     "ruby": [
      [
       "曜日",
@@ -6448,6 +7198,8 @@ window.LESSON_DATA = {
     "romaji": "reberu",
     "en": "Level",
     "group": "n",
+    "pos": "Noun",
+    "sub": "",
     "distractors": [
      28,
      9,
@@ -6460,6 +7212,8 @@ window.LESSON_DATA = {
     "romaji": "sonota",
     "en": "Others",
     "group": "n",
+    "pos": "Noun",
+    "sub": "",
     "ruby": [
      [
       "その",
@@ -6482,6 +7236,8 @@ window.LESSON_DATA = {
     "romaji": "resutoran",
     "en": "Restaurant",
     "group": "n",
+    "pos": "Noun",
+    "sub": "",
     "distractors": [
      10,
      27,
@@ -6494,6 +7250,8 @@ window.LESSON_DATA = {
     "romaji": "shima",
     "en": "Island",
     "group": "n",
+    "pos": "Noun",
+    "sub": "",
     "ruby": [
      [
       "島",
@@ -6512,6 +7270,8 @@ window.LESSON_DATA = {
     "romaji": "-nenkan",
     "en": "-year(s)",
     "group": "suf",
+    "pos": "Suffix",
+    "sub": "attaches to a word",
     "ruby": [
      [
       "―",
@@ -6534,6 +7294,8 @@ window.LESSON_DATA = {
     "romaji": "seikatsu-shimasu / seikatsu-suru",
     "en": "To make a living, to live",
     "group": "v",
+    "pos": "Verb",
+    "sub": "Group III · irregular (する / 来る)",
     "ruby": [
      [
       "生活",
@@ -6564,6 +7326,8 @@ window.LESSON_DATA = {
     "romaji": "gijutsu",
     "en": "Technology",
     "group": "n",
+    "pos": "Noun",
+    "sub": "",
     "distractors": [
      23,
      10,
@@ -6576,6 +7340,8 @@ window.LESSON_DATA = {
     "romaji": "Yōroppa",
     "en": "Europe",
     "group": "n",
+    "pos": "Noun",
+    "sub": "",
     "distractors": [
      22,
      9,
@@ -6594,6 +7360,8 @@ window.LESSON_DATA = {
     "romaji": "majime(na)",
     "en": "Serious",
     "group": "adj",
+    "pos": "Adjective",
+    "sub": "na-adjective · takes な before a noun",
     "distractors": [
      2,
      11,
@@ -6606,6 +7374,8 @@ window.LESSON_DATA = {
     "romaji": "arukimasu / aruku",
     "en": "To walk",
     "group": "v",
+    "pos": "Verb",
+    "sub": "Group I · u-verb",
     "ruby": [
      [
       "歩",
@@ -6636,6 +7406,8 @@ window.LESSON_DATA = {
     "romaji": "hanzai",
     "en": "Crime",
     "group": "n",
+    "pos": "Noun",
+    "sub": "",
     "distractors": [
      11,
      9,
@@ -6648,6 +7420,8 @@ window.LESSON_DATA = {
     "romaji": "fuemasu / fueru",
     "en": "To increase",
     "group": "v",
+    "pos": "Verb",
+    "sub": "Group II · ru-verb (drop る)",
     "distractors": [
      5,
      2,
@@ -6660,6 +7434,8 @@ window.LESSON_DATA = {
     "romaji": "susumimasu / susumu",
     "en": "To progress",
     "group": "v",
+    "pos": "Verb",
+    "sub": "Group I · u-verb",
     "ruby": [
      [
       "進",
@@ -6690,6 +7466,8 @@ window.LESSON_DATA = {
     "romaji": "ankēto",
     "en": "Questionnaire",
     "group": "n",
+    "pos": "Noun",
+    "sub": "",
     "distractors": [
      12,
      9,
@@ -6702,6 +7480,8 @@ window.LESSON_DATA = {
     "romaji": "anō",
     "en": "Well,...",
     "group": "exp",
+    "pos": "Expression",
+    "sub": "set phrase",
     "distractors": [
      14,
      16,
@@ -6714,6 +7494,8 @@ window.LESSON_DATA = {
     "romaji": "Sō desu ne.",
     "en": "Well, let me see.",
     "group": "exp",
+    "pos": "Expression",
+    "sub": "set phrase",
     "distractors": [
      18,
      16,
@@ -6726,6 +7508,8 @@ window.LESSON_DATA = {
     "romaji": "minna",
     "en": "Everybody",
     "group": "n",
+    "pos": "Noun",
+    "sub": "",
     "distractors": [
      11,
      6,
@@ -6738,6 +7522,8 @@ window.LESSON_DATA = {
     "romaji": "yoku",
     "en": "Hard",
     "group": "adv",
+    "pos": "Adverb",
+    "sub": "",
     "distractors": [
      3,
      1,
@@ -6750,6 +7536,8 @@ window.LESSON_DATA = {
     "romaji": "seiji",
     "en": "Politics",
     "group": "n",
+    "pos": "Noun",
+    "sub": "",
     "distractors": [
      9,
      3,
@@ -6762,6 +7550,8 @@ window.LESSON_DATA = {
     "romaji": "kanshin",
     "en": "Interest, concern",
     "group": "n",
+    "pos": "Noun",
+    "sub": "",
     "distractors": [
      6,
      9,
@@ -6774,6 +7564,8 @@ window.LESSON_DATA = {
     "romaji": "~ni kanshin ga arimasu",
     "en": "To be concerned about ~",
     "group": "exp",
+    "pos": "Suffix",
+    "sub": "attaches to a word",
     "distractors": [
      8,
      18,
@@ -6786,6 +7578,8 @@ window.LESSON_DATA = {
     "romaji": "yā",
     "en": "Hi, hello",
     "group": "exp",
+    "pos": "Expression",
+    "sub": "set phrase",
     "distractors": [
      7,
      16,
@@ -6798,6 +7592,8 @@ window.LESSON_DATA = {
     "romaji": "un",
     "en": "Yes (an informal equivalent of 'hai')",
     "group": "exp",
+    "pos": "Expression",
+    "sub": "set phrase",
     "distractors": [
      8,
      18,
@@ -6810,6 +7606,8 @@ window.LESSON_DATA = {
     "romaji": "māmā",
     "en": "So-so, not bad",
     "group": "exp",
+    "pos": "Expression",
+    "sub": "set phrase",
     "distractors": [
      18,
      8,
@@ -6822,6 +7620,8 @@ window.LESSON_DATA = {
     "romaji": "tokorode",
     "en": "By the way",
     "group": "conj",
+    "pos": "Conjunction",
+    "sub": "joins sentences",
     "distractors": [
      5,
      14,
@@ -6834,6 +7634,8 @@ window.LESSON_DATA = {
     "romaji": "hisashiburi",
     "en": "Long time no see",
     "group": "exp",
+    "pos": "Expression",
+    "sub": "set phrase",
     "distractors": [
      8,
      16,
@@ -6852,6 +7654,8 @@ window.LESSON_DATA = {
     "romaji": "sabishii",
     "en": "Lonely",
     "group": "adj",
+    "pos": "Adjective",
+    "sub": "i-adjective · ends in い",
     "distractors": [
      4,
      3,
@@ -6864,6 +7668,8 @@ window.LESSON_DATA = {
     "romaji": "atama",
     "en": "Head",
     "group": "n",
+    "pos": "Noun",
+    "sub": "",
     "ruby": [
      [
       "頭",
@@ -6882,6 +7688,8 @@ window.LESSON_DATA = {
     "romaji": "itai",
     "en": "Painful",
     "group": "adj",
+    "pos": "Adjective",
+    "sub": "i-adjective · ends in い",
     "distractors": [
      17,
      1,
@@ -6894,6 +7702,8 @@ window.LESSON_DATA = {
     "romaji": "nemui",
     "en": "Sleepy",
     "group": "adj",
+    "pos": "Adjective",
+    "sub": "i-adjective · ends in い",
     "distractors": [
      1,
      17,
@@ -6906,6 +7716,8 @@ window.LESSON_DATA = {
     "romaji": "gasu",
     "en": "Gas",
     "group": "n",
+    "pos": "Noun",
+    "sub": "",
     "distractors": [
      6,
      2,
@@ -6918,6 +7730,8 @@ window.LESSON_DATA = {
     "romaji": "hi",
     "en": "Fire",
     "group": "n",
+    "pos": "Noun",
+    "sub": "",
     "ruby": [
      [
       "火",
@@ -6936,6 +7750,8 @@ window.LESSON_DATA = {
     "romaji": "keshimasu / kesu (hi o ~)",
     "en": "To extinguish (a fire)",
     "group": "v",
+    "pos": "Verb",
+    "sub": "Group I · u-verb",
     "ruby": [
      [
       "けします・けす(",
@@ -6962,6 +7778,8 @@ window.LESSON_DATA = {
     "romaji": "Furansu",
     "en": "France",
     "group": "n",
+    "pos": "Noun",
+    "sub": "",
     "distractors": [
      27,
      28,
@@ -6974,6 +7792,8 @@ window.LESSON_DATA = {
     "romaji": "Pari",
     "en": "Paris",
     "group": "n",
+    "pos": "Noun",
+    "sub": "",
     "distractors": [
      11,
      16,
@@ -6986,6 +7806,8 @@ window.LESSON_DATA = {
     "romaji": "unten-shimasu / unten-suru",
     "en": "To drive",
     "group": "v",
+    "pos": "Verb",
+    "sub": "Group III · irregular (する / 来る)",
     "ruby": [
      [
       "運転",
@@ -7016,6 +7838,8 @@ window.LESSON_DATA = {
     "romaji": "satō",
     "en": "Sugar",
     "group": "n",
+    "pos": "Noun",
+    "sub": "",
     "distractors": [
      9,
      16,
@@ -7028,6 +7852,8 @@ window.LESSON_DATA = {
     "romaji": "kakemasu / kakeru (megane o ~)",
     "en": "Put on (glasses)",
     "group": "v",
+    "pos": "Verb",
+    "sub": "Group II · ru-verb (drop る)",
     "distractors": [
      7,
      19,
@@ -7040,6 +7866,8 @@ window.LESSON_DATA = {
     "romaji": "Sado",
     "en": "Sado (name of place)",
     "group": "n",
+    "pos": "Noun",
+    "sub": "",
     "ruby": [
      [
       "佐渡",
@@ -7058,6 +7886,8 @@ window.LESSON_DATA = {
     "romaji": "Niigata-ken",
     "en": "Niigata Prefecture",
     "group": "n",
+    "pos": "Noun",
+    "sub": "",
     "ruby": [
      [
       "新潟県",
@@ -7076,6 +7906,8 @@ window.LESSON_DATA = {
     "romaji": "ryokōgaisha",
     "en": "Travel agency",
     "group": "n",
+    "pos": "Noun",
+    "sub": "",
     "ruby": [
      [
       "旅行会社",
@@ -7094,6 +7926,8 @@ window.LESSON_DATA = {
     "romaji": "ferii",
     "en": "Ferry",
     "group": "n",
+    "pos": "Noun",
+    "sub": "",
     "distractors": [
      11,
      9,
@@ -7106,6 +7940,8 @@ window.LESSON_DATA = {
     "romaji": "iroiro(na)",
     "en": "Various",
     "group": "adj",
+    "pos": "Adjective",
+    "sub": "na-adjective · takes な before a noun",
     "distractors": [
      3,
      4,
@@ -7118,6 +7954,8 @@ window.LESSON_DATA = {
     "romaji": "tatoeba",
     "en": "For example",
     "group": "adv",
+    "pos": "Adverb",
+    "sub": "",
     "distractors": [
      20,
      21,
@@ -7130,6 +7968,8 @@ window.LESSON_DATA = {
     "romaji": "sagashimasu / sagasu",
     "en": "To search",
     "group": "v",
+    "pos": "Verb",
+    "sub": "Group I · u-verb",
     "distractors": [
      24,
      12,
@@ -7142,6 +7982,8 @@ window.LESSON_DATA = {
     "romaji": "yūsu-hosuteru",
     "en": "Youth hostel",
     "group": "n",
+    "pos": "Noun",
+    "sub": "",
     "distractors": [
      15,
      22,
@@ -7154,6 +7996,8 @@ window.LESSON_DATA = {
     "romaji": "kin'en",
     "en": "No smoking",
     "group": "n",
+    "pos": "Noun",
+    "sub": "",
     "ruby": [
      [
       "禁煙",
@@ -7172,6 +8016,8 @@ window.LESSON_DATA = {
     "romaji": "muryō",
     "en": "Free of charge",
     "group": "n",
+    "pos": "Noun",
+    "sub": "",
     "ruby": [
      [
       "無料",
@@ -7190,6 +8036,8 @@ window.LESSON_DATA = {
     "romaji": "wa-teishoku",
     "en": "Japanese-style set menu",
     "group": "n",
+    "pos": "Noun",
+    "sub": "",
     "ruby": [
      [
       "和定食",
@@ -7208,6 +8056,8 @@ window.LESSON_DATA = {
     "romaji": "hikimasu / hiku",
     "en": "To pull",
     "group": "v",
+    "pos": "Verb",
+    "sub": "Group I · u-verb",
     "ruby": [
      [
       "引",
@@ -7238,6 +8088,8 @@ window.LESSON_DATA = {
     "romaji": "iriguchi",
     "en": "Entrance",
     "group": "n",
+    "pos": "Noun",
+    "sub": "",
     "ruby": [
      [
       "入口",
@@ -7256,6 +8108,8 @@ window.LESSON_DATA = {
     "romaji": "deguchi",
     "en": "Exit",
     "group": "n",
+    "pos": "Noun",
+    "sub": "",
     "ruby": [
      [
       "出口",
@@ -7274,6 +8128,8 @@ window.LESSON_DATA = {
     "romaji": "otearai",
     "en": "Toilet",
     "group": "n",
+    "pos": "Noun",
+    "sub": "",
     "ruby": [
      [
       "お",
@@ -7300,6 +8156,8 @@ window.LESSON_DATA = {
     "romaji": "Chūgoku-go",
     "en": "Chinese",
     "group": "n",
+    "pos": "Noun",
+    "sub": "",
     "ruby": [
      [
       "中国語",
@@ -7324,6 +8182,8 @@ window.LESSON_DATA = {
     "romaji": "okimasu / okiru",
     "en": "To happen",
     "group": "v",
+    "pos": "Verb",
+    "sub": "Group II · ru-verb (drop る)",
     "distractors": [
      6,
      12,
@@ -7336,6 +8196,8 @@ window.LESSON_DATA = {
     "romaji": "kaji",
     "en": "Fire",
     "group": "n",
+    "pos": "Noun",
+    "sub": "",
     "ruby": [
      [
       "火事",
@@ -7354,6 +8216,8 @@ window.LESSON_DATA = {
     "romaji": "jiko",
     "en": "Accident",
     "group": "n",
+    "pos": "Noun",
+    "sub": "",
     "ruby": [
      [
       "事故",
@@ -7372,6 +8236,8 @@ window.LESSON_DATA = {
     "romaji": "aimasu / au (jiko ni ~)",
     "en": "To meet with (an accident)",
     "group": "v",
+    "pos": "Verb",
+    "sub": "Group I · u-verb",
     "ruby": [
      [
       "あいます・あう(",
@@ -7398,6 +8264,8 @@ window.LESSON_DATA = {
     "romaji": "pasupōto",
     "en": "Passport",
     "group": "n",
+    "pos": "Noun",
+    "sub": "",
     "distractors": [
      3,
      7,
@@ -7410,6 +8278,8 @@ window.LESSON_DATA = {
     "romaji": "nakushimasu / nakusu",
     "en": "To lose",
     "group": "v",
+    "pos": "Verb",
+    "sub": "Group I · u-verb",
     "distractors": [
      12,
      11,
@@ -7422,6 +8292,8 @@ window.LESSON_DATA = {
     "romaji": "kyūkyū-sha",
     "en": "Ambulance",
     "group": "n",
+    "pos": "Noun",
+    "sub": "",
     "ruby": [
      [
       "救急車",
@@ -7440,6 +8312,8 @@ window.LESSON_DATA = {
     "romaji": "patokā",
     "en": "Police car",
     "group": "n",
+    "pos": "Noun",
+    "sub": "",
     "distractors": [
      9,
      7,
@@ -7452,6 +8326,8 @@ window.LESSON_DATA = {
     "romaji": "shōbō-sha",
     "en": "Fire engine",
     "group": "n",
+    "pos": "Noun",
+    "sub": "",
     "ruby": [
      [
       "消防車",
@@ -7470,6 +8346,8 @@ window.LESSON_DATA = {
     "romaji": "keisatsu",
     "en": "Police",
     "group": "n",
+    "pos": "Noun",
+    "sub": "",
     "ruby": [
      [
       "警察",
@@ -7488,6 +8366,8 @@ window.LESSON_DATA = {
     "romaji": "kawakimasu / kawaku (nodo ga ~)",
     "en": "To get thirsty",
     "group": "v",
+    "pos": "Verb",
+    "sub": "Group I · u-verb",
     "distractors": [
      12,
      4,
@@ -7500,6 +8380,8 @@ window.LESSON_DATA = {
     "romaji": "sukimasu / suku (onaka ga ~)",
     "en": "To get hungry",
     "group": "v",
+    "pos": "Verb",
+    "sub": "Group I · u-verb",
     "distractors": [
      11,
      6,
@@ -7518,6 +8400,8 @@ window.LESSON_DATA = {
     "romaji": "zenbu",
     "en": "All",
     "group": "n",
+    "pos": "Noun",
+    "sub": "",
     "distractors": [
      23,
      21,
@@ -7530,6 +8414,8 @@ window.LESSON_DATA = {
     "romaji": "kopii-shimasu / kopii-suru",
     "en": "To photocopy",
     "group": "v",
+    "pos": "Verb",
+    "sub": "Group III · irregular (する / 来る)",
     "distractors": [
      13,
      4,
@@ -7542,6 +8428,8 @@ window.LESSON_DATA = {
     "romaji": "koshō",
     "en": "Breakdown",
     "group": "n",
+    "pos": "Noun",
+    "sub": "",
     "distractors": [
      34,
      18,
@@ -7554,6 +8442,8 @@ window.LESSON_DATA = {
     "romaji": "sekkei-shimasu / sekkei-suru",
     "en": "To design",
     "group": "v",
+    "pos": "Verb",
+    "sub": "Group III · irregular (する / 来る)",
     "ruby": [
      [
       "設計",
@@ -7584,6 +8474,8 @@ window.LESSON_DATA = {
     "romaji": "demasu / deru (kōgi ni ~)",
     "en": "To attend (a lecture)",
     "group": "v",
+    "pos": "Verb",
+    "sub": "Group II · ru-verb (drop る)",
     "ruby": [
      [
       "出",
@@ -7622,6 +8514,8 @@ window.LESSON_DATA = {
     "romaji": "kyūkō",
     "en": "Class cancelled",
     "group": "n",
+    "pos": "Noun",
+    "sub": "",
     "ruby": [
      [
       "休講",
@@ -7640,6 +8534,8 @@ window.LESSON_DATA = {
     "romaji": "ikaga",
     "en": "How about (the polite equivalent of 'dō')",
     "group": "q",
+    "pos": "Question word",
+    "sub": "",
     "distractors": [
      31,
      39,
@@ -7652,6 +8548,8 @@ window.LESSON_DATA = {
     "romaji": "dame desu",
     "en": "Must not, no good",
     "group": "exp",
+    "pos": "Expression",
+    "sub": "set phrase",
     "distractors": [
      31,
      28,
@@ -7664,6 +8562,8 @@ window.LESSON_DATA = {
     "romaji": "kibun",
     "en": "Feeling",
     "group": "n",
+    "pos": "Noun",
+    "sub": "",
     "ruby": [
      [
       "気分",
@@ -7682,6 +8582,8 @@ window.LESSON_DATA = {
     "romaji": "netsu",
     "en": "Fever",
     "group": "n",
+    "pos": "Noun",
+    "sub": "",
     "distractors": [
      17,
      19,
@@ -7694,6 +8596,8 @@ window.LESSON_DATA = {
     "romaji": "kaze o hikimasu / kaze o hiku",
     "en": "To catch a cold",
     "group": "v",
+    "pos": "Verb",
+    "sub": "Group I · u-verb",
     "distractors": [
      33,
      5,
@@ -7706,6 +8610,8 @@ window.LESSON_DATA = {
     "romaji": "seki ga demasu / seki ga deru",
     "en": "To cough",
     "group": "v",
+    "pos": "Verb",
+    "sub": "Group II · ru-verb (drop る)",
     "ruby": [
      [
       "せきが ",
@@ -7740,6 +8646,8 @@ window.LESSON_DATA = {
     "romaji": "kushami ga demasu / kushami ga deru",
     "en": "To sneeze",
     "group": "v",
+    "pos": "Verb",
+    "sub": "Group II · ru-verb (drop る)",
     "ruby": [
      [
       "くしゃみが ",
@@ -7774,6 +8682,8 @@ window.LESSON_DATA = {
     "romaji": "hanamizu ga demasu / hanamizu ga deru",
     "en": "To have a runny nose",
     "group": "v",
+    "pos": "Verb",
+    "sub": "Group II · ru-verb (drop る)",
     "ruby": [
      [
       "はなみずが ",
@@ -7808,6 +8718,8 @@ window.LESSON_DATA = {
     "romaji": "kami",
     "en": "Hair",
     "group": "n",
+    "pos": "Noun",
+    "sub": "",
     "distractors": [
      24,
      26,
@@ -7820,6 +8732,8 @@ window.LESSON_DATA = {
     "romaji": "hana",
     "en": "Nose",
     "group": "n",
+    "pos": "Noun",
+    "sub": "",
     "distractors": [
      25,
      15,
@@ -7832,6 +8746,8 @@ window.LESSON_DATA = {
     "romaji": "kuchi",
     "en": "Mouth",
     "group": "n",
+    "pos": "Noun",
+    "sub": "",
     "ruby": [
      [
       "口",
@@ -7850,6 +8766,8 @@ window.LESSON_DATA = {
     "romaji": "kata",
     "en": "Shoulder",
     "group": "n",
+    "pos": "Noun",
+    "sub": "",
     "distractors": [
      3,
      34,
@@ -7862,6 +8780,8 @@ window.LESSON_DATA = {
     "romaji": "yubi",
     "en": "Finger",
     "group": "n",
+    "pos": "Noun",
+    "sub": "",
     "distractors": [
      27,
      9,
@@ -7874,6 +8794,8 @@ window.LESSON_DATA = {
     "romaji": "hone",
     "en": "Bone",
     "group": "n",
+    "pos": "Noun",
+    "sub": "",
     "distractors": [
      26,
      16,
@@ -7886,6 +8808,8 @@ window.LESSON_DATA = {
     "romaji": "me",
     "en": "Eye",
     "group": "n",
+    "pos": "Noun",
+    "sub": "",
     "ruby": [
      [
       "目",
@@ -7904,6 +8828,8 @@ window.LESSON_DATA = {
     "romaji": "kubi",
     "en": "Neck",
     "group": "n",
+    "pos": "Noun",
+    "sub": "",
     "ruby": [
      [
       "首",
@@ -7922,6 +8848,8 @@ window.LESSON_DATA = {
     "romaji": "mimi",
     "en": "Ear",
     "group": "n",
+    "pos": "Noun",
+    "sub": "",
     "ruby": [
      [
       "耳",
@@ -7940,6 +8868,8 @@ window.LESSON_DATA = {
     "romaji": "senaka",
     "en": "Back",
     "group": "n",
+    "pos": "Noun",
+    "sub": "",
     "distractors": [
      20,
      15,
@@ -7952,6 +8882,8 @@ window.LESSON_DATA = {
     "romaji": "te",
     "en": "Hand",
     "group": "n",
+    "pos": "Noun",
+    "sub": "",
     "ruby": [
      [
       "手",
@@ -7970,6 +8902,8 @@ window.LESSON_DATA = {
     "romaji": "hiza",
     "en": "Knee",
     "group": "n",
+    "pos": "Noun",
+    "sub": "",
     "distractors": [
      16,
      20,
@@ -7982,6 +8916,8 @@ window.LESSON_DATA = {
     "romaji": "onegai",
     "en": "Request",
     "group": "n",
+    "pos": "Noun",
+    "sub": "",
     "distractors": [
      9,
      32,
@@ -7994,6 +8930,8 @@ window.LESSON_DATA = {
     "romaji": "ā",
     "en": "Yes",
     "group": "exp",
+    "pos": "Expression",
+    "sub": "set phrase",
     "distractors": [
      8,
      31,
@@ -8006,6 +8944,8 @@ window.LESSON_DATA = {
     "romaji": "tokuni",
     "en": "Especially",
     "group": "adv",
+    "pos": "Adverb",
+    "sub": "",
     "ruby": [
      [
       "特",
@@ -8028,6 +8968,8 @@ window.LESSON_DATA = {
     "romaji": "bubun",
     "en": "Part",
     "group": "n",
+    "pos": "Noun",
+    "sub": "",
     "ruby": [
      [
       "部分",
@@ -8046,6 +8988,8 @@ window.LESSON_DATA = {
     "romaji": "Yoroshiku onegai-shimasu.",
     "en": "I look forward to your help.",
     "group": "exp",
+    "pos": "Expression",
+    "sub": "set phrase",
     "distractors": [
      8,
      28,
@@ -8058,6 +9002,8 @@ window.LESSON_DATA = {
     "romaji": "purinta",
     "en": "Printer",
     "group": "n",
+    "pos": "Noun",
+    "sub": "",
     "distractors": [
      9,
      27,
@@ -8070,6 +9016,8 @@ window.LESSON_DATA = {
     "romaji": "naoshimasu / naosu",
     "en": "To repair, to correct",
     "group": "v",
+    "pos": "Verb",
+    "sub": "Group I · u-verb",
     "distractors": [
      5,
      11,
@@ -8082,6 +9030,8 @@ window.LESSON_DATA = {
     "romaji": "chōshi",
     "en": "Condition",
     "group": "n",
+    "pos": "Noun",
+    "sub": "",
     "distractors": [
      3,
      18,
@@ -8094,6 +9044,8 @@ window.LESSON_DATA = {
     "romaji": "okashii",
     "en": "Strange",
     "group": "adj",
+    "pos": "Adjective",
+    "sub": "i-adjective · ends in い",
     "distractors": [
      37,
      9,
@@ -8106,6 +9058,8 @@ window.LESSON_DATA = {
     "romaji": "mimasu / miru",
     "en": "To check",
     "group": "v",
+    "pos": "Verb",
+    "sub": "Group II · ru-verb (drop る)",
     "distractors": [
      12,
      13,
@@ -8118,6 +9072,8 @@ window.LESSON_DATA = {
     "romaji": "sōiu",
     "en": "Such a",
     "group": "adj",
+    "pos": "Adjective",
+    "sub": "pre-noun word · always comes before a noun",
     "distractors": [
      35,
      19,
@@ -8130,6 +9086,8 @@ window.LESSON_DATA = {
     "romaji": "Akihabara",
     "en": "Akihabara (name of place)",
     "group": "n",
+    "pos": "Noun",
+    "sub": "",
     "ruby": [
      [
       "秋葉原",
@@ -8148,6 +9106,8 @@ window.LESSON_DATA = {
     "romaji": "denki-ya",
     "en": "Electrical appliance shop",
     "group": "n",
+    "pos": "Noun",
+    "sub": "",
     "ruby": [
      [
       "電気屋",
@@ -8166,6 +9126,8 @@ window.LESSON_DATA = {
     "romaji": "kengaku-shimasu / kengaku-suru",
     "en": "To go on a study visit",
     "group": "v",
+    "pos": "Verb",
+    "sub": "Group III · irregular (する / 来る)",
     "ruby": [
      [
       "見学",
@@ -8202,6 +9164,8 @@ window.LESSON_DATA = {
     "romaji": "narimasu / naru",
     "en": "To become",
     "group": "v",
+    "pos": "Verb",
+    "sub": "Group I · u-verb",
     "distractors": [
      2,
      7,
@@ -8214,6 +9178,8 @@ window.LESSON_DATA = {
     "romaji": "hajimarimasu / hajimaru",
     "en": "To start",
     "group": "v",
+    "pos": "Verb",
+    "sub": "Group I · u-verb",
     "ruby": [
      [
       "始",
@@ -8244,6 +9210,8 @@ window.LESSON_DATA = {
     "romaji": "hōmu-shikku",
     "en": "Homesick",
     "group": "n",
+    "pos": "Noun",
+    "sub": "",
     "distractors": [
      5,
      13,
@@ -8256,6 +9224,8 @@ window.LESSON_DATA = {
     "romaji": "hosuto-famirii",
     "en": "Host family",
     "group": "n",
+    "pos": "Noun",
+    "sub": "",
     "distractors": [
      9,
      13,
@@ -8268,6 +9238,8 @@ window.LESSON_DATA = {
     "romaji": "(o-)shōgatsu",
     "en": "New Year",
     "group": "n",
+    "pos": "Noun",
+    "sub": "",
     "ruby": [
      [
       "(お)",
@@ -8290,6 +9262,8 @@ window.LESSON_DATA = {
     "romaji": "ukemasu / ukeru (shiken o ~)",
     "en": "To take (an examination)",
     "group": "v",
+    "pos": "Verb",
+    "sub": "Group II · ru-verb (drop る)",
     "ruby": [
      [
       "うけます・うける(",
@@ -8316,6 +9290,8 @@ window.LESSON_DATA = {
     "romaji": "iwaimasu / iwau",
     "en": "To celebrate",
     "group": "v",
+    "pos": "Verb",
+    "sub": "Group I · u-verb",
     "distractors": [
      6,
      1,
@@ -8328,6 +9304,8 @@ window.LESSON_DATA = {
     "romaji": "Omedetō gozaimasu.",
     "en": "Congratulations.",
     "group": "exp",
+    "pos": "Expression",
+    "sub": "set phrase",
     "distractors": [
      12,
      17,
@@ -8340,6 +9318,8 @@ window.LESSON_DATA = {
     "romaji": "Gōruden-uiiku",
     "en": "Golden Week",
     "group": "n",
+    "pos": "Noun",
+    "sub": "",
     "distractors": [
      4,
      13,
@@ -8352,6 +9332,8 @@ window.LESSON_DATA = {
     "romaji": "taihen",
     "en": "Very",
     "group": "adv",
+    "pos": "Adverb",
+    "sub": "",
     "ruby": [
      [
       "大変",
@@ -8370,6 +9352,8 @@ window.LESSON_DATA = {
     "romaji": "Osewa ni narimashita.",
     "en": "Thank you for what you have done for me.",
     "group": "exp",
+    "pos": "Expression",
+    "sub": "set phrase",
     "ruby": [
      [
       "お",
@@ -8396,6 +9380,8 @@ window.LESSON_DATA = {
     "romaji": "okagesama de",
     "en": "Thanks to (you)",
     "group": "exp",
+    "pos": "Expression",
+    "sub": "set phrase",
     "distractors": [
      8,
      17,
@@ -8408,6 +9394,8 @@ window.LESSON_DATA = {
     "romaji": "keiken",
     "en": "Experience",
     "group": "n",
+    "pos": "Noun",
+    "sub": "",
     "ruby": [
      [
       "経験",
@@ -8426,6 +9414,8 @@ window.LESSON_DATA = {
     "romaji": "~sama",
     "en": "Mr., Ms. (polite equivalent of '-san')",
     "group": "suf",
+    "pos": "Suffix",
+    "sub": "attaches to a word",
     "ruby": [
      [
       "～",
@@ -8448,6 +9438,8 @@ window.LESSON_DATA = {
     "romaji": "itsuka",
     "en": "Someday",
     "group": "adv",
+    "pos": "Adverb",
+    "sub": "",
     "distractors": [
      10,
      5,
@@ -8460,6 +9452,8 @@ window.LESSON_DATA = {
     "romaji": "soredewa",
     "en": "Well, then",
     "group": "conj",
+    "pos": "Conjunction",
+    "sub": "joins sentences",
     "distractors": [
      13,
      9,
@@ -8472,6 +9466,8 @@ window.LESSON_DATA = {
     "romaji": "Ogenki de.",
     "en": "Take care of yourself.",
     "group": "exp",
+    "pos": "Expression",
+    "sub": "set phrase",
     "ruby": [
      [
       "お",

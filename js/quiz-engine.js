@@ -21,9 +21,10 @@
     return a;
   }
 
-  // Question order is the textbook order; only the four option positions are shuffled.
+  // Both the order of the questions and the positions of the four options are shuffled for every
+  // attempt, so the answers cannot be memorised by position or sequence.
   function buildQuestions(words) {
-    return words.map((w) => ({
+    return shuffle(words).map((w) => ({
       wordId: w.id,
       correct: w.en,
       options: shuffle([w.en, ...w.distractors.map((k) => words[k - 1].en)]),
@@ -67,6 +68,18 @@
     return "wrong";
   }
 
+  // The countdown ran out: counts as a wrong answer with no selection. Returns "wrong" | "ignored".
+  function expire(s) {
+    if (s.status !== "question" || s.answered.has(s.index)) return "ignored";
+    const q = s.questions[s.index];
+    const w = currentWord(s);
+    s.answered.add(s.index);
+    s.lastSelected = null;
+    s.wrong.push({ id: w.id, ja: w.ja, romaji: w.romaji, correct: q.correct, selected: "Time's up" });
+    s.status = "wrong_answer_feedback";
+    return "wrong";
+  }
+
   // Moves on exactly once, from either feedback state.
   function advance(s) {
     if (s.status !== "correct_feedback" && s.status !== "wrong_answer_feedback") return false;
@@ -76,7 +89,7 @@
     return true;
   }
 
-  const api = { shuffle, buildQuestions, createSession, currentWord, choose, advance };
+  const api = { shuffle, buildQuestions, createSession, currentWord, choose, expire, advance };
   root.QuizEngine = api;
   if (typeof module !== "undefined" && module.exports) module.exports = api;
 })(typeof window !== "undefined" ? window : globalThis);
