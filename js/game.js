@@ -80,13 +80,16 @@
       canvas.className = "fx-canvas"; canvas.setAttribute("aria-hidden", "true");
       document.body.appendChild(canvas);
     }
-    const dpr = window.devicePixelRatio || 1;
-    canvas.width = innerWidth * dpr; canvas.height = innerHeight * dpr;
+    const dpr = Math.min(window.devicePixelRatio || 1, 2);
+    const w = Math.round(innerWidth * dpr), h = Math.round(innerHeight * dpr);
+    if (canvas.width !== w || canvas.height !== h) { canvas.width = w; canvas.height = h; }
+    count = Math.min(count, 90);
     for (let i = 0; i < count; i++) {
       const a = Math.random() * Math.PI * 2, v = (Math.random() * 0.6 + 0.4) * power;
       parts.push({ x, y, vx: Math.cos(a) * v, vy: Math.sin(a) * v - power * 0.6, r: Math.random() * 6 + 3, rot: Math.random() * 6, vr: (Math.random() - 0.5) * 0.4, c: COLORS[(Math.random() * COLORS.length) | 0], life: 1 });
     }
     if (!raf) raf = requestAnimationFrame(step.bind(null, canvas.getContext("2d"), dpr));
+    if (parts.length > 160) parts.splice(0, parts.length - 160);
   }
   function step(ctx, dpr) {
     ctx.clearRect(0, 0, canvas.width, canvas.height);
@@ -126,28 +129,37 @@
 
   /* ---------- HUD ---------- */
   const hudEl = () => document.getElementById("hud");
+  let lastXp = null;   // previous XP-line fill (0..1) so the bar glides instead of snapping
   function renderHud(s) {
     const el = hudEl();
     if (!el) return;
     const lv = levelOf(p.xp), lo = levelFloor(lv), hi = levelFloor(lv + 1);
-    const pct = Math.round(((p.xp - lo) / (hi - lo)) * 100);
+    const frac = (p.xp - lo) / (hi - lo);
     const combo = s ? s.combo || 0 : 0;
     const goal = Math.min(todayCount(), DAILY_GOAL);
     const circ = 2 * Math.PI * 15;
     const streak = liveStreak();
     el.innerHTML = `
-      <div class="hud-lv" title="${p.xp - lo} / ${hi - lo} XP to next level">
-        <span class="lv-badge">Lv ${lv}</span>
-        <div class="xp"><div class="xp-bar" role="progressbar" aria-label="Level progress" aria-valuemin="0" aria-valuemax="100" aria-valuenow="${pct}"><span style="width:${pct}%"></span></div>
-        <small>${p.xp - lo} / ${hi - lo} XP</small></div>
-      </div>
-      <div class="chip combo${combo >= 3 ? " hot" : ""}${combo >= 8 ? " blaze" : ""}" id="combo-chip" title="Answer correctly in a row to build a combo"><span aria-hidden="true">🔥</span> Combo <b>x${combo}</b></div>
-      <div class="chip" title="Days in a row you have practised"><span aria-hidden="true">📅</span> <b>${streak}</b> day${streak === 1 ? "" : "s"}</div>
-      <div class="chip goal${goal >= DAILY_GOAL ? " done" : ""}" title="Daily goal: ${DAILY_GOAL} correct answers">
+      <span class="lv-badge" title="${p.xp - lo} / ${hi - lo} XP to next level">Lv ${lv}</span>
+      <div class="chip combo${combo >= 3 ? " hot" : ""}${combo >= 8 ? " blaze" : ""}" id="combo-chip" title="Correct answers in a row" aria-label="Combo ${combo}"><span class="ic" aria-hidden="true">🔥</span><b>${combo}</b></div>
+      <div class="chip" title="Days in a row you have practised" aria-label="${streak} day streak"><span aria-hidden="true">📅</span><b>${streak}</b></div>
+      <div class="chip goal${goal >= DAILY_GOAL ? " done" : ""}" title="Daily goal: ${goal}/${DAILY_GOAL} correct answers" aria-label="Daily goal ${goal} of ${DAILY_GOAL}">
         <svg viewBox="0 0 36 36" aria-hidden="true"><circle cx="18" cy="18" r="15" class="g-bg"/><circle cx="18" cy="18" r="15" class="g-fg" stroke-dasharray="${circ}" stroke-dashoffset="${circ * (1 - goal / DAILY_GOAL)}"/></svg>
-        <span>Daily <b>${goal}/${DAILY_GOAL}</b></span>
+        <b>${goal}</b>
       </div>
-      <button type="button" class="chip snd" id="snd" aria-pressed="${!p.muted}" aria-label="Sound effects">${p.muted ? "🔇" : "🔊"}</button>`;
+      <button type="button" class="chip snd" id="snd" aria-pressed="${!p.muted}" aria-label="Sound effects">${p.muted ? "🔇" : "🔊"}</button>
+      <div class="xpline" role="progressbar" aria-label="Level progress" aria-valuemin="0" aria-valuemax="100" aria-valuenow="${Math.round(frac * 100)}"><span></span></div>`;
+    glide(el.querySelector(".xpline > span"), lastXp === null || lastXp > frac ? frac : lastXp, frac);
+    lastXp = frac;
+  }
+  // Starts a bar at `from`, then transitions to `to` (transform only, so it stays on the GPU).
+  function glide(bar, from, to) {
+    if (!bar) return;
+    bar.style.transition = "none";
+    bar.style.transform = `scaleX(${from})`;
+    void bar.offsetWidth;
+    bar.style.transition = "";
+    bar.style.transform = `scaleX(${to})`;
   }
   function bindHud() {
     const el = hudEl();
@@ -246,5 +258,5 @@
   const lessonStars = (n) => p.stars[n] || 0;
   const level = () => levelOf(p.xp);
 
-  window.Game = { questionShown, answered, fx, finish, finishFx, renderHud, bindHud, lessonStars, level, DAILY_GOAL };
+  window.Game = { glide, questionShown, answered, fx, finish, finishFx, renderHud, bindHud, lessonStars, level, DAILY_GOAL };
 })();
