@@ -1,0 +1,79 @@
+{
+  "unit": 2,
+  "sentences": [
+    { "id": "s2-01", "ja": "きょうは 月{げつ}曜{よう}日{び}です。", "en": "Today is Monday.", "focus": ["v-getsuyobi"] },
+    { "id": "s2-02", "ja": "火{か}曜{よう}日{び}に アルバイトが あります。", "en": "I have a part-time job on Tuesday.", "focus": ["v-kayobi"] },
+    { "id": "s2-03", "ja": "水{すい}曜{よう}日{び}は あめでした。", "en": "It rained on Wednesday.", "focus": ["v-suiyobi"] },
+    { "id": "s2-04", "ja": "木{もく}曜{よう}日{び}に ともだちと あいます。", "en": "I will meet a friend on Thursday.", "focus": ["v-mokuyobi"] },
+    { "id": "s2-05", "ja": "金{きん}曜{よう}日{び}の よる、パーティーが あります。", "en": "There is a party on Friday night.", "focus": ["v-kinyobi"] },
+    { "id": "s2-06", "ja": "日{にち}曜{よう}日{び}は がっこうが やすみです。", "en": "School is closed on Sunday.", "focus": ["v-nichiyobi"] },
+    { "id": "s2-07", "ja": "水{みず}を ください。", "en": "Water, please.", "focus": ["v-mizu"] },
+    { "id": "s2-08", "ja": "木{き}の したに ねこが います。", "en": "There is a cat under the tree.", "focus": ["v-ki"] },
+    { "id": "s2-09", "ja": "火{ひ}に きを つけて ください。", "en": "Please be careful with fire.", "focus": ["v-hi"] },
+    { "id": "s2-10", "ja": "お金{かね}が ありません。", "en": "I have no money.", "focus": ["v-okane"] },
+    { "id": "s2-11", "ja": "一{いち}月{がつ}は さむいです。", "en": "January is cold.", "focus": ["v-ichigatsu"] },
+    { "id": "s2-12", "ja": "三{さん}月{がつ}に 日本{にほん}へ いきます。", "en": "I will go to Japan in March.", "focus": ["v-sangatsu", "v-nihon"] },
+    { "id": "s2-13", "ja": "月{げつ}曜{よう}日{び}の つぎの 日{ひ}は 火{か}曜{よう}日{び}です。", "en": "The day after Monday is Tuesday.", "focus": ["v-getsuyobi", "v-kayobi"] },
+    { "id": "s2-14", "ja": "木{もく}曜{よう}日{び}の つぎは 金{きん}曜{よう}日{び}です。", "en": "The day after Thursday is Friday.", "focus": ["v-mokuyobi", "v-kinyobi"] },
+    { "id": "s2-15", "ja": "よるの そらに 月{つき}が でて います。", "en": "The moon is out in the night sky.", "focus": ["v-tsuki"] },
+    { "id": "s2-16", "ja": "のどが かわきました。水{みず}を ください。", "en": "I'm thirsty. Water, please.", "focus": ["v-mizu"] },
+    { "id": "s2-17", "ja": "かいものが できません。お金{かね}が ありません。", "en": "I can't go shopping. I have no money.", "focus": ["v-okane"] }
+  ],
+  "cloze": [
+    { "id": "c2-1", "sentence": "s2-13", "blank": "v-kayobi", "options": ["v-getsuyobi", "v-mokuyobi", "v-kinyobi"], "explain": "The day after Monday (月曜日) is Tuesday: 火曜日 (かようび)." },
+    { "id": "c2-2", "sentence": "s2-14", "blank": "v-kinyobi", "options": ["v-suiyobi", "v-nichiyobi", "v-getsuyobi"], "explain": "The day after Thursday (木曜日) is Friday: 金曜日 (きんようび)." },
+    { "id": "c2-3", "sentence": "s2-15", "blank": "v-tsuki", "options": ["v-hi", "v-mizu", "v-ki"], "explain": "A thing that appears in the night sky: 月 (つき), the moon." },
+    { "id": "c2-4", "sentence": "s2-16", "blank": "v-mizu", "options": ["v-hi", "v-ki", "v-tsuki"], "explain": "When you are thirsty you ask for 水 (みず), water." },
+    { "id": "c2-5", "sentence": "s2-17", "blank": "v-okane", "options": ["v-ki", "v-hi", "v-sangatsu"], "explain": "You cannot shop without お金 (おかね), money." }
+  ],
+  "passage": {
+    "id": "p2",
+    "title": "リナさんの 一週間{いっしゅうかん}",
+    "titleEn": "Rina's Week",
+    "paragraphs": [
+      "リナさんは 学校{がっこう}に かよって います。",
+      "月{げつ}曜{よう}日{び}と 水{すい}曜{よう}日{び}は 日本語{にほんご}の クラスが あります。",
+      "火{か}曜{よう}日{び}は アルバイトです。",
+      "木{もく}曜{よう}日{び}は 学校{がっこう}が 休{やす}みです。",
+      "金{きん}曜{よう}日{び}は ともだちと かいものに いきます。お金{かね}を たくさん つかいます。",
+      "土{ど}曜{よう}日{び}は うちで そうじを します。",
+      "日{にち}曜{よう}日{び}は 公園{こうえん}へ いきます。木{き}の 下{した}で 本{ほん}を よみます。水{みず}も もって いきます。"
+    ],
+    "paragraphsEn": [
+      "Rina goes to school.",
+      "On Monday and Wednesday she has a Japanese class.",
+      "On Tuesday she has her part-time job.",
+      "On Thursday there is no school.",
+      "On Friday she goes shopping with friends. She spends a lot of money.",
+      "On Saturday she cleans at home.",
+      "On Sunday she goes to the park. She reads a book under a tree. She also takes water with her."
+    ],
+    "questions": [
+      {
+        "id": "q2-1", "q": "リナさんは 何{なん}曜{よう}日{び}に アルバイトを しますか。", "qEn": "On which day does Rina do her part-time job?",
+        "options": ["月{げつ}曜{よう}日{び}", "火{か}曜{よう}日{び}", "水{すい}曜{よう}日{び}", "木{もく}曜{よう}日{び}"], "answer": 1, "kanji": ["火", "曜"],
+        "explain": "火曜日は アルバイトです."
+      },
+      {
+        "id": "q2-2", "q": "日本語{にほんご}の クラスは いつ ありますか。", "qEn": "When is the Japanese class?",
+        "options": ["月{げつ}曜{よう}日{び}と 水{すい}曜{よう}日{び}", "火{か}曜{よう}日{び}と 木{もく}曜{よう}日{び}", "金{きん}曜{よう}日{び}と 土{ど}曜{よう}日{び}", "日{にち}曜{よう}日{び}だけ"], "answer": 0, "kanji": ["月", "水", "曜"],
+        "explain": "月曜日と 水曜日は 日本語の クラスが あります."
+      },
+      {
+        "id": "q2-3", "q": "日{にち}曜{よう}日{び}に、リナさんは どこで 本{ほん}を よみますか。", "qEn": "Where does Rina read a book on Sunday?",
+        "options": ["学校{がっこう}で", "うちで", "木{き}の 下{した}で", "ともだちの うちで"], "answer": 2, "kanji": ["木", "本"],
+        "explain": "木の 下で 本を よみます — under a tree in the park."
+      },
+      {
+        "id": "q2-4", "q": "金{きん}曜{よう}日{び}に、リナさんは 何{なに}を しますか。", "qEn": "What does Rina do on Friday?",
+        "options": ["ともだちと かいものに いきます。", "アルバイトを します。", "うちで そうじを します。", "公園{こうえん}へ いきます。"], "answer": 0, "kanji": ["金", "曜"],
+        "explain": "金曜日は ともだちと かいものに いきます."
+      },
+      {
+        "id": "q2-5", "q": "かいもので、リナさんは 何{なに}を たくさん つかいますか。", "qEn": "What does Rina spend a lot of when she shops?",
+        "options": ["お金{かね}", "水{みず}", "本{ほん}", "木{き}"], "answer": 0, "kanji": ["金"],
+        "explain": "お金を たくさん つかいます."
+      }
+    ]
+  }
+}

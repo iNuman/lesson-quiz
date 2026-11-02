@@ -1,0 +1,50 @@
+{
+  "schema": 1,
+  "title": "JLPT N5 Kanji & Reading Track",
+  "defaults": { "newPerDay": 6, "reviewCap": 10 },
+  "capabilities": {
+    "listening": false,
+    "mockExam": false,
+    "grammarLessons": false,
+    "unfamiliarPassages": false
+  },
+  "sources": [
+    {
+      "id": "kanjidic2",
+      "name": "KANJIDIC2",
+      "publisher": "Electronic Dictionary Research and Development Group (EDRDG)",
+      "url": "http://www.edrdg.org/kanjidic/kanjd2index.html",
+      "use": "Kanji readings (on/kun), English meanings and the old 4-level JLPT tag. Every reading and meaning in kanji.json must be a member of the KANJIDIC2 entry.",
+      "licence": "CC BY-SA 4.0 (EDRDG)"
+    },
+    {
+      "id": "jmdict",
+      "name": "JMdict (queried through the Jisho.org API)",
+      "publisher": "EDRDG / Jisho.org",
+      "url": "https://jisho.org/api/v1/search/words",
+      "use": "Vocabulary spellings, readings and glosses, and the reading of every kanji run used in sentences and passages. Distractor spellings are checked so that none is a real word with the same reading.",
+      "licence": "CC BY-SA 4.0 (EDRDG)"
+    },
+    {
+      "id": "original",
+      "name": "Original material",
+      "publisher": "This project",
+      "url": "",
+      "use": "Example sentences, reading passages and comprehension questions are original text written for this app. They are NOT copied from any textbook or JLPT examination.",
+      "licence": "Project licence"
+    }
+  ],
+  "jlptNote": "The JLPT has published no official kanji list since 2010. 'N5' membership here follows the old level-4 tag in KANJIDIC2 plus kanji that N5 vocabulary needs. 曜 is tagged old level 3 in KANJIDIC2 but is included because 〜曜日 (days of the week) is core N5 vocabulary.",
+  "review": {
+    "kanji": "Readings and meanings are machine-checked against KANJIDIC2. A proficient reader should still confirm the selection of taught readings.",
+    "vocabulary": "Spellings and readings are machine-checked against JMdict. English glosses are shortened by hand.",
+    "sentences": "Original text. Spelling/readings are machine-checked, but naturalness is NOT checked. NEEDS REVIEW by a proficient Japanese speaker.",
+    "passages": "Original text. NEEDS REVIEW by a proficient Japanese speaker (naturalness, level, answer uniqueness).",
+    "questions": "Original questions and hand-picked distractors. NEEDS REVIEW by a proficient Japanese speaker."
+  },
+  "units": [
+    { "id": 1, "title": "People & Numbers", "titleJa": "人{ひと}と かず", "kanji": ["人", "日", "本", "一", "二", "三"] },
+    { "id": 2, "title": "Days of the Week", "titleJa": "曜日{ようび}", "kanji": ["月", "火", "水", "木", "金", "曜"] },
+    { "id": 3, "title": "School & Now", "titleJa": "学生{がくせい}と 先生{せんせい}", "kanji": ["土", "今", "何", "学", "生", "先"] }
+  ]
+}

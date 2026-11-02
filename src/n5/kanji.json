@@ -1,0 +1,20 @@
+[
+  { "id": "人", "meaning": "person", "meanings": ["person"], "on": ["ジン", "ニン"], "kun": ["ひと"] },
+  { "id": "日", "meaning": "day; sun", "meanings": ["day", "sun"], "on": ["ニチ", "ジツ"], "kun": ["ひ", "-び", "-か"], "note": "Irregular in dates: 二日 ふつか, 三日 みっか." },
+  { "id": "本", "meaning": "book; origin", "meanings": ["book", "origin"], "on": ["ホン"], "kun": ["もと"], "note": "日本 = 'origin of the sun' = Japan." },
+  { "id": "一", "meaning": "one", "meanings": ["one"], "on": ["イチ", "イツ"], "kun": ["ひと-", "ひと.つ"], "note": "一人 is read ひとり, not いちにん." },
+  { "id": "二", "meaning": "two", "meanings": ["two"], "on": ["ニ", "ジ"], "kun": ["ふた", "ふた.つ"], "note": "二人 is read ふたり." },
+  { "id": "三", "meaning": "three", "meanings": ["three"], "on": ["サン"], "kun": ["み", "み.つ", "みっ.つ"] },
+  { "id": "月", "meaning": "month; moon", "meanings": ["month", "moon"], "on": ["ゲツ", "ガツ"], "kun": ["つき"] },
+  { "id": "火", "meaning": "fire", "meanings": ["fire"], "on": ["カ"], "kun": ["ひ", "-び"] },
+  { "id": "水", "meaning": "water", "meanings": ["water"], "on": ["スイ"], "kun": ["みず"] },
+  { "id": "木", "meaning": "tree; wood", "meanings": ["tree", "wood"], "on": ["モク", "ボク"], "kun": ["き"] },
+  { "id": "金", "meaning": "gold", "meanings": ["gold"], "on": ["キン", "コン"], "kun": ["かね"], "note": "Also 'money' in お金 (おかね), per JMdict." },
+  { "id": "曜", "meaning": "weekday", "meanings": ["weekday"], "on": ["ヨウ"], "kun": [], "jlptNote": "Old level 3 in KANJIDIC2; included because 〜曜日 is core N5 vocabulary." },
+  { "id": "土", "meaning": "soil; earth", "meanings": ["soil", "earth"], "on": ["ド", "ト"], "kun": ["つち"] },
+  { "id": "今", "meaning": "now", "meanings": ["now"], "on": ["コン", "キン"], "kun": ["いま"], "note": "今日 is read きょう (irregular)." },
+  { "id": "何", "meaning": "what", "meanings": ["what"], "on": ["カ"], "kun": ["なに", "なん"] },
+  { "id": "学", "meaning": "study", "meanings": ["study"], "on": ["ガク"], "kun": ["まな.ぶ"] },
+  { "id": "生", "meaning": "life; birth", "meanings": ["life", "birth"], "on": ["セイ", "ショウ"], "kun": ["い.きる", "う.まれる", "なま"] },
+  { "id": "先", "meaning": "before; ahead", "meanings": ["before", "ahead"], "on": ["セン"], "kun": ["さき"] }
+]

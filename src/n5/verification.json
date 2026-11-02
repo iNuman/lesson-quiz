@@ -1,0 +1,1585 @@
+{
+ "generatedAt": "2026-11-02T14:39:47.482Z",
+ "contentHash": "b572686064a4d5cd86372f6286029bdc4030e75357f474f03ce707a328223a24",
+ "sources": {
+  "kanjidic2": {
+   "databaseVersion": "2026-306",
+   "createdOn": "2026-11-02",
+   "url": "http://www.edrdg.org/kanjidic/kanjd2index.html"
+  },
+  "jmdict": {
+   "via": "https://jisho.org/api/v1/search/words",
+   "queriedOn": "2026-11-02"
+  }
+ },
+ "summary": {
+  "kanji": "18/18",
+  "vocabulary": "35/35",
+  "readingRuns": "61/61",
+  "lookalikes": "105/105",
+  "failures": 0,
+  "warnings": 0
+ },
+ "warnings": [],
+ "failures": [],
+ "kanji": {
+  "人": {
+   "ok": true,
+   "jlptOld": 4,
+   "grade": 1,
+   "issues": []
+  },
+  "日": {
+   "ok": true,
+   "jlptOld": 4,
+   "grade": 1,
+   "issues": []
+  },
+  "本": {
+   "ok": true,
+   "jlptOld": 4,
+   "grade": 1,
+   "issues": []
+  },
+  "一": {
+   "ok": true,
+   "jlptOld": 4,
+   "grade": 1,
+   "issues": []
+  },
+  "二": {
+   "ok": true,
+   "jlptOld": 4,
+   "grade": 1,
+   "issues": []
+  },
+  "三": {
+   "ok": true,
+   "jlptOld": 4,
+   "grade": 1,
+   "issues": []
+  },
+  "月": {
+   "ok": true,
+   "jlptOld": 4,
+   "grade": 1,
+   "issues": []
+  },
+  "火": {
+   "ok": true,
+   "jlptOld": 4,
+   "grade": 1,
+   "issues": []
+  },
+  "水": {
+   "ok": true,
+   "jlptOld": 4,
+   "grade": 1,
+   "issues": []
+  },
+  "木": {
+   "ok": true,
+   "jlptOld": 4,
+   "grade": 1,
+   "issues": []
+  },
+  "金": {
+   "ok": true,
+   "jlptOld": 4,
+   "grade": 1,
+   "issues": []
+  },
+  "曜": {
+   "ok": true,
+   "jlptOld": 3,
+   "grade": 2,
+   "issues": [],
+   "note": "KANJIDIC2 old JLPT level 3 (4 = N5-equivalent)"
+  },
+  "土": {
+   "ok": true,
+   "jlptOld": 4,
+   "grade": 1,
+   "issues": []
+  },
+  "今": {
+   "ok": true,
+   "jlptOld": 4,
+   "grade": 2,
+   "issues": []
+  },
+  "何": {
+   "ok": true,
+   "jlptOld": 4,
+   "grade": 2,
+   "issues": []
+  },
+  "学": {
+   "ok": true,
+   "jlptOld": 4,
+   "grade": 1,
+   "issues": []
+  },
+  "生": {
+   "ok": true,
+   "jlptOld": 4,
+   "grade": 1,
+   "issues": []
+  },
+  "先": {
+   "ok": true,
+   "jlptOld": 4,
+   "grade": 1,
+   "issues": []
+  }
+ },
+ "vocab": {
+  "v-hito": {
+   "ok": true,
+   "ja": "人",
+   "readings": [
+    "ひと"
+   ],
+   "allReadings": [
+    "ひと",
+    "にん",
+    "じん",
+    "と"
+   ],
+   "gloss": [
+    "person",
+    "someone",
+    "somebody",
+    "human beings",
+    "mankind",
+    "man"
+   ],
+   "issues": []
+  },
+  "v-nihon": {
+   "ok": true,
+   "ja": "日本",
+   "readings": [
+    "にほん",
+    "にっぽん"
+   ],
+   "allReadings": [
+    "にほん",
+    "にっぽん"
+   ],
+   "gloss": [
+    "japan",
+    "japan",
+    "japan",
+    "japan"
+   ],
+   "issues": []
+  },
+  "v-nihonjin": {
+   "ok": true,
+   "ja": "日本人",
+   "readings": [
+    "にほんじん",
+    "にっぽんじん"
+   ],
+   "allReadings": [
+    "にほんじん",
+    "にっぽんじん"
+   ],
+   "gloss": [
+    "japanese person",
+    "japanese people",
+    "japanese person",
+    "japanese people"
+   ],
+   "issues": []
+  },
+  "v-hitori": {
+   "ok": true,
+   "ja": "一人",
+   "readings": [
+    "ひとり"
+   ],
+   "allReadings": [
+    "ひとり",
+    "いちにん"
+   ],
+   "gloss": [
+    "one person",
+    "being alone",
+    "being by oneself",
+    "being single",
+    "being unmarried",
+    "by oneself"
+   ],
+   "issues": []
+  },
+  "v-futari": {
+   "ok": true,
+   "ja": "二人",
+   "readings": [
+    "ふたり"
+   ],
+   "allReadings": [
+    "ふたり",
+    "ににん"
+   ],
+   "gloss": [
+    "two persons",
+    "two people",
+    "pair",
+    "couple"
+   ],
+   "issues": []
+  },
+  "v-sannin": {
+   "ok": true,
+   "ja": "三人",
+   "readings": [
+    "さんにん"
+   ],
+   "allReadings": [
+    "さんにん",
+    "みたり"
+   ],
+   "gloss": [
+    "three people"
+   ],
+   "issues": []
+  },
+  "v-hitotsu": {
+   "ok": true,
+   "ja": "一つ",
+   "readings": [
+    "ひとつ"
+   ],
+   "allReadings": [
+    "ひとつ"
+   ],
+   "gloss": [
+    "one",
+    "for one thing",
+    "only",
+    "(not) even",
+    "just (e.g. \"just try it\")",
+    "some kind of"
+   ],
+   "issues": []
+  },
+  "v-futatsu": {
+   "ok": true,
+   "ja": "二つ",
+   "readings": [
+    "ふたつ"
+   ],
+   "allReadings": [
+    "ふたつ"
+   ],
+   "gloss": [
+    "two"
+   ],
+   "issues": []
+  },
+  "v-mittsu": {
+   "ok": true,
+   "ja": "三つ",
+   "readings": [
+    "みっつ"
+   ],
+   "allReadings": [
+    "みっつ",
+    "みつ"
+   ],
+   "gloss": [
+    "three",
+    "three years of age"
+   ],
+   "issues": []
+  },
+  "v-hon": {
+   "ok": true,
+   "ja": "本",
+   "readings": [
+    "ほん"
+   ],
+   "allReadings": [
+    "ほん",
+    "もと"
+   ],
+   "gloss": [
+    "book",
+    "volume",
+    "script",
+    "this",
+    "present",
+    "current"
+   ],
+   "issues": []
+  },
+  "v-futsuka": {
+   "ok": true,
+   "ja": "二日",
+   "readings": [
+    "ふつか"
+   ],
+   "allReadings": [
+    "ふつか"
+   ],
+   "gloss": [
+    "2nd day of the month",
+    "two days",
+    "futsuka"
+   ],
+   "issues": []
+  },
+  "v-mikka": {
+   "ok": true,
+   "ja": "三日",
+   "readings": [
+    "みっか"
+   ],
+   "allReadings": [
+    "みっか"
+   ],
+   "gloss": [
+    "3rd day of the month",
+    "three days",
+    "mikka"
+   ],
+   "issues": []
+  },
+  "v-tsuki": {
+   "ok": true,
+   "ja": "月",
+   "readings": [
+    "つき"
+   ],
+   "allReadings": [
+    "つき",
+    "げつ",
+    "がつ"
+   ],
+   "gloss": [
+    "moon",
+    "month",
+    "moonlight",
+    "(a) moon",
+    "natural satellite",
+    "moon"
+   ],
+   "issues": []
+  },
+  "v-hi": {
+   "ok": true,
+   "ja": "火",
+   "readings": [
+    "ひ"
+   ],
+   "allReadings": [
+    "ひ",
+    "か"
+   ],
+   "gloss": [
+    "fire",
+    "flame",
+    "blaze",
+    "fire"
+   ],
+   "issues": []
+  },
+  "v-mizu": {
+   "ok": true,
+   "ja": "水",
+   "readings": [
+    "みず"
+   ],
+   "allReadings": [
+    "みず",
+    "すい"
+   ],
+   "gloss": [
+    "water (esp. cool or cold)",
+    "fluid (esp. in an animal tissue)",
+    "liquid",
+    "flood",
+    "floodwaters",
+    "water offered to wrestlers just prior to a bout"
+   ],
+   "issues": []
+  },
+  "v-ki": {
+   "ok": true,
+   "ja": "木",
+   "readings": [
+    "き"
+   ],
+   "allReadings": [
+    "き",
+    "もく"
+   ],
+   "gloss": [
+    "tree",
+    "shrub",
+    "bush",
+    "wood",
+    "timber",
+    "wooden clappers (signalling the beginning or end of a performance)"
+   ],
+   "issues": []
+  },
+  "v-okane": {
+   "ok": true,
+   "ja": "お金",
+   "readings": [
+    "おかね"
+   ],
+   "allReadings": [
+    "おかね"
+   ],
+   "gloss": [
+    "money"
+   ],
+   "issues": []
+  },
+  "v-getsuyobi": {
+   "ok": true,
+   "ja": "月曜日",
+   "readings": [
+    "げつようび"
+   ],
+   "allReadings": [
+    "げつようび"
+   ],
+   "gloss": [
+    "monday",
+    "monday"
+   ],
+   "issues": []
+  },
+  "v-kayobi": {
+   "ok": true,
+   "ja": "火曜日",
+   "readings": [
+    "かようび"
+   ],
+   "allReadings": [
+    "かようび"
+   ],
+   "gloss": [
+    "tuesday",
+    "tuesday"
+   ],
+   "issues": []
+  },
+  "v-suiyobi": {
+   "ok": true,
+   "ja": "水曜日",
+   "readings": [
+    "すいようび"
+   ],
+   "allReadings": [
+    "すいようび"
+   ],
+   "gloss": [
+    "wednesday",
+    "wednesday"
+   ],
+   "issues": []
+  },
+  "v-mokuyobi": {
+   "ok": true,
+   "ja": "木曜日",
+   "readings": [
+    "もくようび"
+   ],
+   "allReadings": [
+    "もくようび"
+   ],
+   "gloss": [
+    "thursday",
+    "thursday"
+   ],
+   "issues": []
+  },
+  "v-kinyobi": {
+   "ok": true,
+   "ja": "金曜日",
+   "readings": [
+    "きんようび"
+   ],
+   "allReadings": [
+    "きんようび"
+   ],
+   "gloss": [
+    "friday",
+    "friday"
+   ],
+   "issues": []
+  },
+  "v-nichiyobi": {
+   "ok": true,
+   "ja": "日曜日",
+   "readings": [
+    "にちようび"
+   ],
+   "allReadings": [
+    "にちようび"
+   ],
+   "gloss": [
+    "sunday",
+    "sunday"
+   ],
+   "issues": []
+  },
+  "v-ichigatsu": {
+   "ok": true,
+   "ja": "一月",
+   "readings": [
+    "いちがつ"
+   ],
+   "allReadings": [
+    "ひとつき",
+    "いちげつ",
+    "いちがつ"
+   ],
+   "gloss": [
+    "january",
+    "first month of the lunar calendar"
+   ],
+   "issues": []
+  },
+  "v-sangatsu": {
+   "ok": true,
+   "ja": "三月",
+   "readings": [
+    "さんがつ"
+   ],
+   "allReadings": [
+    "さんがつ",
+    "みつき"
+   ],
+   "gloss": [
+    "march",
+    "third month of the lunar calendar"
+   ],
+   "issues": []
+  },
+  "v-doyobi": {
+   "ok": true,
+   "ja": "土曜日",
+   "readings": [
+    "どようび"
+   ],
+   "allReadings": [
+    "どようび"
+   ],
+   "gloss": [
+    "saturday",
+    "saturday"
+   ],
+   "issues": []
+  },
+  "v-ima": {
+   "ok": true,
+   "ja": "今",
+   "readings": [
+    "いま"
+   ],
+   "allReadings": [
+    "いま",
+    "こん"
+   ],
+   "gloss": [
+    "now",
+    "the present time",
+    "just now",
+    "soon",
+    "immediately",
+    "another"
+   ],
+   "issues": []
+  },
+  "v-kyo": {
+   "ok": true,
+   "ja": "今日",
+   "readings": [
+    "きょう"
+   ],
+   "allReadings": [
+    "きょう",
+    "こんにち",
+    "こんち",
+    "こんじつ"
+   ],
+   "gloss": [
+    "today",
+    "this day",
+    "these days",
+    "recently",
+    "nowadays"
+   ],
+   "issues": []
+  },
+  "v-kongetsu": {
+   "ok": true,
+   "ja": "今月",
+   "readings": [
+    "こんげつ"
+   ],
+   "allReadings": [
+    "こんげつ"
+   ],
+   "gloss": [
+    "this month"
+   ],
+   "issues": []
+  },
+  "v-sengetsu": {
+   "ok": true,
+   "ja": "先月",
+   "readings": [
+    "せんげつ"
+   ],
+   "allReadings": [
+    "せんげつ"
+   ],
+   "gloss": [
+    "last month"
+   ],
+   "issues": []
+  },
+  "v-sensei": {
+   "ok": true,
+   "ja": "先生",
+   "readings": [
+    "せんせい"
+   ],
+   "allReadings": [
+    "せんせい",
+    "シーサン",
+    "せんじょう",
+    "せんしょう",
+    "ぜんじょう"
+   ],
+   "gloss": [
+    "teacher",
+    "instructor",
+    "master",
+    "sensei",
+    "title or form of address for a teacher, master, doctor, lawyer, etc.",
+    "intimate or teasing form of address"
+   ],
+   "issues": []
+  },
+  "v-gakusei": {
+   "ok": true,
+   "ja": "学生",
+   "readings": [
+    "がくせい"
+   ],
+   "allReadings": [
+    "がくせい",
+    "がくしょう",
+    "がくそう"
+   ],
+   "gloss": [
+    "student (esp. a university student)"
+   ],
+   "issues": []
+  },
+  "v-nani": {
+   "ok": true,
+   "ja": "何",
+   "readings": [
+    "なに",
+    "なん"
+   ],
+   "allReadings": [
+    "なに",
+    "なん"
+   ],
+   "gloss": [
+    "what",
+    "you-know-what",
+    "that thing",
+    "whatsit",
+    "whachamacallit",
+    "what's-his-name"
+   ],
+   "issues": []
+  },
+  "v-nannin": {
+   "ok": true,
+   "ja": "何人",
+   "readings": [
+    "なんにん"
+   ],
+   "allReadings": [
+    "なんにん",
+    "なにびと",
+    "なんびと",
+    "なんぴと",
+    "なにじん"
+   ],
+   "gloss": [
+    "how many people",
+    "a number of people"
+   ],
+   "issues": []
+  },
+  "v-nanyobi": {
+   "ok": true,
+   "ja": "何曜日",
+   "readings": [
+    "なんようび"
+   ],
+   "allReadings": [
+    "なんようび"
+   ],
+   "gloss": [
+    "what day?",
+    "what day of the week?"
+   ],
+   "issues": []
+  }
+ },
+ "runs": {
+  "一|いち": {
+   "ok": true,
+   "via": "kanjidic2"
+  },
+  "一|ひと": {
+   "ok": true,
+   "via": "kanjidic2"
+  },
+  "一人|ひとり": {
+   "ok": true,
+   "via": "jmdict"
+  },
+  "一週間|いっしゅうかん": {
+   "ok": true,
+   "via": "jmdict"
+  },
+  "三|さん": {
+   "ok": true,
+   "via": "kanjidic2"
+  },
+  "三|みっ": {
+   "ok": true,
+   "via": "kanjidic2"
+  },
+  "三人|さんにん": {
+   "ok": true,
+   "via": "jmdict"
+  },
+  "三日|みっか": {
+   "ok": true,
+   "via": "jmdict"
+  },
+  "下|した": {
+   "ok": true,
+   "via": "kanjidic2"
+  },
+  "二|に": {
+   "ok": true,
+   "via": "kanjidic2"
+  },
+  "二|ふた": {
+   "ok": true,
+   "via": "kanjidic2"
+  },
+  "二人|ふたり": {
+   "ok": true,
+   "via": "jmdict"
+  },
+  "二十|にじゅう": {
+   "ok": true,
+   "via": "jmdict"
+  },
+  "二日|ふつか": {
+   "ok": true,
+   "via": "jmdict"
+  },
+  "五人|ごにん": {
+   "ok": true,
+   "via": "jmdict"
+  },
+  "人|じん": {
+   "ok": true,
+   "via": "kanjidic2"
+  },
+  "人|にん": {
+   "ok": true,
+   "via": "kanjidic2"
+  },
+  "人|ひと": {
+   "ok": true,
+   "via": "kanjidic2"
+  },
+  "今|いま": {
+   "ok": true,
+   "via": "kanjidic2"
+  },
+  "今|こん": {
+   "ok": true,
+   "via": "kanjidic2"
+  },
+  "今日|きょう": {
+   "ok": true,
+   "via": "jmdict"
+  },
+  "休|やす": {
+   "ok": true,
+   "via": "kanjidic2"
+  },
+  "何|なに": {
+   "ok": true,
+   "via": "kanjidic2"
+  },
+  "何|なん": {
+   "ok": true,
+   "via": "kanjidic2"
+  },
+  "何人|なんにん": {
+   "ok": true,
+   "via": "jmdict"
+  },
+  "何時|なんじ": {
+   "ok": true,
+   "via": "jmdict"
+  },
+  "先|せん": {
+   "ok": true,
+   "via": "kanjidic2"
+  },
+  "先生|せんせい": {
+   "ok": true,
+   "via": "jmdict"
+  },
+  "公園|こうえん": {
+   "ok": true,
+   "via": "jmdict"
+  },
+  "勉強|べんきょう": {
+   "ok": true,
+   "via": "jmdict"
+  },
+  "十人|じゅうにん": {
+   "ok": true,
+   "via": "jmdict"
+  },
+  "名前|なまえ": {
+   "ok": true,
+   "via": "jmdict"
+  },
+  "四|よっ": {
+   "ok": true,
+   "via": "kanjidic2"
+  },
+  "四人|よにん": {
+   "ok": true,
+   "via": "jmdict"
+  },
+  "土|ど": {
+   "ok": true,
+   "via": "kanjidic2"
+  },
+  "子|こ": {
+   "ok": true,
+   "via": "kanjidic2"
+  },
+  "学|がく": {
+   "ok": true,
+   "via": "kanjidic2"
+  },
+  "学校|がっこう": {
+   "ok": true,
+   "via": "jmdict"
+  },
+  "学生|がくせい": {
+   "ok": true,
+   "via": "jmdict"
+  },
+  "日|にち": {
+   "ok": true,
+   "via": "kanjidic2"
+  },
+  "日|ひ": {
+   "ok": true,
+   "via": "kanjidic2"
+  },
+  "日|び": {
+   "ok": true,
+   "via": "kanjidic2"
+  },
+  "日本|にほん": {
+   "ok": true,
+   "via": "jmdict"
+  },
+  "日本人|にほんじん": {
+   "ok": true,
+   "via": "jmdict"
+  },
+  "日本語|にほんご": {
+   "ok": true,
+   "via": "jmdict"
+  },
+  "曜|よう": {
+   "ok": true,
+   "via": "kanjidic2"
+  },
+  "曜日|ようび": {
+   "ok": true,
+   "via": "jmdict"
+  },
+  "月|がつ": {
+   "ok": true,
+   "via": "kanjidic2"
+  },
+  "月|げつ": {
+   "ok": true,
+   "via": "kanjidic2"
+  },
+  "月|つき": {
+   "ok": true,
+   "via": "kanjidic2"
+  },
+  "木|き": {
+   "ok": true,
+   "via": "kanjidic2"
+  },
+  "木|もく": {
+   "ok": true,
+   "via": "kanjidic2"
+  },
+  "本|ほん": {
+   "ok": true,
+   "via": "kanjidic2"
+  },
+  "来|き": {
+   "ok": true,
+   "via": "kanjidic2"
+  },
+  "水|すい": {
+   "ok": true,
+   "via": "kanjidic2"
+  },
+  "水|みず": {
+   "ok": true,
+   "via": "kanjidic2"
+  },
+  "火|か": {
+   "ok": true,
+   "via": "kanjidic2"
+  },
+  "火|ひ": {
+   "ok": true,
+   "via": "kanjidic2"
+  },
+  "生|せい": {
+   "ok": true,
+   "via": "kanjidic2"
+  },
+  "金|かね": {
+   "ok": true,
+   "via": "kanjidic2"
+  },
+  "金|きん": {
+   "ok": true,
+   "via": "kanjidic2"
+  }
+ },
+ "lookalikes": {
+  "v-hito:入": {
+   "ok": true,
+   "realWordDifferentReading": [
+    "いり",
+    "しお"
+   ]
+  },
+  "v-hito:八": {
+   "ok": true,
+   "realWordDifferentReading": [
+    "はち",
+    "や",
+    "パー"
+   ]
+  },
+  "v-hito:大": {
+   "ok": true,
+   "realWordDifferentReading": [
+    "だい",
+    "おお",
+    "おおき",
+    "たい",
+    "おおい"
+   ]
+  },
+  "v-nihon:目本": {
+   "ok": true,
+   "realWordDifferentReading": []
+  },
+  "v-nihon:日木": {
+   "ok": true,
+   "realWordDifferentReading": []
+  },
+  "v-nihon:白本": {
+   "ok": true,
+   "realWordDifferentReading": []
+  },
+  "v-nihonjin:日本入": {
+   "ok": true,
+   "realWordDifferentReading": []
+  },
+  "v-nihonjin:日木人": {
+   "ok": true,
+   "realWordDifferentReading": []
+  },
+  "v-nihonjin:目本人": {
+   "ok": true,
+   "realWordDifferentReading": []
+  },
+  "v-hitori:二人": {
+   "ok": true,
+   "realWordDifferentReading": [
+    "ふたり",
+    "ににん"
+   ]
+  },
+  "v-hitori:三人": {
+   "ok": true,
+   "realWordDifferentReading": [
+    "さんにん",
+    "みたり"
+   ]
+  },
+  "v-hitori:入人": {
+   "ok": true,
+   "realWordDifferentReading": []
+  },
+  "v-futari:一人": {
+   "ok": true,
+   "realWordDifferentReading": [
+    "ひとり",
+    "いちにん"
+   ]
+  },
+  "v-futari:三人": {
+   "ok": true,
+   "realWordDifferentReading": [
+    "さんにん",
+    "みたり"
+   ]
+  },
+  "v-futari:二入": {
+   "ok": true,
+   "realWordDifferentReading": []
+  },
+  "v-sannin:一人": {
+   "ok": true,
+   "realWordDifferentReading": [
+    "ひとり",
+    "いちにん"
+   ]
+  },
+  "v-sannin:二人": {
+   "ok": true,
+   "realWordDifferentReading": [
+    "ふたり",
+    "ににん"
+   ]
+  },
+  "v-sannin:三入": {
+   "ok": true,
+   "realWordDifferentReading": []
+  },
+  "v-hitotsu:二つ": {
+   "ok": true,
+   "realWordDifferentReading": [
+    "ふたつ"
+   ]
+  },
+  "v-hitotsu:三つ": {
+   "ok": true,
+   "realWordDifferentReading": [
+    "みっつ",
+    "みつ"
+   ]
+  },
+  "v-hitotsu:四つ": {
+   "ok": true,
+   "realWordDifferentReading": [
+    "よっつ",
+    "よつ"
+   ]
+  },
+  "v-futatsu:一つ": {
+   "ok": true,
+   "realWordDifferentReading": [
+    "ひとつ"
+   ]
+  },
+  "v-futatsu:三つ": {
+   "ok": true,
+   "realWordDifferentReading": [
+    "みっつ",
+    "みつ"
+   ]
+  },
+  "v-futatsu:四つ": {
+   "ok": true,
+   "realWordDifferentReading": [
+    "よっつ",
+    "よつ"
+   ]
+  },
+  "v-mittsu:一つ": {
+   "ok": true,
+   "realWordDifferentReading": [
+    "ひとつ"
+   ]
+  },
+  "v-mittsu:二つ": {
+   "ok": true,
+   "realWordDifferentReading": [
+    "ふたつ"
+   ]
+  },
+  "v-mittsu:四つ": {
+   "ok": true,
+   "realWordDifferentReading": [
+    "よっつ",
+    "よつ"
+   ]
+  },
+  "v-hon:木": {
+   "ok": true,
+   "realWordDifferentReading": [
+    "き",
+    "もく"
+   ]
+  },
+  "v-hon:末": {
+   "ok": true,
+   "realWordDifferentReading": [
+    "すえ",
+    "まつ",
+    "うら",
+    "うれ"
+   ]
+  },
+  "v-hon:未": {
+   "ok": true,
+   "realWordDifferentReading": [
+    "み",
+    "ひつじ"
+   ]
+  },
+  "v-futsuka:三日": {
+   "ok": true,
+   "realWordDifferentReading": [
+    "みっか"
+   ]
+  },
+  "v-futsuka:一日": {
+   "ok": true,
+   "realWordDifferentReading": [
+    "いちにち",
+    "いちじつ",
+    "ついたち",
+    "ひとひ",
+    "いっぴ",
+    "つきたち"
+   ]
+  },
+  "v-futsuka:二目": {
+   "ok": true,
+   "realWordDifferentReading": [
+    "ふため"
+   ]
+  },
+  "v-mikka:二日": {
+   "ok": true,
+   "realWordDifferentReading": [
+    "ふつか"
+   ]
+  },
+  "v-mikka:一日": {
+   "ok": true,
+   "realWordDifferentReading": [
+    "いちにち",
+    "いちじつ",
+    "ついたち",
+    "ひとひ",
+    "いっぴ",
+    "つきたち"
+   ]
+  },
+  "v-mikka:三目": {
+   "ok": true,
+   "realWordDifferentReading": []
+  },
+  "v-tsuki:日": {
+   "ok": true,
+   "realWordDifferentReading": [
+    "にち",
+    "ひ",
+    "んち",
+    "ち",
+    "か"
+   ]
+  },
+  "v-tsuki:目": {
+   "ok": true,
+   "realWordDifferentReading": [
+    "め",
+    "もく"
+   ]
+  },
+  "v-tsuki:用": {
+   "ok": true,
+   "realWordDifferentReading": [
+    "よう"
+   ]
+  },
+  "v-hi:大": {
+   "ok": true,
+   "realWordDifferentReading": [
+    "だい",
+    "おお",
+    "おおき",
+    "たい",
+    "おおい"
+   ]
+  },
+  "v-hi:犬": {
+   "ok": true,
+   "realWordDifferentReading": [
+    "いぬ"
+   ]
+  },
+  "v-hi:欠": {
+   "ok": true,
+   "realWordDifferentReading": [
+    "あくび",
+    "けつ"
+   ]
+  },
+  "v-mizu:氷": {
+   "ok": true,
+   "realWordDifferentReading": [
+    "こおり",
+    "つらら",
+    "ひ"
+   ]
+  },
+  "v-mizu:永": {
+   "ok": true,
+   "realWordDifferentReading": [
+    "なが"
+   ]
+  },
+  "v-mizu:木": {
+   "ok": true,
+   "realWordDifferentReading": [
+    "き",
+    "もく"
+   ]
+  },
+  "v-ki:本": {
+   "ok": true,
+   "realWordDifferentReading": [
+    "ほん",
+    "もと"
+   ]
+  },
+  "v-ki:末": {
+   "ok": true,
+   "realWordDifferentReading": [
+    "すえ",
+    "まつ",
+    "うら",
+    "うれ"
+   ]
+  },
+  "v-ki:未": {
+   "ok": true,
+   "realWordDifferentReading": [
+    "み",
+    "ひつじ"
+   ]
+  },
+  "v-okane:お全": {
+   "ok": true,
+   "realWordDifferentReading": []
+  },
+  "v-okane:お企": {
+   "ok": true,
+   "realWordDifferentReading": []
+  },
+  "v-okane:お念": {
+   "ok": true,
+   "realWordDifferentReading": []
+  },
+  "v-getsuyobi:日曜日": {
+   "ok": true,
+   "realWordDifferentReading": [
+    "にちようび"
+   ]
+  },
+  "v-getsuyobi:月曜目": {
+   "ok": true,
+   "realWordDifferentReading": []
+  },
+  "v-getsuyobi:目曜日": {
+   "ok": true,
+   "realWordDifferentReading": []
+  },
+  "v-kayobi:大曜日": {
+   "ok": true,
+   "realWordDifferentReading": []
+  },
+  "v-kayobi:火曜目": {
+   "ok": true,
+   "realWordDifferentReading": []
+  },
+  "v-kayobi:水曜日": {
+   "ok": true,
+   "realWordDifferentReading": [
+    "すいようび"
+   ]
+  },
+  "v-suiyobi:氷曜日": {
+   "ok": true,
+   "realWordDifferentReading": []
+  },
+  "v-suiyobi:木曜日": {
+   "ok": true,
+   "realWordDifferentReading": [
+    "もくようび"
+   ]
+  },
+  "v-suiyobi:水曜目": {
+   "ok": true,
+   "realWordDifferentReading": []
+  },
+  "v-mokuyobi:本曜日": {
+   "ok": true,
+   "realWordDifferentReading": []
+  },
+  "v-mokuyobi:末曜日": {
+   "ok": true,
+   "realWordDifferentReading": []
+  },
+  "v-mokuyobi:木曜目": {
+   "ok": true,
+   "realWordDifferentReading": []
+  },
+  "v-kinyobi:全曜日": {
+   "ok": true,
+   "realWordDifferentReading": [
+    "ぜんようび"
+   ]
+  },
+  "v-kinyobi:金曜目": {
+   "ok": true,
+   "realWordDifferentReading": []
+  },
+  "v-kinyobi:土曜日": {
+   "ok": true,
+   "realWordDifferentReading": [
+    "どようび"
+   ]
+  },
+  "v-nichiyobi:日曜目": {
+   "ok": true,
+   "realWordDifferentReading": []
+  },
+  "v-nichiyobi:月曜日": {
+   "ok": true,
+   "realWordDifferentReading": [
+    "げつようび"
+   ]
+  },
+  "v-nichiyobi:目曜日": {
+   "ok": true,
+   "realWordDifferentReading": []
+  },
+  "v-ichigatsu:二月": {
+   "ok": true,
+   "realWordDifferentReading": [
+    "にがつ",
+    "ふたつき"
+   ]
+  },
+  "v-ichigatsu:三月": {
+   "ok": true,
+   "realWordDifferentReading": [
+    "さんがつ",
+    "みつき"
+   ]
+  },
+  "v-ichigatsu:一目": {
+   "ok": true,
+   "realWordDifferentReading": [
+    "ひとめ",
+    "いちもく"
+   ]
+  },
+  "v-sangatsu:二月": {
+   "ok": true,
+   "realWordDifferentReading": [
+    "にがつ",
+    "ふたつき"
+   ]
+  },
+  "v-sangatsu:一月": {
+   "ok": true,
+   "realWordDifferentReading": [
+    "ひとつき",
+    "いちげつ",
+    "いちがつ"
+   ]
+  },
+  "v-sangatsu:三目": {
+   "ok": true,
+   "realWordDifferentReading": []
+  },
+  "v-doyobi:士曜日": {
+   "ok": true,
+   "realWordDifferentReading": []
+  },
+  "v-doyobi:土曜目": {
+   "ok": true,
+   "realWordDifferentReading": []
+  },
+  "v-doyobi:工曜日": {
+   "ok": true,
+   "realWordDifferentReading": []
+  },
+  "v-ima:令": {
+   "ok": true,
+   "realWordDifferentReading": [
+    "れい",
+    "りょう"
+   ]
+  },
+  "v-ima:合": {
+   "ok": true,
+   "realWordDifferentReading": [
+    "ごう",
+    "あい"
+   ]
+  },
+  "v-ima:全": {
+   "ok": true,
+   "realWordDifferentReading": [
+    "ぜん"
+   ]
+  },
+  "v-kyo:令日": {
+   "ok": true,
+   "realWordDifferentReading": []
+  },
+  "v-kyo:合日": {
+   "ok": true,
+   "realWordDifferentReading": []
+  },
+  "v-kyo:今目": {
+   "ok": true,
+   "realWordDifferentReading": []
+  },
+  "v-kongetsu:令月": {
+   "ok": true,
+   "realWordDifferentReading": [
+    "れいげつ"
+   ]
+  },
+  "v-kongetsu:今目": {
+   "ok": true,
+   "realWordDifferentReading": []
+  },
+  "v-kongetsu:合月": {
+   "ok": true,
+   "realWordDifferentReading": []
+  },
+  "v-sengetsu:先目": {
+   "ok": true,
+   "realWordDifferentReading": []
+  },
+  "v-sengetsu:光月": {
+   "ok": true,
+   "realWordDifferentReading": []
+  },
+  "v-sengetsu:失月": {
+   "ok": true,
+   "realWordDifferentReading": []
+  },
+  "v-sensei:失生": {
+   "ok": true,
+   "realWordDifferentReading": []
+  },
+  "v-sensei:先主": {
+   "ok": true,
+   "realWordDifferentReading": [
+    "せんしゅ"
+   ]
+  },
+  "v-sensei:光生": {
+   "ok": true,
+   "realWordDifferentReading": []
+  },
+  "v-gakusei:字生": {
+   "ok": true,
+   "realWordDifferentReading": []
+  },
+  "v-gakusei:学主": {
+   "ok": true,
+   "realWordDifferentReading": []
+  },
+  "v-gakusei:覚生": {
+   "ok": true,
+   "realWordDifferentReading": []
+  },
+  "v-nani:可": {
+   "ok": true,
+   "realWordDifferentReading": [
+    "か"
+   ]
+  },
+  "v-nani:向": {
+   "ok": true,
+   "realWordDifferentReading": []
+  },
+  "v-nani:同": {
+   "ok": true,
+   "realWordDifferentReading": [
+    "どう"
+   ]
+  },
+  "v-nannin:可人": {
+   "ok": true,
+   "realWordDifferentReading": []
+  },
+  "v-nannin:何入": {
+   "ok": true,
+   "realWordDifferentReading": []
+  },
+  "v-nannin:向人": {
+   "ok": true,
+   "realWordDifferentReading": []
+  },
+  "v-nanyobi:可曜日": {
+   "ok": true,
+   "realWordDifferentReading": []
+  },
+  "v-nanyobi:何曜目": {
+   "ok": true,
+   "realWordDifferentReading": []
+  },
+  "v-nanyobi:向曜日": {
+   "ok": true,
+   "realWordDifferentReading": []
+  }
+ }
+}

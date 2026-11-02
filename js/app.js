@@ -98,6 +98,14 @@
     return DATA[n] ? n : NaN;
   }
   function route() {
+    // The N5 kanji track lives in its own modules (js/n5/); the vocabulary lessons below are unchanged.
+    if (window.N5UI && window.N5UI.handles(location.hash)) {
+      leaveCurrent(); closeSheets();
+      document.body.classList.add("mode-n5");
+      window.N5UI.show(location.hash);
+      return;
+    }
+    if (document.body.classList.contains("mode-n5")) { document.body.classList.remove("mode-n5"); if (window.N5UI) window.N5UI.hide(); }
     let n = lessonFromHash();
     if (!n) { const saved = store.get(); n = DATA[saved] ? saved : LESSON_NUMS[0]; }
     showLesson(n);
@@ -416,6 +424,7 @@
   /* Keyboard: 1–4 or A–D choose an answer. */
   document.addEventListener("keydown", (e) => {
     if (e.metaKey || e.ctrlKey || e.altKey || !current || current.status !== "question") return;
+    if (document.body.classList.contains("mode-n5")) return;   // N5 screens have their own keys and typed input
     const k = e.key.toUpperCase();
     if (k === "H") { e.preventDefault(); onHint(); return; }
     if (k === "R") { e.preventDefault(); onRomaji(); return; }

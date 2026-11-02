@@ -1,0 +1,199 @@
+/* JLPT N5 kanji track. Self-contained: it only adds classes prefixed .n5-/.k*/.m* and reuses the tokens, .card, .opt,
+   .btn, .feedback and .track styles from styles.css. Nothing here changes how the vocabulary lessons look. */
+
+/* ---------- mode switch (Vocabulary | N5 Kanji) ---------- */
+.mode-row { display: flex; justify-content: center; padding: 10px var(--gutter) 2px; background: var(--bg); }
+.mode-switch { display: inline-flex; padding: 4px; gap: 4px; background: var(--surface); border: 1px solid var(--line); border-radius: 999px; box-shadow: var(--shadow); }
+.mode-switch button { min-height: 40px; padding: 0 18px; font: inherit; font-size: .92rem; font-weight: 700; color: var(--muted); background: transparent; border: 0; border-radius: 999px; cursor: pointer; -webkit-appearance: none; appearance: none; -webkit-tap-highlight-color: transparent; touch-action: manipulation; transition: background-color .15s ease, color .15s ease; }
+.mode-switch button[aria-pressed="true"] { color: #fff; background: var(--grad); }
+.mode-switch button:focus-visible { outline: none; box-shadow: 0 0 0 3px var(--surface), 0 0 0 6px var(--focus); }
+
+/* In N5 mode the vocabulary chrome steps aside; nothing is removed from the page. */
+body.mode-n5 .wrap, body.mode-n5 .lesson-nav, body.mode-n5 .pick { display: none; }
+body.mode-n5 .shell { display: block; }
+body.mode-n5 .topbar-inner { justify-content: flex-end; }
+@media (min-width: 1000px) { body.mode-n5 .topbar-inner { justify-content: center; } }
+
+/* ---------- layout ---------- */
+.n5 { --st-new: var(--line); --st-seen: #f0a04b; --st-learning: #e8643c; --st-review: #3b82f6; --st-fading: #d98a00; --st-mastered: var(--ok);
+  max-width: 800px; margin: 0 auto; padding: 14px 14px 36px; display: block; }
+.n5[hidden] { display: none; }
+.n5 h1, .n5 h2, .n5 h3 { margin: 0; }
+.n5 section + section, .n5 .n5-block + .n5-block { margin-top: 18px; }
+.n5 .jp { font-family: inherit; }
+.n5-eyebrow { margin: 0 0 4px; font-size: .75rem; font-weight: 800; letter-spacing: .08em; text-transform: uppercase; opacity: .85; }
+.n5-muted { color: var(--muted); }
+.n5-small { font-size: .88rem; }
+.n5-h2 { font-size: 1.05rem; margin-bottom: 10px !important; }
+.n5-link { padding: 0; font: inherit; font-weight: 600; color: var(--accent); background: none; border: 0; cursor: pointer; text-decoration: underline; text-underline-offset: 3px; }
+.n5-link:focus-visible { outline: none; box-shadow: 0 0 0 3px var(--surface), 0 0 0 6px var(--focus); border-radius: 4px; }
+.n5 .btn + .btn { margin-top: 10px; }
+.n5 .btn.sm { min-height: 44px; font-size: .95rem; }
+.n5 .btn.inline { display: inline-block; width: auto; padding: 0 20px; }
+
+/* ---------- home ---------- */
+.n5-hero { color: #fff; background: var(--grad); border-radius: 20px; padding: 22px 18px; box-shadow: var(--shadow); }
+.n5-hero h1 { font-size: clamp(1.4rem, 5vw, 1.9rem); line-height: 1.25; }
+.n5-hero p { margin: 8px 0 0; opacity: .95; }
+.n5-hero .n5-meta { display: flex; flex-wrap: wrap; gap: 6px 14px; margin: 12px 0 16px; font-size: .92rem; font-weight: 600; }
+.n5-hero .btn { color: var(--accent); background: #fff; }
+.n5-hero .btn.ghost { color: #fff; background: transparent; border: 2px solid rgba(255,255,255,.75); }
+.n5-glyphs { display: flex; gap: 8px; margin: 14px 0 6px; flex-wrap: wrap; }
+.n5-glyphs span { display: grid; place-items: center; width: 44px; height: 44px; font-size: 1.5rem; font-weight: 700; background: rgba(255,255,255,.2); border-radius: 12px; }
+
+.n5-stats { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; }
+.n5-stats > div { padding: 10px 4px; text-align: center; background: var(--surface); border: 1px solid var(--line); border-radius: 14px; border-top: 4px solid var(--c, var(--line)); }
+.n5-stats b { display: block; font-size: 1.35rem; font-variant-numeric: tabular-nums; }
+.n5-stats span { font-size: .75rem; color: var(--muted); }
+
+.n5-map { display: grid; grid-template-columns: repeat(auto-fill, minmax(52px, 1fr)); gap: 8px; }
+.mtile { position: relative; display: grid; place-items: center; min-height: 58px; padding: 6px 2px 10px; font: inherit; font-size: 1.55rem; font-weight: 700; color: var(--ink); background: color-mix(in srgb, var(--c) 16%, var(--surface)); border: 2px solid color-mix(in srgb, var(--c) 55%, var(--line)); border-radius: 14px; cursor: pointer; -webkit-appearance: none; appearance: none; -webkit-tap-highlight-color: transparent; touch-action: manipulation; transition: transform .12s ease; }
+.mtile:active { transform: scale(.96); }
+.mtile:focus-visible { outline: none; box-shadow: 0 0 0 3px var(--surface), 0 0 0 6px var(--focus); }
+.mtile[aria-pressed="true"] { border-color: var(--ink); }
+.mtile .mbar { position: absolute; left: 8px; right: 8px; bottom: 5px; height: 4px; border-radius: 99px; background: color-mix(in srgb, var(--c) 25%, transparent); overflow: hidden; }
+.mtile .mbar i { display: block; height: 100%; width: var(--w, 0%); background: var(--c); border-radius: 99px; }
+.s-new { --c: var(--st-new); opacity: .75; } .s-seen { --c: var(--st-seen); } .s-learning { --c: var(--st-learning); }
+.s-review { --c: var(--st-review); } .s-fading { --c: var(--st-fading); } .s-mastered { --c: var(--st-mastered); }
+.n5-legend { display: flex; flex-wrap: wrap; gap: 6px 14px; margin-top: 10px; font-size: .8rem; color: var(--muted); }
+.n5-legend i { display: inline-block; width: 10px; height: 10px; margin-right: 5px; border-radius: 3px; background: var(--c); vertical-align: -1px; }
+
+.n5-panel { padding: 16px; background: var(--surface); border: 1px solid var(--line); border-radius: 18px; }
+.n5-set { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 10px 0; border-top: 1px solid var(--line); }
+.n5-set:first-of-type { border-top: 0; padding-top: 0; }
+.n5-set label, .n5-set .lbl { font-weight: 600; }
+.n5-set small { display: block; font-weight: 400; color: var(--muted); }
+.stepper { display: inline-flex; align-items: center; gap: 6px; }
+.stepper button, .switch { min-width: 44px; min-height: 44px; font: inherit; font-size: 1.2rem; font-weight: 700; color: var(--ink); background: var(--bg); border: 1px solid var(--line); border-radius: 12px; cursor: pointer; -webkit-appearance: none; appearance: none; touch-action: manipulation; }
+.stepper output { min-width: 2ch; text-align: center; font-weight: 800; font-variant-numeric: tabular-nums; }
+.switch { padding: 0 14px; font-size: .9rem; }
+.switch[aria-pressed="true"] { color: #fff; background: var(--grad); border-color: transparent; }
+.stepper button:focus-visible, .switch:focus-visible { outline: none; box-shadow: 0 0 0 3px var(--surface), 0 0 0 6px var(--focus); }
+
+.n5-ready { display: grid; gap: 10px; }
+.n5-ready .row { display: grid; grid-template-columns: 1fr auto; gap: 2px 10px; align-items: center; }
+.n5-ready .name { font-weight: 600; }
+.n5-ready .val { font-variant-numeric: tabular-nums; color: var(--muted); font-size: .88rem; }
+.n5-ready .meter { grid-column: 1 / -1; height: 8px; background: var(--line); border-radius: 99px; overflow: hidden; }
+.n5-ready .meter i { display: block; height: 100%; width: var(--w, 0%); background: var(--grad); border-radius: 99px; }
+.n5-ready .row.off .meter i { background: repeating-linear-gradient(45deg, var(--line), var(--line) 6px, transparent 6px, transparent 12px); width: 100%; }
+.n5-note { margin: 12px 0 0; padding: 10px 12px; font-size: .85rem; color: var(--muted); background: var(--bg); border-radius: 12px; border-left: 4px solid var(--accent-2); }
+.n5-badge { display: inline-block; padding: 2px 8px; font-size: .72rem; font-weight: 800; border-radius: 99px; color: #7a4b00; background: #ffd166; vertical-align: middle; }
+.n5-badge.ok { color: var(--ok); background: var(--ok-bg); }
+
+/* ---------- kanji detail ---------- */
+.n5-detail { display: grid; gap: 12px; }
+.n5-detail .top { display: flex; align-items: center; gap: 16px; }
+.n5-bigk { flex: none; display: grid; place-items: center; min-width: 96px; padding: 4px 8px; font-size: 3.6rem; font-weight: 600; line-height: 1.5; background: var(--bg); border-radius: 18px; }
+.n5-bigk rt { font-size: .26em; }
+.n5-detail .mean { font-size: 1.3rem; font-weight: 800; }
+.kchips { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 6px; }
+.kchip { display: inline-flex; align-items: baseline; gap: 6px; padding: 4px 10px; font-size: .95rem; background: var(--bg); border: 1px solid var(--line); border-radius: 999px; }
+.kchip small { font-size: .68rem; font-weight: 800; color: var(--muted); letter-spacing: .04em; }
+.n5-words { display: grid; gap: 6px; margin: 0; padding: 0; list-style: none; }
+.n5-words li { display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 12px; padding: 8px 12px; background: var(--bg); border-radius: 12px; }
+.n5-words .w { font-size: 1.25rem; font-weight: 600; line-height: 1.9; }
+.n5-words .en { color: var(--muted); }
+.n5-skills { display: grid; grid-template-columns: repeat(5, 1fr); gap: 6px; font-size: .72rem; color: var(--muted); text-align: center; }
+.n5-skills i { display: block; height: 6px; margin-bottom: 3px; background: var(--line); border-radius: 99px; overflow: hidden; }
+.n5-skills i b { display: block; height: 100%; width: var(--w, 0%); background: var(--grad); }
+
+/* ---------- the horizontal kanji learning row ---------- */
+.krow { display: flex; gap: 10px; margin: 0 -14px 14px; padding: 6px 14px 12px; overflow-x: auto; scroll-snap-type: x proximity; -webkit-overflow-scrolling: touch; scrollbar-width: thin; }
+.ktile { flex: none; scroll-snap-align: center; position: relative; display: grid; place-items: center; width: 92px; min-height: 124px; padding: 10px 4px 12px; font: inherit; color: var(--ink); background: var(--surface); border: 2px solid var(--line); border-radius: 18px; cursor: pointer; box-shadow: var(--shadow); -webkit-appearance: none; appearance: none; -webkit-tap-highlight-color: transparent; touch-action: manipulation; transition: transform .15s ease, border-color .15s ease; }
+.ktile .kg { font-size: 2.9rem; font-weight: 600; line-height: 1.6; }
+.ktile .kg rt { font-size: .3em; }
+.ktile .mean { font-size: .78rem; color: var(--muted); }
+.ktile[aria-current="true"] { border-color: var(--accent); transform: translate3d(0, -4px, 0); }
+.ktile.seen::after { content: "✓"; position: absolute; top: 6px; right: 8px; font-size: .8rem; font-weight: 800; color: var(--ok); }
+.ktile:focus-visible { outline: none; box-shadow: 0 0 0 3px var(--surface), 0 0 0 6px var(--focus); }
+.krow-bar { display: flex; align-items: center; justify-content: space-between; gap: 10px; margin-bottom: 4px; }
+
+/* ---------- reading visibility ---------- */
+/* Global switch: hide the readings of kanji the learner has met. Unknown kanji always keep theirs. */
+.n5.rt-off ruby.kn rt { visibility: hidden; }
+.n5.rt-off [data-rt="on"] ruby.kn rt { visibility: visible; }
+.n5 [data-rt="off"] ruby.kn rt { visibility: hidden; }
+.n5.rt-off [data-rt="off"] ruby.kn rt { visibility: hidden; }
+/* In questions the reading is part of what is tested, so it is hidden until the learner asks for the hint. */
+.q-card ruby.kn rt { visibility: hidden; }
+.q-card.show-rt ruby.kn rt { visibility: visible; }
+/* Comprehension questions test understanding, not reading recall, so they follow the learner's own readings setting. */
+.n5:not(.rt-off) .q-card.q-open ruby.kn rt { visibility: visible; }
+.n5 ruby.uk rt { visibility: visible; }
+.rt-btn { min-height: 36px; padding: 0 12px; font: inherit; font-size: .85rem; font-weight: 700; color: var(--muted); background: var(--bg); border: 1px solid var(--line); border-radius: 999px; cursor: pointer; -webkit-appearance: none; appearance: none; touch-action: manipulation; }
+.rt-btn[aria-pressed="true"] { color: var(--accent); border-color: var(--accent); }
+.rt-btn:focus-visible { outline: none; box-shadow: 0 0 0 3px var(--surface), 0 0 0 6px var(--focus); }
+
+/* ---------- sentences & passages ---------- */
+.n5-sents { display: grid; gap: 12px; }
+.n5-sent { padding: 14px; background: var(--bg); border-radius: 16px; }
+.n5-ja { font-size: clamp(1.25rem, 4.6vw, 1.6rem); line-height: 2.1; font-weight: 500; overflow-wrap: anywhere; }
+.n5-ja rt { font-size: .5em; }
+.n5-en { margin: 4px 0 0; color: var(--muted); }
+.n5-en[hidden] { display: none; }
+.n5-tools { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 8px; }
+.n5-passage h2 { font-size: clamp(1.3rem, 5vw, 1.7rem); line-height: 1.9; margin-bottom: 6px; }
+.n5-passage p.para { margin: 0 0 10px; }
+.n5-passage .n5-ja { display: block; }
+.n5-source { margin: 14px 0 0; padding: 10px 12px; font-size: .82rem; color: var(--muted); background: var(--bg); border-radius: 12px; }
+
+/* ---------- steps & questions ---------- */
+.n5-steps { display: flex; gap: 4px; margin: 0 0 6px; }
+.n5-steps i { flex: 1; height: 6px; background: var(--line); border-radius: 99px; }
+.n5-steps i.done { background: var(--ok); } .n5-steps i.now { background: var(--accent); }
+.n5-crumb { display: flex; justify-content: space-between; align-items: baseline; gap: 10px; margin-bottom: 10px; font-size: .88rem; color: var(--muted); }
+.n5-crumb b { color: var(--ink); font-size: 1rem; }
+.q-glyph { text-align: center; font-size: clamp(4rem, 18vw, 6.5rem); font-weight: 600; line-height: 1.4; margin: 0; }
+.q-ask { text-align: center; margin: 2px 0 14px; color: var(--muted); font-size: .95rem; }
+.q-sentence { text-align: center; font-size: clamp(1.4rem, 5.6vw, 2.1rem); line-height: 2.2; font-weight: 500; margin: 6px 0 4px; overflow-wrap: anywhere; }
+.q-sentence rt { font-size: .45em; }
+.q-sentence u.focus { text-decoration-thickness: 3px; text-underline-offset: 6px; text-decoration-color: var(--accent); }
+.q-sentence .blank { display: inline-block; min-width: 3.2em; margin: 0 .15em; border-bottom: 3px solid var(--accent); color: transparent; user-select: none; }
+.q-word { text-align: center; font-size: clamp(2rem, 9vw, 3.2rem); font-weight: 600; line-height: 1.7; margin: 0; }
+.q-gloss { text-align: center; margin: 0 0 4px; color: var(--muted); font-weight: 600; }
+.q-extra { margin: 8px 0; padding: 8px 12px; text-align: center; background: color-mix(in srgb, var(--accent-2) 12%, var(--surface)); border-radius: 12px; font-weight: 600; }
+.q-extra .jp { font-size: 1.2rem; }
+.q-hints { display: flex; flex-wrap: wrap; justify-content: center; gap: 8px; margin: 10px 0 14px; }
+.hint-note { margin: 0 0 10px; text-align: center; font-size: .82rem; font-weight: 700; color: #7a4b00; }
+.opt.is-gone { opacity: .25; text-decoration: line-through; pointer-events: none; }
+.n5-peek { margin: 10px 0 16px; padding: 10px 12px; background: var(--bg); border-radius: 14px; }
+.n5-peek summary { cursor: pointer; font-weight: 700; color: var(--accent); min-height: 32px; }
+.n5-peek .n5-ja { font-size: 1.15rem; line-height: 2.1; }
+.opt .lab { font-size: 1.1rem; line-height: 1.9; }
+.opt .lab rt { font-size: .5em; }
+
+.typed { display: grid; gap: 10px; margin-top: 4px; }
+.typed input { width: 100%; min-height: 56px; padding: 8px 14px; font: inherit; font-size: 1.5rem; text-align: center; color: var(--ink); background: var(--surface); border: 2px solid var(--line); border-radius: var(--btn-radius); }
+.typed input:focus { outline: none; border-color: var(--accent); box-shadow: 0 0 0 3px color-mix(in srgb, var(--accent) 25%, transparent); }
+.typed input.good { border-color: var(--ok); background: var(--ok-bg); }
+.typed input.bad { border-color: var(--bad); background: var(--bad-bg); }
+.typed .preview { min-height: 1.6em; text-align: center; color: var(--muted); font-size: 1.1rem; }
+.typed .msg { min-height: 1.3em; text-align: center; color: var(--bad); font-weight: 600; font-size: .92rem; }
+.typed .row { display: grid; grid-template-columns: 1fr auto; gap: 10px; }
+.typed .row .btn.ghost { margin-top: 0; padding: 0 16px; }
+
+.flip-back { display: grid; gap: 12px; margin-top: 8px; padding-top: 14px; border-top: 1px solid var(--line); }
+.rate { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; margin-top: 8px; }
+.rate button { min-height: 52px; font: inherit; font-weight: 700; color: var(--ink); background: var(--surface); border: 2px solid var(--line); border-radius: var(--btn-radius); cursor: pointer; touch-action: manipulation; -webkit-appearance: none; appearance: none; }
+.rate button[data-r="good"] { border-color: var(--ok); } .rate button[data-r="again"] { border-color: var(--bad); }
+.rate button:focus-visible { outline: none; box-shadow: 0 0 0 3px var(--surface), 0 0 0 6px var(--focus); }
+.fb-ok { margin: 14px 0 0; padding: 12px 14px; color: var(--ok); background: var(--ok-bg); border-radius: 14px; font-weight: 600; }
+.fb-ok p, .feedback p { margin: 4px 0 0; font-weight: 400; color: var(--ink); }
+.n5 .feedback .why { margin: 0 0 12px; color: var(--ink); line-height: 1.6; }
+.credit-note { font-size: .82rem; color: var(--muted); }
+
+/* ---------- summary & about ---------- */
+.n5-sum { text-align: center; }
+.n5-sum .big { margin: 6px 0; }
+.n5-trans { display: flex; flex-wrap: wrap; justify-content: center; gap: 6px; margin: 12px 0; }
+.n5-src { display: grid; gap: 10px; margin: 0; padding: 0; list-style: none; }
+.n5-src li { padding: 12px 14px; background: var(--bg); border-radius: 14px; }
+.n5-src b { display: block; }
+.n5-table { width: 100%; border-collapse: collapse; font-size: .9rem; }
+.n5-table th, .n5-table td { padding: 6px 8px; text-align: left; border-bottom: 1px solid var(--line); }
+.n5-table td:last-child { text-align: right; font-variant-numeric: tabular-nums; }
+.n5 a { color: var(--accent); }
+
+@media (min-width: 700px) { .n5 { padding-top: 20px; } .n5-stats b { font-size: 1.6rem; } .ktile { width: 104px; } }
+@media (prefers-reduced-motion: reduce) { .ktile, .mtile { transition: none; } }

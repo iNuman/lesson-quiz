@@ -18,6 +18,10 @@ No dependencies or build step. The code is plain HTML/CSS/JS:
 Edit `src/lessons/<n>.txt` (`japanese | romaji | english | type`), then run
 `node tools/build-data.mjs` to regenerate `data/lessons.js`. See the README for details.
 
+## N5 kanji content
+Edit `src/n5/*.json`, then run `npm run build:n5`, `npm run verify:n5` (checks readings against KANJIDIC2/JMdict, needs network)
+and `npm run test:n5`. Sentences and passages need review by a proficient Japanese speaker: see `docs/n5-review-sheet.md`.
+
 ## Pull request tips
 Keep changes small and focused, match the surrounding style, and play through a lesson in the
 browser before submitting.

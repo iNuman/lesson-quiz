@@ -1,0 +1,298 @@
+{
+  "unit": 1,
+  "sentences": [
+    {
+      "id": "s1-01",
+      "ja": "わたしは 日本人{にほんじん}です。",
+      "en": "I am Japanese.",
+      "focus": [
+        "v-nihonjin"
+      ]
+    },
+    {
+      "id": "s1-02",
+      "ja": "あの 人{ひと}は 日本人{にほんじん}ですか。",
+      "en": "Is that person Japanese?",
+      "focus": [
+        "v-hito",
+        "v-nihonjin"
+      ]
+    },
+    {
+      "id": "s1-03",
+      "ja": "わたしは 日本{にほん}に すんで います。",
+      "en": "I live in Japan.",
+      "focus": [
+        "v-nihon"
+      ]
+    },
+    {
+      "id": "s1-04",
+      "ja": "たなかさんの かぞくは 三{さん}人{にん}です。",
+      "en": "Mr. Tanaka's family is three people.",
+      "focus": [
+        "v-sannin"
+      ]
+    },
+    {
+      "id": "s1-05",
+      "ja": "かばんに 本{ほん}が 二{に}さつ あります。",
+      "en": "There are two books in the bag.",
+      "focus": [
+        "v-hon"
+      ]
+    },
+    {
+      "id": "s1-06",
+      "ja": "りんごを 三{みっ}つ ください。",
+      "en": "Three apples, please.",
+      "focus": [
+        "v-mittsu"
+      ]
+    },
+    {
+      "id": "s1-07",
+      "ja": "ケーキを 二{ふた}つ たべました。",
+      "en": "I ate two cakes.",
+      "focus": [
+        "v-futatsu"
+      ]
+    },
+    {
+      "id": "s1-08",
+      "ja": "一人{ひとり}で 日本{にほん}へ いきました。",
+      "en": "I went to Japan alone.",
+      "focus": [
+        "v-hitori",
+        "v-nihon"
+      ]
+    },
+    {
+      "id": "s1-09",
+      "ja": "二人{ふたり}で 本{ほん}を よみます。",
+      "en": "The two of us read a book.",
+      "focus": [
+        "v-futari",
+        "v-hon"
+      ]
+    },
+    {
+      "id": "s1-10",
+      "ja": "パーティーは 三日{みっか}です。",
+      "en": "The party is on the 3rd.",
+      "focus": [
+        "v-mikka"
+      ]
+    },
+    {
+      "id": "s1-11",
+      "ja": "あしたは 二日{ふつか}です。",
+      "en": "Tomorrow is the 2nd.",
+      "focus": [
+        "v-futsuka"
+      ]
+    },
+    {
+      "id": "s1-12",
+      "ja": "みかんが 一{ひと}つ あります。",
+      "en": "There is one mandarin orange.",
+      "focus": [
+        "v-hitotsu"
+      ]
+    },
+    {
+      "id": "s1-13",
+      "ja": "いま、ここには あなたと わたしの 二人{ふたり}だけです。",
+      "en": "Right now it is only the two of us here, you and me.",
+      "focus": [
+        "v-futari"
+      ]
+    }
+  ],
+  "cloze": [
+    {
+      "id": "c1-1",
+      "sentence": "s1-01",
+      "blank": "v-nihonjin",
+      "options": [
+        "v-sannin",
+        "v-hon",
+        "v-mikka"
+      ],
+      "explain": "「わたしは ＿＿です」 — only 日本人 (Japanese person) says who you are."
+    },
+    {
+      "id": "c1-2",
+      "sentence": "s1-04",
+      "blank": "v-sannin",
+      "options": [
+        "v-nihon",
+        "v-hon",
+        "v-futatsu"
+      ],
+      "explain": "A family is counted in people: 三人 (さんにん)."
+    },
+    {
+      "id": "c1-3",
+      "sentence": "s1-05",
+      "blank": "v-hon",
+      "options": [
+        "v-hito",
+        "v-nihon",
+        "v-mikka"
+      ],
+      "explain": "二さつ counts bound things such as books: 本 (ほん) fits."
+    },
+    {
+      "id": "c1-4",
+      "sentence": "s1-06",
+      "blank": "v-mittsu",
+      "options": [
+        "v-sannin",
+        "v-mikka",
+        "v-nihon"
+      ],
+      "explain": "Apples are counted with つ: 三つ (みっつ). 三人 counts people."
+    },
+    {
+      "id": "c1-5",
+      "sentence": "s1-10",
+      "blank": "v-mikka",
+      "options": [
+        "v-nihon",
+        "v-hon",
+        "v-hitotsu"
+      ],
+      "explain": "A date: 三日 (みっか), the 3rd."
+    },
+    {
+      "id": "c1-6",
+      "sentence": "s1-12",
+      "blank": "v-hitotsu",
+      "options": [
+        "v-hitori",
+        "v-nihon",
+        "v-hito"
+      ],
+      "explain": "Oranges are counted with つ: 一つ (ひとつ). 一人 counts people."
+    },
+    {
+      "id": "c1-7",
+      "sentence": "s1-13",
+      "blank": "v-futari",
+      "options": [
+        "v-hitori",
+        "v-sannin",
+        "v-hon"
+      ],
+      "explain": "「あなたと わたし」 is two people: 二人 (ふたり)."
+    }
+  ],
+  "passage": {
+    "id": "p1",
+    "title": "わたしの かぞく",
+    "titleEn": "My Family",
+    "paragraphs": [
+      "わたしの かぞくは 三{さん}人{にん}です。ちちと ははと わたしです。",
+      "ちちは 日本人{にほんじん}です。ははは ブラジル人{じん}です。",
+      "ちちと ははは 二人{ふたり}とも 日本{にほん}の かいしゃで はたらいて います。",
+      "わたしは 一人{ひとり}っ子{こ}です。",
+      "ちちは 本{ほん}が すきです。うちには 本{ほん}が たくさん あります。",
+      "しゅうまつは ケーキを 三{みっ}つ かって、三人{さんにん}で たべます。"
+    ],
+    "paragraphsEn": [
+      "My family is three people. It is my father, my mother and me.",
+      "My father is Japanese. My mother is Brazilian.",
+      "My father and mother both work at a company in Japan.",
+      "I am an only child.",
+      "My father likes books. There are many books in our house.",
+      "On weekends we buy three cakes and the three of us eat them."
+    ],
+    "questions": [
+      {
+        "id": "q1-1",
+        "q": "わたしの かぞくは 何人{なんにん}ですか。",
+        "qEn": "How many people are in the writer's family?",
+        "options": [
+          "一人{ひとり}",
+          "二人{ふたり}",
+          "三人{さんにん}",
+          "四人{よにん}"
+        ],
+        "answer": 2,
+        "kanji": [
+          "三",
+          "人"
+        ],
+        "explain": "The first sentence says 三人です."
+      },
+      {
+        "id": "q1-2",
+        "q": "ちちは どこの 人{ひと}ですか。",
+        "qEn": "Where is the father from?",
+        "options": [
+          "日本人{にほんじん}",
+          "ブラジル人{じん}",
+          "ちゅうごく人{じん}",
+          "アメリカ人{じん}"
+        ],
+        "answer": 0,
+        "kanji": [
+          "日",
+          "本",
+          "人"
+        ],
+        "explain": "ちちは 日本人です — the father is Japanese. The mother is Brazilian."
+      },
+      {
+        "id": "q1-3",
+        "q": "「わたし」には きょうだいが いますか。",
+        "qEn": "Does the writer have brothers or sisters?",
+        "options": [
+          "はい、一人{ひとり} います。",
+          "はい、二人{ふたり} います。",
+          "いいえ、いません。",
+          "わかりません。"
+        ],
+        "answer": 2,
+        "kanji": [
+          "一",
+          "人"
+        ],
+        "explain": "一人っ子 means 'only child', so there are no siblings."
+      },
+      {
+        "id": "q1-4",
+        "q": "しゅうまつに ケーキを いくつ かいますか。",
+        "qEn": "How many cakes do they buy on weekends?",
+        "options": [
+          "一{ひと}つ",
+          "二{ふた}つ",
+          "三{みっ}つ",
+          "四{よっ}つ"
+        ],
+        "answer": 2,
+        "kanji": [
+          "三"
+        ],
+        "explain": "ケーキを 三つ かって — three cakes."
+      },
+      {
+        "id": "q1-5",
+        "q": "ちちは 何{なに}が すきですか。",
+        "qEn": "What does the father like?",
+        "options": [
+          "本{ほん}",
+          "ケーキ",
+          "日本{にほん}",
+          "かいしゃ"
+        ],
+        "answer": 0,
+        "kanji": [
+          "本"
+        ],
+        "explain": "ちちは 本が すきです."
+      }
+    ]
+  }
+}

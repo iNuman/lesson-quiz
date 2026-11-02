@@ -29,6 +29,12 @@ npm start
 
 Then open http://localhost:8000.
 
+## N5 Kanji track (new)
+
+A second track, **N5 Kanji**, sits beside the vocabulary lessons (switch under the header). It teaches JLPT N5 kanji through
+readings, vocabulary, sentences, original reading passages, typed recall and adaptive spaced review, and tracks mastery per kanji
+(a hinted answer never counts as full mastery). It is currently a 3-day vertical slice (18 kanji). See [docs/n5.md](docs/n5.md).
+
 ## Project layout
 
 | Path | What it does |
@@ -39,6 +45,7 @@ Then open http://localhost:8000.
 | `js/app.js` | Rendering and navigation |
 | `src/lessons/<n>.txt` | The vocabulary, one file per lesson |
 | `data/lessons.js` | **Generated** from `src/lessons`. Don't edit by hand |
+| `src/n5/`, `js/n5/`, `css/n5.css`, `data/n5.js` | The N5 kanji track: content, logic, UI, and generated data. See [docs/n5.md](docs/n5.md) |
 
 ## Contributing
 

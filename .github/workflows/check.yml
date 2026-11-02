@@ -12,6 +12,10 @@ jobs:
         with:
           node-version: 22
       - name: Syntax check
-        run: for f in js/*.js tools/*.mjs; do node --check "$f"; done
+        run: for f in js/*.js js/n5/*.js tools/*.mjs; do node --check "$f"; done
       - name: Vocabulary data is up to date and valid
         run: node tools/build-data.mjs && git diff --exit-code data/lessons.js
+      - name: N5 content is valid, verified against its sources, and the generated data is up to date
+        run: node tools/build-n5.mjs --strict && git diff --exit-code data/n5.js
+      - name: N5 unit tests
+        run: node --test "tests/n5/*.test.mjs"
