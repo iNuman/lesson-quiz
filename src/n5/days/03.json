@@ -1,0 +1,72 @@
+{
+  "unit": 3,
+  "sentences": [
+    { "id": "s3-01", "ja": "今日{きょう}は 土{ど}曜{よう}日{び}です。", "en": "Today is Saturday.", "focus": ["v-kyo", "v-doyobi"] },
+    { "id": "s3-02", "ja": "今{いま}、何時{なんじ}ですか。", "en": "What time is it now?", "focus": ["v-ima"] },
+    { "id": "s3-03", "ja": "今{こん}月{げつ}は いそがしいです。", "en": "This month I am busy.", "focus": ["v-kongetsu"] },
+    { "id": "s3-04", "ja": "先{せん}月{げつ}、日本{にほん}へ いきました。", "en": "Last month I went to Japan.", "focus": ["v-sengetsu", "v-nihon"] },
+    { "id": "s3-05", "ja": "先{せん}生{せい}は 日本人{にほんじん}です。", "en": "The teacher is Japanese.", "focus": ["v-sensei", "v-nihonjin"] },
+    { "id": "s3-06", "ja": "わたしは 学{がく}生{せい}です。", "en": "I am a student.", "focus": ["v-gakusei"] },
+    { "id": "s3-07", "ja": "何{なに}を たべますか。", "en": "What will you eat?", "focus": ["v-nani"] },
+    { "id": "s3-08", "ja": "クラスに 学{がく}生{せい}が 何{なん}人{にん} いますか。", "en": "How many students are in the class?", "focus": ["v-nannin", "v-gakusei"] },
+    { "id": "s3-09", "ja": "今日{きょう}は 何{なん}曜{よう}日{び}ですか。", "en": "What day of the week is it today?", "focus": ["v-kyo", "v-nanyobi"] },
+    { "id": "s3-10", "ja": "土{ど}曜{よう}日{び}は しごとが ありません。", "en": "I don't have work on Saturday.", "focus": ["v-doyobi"] },
+    { "id": "s3-11", "ja": "先{せん}生{せい}は 学{がく}生{せい}に 日本語{にほんご}を おしえます。", "en": "The teacher teaches Japanese to the students.", "focus": ["v-sensei", "v-gakusei"] },
+    { "id": "s3-12", "ja": "がっこうで 日本語{にほんご}を おしえる 人{ひと}は 先{せん}生{せい}です。", "en": "The person who teaches Japanese at school is the teacher.", "focus": ["v-sensei"] }
+  ],
+  "cloze": [
+    { "id": "c3-1", "sentence": "s3-09", "blank": "v-kyo", "options": ["v-sensei", "v-gakusei", "v-sengetsu"], "explain": "「＿＿は 何曜日ですか」 asks about a day: 今日 (きょう), today." },
+    { "id": "c3-2", "sentence": "s3-06", "blank": "v-gakusei", "options": ["v-kyo", "v-doyobi", "v-kongetsu"], "explain": "「わたしは ＿＿です」 states who you are: 学生 (がくせい), a student." },
+    { "id": "c3-3", "sentence": "s3-12", "blank": "v-sensei", "options": ["v-gakusei", "v-kyo", "v-doyobi"], "explain": "The person who teaches is the 先生 (せんせい), teacher." },
+    { "id": "c3-4", "sentence": "s3-08", "blank": "v-nannin", "options": ["v-kyo", "v-sengetsu", "v-doyobi"], "explain": "「いますか」 with a number of people asks 何人 (なんにん), how many people." },
+    { "id": "c3-5", "sentence": "s3-02", "blank": "v-ima", "options": ["v-sengetsu", "v-kongetsu", "v-doyobi"], "explain": "「＿＿、何時ですか」 asks the time right now: 今 (いま)." }
+  ],
+  "passage": {
+    "id": "p3",
+    "title": "日本語{にほんご}の クラス",
+    "titleEn": "The Japanese Class",
+    "paragraphs": [
+      "今日{きょう}は 土{ど}曜{よう}日{び}です。",
+      "わたしは 日本語{にほんご}の クラスに 来{き}ました。",
+      "先{せん}生{せい}は 日本人{にほんじん}です。学{がく}生{せい}は 十人{じゅうにん}ぐらい います。",
+      "先{せん}生{せい}が 学{がく}生{せい}に 「今日{きょう}は 何{なん}曜{よう}日{び}ですか」と ききました。",
+      "学{がく}生{せい}が 「土{ど}曜{よう}日{び}です」と こたえました。",
+      "わたしは 先{せん}月{げつ}から この クラスで 勉強{べんきょう}して います。"
+    ],
+    "paragraphsEn": [
+      "Today is Saturday.",
+      "I came to my Japanese class.",
+      "The teacher is Japanese. There are about ten students.",
+      "The teacher asked the students, \"What day of the week is it today?\"",
+      "A student answered, \"It is Saturday.\"",
+      "I have been studying in this class since last month."
+    ],
+    "questions": [
+      {
+        "id": "q3-1", "q": "今日{きょう}は 何{なん}曜{よう}日{び}ですか。", "qEn": "What day of the week is it today?",
+        "options": ["金{きん}曜{よう}日{び}", "土{ど}曜{よう}日{び}", "日{にち}曜{よう}日{び}", "木{もく}曜{よう}日{び}"], "answer": 1, "kanji": ["今", "土", "曜"],
+        "explain": "今日は 土曜日です."
+      },
+      {
+        "id": "q3-2", "q": "先{せん}生{せい}は どんな 人{ひと}ですか。", "qEn": "What kind of person is the teacher?",
+        "options": ["日本人{にほんじん}", "学{がく}生{せい}", "ブラジル人{じん}", "ちゅうごく人{じん}"], "answer": 0, "kanji": ["先", "生", "人"],
+        "explain": "先生は 日本人です — the teacher is Japanese."
+      },
+      {
+        "id": "q3-3", "q": "「わたし」は いつから この クラスで 勉強{べんきょう}して いますか。", "qEn": "Since when has the writer studied in this class?",
+        "options": ["今{こん}月{げつ}から", "先{せん}月{げつ}から", "今日{きょう}から", "土{ど}曜{よう}日{び}から"], "answer": 1, "kanji": ["先", "今"],
+        "explain": "先月から — since last month."
+      },
+      {
+        "id": "q3-4", "q": "先{せん}生{せい}は 学{がく}生{せい}に 何{なに}を ききましたか。", "qEn": "What did the teacher ask the students?",
+        "options": ["今日{きょう}は 何{なん}曜{よう}日{び}か", "今{いま}、何時{なんじ}か", "先{せん}月{げつ}の こと", "学{がく}生{せい}の 名前{なまえ}"], "answer": 0, "kanji": ["先", "学", "生", "何"],
+        "explain": "「今日は 何曜日ですか」と ききました."
+      },
+      {
+        "id": "q3-5", "q": "クラスの 学{がく}生{せい}は 何{なん}人{にん}ぐらいですか。", "qEn": "About how many students are in the class?",
+        "options": ["三人{さんにん}ぐらい", "五人{ごにん}ぐらい", "十人{じゅうにん}ぐらい", "二十{にじゅう}人{にん}ぐらい"], "answer": 2, "kanji": ["学", "生", "何", "人"],
+        "explain": "学生は 十人ぐらい います."
+      }
+    ]
+  }
+}

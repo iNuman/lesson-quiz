@@ -6,6 +6,9 @@
   "type": "module",
   "scripts": {
     "build": "node tools/build-data.mjs",
-    "start": "node serve.mjs 8000"
+    "start": "node serve.mjs 8000",
+    "build:n5": "node tools/build-n5.mjs",
+    "verify:n5": "node tools/verify-n5-sources.mjs",
+    "test:n5": "node --test tests/n5/*.test.mjs"
   }
 }

@@ -237,6 +237,23 @@
     }
   }
 
+  /* ---------- hooks used by the N5 track (js/n5/ui.js) ---------- */
+  // Awards XP outside a vocabulary session. Counts toward the same level, daily streak and daily goal.
+  // Returns { levelUp, goal }. The caller re-renders the HUD.
+  function awardXp(n, o) {
+    touchDay();
+    const info = { levelUp: addXp(n), goal: false };
+    if (o && o.correct) {
+      p.totalCorrect += 1; p.todayCount += 1;
+      if (p.todayCount >= DAILY_GOAL && p.goalDay !== today()) { p.goalDay = today(); info.goal = true; info.levelUp = addXp(GOAL_BONUS) || info.levelUp; }
+    }
+    save();
+    if (info.levelUp) setTimeout(() => { sfx.level(); banner(`LEVEL UP!  Lv ${info.levelUp}`, "level"); confetti(innerWidth / 2, innerHeight / 3, 120, 14); }, 250);
+    if (info.goal) setTimeout(() => { banner(`Daily goal complete!  +${GOAL_BONUS} XP`, "level"); confetti(innerWidth / 2, innerHeight / 3, 140, 15); }, info.levelUp ? 1900 : 300);
+    return info;
+  }
+  const cue = (kind, n) => { if (kind === "correct") { sfx.correct(n || 1); buzz(12); } else if (kind === "wrong") { sfx.wrong(); buzz([40, 30, 40]); } else if (kind === "done") sfx.done(n || 2); };
+
   const starsFor = (pct) => (pct >= 90 ? 3 : pct >= 70 ? 2 : 1);
 
   // Idempotent: scores a finished lesson once and returns the summary shown on the results card.
@@ -267,5 +284,5 @@
   // Create the AudioContext on the first touch so the first answer does not stall setting it up.
   document.addEventListener("pointerdown", () => audio(), { once: true, passive: true });
 
-  window.Game = { burst: confetti, whoosh: () => sfx.swoosh(), TIMER_MULT, glide, questionShown, answered, fx, finish, finishFx, renderHud, bindHud, lessonStars, level, DAILY_GOAL };
+  window.Game = { awardXp, cue, pop, center, burst: confetti, whoosh: () => sfx.swoosh(), TIMER_MULT, glide, questionShown, answered, fx, finish, finishFx, renderHud, bindHud, lessonStars, level, DAILY_GOAL };
 })();
