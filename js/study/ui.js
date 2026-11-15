@@ -14,6 +14,7 @@
   const LANG = { ja: "ja-JP", en: "en-US" };
   const JAPANESE_RATE = 0.9;                 // slightly slower than normal: this is for learners
   const CORRECT_PAUSE_MS = 1100;
+  const AUTO_LISTEN_DELAY_MS = 250;          // lets the end of the assistant's voice die away before the microphone opens
   // `say` is what the learner speaks, `hear` is what the assistant speaks.
   const DIRECTIONS = {
     "en-ja": { say: "ja", hear: "en", icon: "🇬🇧 → 🇯🇵", title: "Hear English, say Japanese", hint: "The assistant says the meaning. You say the Japanese word." },
@@ -265,10 +266,22 @@
     const d = DIRECTIONS[run.dir];
     const text = d.hear === "ja" ? F.spokenJapanese(w) : F.spokenEnglish(w);
     const result = await speech.speak(text, LANG[d.hear], { rate: d.hear === "ja" ? JAPANESE_RATE : 1 });
+    if (result === "done") { autoListen(id); return; }
     if (!run || run.cardId !== id || result !== "unavailable") return;
     run.reveal = true;                          // the assistant cannot speak here: show the prompt as text
     run.notice = "This browser cannot speak the prompt, so it is shown on screen.";
     if (run.phase === "ask") renderCard();
+  }
+
+  const autoListenOn = () => settings.get().auto !== false;   // on unless the learner turned it off
+
+  // Once the assistant has finished its prompt the microphone opens by itself, once per prompt. Only a prompt that really
+  // ended ("done") triggers it, and only if the learner has not moved on, started listening, or switched to typing.
+  function autoListen(cardId) {
+    setTimeout(() => {
+      if (!run || run.cardId !== cardId || run.phase !== "ask" || run.typed || !autoListenOn() || !speech.canListen() || doc.hidden) return;
+      onMic();
+    }, AUTO_LISTEN_DELAY_MS);
   }
 
   function renderCard() {
@@ -317,8 +330,9 @@
     }
     return `${note}<button type="button" class="st-mic${listening ? " is-live" : ""}" id="st-mic" data-act="mic" aria-pressed="${listening}">
         <span class="st-mic-icon" aria-hidden="true">🎙</span></button>
-      <p class="st-mic-label">${listening ? "Listening… speak now" : "Tap and speak"}</p>
-      <button type="button" class="st-link" data-act="use-typing">Type instead</button>`;
+      <p class="st-mic-label">${listening ? "Listening… speak now" : autoListenOn() ? "Speak after the voice, or tap" : "Tap and speak"}</p>
+      <div class="st-row"><button type="button" class="st-link" data-act="use-typing">Type instead</button>
+        <button type="button" class="st-link" data-act="auto" aria-pressed="${autoListenOn()}">Auto-listen: ${autoListenOn() ? "On" : "Off"}</button></div>`;
   }
 
   function verdictHtml(w) {
@@ -388,6 +402,7 @@
       case "next": commit(run.verdict.ok); break;
       case "override": run.overrides += 1; commit(true); break;
       case "end": speech.cancel(); P.end(run.session); showSummary(); break;
+      case "auto": settings.set({ auto: !autoListenOn() }); renderCard(); break;
       case "use-typing": speech.cancel(); run.typed = true; run.phase = "ask"; renderCard(); break;
       case "use-mic": run.typed = false; renderCard(); break;
       case "retry-mic": speech.resetMicrophone(); if (speech.canListen()) { run.typed = false; run.notice = ""; } renderCard(); break;

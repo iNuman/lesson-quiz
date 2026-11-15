@@ -24,8 +24,8 @@ NASA | NASAの 人{ひと}は うちゅうに 行{い}きます。 | NASA people
 タイムマシン | タイムマシンで 昔{むかし}へ 行{い}きたいです。 | I want to go to the past in a time machine.
 つくります・つくる | 母{はは}は ケーキを つくります。 | My mother makes cake. | 作ります,作る
 むかし | むかしの 日本{にほん}は どうでしたか。 | What was Japan like long ago? | 昔
-どのぐらい | どのぐらい かかりますか。 | How long does it take?
-かかります・かかる | えきまで 十分{じゅっぷん} かかります。 | It takes ten minutes to the station.
+どのぐらい | どのぐらい かかりますか。 | How long does it take? | どの位
+かかります・かかる | えきまで 十分{じゅっぷん} かかります。 | It takes ten minutes to the station. | 掛かります,掛かる
 ～じかん | 毎日{まいにち} 二{に}時間{じかん} 勉強{べんきょう}します。 | I study two hours every day. | 時間
 ふね | ふねで 行{い}きます。 | I go by ship. | 船
 うま | うまに のりたいです。 | I want to ride a horse. | 馬

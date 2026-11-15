@@ -19,7 +19,7 @@
 ことば | この ことばの 意味{いみ}を 教{おし}えて ください。 | Please tell me the meaning of this word. | 言葉
 意味 | この 字{じ}の 意味{いみ}は 何{なん}ですか。 | What is the meaning of this character?
 閉めます・閉める | まどを 閉{し}めて ください。 | Please close the window.
-わかりました。 | = |
+わかりました。 | = | | 分かりました
 おまわりさん | おまわりさんに みちを 聞{き}きます。 | I ask the police officer the way. | お巡りさん
 病院 | 病院{びょういん}は 駅{えき}の 近{ちか}くに あります。 | The hospital is near the station.
 まず | まず 手{て}を あらいましょう。 | First of all, let's wash our hands.
@@ -27,7 +27,7 @@
 まがります・まがる | あの かどを 右{みぎ}へ まがって ください。 | Please turn right at that corner. | 曲がります,曲がる
 しんごう | しんごうを 左{ひだり}へ まがります。 | I turn left at the traffic light. | 信号
 ～ぐらい | えきまで 十分{じゅっぷん}ぐらいです。 | It is about ten minutes to the station.
-じゃ | じゃ、また あした。 | Well then, see you tomorrow.
+じゃ | じゃ、また あした。 | Well then, see you tomorrow. | じゃあ
 どうも ありがとう ございました。 | = |
 気を つけて。 | = |
 かど | その かどを 左{ひだり}へ まがって ください。 | Please turn left at that corner. | 角
@@ -39,8 +39,8 @@
 おじぎ | 日本{にほん}では おじぎを します。 | In Japan, people bow. | お辞儀
 両手 | 両手{りょうて}で お茶{ちゃ}わんを 持{も}ちます。 | I hold the teacup with both hands.
 かえします・かえす | 本{ほん}を 友{とも}だちに かえします。 | I return the book to my friend. | 返します,返す
-ごめんください。 | = |
-おじゃまします。 | = |
+ごめんください。 | = | | ごめん下さい
+おじゃまします。 | = | | お邪魔します
 いらっしゃい。 | = |
 どうぞ | どうぞ、お入{はい}り ください。 | Please, come in.
 さあ | さあ、行{い}きましょう。 | Come on, let's go.
@@ -49,5 +49,5 @@
 (お)かし | お茶{ちゃ}と お菓子{かし}を どうぞ。 | Please have some tea and sweets. | 菓子,お菓子
 ほんの 気持ちです。 | = |
 めしあがります・めしあがる | どうぞ めしあがって ください。 | Please have some. | 召し上がります,召し上がる
-そろそろ しつれいします。 | = |
-おじゃましました。 | = |
+そろそろ しつれいします。 | = | | そろそろ失礼します
+おじゃましました。 | = | | お邪魔しました
