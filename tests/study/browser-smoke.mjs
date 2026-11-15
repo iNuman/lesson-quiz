@@ -61,8 +61,17 @@ try {
   await sleep(60);
   ok((await b.eval("window.__spoken")).some((s) => s === "ja-JP:まど"), "the hear button speaks the word in Japanese");
   /* the register: everything on one page, two columns, nothing leaves its card */
-  const cols = await b.eval("getComputedStyle(document.querySelector('#st-vocab .st-grid')).columnCount");
-  ok(String(cols) === "2", "the words are laid out in two columns on a phone");
+  const top = (n) => b.eval(`Math.round(document.querySelectorAll('#st-vocab .st-word')[${n}].getBoundingClientRect().top)`);
+  const left = (n) => b.eval(`Math.round(document.querySelectorAll('#st-vocab .st-word')[${n}].getBoundingClientRect().left)`);
+  ok((await b.eval("getComputedStyle(document.querySelector('#st-vocab .st-grid')).gridTemplateColumns.split(' ').length")) === 2, "default order is across: two columns on a phone");
+  ok((await top(0)) === (await top(1)) && (await left(1)) > (await left(0)), "across: word 2 sits beside word 1, not below it");
+  ok((await top(2)) > (await top(0)), "across: word 3 starts the next row");
+  await b.click("#st-vocab [data-act=flow]");
+  ok((await txt("#st-vocab [data-act=flow]")).includes("Down") && (await b.eval("JSON.parse(localStorage.getItem('jpquiz.study')).flow")) === "down", "the order button switches to down and remembers it");
+  ok((await left(1)) === (await left(0)) && (await top(1)) > (await top(0)), "down: word 2 sits below word 1");
+  await shot("vocab-down");
+  await b.click("#st-vocab [data-act=flow]");
+  ok((await top(0)) === (await top(1)), "switching back restores across");
   ok((await b.eval("document.querySelector('#st-vocab').getBoundingClientRect().width")) >= 389, "the register fills the whole screen");
   const escaped = await b.eval(`(() => {
     const bad = [];

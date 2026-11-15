@@ -78,6 +78,7 @@
      ===================================================================================================== */
   const MODES = { all: "Show all", en: "Cover meaning", ja: "Cover Japanese" };
   const SCALES = [0.9, 1, 1.15];             // text size steps
+  const FLOWS = { across: "⇆ Across", down: "⇅ Down" };   // reading order: 1 2 / 3 4 (across, default) or 1 3 / 2 4 (down)
   let reg = null;                            // the register on screen: { lesson, order, mode, hideKnown, known, scale, voice }
 
   const lengthClass = (w) => { const n = w.ja.length; return n <= 4 ? "s" : n <= 9 ? "m" : n <= 14 ? "l" : "xl"; };   // long words get smaller type
@@ -97,7 +98,7 @@
     if (!lesson) return;
     const prefs = settings.get();
     reg = { lesson, order: lesson.words.map((_, i) => i), shuffled: false, mode: MODES[prefs.mode] ? prefs.mode : "all", hideKnown: false,
-      known: loadKnown(lesson), scale: SCALES.includes(prefs.scale) ? prefs.scale : 1, voice: false };
+      known: loadKnown(lesson), scale: SCALES.includes(prefs.scale) ? prefs.scale : 1, voice: false, flow: FLOWS[prefs.flow] ? prefs.flow : "across" };
     vocabDlg.innerHTML = `<div class="st-sheet">
       <header class="st-head">
         <div class="st-title"><b>Lesson ${lesson.lesson}</b><span>Study register · <span id="st-count"></span></span></div>
@@ -107,6 +108,7 @@
         <div class="st-seg" role="group" aria-label="Red sheet">${Object.entries(MODES).map(([k, label]) => `<button type="button" data-mode="${k}">${label}</button>`).join("")}</div>
         <button type="button" class="st-chip" data-act="hide-known" aria-pressed="false">Hide ✓ known</button>
         <button type="button" class="st-chip" data-act="shuffle" aria-pressed="false">🔀 Shuffle</button>
+        <button type="button" class="st-chip" data-act="flow"></button>
         <button type="button" class="st-chip" data-act="size" aria-label="Text size">Aa</button>
       </div>
       <div class="st-meter" aria-hidden="true"><i></i></div>
@@ -148,6 +150,10 @@
     const n = reg.lesson.words.length, k = reg.known.size;
     vocabDlg.classList.toggle("st-cover-en", reg.mode === "en");
     vocabDlg.classList.toggle("st-cover-ja", reg.mode === "ja");
+    vocabDlg.classList.toggle("st-flow-down", reg.flow === "down");
+    const flowBtn = vocabDlg.querySelector("[data-act=flow]");
+    flowBtn.textContent = FLOWS[reg.flow];
+    flowBtn.setAttribute("aria-label", `Reading order: ${reg.flow === "across" ? "across, 1 then 2 side by side" : "down, 1 then 2 below"}. Tap to switch.`);
     vocabDlg.classList.toggle("st-hide-known", reg.hideKnown);
     vocabDlg.style.setProperty("--st-scale", reg.scale);
     vocabDlg.querySelectorAll("[data-mode]").forEach((b) => b.setAttribute("aria-pressed", String(b.dataset.mode === reg.mode)));
@@ -187,6 +193,7 @@
         case "close": vocabDlg.close(); break;
         case "hide-known": reg.hideKnown = !reg.hideKnown; applyRegister(); break;
         case "shuffle": reg.shuffled = !reg.shuffled; reg.order = reg.shuffled ? root.QuizEngine.shuffle(reg.order) : reg.lesson.words.map((_, i) => i); renderGrid(); applyRegister(); break;
+        case "flow": reg.flow = reg.flow === "across" ? "down" : "across"; settings.set({ flow: reg.flow }); applyRegister(); break;
         case "size": reg.scale = SCALES[(SCALES.indexOf(reg.scale) + 1) % SCALES.length]; settings.set({ scale: reg.scale }); applyRegister(); break;
         default: break;
       }
