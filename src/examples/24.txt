@@ -1,0 +1,26 @@
+# Lesson 24 examples — headword | sentence (漢字{よみ}) | English | other written forms (optional)
+スケジュール | あしたの スケジュールは どうですか。 | How is tomorrow's schedule?
+けっこんしき | 友{とも}だちの けっこんしきに 行{い}きます。 | I am going to a friend's wedding. | 結婚式
+あります・ある | あしたは 会議{かいぎ}が あります。 | There is a meeting tomorrow.
+とまります・とまる(大阪に～) | 大阪{おおさか}の ホテルに とまります。 | I will stay at a hotel in Osaka. | 泊まります,泊まる
+それじゃ | それじゃ、行{い}きましょう。 | Well then, let's go.
+今度 | 今度{こんど} いっしょに 行{い}きましょう。 | Let's go together next time.
+さそいます・さそう | 友{とも}だちを パーティーに さそいます。 | I invite my friend to a party. | 誘います,誘う
+出席します・出席する(けっこんしきに～) | けっこんしきに 出席{しゅっせき}します。 | I will attend the wedding.
+本屋 | 本屋{ほんや}で 本{ほん}を 買{か}います。 | I buy books at the bookstore.
+名古屋 | 名古屋{なごや}は 大阪{おおさか}と 東京{とうきょう}の 間{あいだ}です。 | Nagoya is between Osaka and Tokyo.
+生まれます・生まれる | わたしは 東京{とうきょう}で 生{う}まれました。 | I was born in Tokyo.
+大阪大学 | 大阪大学{おおさかだいがく}は 大{おお}きいです。 | Osaka University is large.
+理学部 | 兄{あに}は 理学部{りがくぶ}の 学生{がくせい}です。 | My older brother is a student in the faculty of science.
+入学します・入学する | 四月{しがつ}に 大学{だいがく}に 入学{にゅうがく}します。 | I will enter university in April.
+トランジスタラジオ | 昔{むかし}、トランジスタラジオが ありました。 | Long ago, there were transistor radios.
+開発します・開発する | 新{あたら}しい 機械{きかい}を 開発{かいはつ}します。 | We develop a new machine.
+アメリカ | アメリカへ 行{い}きたいです。 | I want to go to America.
+サンディエゴ | サンディエゴは アメリカの 町{まち}です。 | San Diego is a city in America.
+建てます・建てる | 新{あたら}しい 家{いえ}を 建{た}てます。 | We are going to build a new house.
+ウォークマン | ウォークマンで 音楽{おんがく}を 聞{き}きます。 | I listen to music with a Walkman.
+始めます・始める | 授業{じゅぎょう}を 始{はじ}めます。 | We start the class.
+タイム誌 | タイム誌{し}を 読{よ}みました。 | I read Time magazine.
+えらびます・えらぶ | 好{す}きな 本{ほん}を えらんで ください。 | Please choose a book you like. | 選びます,選ぶ
+なくなります・なくなる | おじいさんが なくなりました。 | My grandfather passed away. | 亡くなります,亡くなる
+知り合います・知り合う(千春さんと～) | 千春{ちはる}さんと 日本{にほん}で 知{し}り合{あ}いました。 | I got to know Chiharu in Japan.

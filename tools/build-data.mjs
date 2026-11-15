@@ -4,6 +4,7 @@
 // Entries without curated distractors get three auto-picked, similarity-ranked ones
 // from the SAME lesson. Everything is validated; the build fails on any problem.
 import fs from "node:fs";
+import vm from "node:vm";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { makeRuby } from "./furigana.mjs";
@@ -11,7 +12,14 @@ import { grammarOf } from "./grammar.mjs";
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const srcDir = path.join(root, "src", "lessons");
+const exampleDir = path.join(root, "src", "examples");
 const outFile = path.join(root, "data", "lessons.js");
+
+// The study tools' own word-form rules (js/study/forms.js) are reused to check that an example really uses its word.
+const sandbox = vm.createContext({ console });
+sandbox.window = sandbox;
+for (const f of ["js/n5/kana.js", "js/study/forms.js"]) vm.runInContext(fs.readFileSync(path.join(root, f), "utf8"), sandbox, { filename: f });
+const Forms = sandbox.Study.Forms;
 
 const STOP = new Set(["to", "a", "an", "the", "of", "be", "in", "on", "for", "your", "my", "someone", "someones", "s"]);
 const norm = (s) => s.toLowerCase().replace(/\([^)]*\)/g, " ").replace(/[^a-z0-9~ ]+/g, " ").replace(/\s+/g, " ").trim();
@@ -48,6 +56,67 @@ function parse(file) {
     entries.push(e);
   }
   return { n, entries };
+}
+
+/* ---------- example sentences: src/examples/<n>.txt ----------
+   line format:  headword | sentence | English | (optional) other written forms, comma separated
+   - headword is the word's Japanese exactly as in src/lessons/<n>.txt (it pairs the line with its entry, in order)
+   - sentence marks readings as  漢字{かんじ}  (hiragana only); every kanji must have one
+   - "=" instead of a sentence means the entry is itself a whole sentence and needs no example
+   - other written forms are what a speech recogniser may print for a kana word (まど → 窓) */
+const KANJI = "\u3400-\u9FFF々〆";
+const RUBY = new RegExp(String.raw`[${KANJI}]+\{[ぁ-ゖー]+\}`, "g");
+const HAS_KANJI = new RegExp(String.raw`[${KANJI}]`);
+const plainOf = (m) => m.replace(new RegExp(String.raw`([${KANJI}]+)\{[^}]*\}`, "g"), "$1");
+const readingOf = (m) => m.replace(new RegExp(String.raw`[${KANJI}]+\{([^}]*)\}`, "g"), "$1");
+
+// Does the sentence use the word? Verbs and adjectives conjugate, so their stem is enough.
+function usesWord(e, sentence) {
+  const text = [plainOf(sentence), readingOf(sentence)].map((s) => s.replace(/\s+/g, ""));
+  const conjugates = e.pos === "Verb" || e.pos === "Adjective";
+  const variants = [...Forms.japaneseVariants(e.ja), ...Forms.japaneseVariants(Forms.readingOf(e))];
+  const candidates = new Set();
+  for (const v of variants) {
+    candidates.add(v);
+    if (!conjugates) continue;
+    let stem = v.replace(/ます$/, "");
+    candidates.add(stem);
+    for (let cut = 1; cut <= 2 && stem.length > cut; cut++) candidates.add(stem.slice(0, stem.length - cut));
+  }
+  return [...candidates].some((c) => c && text.some((s) => s.includes(c)));
+}
+
+function parseExamples(n, entries, problems) {
+  const file = path.join(exampleDir, `${n}.txt`);
+  if (!fs.existsSync(file)) { problems.push(`L${n}: missing src/examples/${n}.txt`); return; }
+  const lines = fs.readFileSync(file, "utf8").split("\n").filter((l) => l.trim() && !l.startsWith("#"));
+  const used = new Set();
+  for (const raw of lines) {
+    const p = raw.split("|").map((x) => x.trim());
+    const where = `L${n} example "${p[0]}"`;
+    if (p.length < 3) { problems.push(`${where}: expected  headword | sentence | English`); continue; }
+    const e = entries.find((x) => x.ja === p[0] && !used.has(x));
+    if (!e) { problems.push(`${where}: no matching (unused) entry in src/lessons/${n}.txt`); continue; }
+    used.add(e);
+    if (p[3]) {
+      const alt = p[3].split(",").map((x) => x.trim()).filter(Boolean);
+      const known = new Set(Forms.japaneseForms(e));
+      if (alt.some((x) => known.has(Forms.normalizeJapanese(x)))) problems.push(`${where}: an other-written-form is already accepted`);
+      e.alt = alt;
+    }
+    if (p[1] === "=") continue;
+    const [, sentence, en] = p;
+    const bare = sentence.replace(RUBY, "");
+    if (/[{}]/.test(bare)) problems.push(`${where}: a reading must be hiragana directly after kanji: ${sentence}`);
+    else if (HAS_KANJI.test(bare)) problems.push(`${where}: kanji without a reading: ${sentence}`);
+    if (!en) problems.push(`${where}: English is empty`);
+    if (!/[。？！」]$/.test(sentence)) problems.push(`${where}: a sentence ends with 。 ？ or ！`);
+    if (!usesWord(e, sentence)) problems.push(`${where}: the sentence does not use the word: ${sentence}`);
+    e.example = { ja: sentence, en };
+  }
+  for (const e of entries) {
+    if (!used.has(e)) problems.push(`L${n} ${e.id} ${e.ja}: no line in src/examples/${n}.txt (use "=" if the entry is a whole sentence)`);
+  }
 }
 
 function score(target, cand) {
@@ -94,6 +163,7 @@ for (const f of files) {
     e.distractors = d.map((x) => entries.indexOf(x) + 1);
     delete e.curated;
   });
+  parseExamples(n, entries, problems);
   lessons[n] = { lesson: n, title: `Lesson ${n}`, words: entries };
 }
 

@@ -1,0 +1,13 @@
+# Lesson 22 examples — headword | sentence (漢字{よみ}) | English | other written forms (optional)
+さしみ | さしみを 食{た}べた ことが ありますか。 | Have you ever eaten sashimi? | 刺身
+はし | はしで ごはんを 食{た}べます。 | I eat rice with chopsticks. | 箸
+着物 | 着物{きもの}を 着{き}た ことが ありますか。 | Have you ever worn a kimono?
+おんせん | おんせんに 入{はい}った ことが あります。 | I have been in a hot spring. | 温泉
+書道 | 書道{しょどう}を 習{なら}って います。 | I am learning calligraphy.
+地震 | きのう 地震{じしん}が ありました。 | There was an earthquake yesterday.
+経験します・経験する | 日本{にほん}で たくさん 経験{けいけん}しました。 | I experienced a lot in Japan.
+まだ | まだ 食{た}べて いません。 | I have not eaten yet.
+旅行します・旅行する | 去年{きょねん} 日本{にほん}を 旅行{りょこう}しました。 | I traveled around Japan last year.
+すごい | この 映画{えいが}は すごいです。 | This movie is great. | 凄い
+外国語 | 外国語{がいこくご}を 勉強{べんきょう}して います。 | I am studying a foreign language.
+外国 | 外国{がいこく}へ 行{い}った ことが ありますか。 | Have you ever been abroad?

@@ -1,0 +1,64 @@
+# Lesson 19 examples — headword | sentence (漢字{よみ}) | English | other written forms (optional)
+ダイナマイト | ダイナマイトは あぶないです。 | Dynamite is dangerous.
+ほし | 夜{よる}、星{ほし}が 見{み}えます。 | I can see stars at night. | 星
+さる | さるが バナナを 食{た}べて います。 | A monkey is eating a banana. | 猿
+かきます・かく(えを～) | わたしは えを かくのが 好{す}きです。 | I like drawing pictures. | 描きます,描く
+入ります・入る((お)ふろに～) | 毎晩{まいばん} おふろに 入{はい}ります。 | I take a bath every night.
+盛田昭夫 | 盛田昭夫{もりたあきお}さんを 知{し}って いますか。 | Do you know Akio Morita?
+知ります・知る | あの 人{ひと}を 知{し}って いますか。 | Do you know that person?
+持ちます・持つ | わたしは 車{くるま}を 持{も}って います。 | I own a car.
+クレジットカード | クレジットカードで はらいます。 | I pay by credit card.
+けっこんします・けっこんする | 姉{あね}は 来年{らいねん} けっこんします。 | My older sister will get married next year. | 結婚します,結婚する
+住みます・住む | わたしは 東京{とうきょう}に 住{す}んで います。 | I live in Tokyo.
+プログラミング | プログラミングを 勉強{べんきょう}して います。 | I am studying programming.
+ジャカルタ | ジャカルタは インドネシアの 首都{しゅと}です。 | Jakarta is the capital of Indonesia.
+―さい | わたしは 二十{にじゅう}さいです。 | I am twenty years old. | 歳,才
+～ちゃん | ゆうこちゃんは 三{さん}さいです。 | Yuko-chan is three years old.
+ようちえん | 妹{いもうと}は ようちえんに 通{かよ}って います。 | My little sister goes to kindergarten. | 幼稚園
+通います・通う(ようちえんに～) | 弟{おとうと}は 学校{がっこう}に 通{かよ}って います。 | My younger brother goes to school.
+何人 | ご家族{かぞく}は 何人{なんにん}ですか。 | How many people are in your family?
+会社 | 父{ちち}は 会社{かいしゃ}に 行{い}きます。 | My father goes to his company.
+生産します・生産する | この 会社{かいしゃ}は 車{くるま}を 生産{せいさん}します。 | This company produces cars.
+輸出します・輸出する | 日本{にほん}は 車{くるま}を 輸出{ゆしゅつ}します。 | Japan exports cars.
+輸入します・輸入する | 日本{にほん}は 石油{せきゆ}を 輸入{ゆにゅう}します。 | Japan imports petroleum.
+米 | 日本人{にほんじん}は 米{こめ}を 食{た}べます。 | Japanese people eat rice.
+産業 | 日本{にほん}の 産業{さんぎょう}は 大{おお}きいです。 | Japan's industry is large.
+きかい | この きかいは 新{あたら}しいです。 | This machine is new. | 機械
+せきゆ | せきゆは 高{たか}いです。 | Petroleum is expensive. | 石油
+お父さん | お父{とう}さんは 何{なに}を して いますか。 | What does your father do for work?
+父 | 父{ちち}は 医者{いしゃ}です。 | My father is a doctor.
+お母さん | お母{かあ}さんは お元気{げんき}ですか。 | Is your mother well?
+母 | 母{はは}は 料理{りょうり}が 上手{じょうず}です。 | My mother is good at cooking.
+お兄さん | お兄{にい}さんは 何歳{なんさい}ですか。 | How old is your older brother?
+兄 | 兄{あに}は 大学生{だいがくせい}です。 | My older brother is a university student.
+お姉さん | お姉{ねえ}さんは きれいですね。 | Your older sister is pretty, isn't she?
+姉 | 姉{あね}は 銀行{ぎんこう}で 働{はたら}いて います。 | My older sister works at a bank.
+弟さん | 弟{おとうと}さんは 何年生{なんねんせい}ですか。 | What year of school is your younger brother in?
+弟 | 弟{おとうと}は 高校生{こうこうせい}です。 | My younger brother is a high school student.
+妹さん | 妹{いもうと}さんは かわいいですね。 | Your younger sister is cute, isn't she?
+妹 | 妹{いもうと}は 十{じゅう}さいです。 | My younger sister is ten years old.
+ご主人 | ご主人{しゅじん}は おいくつですか。 | How old is your husband?
+主人 | 主人{しゅじん}は 会社員{かいしゃいん}です。 | My husband is a company employee.
+おっと | おっとは 毎日{まいにち} 八時{はちじ}に 家{いえ}を 出{で}ます。 | My husband leaves home at eight every day. | 夫
+おくさん | おくさんは お元気{げんき}ですか。 | Is your wife well? | 奥さん
+家内 | 家内{かない}は 料理{りょうり}が 好{す}きです。 | My wife likes cooking.
+つま | つまは 先生{せんせい}です。 | My wife is a teacher. | 妻
+お子さん | お子{こ}さんは 何人{なんにん}ですか。 | How many children do you have?
+子ども | 子{こ}どもは 二人{ふたり} います。 | I have two children.
+むすこさん | むすこさんは 大学生{だいがくせい}ですか。 | Is your son a university student? | 息子さん
+むすこ | むすこは サッカーが 好{す}きです。 | My son likes soccer. | 息子
+むすめさん | むすめさんは おいくつですか。 | How old is your daughter? | 娘さん
+むすめ | むすめは ピアノを ひきます。 | My daughter plays the piano. | 娘
+ご兄弟 | ご兄弟{きょうだい}は いますか。 | Do you have any brothers or sisters?
+兄弟 | 兄弟{きょうだい}は 三人{さんにん}です。 | There are three of us siblings.
+ご家族 | ご家族{かぞく}は お元気{げんき}ですか。 | Is your family well?
+家族 | 家族{かぞく}は 四人{よにん}です。 | There are four people in my family.
+医者 | 医者{いしゃ}に 薬{くすり}を もらいました。 | I got medicine from the doctor.
+看護婦 | 看護婦{かんごふ}さんは しんせつです。 | The nurse is kind.
+教師 | わたしは 日本語{にほんご}の 教師{きょうし}です。 | I am a Japanese language teacher.
+弁護士 | 弁護士{べんごし}は 忙{いそが}しいです。 | Lawyers are busy.
+警察官 | 警察官{けいさつかん}に みちを 聞{き}きます。 | I ask a police officer the way.
+公務員 | 父{ちち}は 公務員{こうむいん}です。 | My father is a government employee.
+会社員 | あの 人{ひと}は 会社員{かいしゃいん}です。 | That person is a company employee.
+建築家 | あの 建築家{けんちくか}は 有名{ゆうめい}です。 | That architect is famous.
+技術者 | 兄{あに}は 技術者{ぎじゅつしゃ}です。 | My older brother is an engineer.

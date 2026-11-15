@@ -18,6 +18,11 @@ No dependencies or build step. The code is plain HTML/CSS/JS:
 Edit `src/lessons/<n>.txt` (`japanese | romaji | english | type`), then run
 `node tools/build-data.mjs` to regenerate `data/lessons.js`. See the README for details.
 
+## Example sentences
+Each word needs a line in `src/examples/<n>.txt` (`headword | sentence{よみ} | English | other written forms`; `=` for entries that are whole sentences).
+Every kanji needs a hiragana reading in braces. `node tools/build-data.mjs` rejects anything wrong and `npm run test:study` checks the rest.
+See docs/vocab-study.md.
+
 ## N5 kanji content
 Edit `src/n5/*.json`, then run `npm run build:n5`, `npm run verify:n5` (checks readings against KANJIDIC2/JMdict, needs network)
 and `npm run test:n5`. Sentences and passages need review by a proficient Japanese speaker: see `docs/n5-review-sheet.md`.

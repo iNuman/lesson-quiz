@@ -29,6 +29,18 @@ npm start
 
 Then open http://localhost:8000.
 
+## Study tools: Vocabulary and Speak practice
+
+Every vocabulary lesson has two buttons under its title:
+
+- **Vocabulary** lists the lesson's words with hiragana over the kanji, romaji, the meaning and a short example sentence, so you can read
+  and remember before you take the quiz. A speaker button says the word or sentence aloud when your browser has a Japanese voice.
+- **Speak practice** is a voice drill. Choose *hear English, say Japanese* or *hear Japanese, say English*. The assistant judges your answer
+  and moves on; words you miss come back until you get them right. It works best in Chrome, Edge or Safari (they can listen to speech).
+  Without a microphone, or in a browser that cannot listen (Firefox), you type the answers instead.
+
+Details, rules and corner cases: [docs/vocab-study.md](docs/vocab-study.md).
+
 ## N5 Kanji track (new)
 
 A second track, **N5 Kanji**, sits beside the vocabulary lessons (switch under the header). It teaches JLPT N5 kanji through
@@ -45,6 +57,7 @@ readings, vocabulary, sentences, original reading passages, typed recall and ada
 | `js/app.js` | Rendering and navigation |
 | `src/lessons/<n>.txt` | The vocabulary, one file per lesson |
 | `data/lessons.js` | **Generated** from `src/lessons`. Don't edit by hand |
+| `src/examples/<n>.txt`, `js/study/`, `css/study.css` | Example sentences and the Vocabulary / Speak practice dialogs. See [docs/vocab-study.md](docs/vocab-study.md) |
 | `src/n5/`, `js/n5/`, `css/n5.css`, `data/n5.js` | The N5 kanji track: content, logic, UI, and generated data. See [docs/n5.md](docs/n5.md) |
 
 ## Contributing

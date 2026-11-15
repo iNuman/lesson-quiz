@@ -16,7 +16,14 @@ window.LESSON_DATA = {
      64,
      20,
      28
-    ]
+    ],
+    "alt": [
+     "窓"
+    ],
+    "example": {
+     "ja": "まどを 開{あ}けて ください。",
+     "en": "Please open the window."
+    }
    },
    {
     "id": "16-2",
@@ -48,7 +55,11 @@ window.LESSON_DATA = {
      61,
      46,
      35
-    ]
+    ],
+    "example": {
+     "ja": "バスが 来{き}ます。急{いそ}ぎましょう。",
+     "en": "The bus is coming. Let's hurry."
+    }
    },
    {
     "id": "16-3",
@@ -68,7 +79,11 @@ window.LESSON_DATA = {
      7,
      32,
      12
-    ]
+    ],
+    "example": {
+     "ja": "きのう 病気{びょうき}で 会社{かいしゃ}を 休{やす}みました。",
+     "en": "I was sick yesterday and took the day off work."
+    }
    },
    {
     "id": "16-4",
@@ -108,7 +123,11 @@ window.LESSON_DATA = {
      9,
      42,
      61
-    ]
+    ],
+    "example": {
+     "ja": "ごはんの あとで 薬{くすり}を 飲{の}みます。",
+     "en": "I take medicine after meals."
+    }
    },
    {
     "id": "16-5",
@@ -128,7 +147,11 @@ window.LESSON_DATA = {
      60,
      30,
      27
-    ]
+    ],
+    "example": {
+     "ja": "この 薬{くすり}は 一日{いちにち}に 三回{さんかい} 飲{の}みます。",
+     "en": "I take this medicine three times a day."
+    }
    },
    {
     "id": "16-6",
@@ -152,7 +175,11 @@ window.LESSON_DATA = {
      17,
      16,
      19
-    ]
+    ],
+    "example": {
+     "ja": "へやが 暗{くら}いですから、電気{でんき}を つけて ください。",
+     "en": "The room is dark, so please turn on the light."
+    }
    },
    {
     "id": "16-7",
@@ -172,7 +199,11 @@ window.LESSON_DATA = {
      3,
      33,
      64
-    ]
+    ],
+    "example": {
+     "ja": "電気{でんき}を 消{け}して ください。",
+     "en": "Please turn off the light."
+    }
    },
    {
     "id": "16-8",
@@ -186,7 +217,17 @@ window.LESSON_DATA = {
      63,
      48,
      24
-    ]
+    ],
+    "alt": [
+     "点けます",
+     "点ける",
+     "付けます",
+     "付ける"
+    ],
+    "example": {
+     "ja": "暗{くら}いですから、電気{でんき}を つけます。",
+     "en": "It is dark, so I will turn on the light."
+    }
    },
    {
     "id": "16-9",
@@ -200,7 +241,15 @@ window.LESSON_DATA = {
      4,
      24,
      59
-    ]
+    ],
+    "alt": [
+     "散歩します",
+     "散歩する"
+    ],
+    "example": {
+     "ja": "毎朝{まいあさ} 公園{こうえん}を さんぽします。",
+     "en": "I take a walk in the park every morning."
+    }
    },
    {
     "id": "16-10",
@@ -214,7 +263,15 @@ window.LESSON_DATA = {
      19,
      16,
      6
-    ]
+    ],
+    "alt": [
+     "必要",
+     "必要な"
+    ],
+    "example": {
+     "ja": "ここでは パスポートが ひつようです。",
+     "en": "A passport is necessary here."
+    }
    },
    {
     "id": "16-11",
@@ -228,7 +285,11 @@ window.LESSON_DATA = {
      44,
      56,
      52
-    ]
+    ],
+    "example": {
+     "ja": "もう ごはんを 食{た}べましたか。",
+     "en": "Have you already eaten?"
+    }
    },
    {
     "id": "16-12",
@@ -242,7 +303,15 @@ window.LESSON_DATA = {
      32,
      3,
      5
-    ]
+    ],
+    "alt": [
+     "お腹",
+     "腹"
+    ],
+    "example": {
+     "ja": "おなかが いたいです。",
+     "en": "My stomach hurts."
+    }
    },
    {
     "id": "16-13",
@@ -270,7 +339,11 @@ window.LESSON_DATA = {
      25,
      13,
      21
-    ]
+    ],
+    "example": {
+     "ja": "ええ、わかりました。",
+     "en": "Yes, I understand."
+    }
    },
    {
     "id": "16-15",
@@ -284,7 +357,11 @@ window.LESSON_DATA = {
      51,
      52,
      11
-    ]
+    ],
+    "example": {
+     "ja": "そうですか。",
+     "en": "Is that so?"
+    }
    },
    {
     "id": "16-16",
@@ -298,7 +375,11 @@ window.LESSON_DATA = {
      17,
      6,
      19
-    ]
+    ],
+    "example": {
+     "ja": "こんな 本{ほん}が ほしいです。",
+     "en": "I want a book like this."
+    }
    },
    {
     "id": "16-17",
@@ -312,7 +393,14 @@ window.LESSON_DATA = {
      16,
      6,
      19
-    ]
+    ],
+    "alt": [
+     "遅い"
+    ],
+    "example": {
+     "ja": "バスが おそいです。",
+     "en": "The bus is late."
+    }
    },
    {
     "id": "16-18",
@@ -336,7 +424,11 @@ window.LESSON_DATA = {
      56,
      44,
      11
-    ]
+    ],
+    "example": {
+     "ja": "あした 早{はや}く 起{お}きます。",
+     "en": "I will get up early tomorrow."
+    }
    },
    {
     "id": "16-19",
@@ -364,7 +456,11 @@ window.LESSON_DATA = {
      16,
      6,
      17
-    ]
+    ],
+    "example": {
+     "ja": "日本{にほん}の 夏{なつ}は むし暑{あつ}いです。",
+     "en": "Summer in Japan is humid."
+    }
    },
    {
     "id": "16-20",
@@ -378,7 +474,14 @@ window.LESSON_DATA = {
      64,
      26,
      28
-    ]
+    ],
+    "alt": [
+     "喉"
+    ],
+    "example": {
+     "ja": "のどが いたいです。",
+     "en": "My throat hurts."
+    }
    },
    {
     "id": "16-21",
@@ -406,7 +509,11 @@ window.LESSON_DATA = {
      65,
      40,
      55
-    ]
+    ],
+    "example": {
+     "ja": "うちから えきまで 二{に}キロです。",
+     "en": "It is two kilometers from my house to the station."
+    }
    },
    {
     "id": "16-23",
@@ -438,7 +545,11 @@ window.LESSON_DATA = {
      36,
      48,
      8
-    ]
+    ],
+    "example": {
+     "ja": "毎朝{まいあさ} 公園{こうえん}を 走{はし}ります。",
+     "en": "I run in the park every morning."
+    }
    },
    {
     "id": "16-24",
@@ -452,7 +563,15 @@ window.LESSON_DATA = {
      9,
      63,
      8
-    ]
+    ],
+    "alt": [
+     "疲れます",
+     "疲れる"
+    ],
+    "example": {
+     "ja": "今日{きょう}は たくさん 歩{ある}いて、つかれました。",
+     "en": "I walked a lot today and got tired."
+    }
    },
    {
     "id": "16-25",
@@ -490,7 +609,14 @@ window.LESSON_DATA = {
      64,
      1,
      62
-    ]
+    ],
+    "alt": [
+     "甘い物"
+    ],
+    "example": {
+     "ja": "あまい物{もの}が 好{す}きです。",
+     "en": "I like sweet things."
+    }
    },
    {
     "id": "16-27",
@@ -514,7 +640,11 @@ window.LESSON_DATA = {
      30,
      29,
      45
-    ]
+    ],
+    "example": {
+     "ja": "お酒{さけ}は 飲{の}みません。",
+     "en": "I do not drink alcohol."
+    }
    },
    {
     "id": "16-28",
@@ -538,7 +668,11 @@ window.LESSON_DATA = {
      62,
      1,
      20
-    ]
+    ],
+    "example": {
+     "ja": "あの 人{ひと}は イスラム教徒{きょうと}です。",
+     "en": "That person is Muslim."
+    }
    },
    {
     "id": "16-29",
@@ -552,7 +686,11 @@ window.LESSON_DATA = {
      45,
      27,
      30
-    ]
+    ],
+    "example": {
+     "ja": "わたしは ベジタリアンですから、肉{にく}を 食{た}べません。",
+     "en": "I am a vegetarian, so I do not eat meat."
+    }
    },
    {
     "id": "16-30",
@@ -566,7 +704,11 @@ window.LESSON_DATA = {
      27,
      45,
      29
-    ]
+    ],
+    "example": {
+     "ja": "アイスクリームが 大好{だいす}きです。",
+     "en": "I love ice cream."
+    }
    },
    {
     "id": "16-31",
@@ -590,7 +732,11 @@ window.LESSON_DATA = {
      14,
      25,
      13
-    ]
+    ],
+    "example": {
+     "ja": "今{いま} ダイエット中{ちゅう}ですから、ケーキは 食{た}べません。",
+     "en": "I am on a diet now, so I will not eat cake."
+    }
    },
    {
     "id": "16-32",
@@ -604,7 +750,11 @@ window.LESSON_DATA = {
      12,
      3,
      60
-    ]
+    ],
+    "example": {
+     "ja": "わたしは たまごの アレルギーが あります。",
+     "en": "I am allergic to eggs."
+    }
    },
    {
     "id": "16-33",
@@ -624,7 +774,11 @@ window.LESSON_DATA = {
      7,
      26,
      20
-    ]
+    ],
+    "example": {
+     "ja": "この 店{みせ}は 安{やす}いです。",
+     "en": "This store is cheap."
+    }
    },
    {
     "id": "16-34",
@@ -638,7 +792,11 @@ window.LESSON_DATA = {
      41,
      6,
      16
-    ]
+    ],
+    "example": {
+     "ja": "どうして 学校{がっこう}を 休{やす}みましたか。",
+     "en": "Why did you take the day off from school?"
+    }
    },
    {
     "id": "16-35",
@@ -670,7 +828,11 @@ window.LESSON_DATA = {
      46,
      61,
      2
-    ]
+    ],
+    "example": {
+     "ja": "この ペンを 使{つか}っても いいですか。",
+     "en": "May I use this pen?"
+    }
    },
    {
     "id": "16-36",
@@ -684,7 +846,11 @@ window.LESSON_DATA = {
      23,
      48,
      63
-    ]
+    ],
+    "example": {
+     "ja": "へやに テレビが あります。",
+     "en": "There is a TV in the room."
+    }
    },
    {
     "id": "16-37",
@@ -698,7 +864,11 @@ window.LESSON_DATA = {
      29,
      45,
      39
-    ]
+    ],
+    "example": {
+     "ja": "わたしは 土曜日{どようび}に アルバイトを します。",
+     "en": "I have a part-time job on Saturdays."
+    }
    },
    {
     "id": "16-38",
@@ -712,7 +882,11 @@ window.LESSON_DATA = {
      47,
      55,
      54
-    ]
+    ],
+    "example": {
+     "ja": "もしもし、田中{たなか}です。",
+     "en": "Hello, this is Tanaka."
+    }
    },
    {
     "id": "16-39",
@@ -726,7 +900,14 @@ window.LESSON_DATA = {
      37,
      45,
      29
-    ]
+    ],
+    "alt": [
+     "お宅"
+    ],
+    "example": {
+     "ja": "お宅{たく}は 駅{えき}から 近{ちか}いですか。",
+     "en": "Is your house close to the station?"
+    }
    },
    {
     "id": "16-40",
@@ -750,7 +931,11 @@ window.LESSON_DATA = {
      22,
      65,
      45
-    ]
+    ],
+    "example": {
+     "ja": "山田{やまだ}夫人{ふじん}は 先生{せんせい}です。",
+     "en": "Mrs. Yamada is a teacher."
+    }
    },
    {
     "id": "16-41",
@@ -764,7 +949,14 @@ window.LESSON_DATA = {
      34,
      4,
      39
-    ]
+    ],
+    "alt": [
+     "どちら様"
+    ],
+    "example": {
+     "ja": "どちらさまですか。",
+     "en": "Who is it, please?"
+    }
    },
    {
     "id": "16-42",
@@ -778,7 +970,15 @@ window.LESSON_DATA = {
      4,
      43,
      61
-    ]
+    ],
+    "alt": [
+     "申します",
+     "申す"
+    ],
+    "example": {
+     "ja": "わたしは 山田{やまだ}と 申{もう}します。",
+     "en": "My name is Yamada."
+    }
    },
    {
     "id": "16-43",
@@ -792,7 +992,11 @@ window.LESSON_DATA = {
      53,
      59,
      9
-    ]
+    ],
+    "example": {
+     "ja": "社長{しゃちょう}は 今{いま} 会議室{かいぎしつ}に いらっしゃいます。",
+     "en": "The president is in the meeting room now."
+    }
    },
    {
     "id": "16-44",
@@ -812,7 +1016,11 @@ window.LESSON_DATA = {
      56,
      11,
      51
-    ]
+    ],
+    "example": {
+     "ja": "少々{しょうしょう} お待{ま}ち ください。",
+     "en": "Please wait a moment."
+    }
    },
    {
     "id": "16-45",
@@ -832,7 +1040,11 @@ window.LESSON_DATA = {
      29,
      27,
      30
-    ]
+    ],
+    "example": {
+     "ja": "主人{しゅじん}は 今{いま} 家{いえ}に いません。",
+     "en": "My husband is not home now."
+    }
    },
    {
     "id": "16-46",
@@ -864,7 +1076,11 @@ window.LESSON_DATA = {
      61,
      2,
      35
-    ]
+    ],
+    "example": {
+     "ja": "ここで 友{とも}だちを 待{ま}ちます。",
+     "en": "I wait for my friend here."
+    }
    },
    {
     "id": "16-47",
@@ -924,7 +1140,11 @@ window.LESSON_DATA = {
      63,
      8,
      36
-    ]
+    ],
+    "example": {
+     "ja": "母{はは}は 買{か}い物{もの}に 出{で}かけました。",
+     "en": "My mother went out shopping."
+    }
    },
    {
     "id": "16-49",
@@ -938,7 +1158,11 @@ window.LESSON_DATA = {
      55,
      21,
      13
-    ]
+    ],
+    "example": {
+     "ja": "部長{ぶちょう}は ただいま でかけて おります。",
+     "en": "The manager is out right now."
+    }
    },
    {
     "id": "16-50",
@@ -952,7 +1176,11 @@ window.LESSON_DATA = {
      16,
      58,
      17
-    ]
+    ],
+    "example": {
+     "ja": "では、また あした。",
+     "en": "Well then, see you tomorrow."
+    }
    },
    {
     "id": "16-51",
@@ -966,7 +1194,11 @@ window.LESSON_DATA = {
      52,
      11,
      44
-    ]
+    ],
+    "example": {
+     "ja": "また 来{き}て ください。",
+     "en": "Please come again."
+    }
    },
    {
     "id": "16-52",
@@ -980,7 +1212,11 @@ window.LESSON_DATA = {
      51,
      11,
      44
-    ]
+    ],
+    "example": {
+     "ja": "あとで 電話{でんわ}します。",
+     "en": "I will call you later."
+    }
    },
    {
     "id": "16-53",
@@ -994,7 +1230,15 @@ window.LESSON_DATA = {
      59,
      43,
      9
-    ]
+    ],
+    "alt": [
+     "伝えます",
+     "伝える"
+    ],
+    "example": {
+     "ja": "田中{たなか}さんに つたえます。",
+     "en": "I will pass it on to Mr. Tanaka."
+    }
    },
    {
     "id": "16-54",
@@ -1036,7 +1280,14 @@ window.LESSON_DATA = {
      44,
      11,
      18
-    ]
+    ],
+    "alt": [
+     "只今"
+    ],
+    "example": {
+     "ja": "ただいま 電話中{でんわちゅう}です。",
+     "en": "He is on the phone right now."
+    }
    },
    {
     "id": "16-57",
@@ -1050,7 +1301,11 @@ window.LESSON_DATA = {
      55,
      21,
      13
-    ]
+    ],
+    "example": {
+     "ja": "母{はは}は 今日{きょう} るすに して おります。",
+     "en": "My mother is out today."
+    }
    },
    {
     "id": "16-58",
@@ -1064,7 +1319,11 @@ window.LESSON_DATA = {
      7,
      33,
      26
-    ]
+    ],
+    "example": {
+     "ja": "ピーッと 音{おと}が なりました。",
+     "en": "The beep sounded."
+    }
    },
    {
     "id": "16-59",
@@ -1078,7 +1337,11 @@ window.LESSON_DATA = {
      9,
      53,
      24
-    ]
+    ],
+    "example": {
+     "ja": "電話{でんわ}が なりました。",
+     "en": "The phone rang."
+    }
    },
    {
     "id": "16-60",
@@ -1092,7 +1355,15 @@ window.LESSON_DATA = {
      5,
      30,
      27
-    ]
+    ],
+    "alt": [
+     "ご用件",
+     "用件"
+    ],
+    "example": {
+     "ja": "ご用件{ようけん}は 何{なん}ですか。",
+     "en": "What is your business?"
+    }
    },
    {
     "id": "16-61",
@@ -1124,7 +1395,11 @@ window.LESSON_DATA = {
      2,
      46,
      35
-    ]
+    ],
+    "example": {
+     "ja": "日本語{にほんご}で 話{はな}して ください。",
+     "en": "Please speak in Japanese."
+    }
    },
    {
     "id": "16-62",
@@ -1138,7 +1413,14 @@ window.LESSON_DATA = {
      28,
      20,
      64
-    ]
+    ],
+    "alt": [
+     "歌舞伎"
+    ],
+    "example": {
+     "ja": "かぶきを 見{み}に 行{い}きたいです。",
+     "en": "I want to go and see kabuki."
+    }
    },
    {
     "id": "16-63",
@@ -1152,7 +1434,15 @@ window.LESSON_DATA = {
      8,
      48,
      24
-    ]
+    ],
+    "alt": [
+     "連絡します",
+     "連絡する"
+    ],
+    "example": {
+     "ja": "田中{たなか}さんに れんらくします。",
+     "en": "I will contact Mr. Tanaka."
+    }
    },
    {
     "id": "16-64",
@@ -1172,7 +1462,11 @@ window.LESSON_DATA = {
      62,
      28,
      1
-    ]
+    ],
+    "example": {
+     "ja": "切符{きっぷ}を 買{か}いました。",
+     "en": "I bought a ticket."
+    }
    },
    {
     "id": "16-65",
@@ -1186,7 +1480,14 @@ window.LESSON_DATA = {
      22,
      40,
      42
-    ]
+    ],
+    "alt": [
+     "枚"
+    ],
+    "example": {
+     "ja": "切符{きっぷ}を 二{に}まい ください。",
+     "en": "Two tickets, please."
+    }
    }
   ]
  },
@@ -1206,7 +1507,15 @@ window.LESSON_DATA = {
      6,
      17,
      3
-    ]
+    ],
+    "alt": [
+     "呼びます",
+     "呼ぶ"
+    ],
+    "example": {
+     "ja": "タクシーを よびます。",
+     "en": "I will call a taxi."
+    }
    },
    {
     "id": "17-2",
@@ -1230,7 +1539,11 @@ window.LESSON_DATA = {
      24,
      25,
      10
-    ]
+    ],
+    "example": {
+     "ja": "もう 一度{いちど} 言{い}って ください。",
+     "en": "Please say it once more."
+    }
    },
    {
     "id": "17-3",
@@ -1262,7 +1575,11 @@ window.LESSON_DATA = {
      6,
      1,
      17
-    ]
+    ],
+    "example": {
+     "ja": "先生{せんせい}は 何{なん}と 言{い}いましたか。",
+     "en": "What did the teacher say?"
+    }
    },
    {
     "id": "17-4",
@@ -1294,7 +1611,11 @@ window.LESSON_DATA = {
      20,
      9,
      26
-    ]
+    ],
+    "example": {
+     "ja": "わたしは 日本語{にほんご}を 教{おし}えます。",
+     "en": "I teach Japanese."
+    }
    },
    {
     "id": "17-5",
@@ -1308,7 +1629,11 @@ window.LESSON_DATA = {
      10,
      24,
      2
-    ]
+    ],
+    "example": {
+     "ja": "ちょっと 休{やす}みましょう。",
+     "en": "Let's take a short break."
+    }
    },
    {
     "id": "17-6",
@@ -1340,7 +1665,11 @@ window.LESSON_DATA = {
      1,
      17,
      3
-    ]
+    ],
+    "example": {
+     "ja": "ペンを 貸{か}して ください。",
+     "en": "Please lend me a pen."
+    }
    },
    {
     "id": "17-7",
@@ -1372,7 +1701,11 @@ window.LESSON_DATA = {
      46,
      47,
      20
-    ]
+    ],
+    "example": {
+     "ja": "母{はは}に 電話{でんわ}します。",
+     "en": "I will call my mother."
+    }
    },
    {
     "id": "17-8",
@@ -1386,7 +1719,11 @@ window.LESSON_DATA = {
      34,
      22,
      48
-    ]
+    ],
+    "example": {
+     "ja": "ここに 名前{なまえ}を 書{か}いて ください。",
+     "en": "Please write your name here."
+    }
    },
    {
     "id": "17-9",
@@ -1418,7 +1755,11 @@ window.LESSON_DATA = {
      26,
      20,
      4
-    ]
+    ],
+    "example": {
+     "ja": "ドアを 開{あ}けます。",
+     "en": "I open the door."
+    }
    },
    {
     "id": "17-10",
@@ -1446,7 +1787,11 @@ window.LESSON_DATA = {
      5,
      24,
      2
-    ]
+    ],
+    "example": {
+     "ja": "もう 少{すこ}し ゆっくり 話{はな}して ください。",
+     "en": "Please speak a little more slowly."
+    }
    },
    {
     "id": "17-11",
@@ -1460,7 +1805,11 @@ window.LESSON_DATA = {
      44,
      25,
      12
-    ]
+    ],
+    "example": {
+     "ja": "ゆっくり 歩{ある}きましょう。",
+     "en": "Let's walk slowly."
+    }
    },
    {
     "id": "17-12",
@@ -1474,7 +1823,11 @@ window.LESSON_DATA = {
      11,
      44,
      25
-    ]
+    ],
+    "example": {
+     "ja": "すぐ 行{い}きます。",
+     "en": "I will go right away."
+    }
    },
    {
     "id": "17-13",
@@ -1506,7 +1859,11 @@ window.LESSON_DATA = {
      50,
      46,
      7
-    ]
+    ],
+    "example": {
+     "ja": "車{くるま}に 気{き}を つけて ください。",
+     "en": "Please watch out for cars."
+    }
    },
    {
     "id": "17-14",
@@ -1520,7 +1877,14 @@ window.LESSON_DATA = {
      5,
      10,
      24
-    ]
+    ],
+    "alt": [
+     "遠慮なく"
+    ],
+    "example": {
+     "ja": "えんりょなく 食{た}べて ください。",
+     "en": "Please eat without holding back."
+    }
    },
    {
     "id": "17-15",
@@ -1534,7 +1898,11 @@ window.LESSON_DATA = {
      32,
      37,
      19
-    ]
+    ],
+    "example": {
+     "ja": "寒{さむ}いですから、ヒーターを つけます。",
+     "en": "It is cold, so I will turn on the heater."
+    }
    },
    {
     "id": "17-16",
@@ -1562,7 +1930,11 @@ window.LESSON_DATA = {
      33,
      36,
      39
-    ]
+    ],
+    "example": {
+     "ja": "この 字{じ}の 読{よ}み方{かた}を 教{おし}えて ください。",
+     "en": "Please tell me how to read this character."
+    }
    },
    {
     "id": "17-17",
@@ -1594,7 +1966,11 @@ window.LESSON_DATA = {
      1,
      6,
      3
-    ]
+    ],
+    "example": {
+     "ja": "母{はは}を 手伝{てつだ}います。",
+     "en": "I help my mother."
+    }
    },
    {
     "id": "17-18",
@@ -1608,7 +1984,14 @@ window.LESSON_DATA = {
      38,
      32,
      15
-    ]
+    ],
+    "alt": [
+     "言葉"
+    ],
+    "example": {
+     "ja": "この ことばの 意味{いみ}を 教{おし}えて ください。",
+     "en": "Please tell me the meaning of this word."
+    }
    },
    {
     "id": "17-19",
@@ -1628,7 +2011,11 @@ window.LESSON_DATA = {
      37,
      23,
      35
-    ]
+    ],
+    "example": {
+     "ja": "この 字{じ}の 意味{いみ}は 何{なん}ですか。",
+     "en": "What is the meaning of this character?"
+    }
    },
    {
     "id": "17-20",
@@ -1660,7 +2047,11 @@ window.LESSON_DATA = {
      4,
      9,
      26
-    ]
+    ],
+    "example": {
+     "ja": "まどを 閉{し}めて ください。",
+     "en": "Please close the window."
+    }
    },
    {
     "id": "17-21",
@@ -1688,7 +2079,14 @@ window.LESSON_DATA = {
      48,
      27,
      8
-    ]
+    ],
+    "alt": [
+     "お巡りさん"
+    ],
+    "example": {
+     "ja": "おまわりさんに みちを 聞{き}きます。",
+     "en": "I ask the police officer the way."
+    }
    },
    {
     "id": "17-23",
@@ -1708,7 +2106,11 @@ window.LESSON_DATA = {
      35,
      37,
      19
-    ]
+    ],
+    "example": {
+     "ja": "病院{びょういん}は 駅{えき}の 近{ちか}くに あります。",
+     "en": "The hospital is near the station."
+    }
    },
    {
     "id": "17-24",
@@ -1722,7 +2124,11 @@ window.LESSON_DATA = {
      10,
      2,
      5
-    ]
+    ],
+    "example": {
+     "ja": "まず 手{て}を あらいましょう。",
+     "en": "First of all, let's wash our hands."
+    }
    },
    {
     "id": "17-25",
@@ -1736,7 +2142,14 @@ window.LESSON_DATA = {
      2,
      11,
      44
-    ]
+    ],
+    "alt": [
+     "真っ直ぐ"
+    ],
+    "example": {
+     "ja": "まっすぐ 行{い}って ください。",
+     "en": "Please go straight."
+    }
    },
    {
     "id": "17-26",
@@ -1750,7 +2163,15 @@ window.LESSON_DATA = {
      9,
      4,
      20
-    ]
+    ],
+    "alt": [
+     "曲がります",
+     "曲がる"
+    ],
+    "example": {
+     "ja": "あの かどを 右{みぎ}へ まがって ください。",
+     "en": "Please turn right at that corner."
+    }
    },
    {
     "id": "17-27",
@@ -1764,7 +2185,14 @@ window.LESSON_DATA = {
      22,
      48,
      36
-    ]
+    ],
+    "alt": [
+     "信号"
+    ],
+    "example": {
+     "ja": "しんごうを 左{ひだり}へ まがります。",
+     "en": "I turn left at the traffic light."
+    }
    },
    {
     "id": "17-28",
@@ -1778,7 +2206,11 @@ window.LESSON_DATA = {
      27,
      10,
      22
-    ]
+    ],
+    "example": {
+     "ja": "えきまで 十分{じゅっぷん}ぐらいです。",
+     "en": "It is about ten minutes to the station."
+    }
    },
    {
     "id": "17-29",
@@ -1792,7 +2224,11 @@ window.LESSON_DATA = {
      34,
      8,
      43
-    ]
+    ],
+    "example": {
+     "ja": "じゃ、また あした。",
+     "en": "Well then, see you tomorrow."
+    }
    },
    {
     "id": "17-30",
@@ -1844,7 +2280,14 @@ window.LESSON_DATA = {
      15,
      37,
      19
-    ]
+    ],
+    "alt": [
+     "角"
+    ],
+    "example": {
+     "ja": "その かどを 左{ひだり}へ まがって ください。",
+     "en": "Please turn left at that corner."
+    }
    },
    {
     "id": "17-33",
@@ -1858,7 +2301,14 @@ window.LESSON_DATA = {
      34,
      16,
      36
-    ]
+    ],
+    "alt": [
+     "次の角"
+    ],
+    "example": {
+     "ja": "つぎの かどを 右{みぎ}へ まがります。",
+     "en": "I turn right at the next corner."
+    }
    },
    {
     "id": "17-34",
@@ -1890,7 +2340,16 @@ window.LESSON_DATA = {
      33,
      8,
      48
-    ]
+    ],
+    "alt": [
+     "二番目の角",
+     "2番目の角",
+     "2ばん目の角"
+    ],
+    "example": {
+     "ja": "2ばん目{め}の かどを 右{みぎ}へ まがって ください。",
+     "en": "Please turn right at the second corner."
+    }
    },
    {
     "id": "17-35",
@@ -1904,7 +2363,14 @@ window.LESSON_DATA = {
      23,
      37,
      19
-    ]
+    ],
+    "alt": [
+     "突き当たり"
+    ],
+    "example": {
+     "ja": "つきあたりを 左{ひだり}へ まがって ください。",
+     "en": "Please turn left at the end of the street."
+    }
    },
    {
     "id": "17-36",
@@ -1918,7 +2384,14 @@ window.LESSON_DATA = {
      27,
      16,
      33
-    ]
+    ],
+    "alt": [
+     "交差点"
+    ],
+    "example": {
+     "ja": "つぎの こうさてんを まっすぐ 行{い}きます。",
+     "en": "I go straight at the next intersection."
+    }
    },
    {
     "id": "17-37",
@@ -1946,7 +2419,15 @@ window.LESSON_DATA = {
      19,
      23,
      35
-    ]
+    ],
+    "alt": [
+     "お茶碗",
+     "茶碗"
+    ],
+    "example": {
+     "ja": "この お茶{ちゃ}わんは きれいですね。",
+     "en": "This teacup is pretty, isn't it?"
+    }
    },
    {
     "id": "17-38",
@@ -1960,7 +2441,14 @@ window.LESSON_DATA = {
      18,
      32,
      15
-    ]
+    ],
+    "alt": [
+     "お辞儀"
+    ],
+    "example": {
+     "ja": "日本{にほん}では おじぎを します。",
+     "en": "In Japan, people bow."
+    }
    },
    {
     "id": "17-39",
@@ -1980,7 +2468,11 @@ window.LESSON_DATA = {
      33,
      16,
      36
-    ]
+    ],
+    "example": {
+     "ja": "両手{りょうて}で お茶{ちゃ}わんを 持{も}ちます。",
+     "en": "I hold the teacup with both hands."
+    }
    },
    {
     "id": "17-40",
@@ -1994,7 +2486,15 @@ window.LESSON_DATA = {
      1,
      6,
      17
-    ]
+    ],
+    "alt": [
+     "返します",
+     "返す"
+    ],
+    "example": {
+     "ja": "本{ほん}を 友{とも}だちに かえします。",
+     "en": "I return the book to my friend."
+    }
    },
    {
     "id": "17-41",
@@ -2050,7 +2550,11 @@ window.LESSON_DATA = {
      11,
      25,
      12
-    ]
+    ],
+    "example": {
+     "ja": "どうぞ、お入{はい}り ください。",
+     "en": "Please, come in."
+    }
    },
    {
     "id": "17-45",
@@ -2064,7 +2568,11 @@ window.LESSON_DATA = {
      43,
      41,
      30
-    ]
+    ],
+    "example": {
+     "ja": "さあ、行{い}きましょう。",
+     "en": "Come on, let's go."
+    }
    },
    {
     "id": "17-46",
@@ -2096,7 +2604,11 @@ window.LESSON_DATA = {
      7,
      47,
      50
-    ]
+    ],
+    "example": {
+     "ja": "どうぞ、上{あ}がって ください。",
+     "en": "Please, come in."
+    }
    },
    {
     "id": "17-47",
@@ -2110,7 +2622,15 @@ window.LESSON_DATA = {
      7,
      46,
      20
-    ]
+    ],
+    "alt": [
+     "座ります",
+     "座る"
+    ],
+    "example": {
+     "ja": "ここに すわっても いいですか。",
+     "en": "May I sit here?"
+    }
    },
    {
     "id": "17-48",
@@ -2124,7 +2644,15 @@ window.LESSON_DATA = {
      22,
      27,
      8
-    ]
+    ],
+    "alt": [
+     "菓子",
+     "お菓子"
+    ],
+    "example": {
+     "ja": "お茶{ちゃ}と お菓子{かし}を どうぞ。",
+     "en": "Please have some tea and sweets."
+    }
    },
    {
     "id": "17-49",
@@ -2166,7 +2694,15 @@ window.LESSON_DATA = {
      46,
      7,
      13
-    ]
+    ],
+    "alt": [
+     "召し上がります",
+     "召し上がる"
+    ],
+    "example": {
+     "ja": "どうぞ めしあがって ください。",
+     "en": "Please have some."
+    }
    },
    {
     "id": "17-51",
@@ -2214,7 +2750,14 @@ window.LESSON_DATA = {
      2,
      4,
      5
-    ]
+    ],
+    "alt": [
+     "顔"
+    ],
+    "example": {
+     "ja": "毎朝{まいあさ} 顔{かお}を あらいます。",
+     "en": "I wash my face every morning."
+    }
    },
    {
     "id": "18-2",
@@ -2228,7 +2771,15 @@ window.LESSON_DATA = {
      1,
      4,
      3
-    ]
+    ],
+    "alt": [
+     "洗います",
+     "洗う"
+    ],
+    "example": {
+     "ja": "手{て}を あらいます。",
+     "en": "I wash my hands."
+    }
    },
    {
     "id": "18-3",
@@ -2242,7 +2793,11 @@ window.LESSON_DATA = {
      16,
      13,
      15
-    ]
+    ],
+    "example": {
+     "ja": "メールを チェックします。",
+     "en": "I check my email."
+    }
    },
    {
     "id": "18-4",
@@ -2256,7 +2811,15 @@ window.LESSON_DATA = {
      2,
      1,
      5
-    ]
+    ],
+    "alt": [
+     "浴びます",
+     "浴びる"
+    ],
+    "example": {
+     "ja": "朝{あさ}、シャワーを あびます。",
+     "en": "I take a shower in the morning."
+    }
    },
    {
     "id": "18-5",
@@ -2270,7 +2833,14 @@ window.LESSON_DATA = {
      25,
      28,
      26
-    ]
+    ],
+    "alt": [
+     "今晩"
+    ],
+    "example": {
+     "ja": "こんばん、友{とも}だちと 会{あ}います。",
+     "en": "Tonight I am meeting a friend."
+    }
    },
    {
     "id": "18-6",
@@ -2284,7 +2854,11 @@ window.LESSON_DATA = {
      26,
      33,
      35
-    ]
+    ],
+    "example": {
+     "ja": "どうやって 行{い}きますか。",
+     "en": "How do you get there?"
+    }
    },
    {
     "id": "18-7",
@@ -2298,7 +2872,11 @@ window.LESSON_DATA = {
      8,
      10,
      14
-    ]
+    ],
+    "example": {
+     "ja": "ファックスを 送{おく}ります。",
+     "en": "I send a fax."
+    }
    },
    {
     "id": "18-8",
@@ -2312,7 +2890,14 @@ window.LESSON_DATA = {
      12,
      14,
      7
-    ]
+    ],
+    "alt": [
+     "原稿"
+    ],
+    "example": {
+     "ja": "げんこうを 書{か}きました。",
+     "en": "I wrote the manuscript."
+    }
    },
    {
     "id": "18-9",
@@ -2326,7 +2911,15 @@ window.LESSON_DATA = {
      11,
      24,
      15
-    ]
+    ],
+    "alt": [
+     "入れます",
+     "入れる"
+    ],
+    "example": {
+     "ja": "カードを いれて ください。",
+     "en": "Please insert the card."
+    }
    },
    {
     "id": "18-10",
@@ -2340,7 +2933,11 @@ window.LESSON_DATA = {
      7,
      23,
      19
-    ]
+    ],
+    "example": {
+     "ja": "スタートボタンを おして ください。",
+     "en": "Please press the start button."
+    }
    },
    {
     "id": "18-11",
@@ -2354,7 +2951,15 @@ window.LESSON_DATA = {
      9,
      3,
      24
-    ]
+    ],
+    "alt": [
+     "押します",
+     "押す"
+    ],
+    "example": {
+     "ja": "ボタンを おします。",
+     "en": "I press the button."
+    }
    },
    {
     "id": "18-12",
@@ -2368,7 +2973,11 @@ window.LESSON_DATA = {
      8,
      14,
      47
-    ]
+    ],
+    "example": {
+     "ja": "研究{けんきゅう}の テーマを きめます。",
+     "en": "I decide the theme of my research."
+    }
    },
    {
     "id": "18-13",
@@ -2382,7 +2991,15 @@ window.LESSON_DATA = {
      3,
      38,
      16
-    ]
+    ],
+    "alt": [
+     "決めます",
+     "決める"
+    ],
+    "example": {
+     "ja": "旅行{りょこう}の 日{ひ}を きめましょう。",
+     "en": "Let's decide the day of the trip."
+    }
    },
    {
     "id": "18-14",
@@ -2396,7 +3013,11 @@ window.LESSON_DATA = {
      37,
      8,
      12
-    ]
+    ],
+    "example": {
+     "ja": "データを あつめます。",
+     "en": "I collect data."
+    }
    },
    {
     "id": "18-15",
@@ -2410,7 +3031,15 @@ window.LESSON_DATA = {
      16,
      9,
      24
-    ]
+    ],
+    "alt": [
+     "集めます",
+     "集める"
+    ],
+    "example": {
+     "ja": "切手{きって}を あつめて います。",
+     "en": "I collect stamps."
+    }
    },
    {
     "id": "18-16",
@@ -2424,7 +3053,15 @@ window.LESSON_DATA = {
      3,
      15,
      13
-    ]
+    ],
+    "alt": [
+     "分析します",
+     "分析する"
+    ],
+    "example": {
+     "ja": "データを ぶんせきします。",
+     "en": "I analyze the data."
+    }
    },
    {
     "id": "18-17",
@@ -2438,7 +3075,11 @@ window.LESSON_DATA = {
      31,
      18,
      20
-    ]
+    ],
+    "example": {
+     "ja": "NASAの 人{ひと}は うちゅうに 行{い}きます。",
+     "en": "NASA people go into space."
+    }
    },
    {
     "id": "18-18",
@@ -2452,7 +3093,14 @@ window.LESSON_DATA = {
      20,
      23,
      17
-    ]
+    ],
+    "alt": [
+     "宇宙"
+    ],
+    "example": {
+     "ja": "うちゅうに 行{い}きたいです。",
+     "en": "I want to go to space."
+    }
    },
    {
     "id": "18-19",
@@ -2466,7 +3114,11 @@ window.LESSON_DATA = {
      12,
      18,
      20
-    ]
+    ],
+    "example": {
+     "ja": "毎日{まいにち} トレーニングを します。",
+     "en": "I train every day."
+    }
    },
    {
     "id": "18-20",
@@ -2480,7 +3132,11 @@ window.LESSON_DATA = {
      23,
      29,
      18
-    ]
+    ],
+    "example": {
+     "ja": "スペースシャトルは うちゅうへ 行{い}きます。",
+     "en": "The space shuttle goes into space."
+    }
    },
    {
     "id": "18-21",
@@ -2494,7 +3150,15 @@ window.LESSON_DATA = {
      43,
      44,
      27
-    ]
+    ],
+    "alt": [
+     "乗ります",
+     "乗る"
+    ],
+    "example": {
+     "ja": "バスに のります。",
+     "en": "I take a bus."
+    }
    },
    {
     "id": "18-22",
@@ -2508,7 +3172,14 @@ window.LESSON_DATA = {
      25,
      23,
      18
-    ]
+    ],
+    "alt": [
+     "ネアンデルタール人"
+    ],
+    "example": {
+     "ja": "ネアンデルタールじんは 昔{むかし}の 人{ひと}です。",
+     "en": "Neanderthals were people of long ago."
+    }
    },
    {
     "id": "18-23",
@@ -2522,7 +3193,11 @@ window.LESSON_DATA = {
      20,
      25,
      22
-    ]
+    ],
+    "example": {
+     "ja": "タイムマシンで 昔{むかし}へ 行{い}きたいです。",
+     "en": "I want to go to the past in a time machine."
+    }
    },
    {
     "id": "18-24",
@@ -2536,7 +3211,15 @@ window.LESSON_DATA = {
      13,
      15,
      9
-    ]
+    ],
+    "alt": [
+     "作ります",
+     "作る"
+    ],
+    "example": {
+     "ja": "母{はは}は ケーキを つくります。",
+     "en": "My mother makes cake."
+    }
    },
    {
     "id": "18-25",
@@ -2550,7 +3233,14 @@ window.LESSON_DATA = {
      5,
      22,
      28
-    ]
+    ],
+    "alt": [
+     "昔"
+    ],
+    "example": {
+     "ja": "むかしの 日本{にほん}は どうでしたか。",
+     "en": "What was Japan like long ago?"
+    }
    },
    {
     "id": "18-26",
@@ -2564,7 +3254,11 @@ window.LESSON_DATA = {
      6,
      28,
      35
-    ]
+    ],
+    "example": {
+     "ja": "どのぐらい かかりますか。",
+     "en": "How long does it take?"
+    }
    },
    {
     "id": "18-27",
@@ -2578,7 +3272,11 @@ window.LESSON_DATA = {
      28,
      21,
      44
-    ]
+    ],
+    "example": {
+     "ja": "えきまで 十分{じゅっぷん} かかります。",
+     "en": "It takes ten minutes to the station."
+    }
    },
    {
     "id": "18-28",
@@ -2592,7 +3290,14 @@ window.LESSON_DATA = {
      26,
      48,
      5
-    ]
+    ],
+    "alt": [
+     "時間"
+    ],
+    "example": {
+     "ja": "毎日{まいにち} 二{に}時間{じかん} 勉強{べんきょう}します。",
+     "en": "I study two hours every day."
+    }
    },
    {
     "id": "18-29",
@@ -2606,7 +3311,14 @@ window.LESSON_DATA = {
      30,
      20,
      50
-    ]
+    ],
+    "alt": [
+     "船"
+    ],
+    "example": {
+     "ja": "ふねで 行{い}きます。",
+     "en": "I go by ship."
+    }
    },
    {
     "id": "18-30",
@@ -2620,7 +3332,14 @@ window.LESSON_DATA = {
      29,
      50,
      22
-    ]
+    ],
+    "alt": [
+     "馬"
+    ],
+    "example": {
+     "ja": "うまに のりたいです。",
+     "en": "I want to ride a horse."
+    }
    },
    {
     "id": "18-31",
@@ -2634,7 +3353,14 @@ window.LESSON_DATA = {
      51,
      42,
      17
-    ]
+    ],
+    "alt": [
+     "ジェイアール"
+    ],
+    "example": {
+     "ja": "JRで 東京{とうきょう}へ 行{い}きます。",
+     "en": "I go to Tokyo by JR."
+    }
    },
    {
     "id": "18-32",
@@ -2648,7 +3374,14 @@ window.LESSON_DATA = {
      39,
      52,
      40
-    ]
+    ],
+    "alt": [
+     "渋谷駅"
+    ],
+    "example": {
+     "ja": "しぶやえきで 友{とも}だちに 会{あ}います。",
+     "en": "I meet a friend at Shibuya Station."
+    }
    },
    {
     "id": "18-33",
@@ -2662,7 +3395,14 @@ window.LESSON_DATA = {
      6,
      36,
      45
-    ]
+    ],
+    "alt": [
+     "行き方"
+    ],
+    "example": {
+     "ja": "えきまでの いきかたを 教{おし}えて ください。",
+     "en": "Please tell me how to get to the station."
+    }
    },
    {
     "id": "18-34",
@@ -2676,7 +3416,14 @@ window.LESSON_DATA = {
      45,
      33,
      32
-    ]
+    ],
+    "alt": [
+     "駅員"
+    ],
+    "example": {
+     "ja": "えきいんに 聞{き}きましょう。",
+     "en": "Let's ask the station staff."
+    }
    },
    {
     "id": "18-35",
@@ -2690,7 +3437,11 @@ window.LESSON_DATA = {
      36,
      26,
      6
-    ]
+    ],
+    "example": {
+     "ja": "どの 電車{でんしゃ}に のりますか。",
+     "en": "Which train do you take?"
+    }
    },
    {
     "id": "18-36",
@@ -2704,7 +3455,14 @@ window.LESSON_DATA = {
      41,
      35,
      42
-    ]
+    ],
+    "alt": [
+     "何線"
+    ],
+    "example": {
+     "ja": "これは なにせんですか。",
+     "en": "Which line is this?"
+    }
    },
    {
     "id": "18-37",
@@ -2718,7 +3476,11 @@ window.LESSON_DATA = {
      14,
      47,
      34
-    ]
+    ],
+    "example": {
+     "ja": "インフォメーションで 地図{ちず}を もらいました。",
+     "en": "I got a map at the information desk."
+    }
    },
    {
     "id": "18-38",
@@ -2732,7 +3494,15 @@ window.LESSON_DATA = {
      47,
      3,
      13
-    ]
+    ],
+    "alt": [
+     "答えます",
+     "答える"
+    ],
+    "example": {
+     "ja": "しつもんに こたえて ください。",
+     "en": "Please answer the question."
+    }
    },
    {
     "id": "18-39",
@@ -2746,7 +3516,14 @@ window.LESSON_DATA = {
      40,
      32,
      49
-    ]
+    ],
+    "alt": [
+     "渋谷"
+    ],
+    "example": {
+     "ja": "しぶやは にぎやかな まちです。",
+     "en": "Shibuya is a lively town."
+    }
    },
    {
     "id": "18-40",
@@ -2760,7 +3537,14 @@ window.LESSON_DATA = {
      39,
      49,
      46
-    ]
+    ],
+    "alt": [
+     "鎌倉"
+    ],
+    "example": {
+     "ja": "かまくらへ 行{い}きました。",
+     "en": "I went to Kamakura."
+    }
    },
    {
     "id": "18-41",
@@ -2774,7 +3558,11 @@ window.LESSON_DATA = {
      36,
      42,
      31
-    ]
+    ],
+    "example": {
+     "ja": "山手線{やまのてせん}で 行{い}きます。",
+     "en": "I go by the Yamanote Line."
+    }
    },
    {
     "id": "18-42",
@@ -2788,7 +3576,14 @@ window.LESSON_DATA = {
      41,
      51,
      31
-    ]
+    ],
+    "alt": [
+     "横須賀線"
+    ],
+    "example": {
+     "ja": "よこすかせんで かまくらへ 行{い}きます。",
+     "en": "I go to Kamakura on the Yokosuka Line."
+    }
    },
    {
     "id": "18-43",
@@ -2802,7 +3597,15 @@ window.LESSON_DATA = {
      21,
      44,
      27
-    ]
+    ],
+    "alt": [
+     "降ります",
+     "降りる"
+    ],
+    "example": {
+     "ja": "つぎの えきで おります。",
+     "en": "I get off at the next station."
+    }
    },
    {
     "id": "18-44",
@@ -2816,7 +3619,15 @@ window.LESSON_DATA = {
      43,
      21,
      33
-    ]
+    ],
+    "alt": [
+     "乗り換えます",
+     "乗り換える"
+    ],
+    "example": {
+     "ja": "しぶやで のりかえます。",
+     "en": "I transfer at Shibuya."
+    }
    },
    {
     "id": "18-45",
@@ -2830,7 +3641,14 @@ window.LESSON_DATA = {
      34,
      33,
      47
-    ]
+    ],
+    "alt": [
+     "案内所"
+    ],
+    "example": {
+     "ja": "あんないじょは どこですか。",
+     "en": "Where is the information center?"
+    }
    },
    {
     "id": "18-46",
@@ -2844,7 +3662,14 @@ window.LESSON_DATA = {
      49,
      40,
      25
-    ]
+    ],
+    "alt": [
+     "大仏"
+    ],
+    "example": {
+     "ja": "かまくらの だいぶつは 大{おお}きいです。",
+     "en": "The Great Buddha of Kamakura is big."
+    }
    },
    {
     "id": "18-47",
@@ -2858,7 +3683,14 @@ window.LESSON_DATA = {
      38,
      12,
      48
-    ]
+    ],
+    "alt": [
+     "質問"
+    ],
+    "example": {
+     "ja": "しつもんが あります。",
+     "en": "I have a question."
+    }
    },
    {
     "id": "18-48",
@@ -2872,7 +3704,14 @@ window.LESSON_DATA = {
      28,
      47,
      35
-    ]
+    ],
+    "alt": [
+     "番"
+    ],
+    "example": {
+     "ja": "三{さん}ばんの バスに のります。",
+     "en": "I take the number 3 bus."
+    }
    },
    {
     "id": "18-49",
@@ -2886,7 +3725,14 @@ window.LESSON_DATA = {
      46,
      52,
      32
-    ]
+    ],
+    "alt": [
+     "大仏前"
+    ],
+    "example": {
+     "ja": "だいぶつまえで バスを おります。",
+     "en": "I get off the bus at Daibutsumae."
+    }
    },
    {
     "id": "18-50",
@@ -2900,7 +3746,11 @@ window.LESSON_DATA = {
      29,
      30,
      51
-    ]
+    ],
+    "example": {
+     "ja": "レンタサイクルで 町{まち}を 見{み}ます。",
+     "en": "I look around town by rental bicycle."
+    }
    },
    {
     "id": "18-51",
@@ -2914,7 +3764,14 @@ window.LESSON_DATA = {
      31,
      42,
      52
-    ]
+    ],
+    "alt": [
+     "江ノ電"
+    ],
+    "example": {
+     "ja": "えのでんで えのしまへ 行{い}きます。",
+     "en": "I go to Enoshima by Enoden."
+    }
    },
    {
     "id": "18-52",
@@ -2928,7 +3785,14 @@ window.LESSON_DATA = {
      32,
      49,
      51
-    ]
+    ],
+    "alt": [
+     "長谷駅"
+    ],
+    "example": {
+     "ja": "はせえきで おります。",
+     "en": "I get off at Hase Station."
+    }
    }
   ]
  },
@@ -2948,7 +3812,11 @@ window.LESSON_DATA = {
      63,
      24,
      26
-    ]
+    ],
+    "example": {
+     "ja": "ダイナマイトは あぶないです。",
+     "en": "Dynamite is dangerous."
+    }
    },
    {
     "id": "19-2",
@@ -2962,7 +3830,14 @@ window.LESSON_DATA = {
      23,
      56,
      58
-    ]
+    ],
+    "alt": [
+     "星"
+    ],
+    "example": {
+     "ja": "夜{よる}、星{ほし}が 見{み}えます。",
+     "en": "I can see stars at night."
+    }
    },
    {
     "id": "19-3",
@@ -2976,7 +3851,14 @@ window.LESSON_DATA = {
      58,
      57,
      19
-    ]
+    ],
+    "alt": [
+     "猿"
+    ],
+    "example": {
+     "ja": "さるが バナナを 食{た}べて います。",
+     "en": "A monkey is eating a banana."
+    }
    },
    {
     "id": "19-4",
@@ -2990,7 +3872,15 @@ window.LESSON_DATA = {
      17,
      5,
      11
-    ]
+    ],
+    "alt": [
+     "描きます",
+     "描く"
+    ],
+    "example": {
+     "ja": "わたしは えを かくのが 好{す}きです。",
+     "en": "I like drawing pictures."
+    }
    },
    {
     "id": "19-5",
@@ -3022,7 +3912,11 @@ window.LESSON_DATA = {
      22,
      4,
      17
-    ]
+    ],
+    "example": {
+     "ja": "毎晩{まいばん} おふろに 入{はい}ります。",
+     "en": "I take a bath every night."
+    }
    },
    {
     "id": "19-6",
@@ -3042,7 +3936,11 @@ window.LESSON_DATA = {
      13,
      60,
      25
-    ]
+    ],
+    "example": {
+     "ja": "盛田昭夫{もりたあきお}さんを 知{し}って いますか。",
+     "en": "Do you know Akio Morita?"
+    }
    },
    {
     "id": "19-7",
@@ -3074,7 +3972,11 @@ window.LESSON_DATA = {
      10,
      22,
      21
-    ]
+    ],
+    "example": {
+     "ja": "あの 人{ひと}を 知{し}って いますか。",
+     "en": "Do you know that person?"
+    }
    },
    {
     "id": "19-8",
@@ -3106,7 +4008,11 @@ window.LESSON_DATA = {
      11,
      7,
      5
-    ]
+    ],
+    "example": {
+     "ja": "わたしは 車{くるま}を 持{も}って います。",
+     "en": "I own a car."
+    }
    },
    {
     "id": "19-9",
@@ -3120,7 +4026,11 @@ window.LESSON_DATA = {
      12,
      16,
      62
-    ]
+    ],
+    "example": {
+     "ja": "クレジットカードで はらいます。",
+     "en": "I pay by credit card."
+    }
    },
    {
     "id": "19-10",
@@ -3134,7 +4044,15 @@ window.LESSON_DATA = {
      22,
      21,
      7
-    ]
+    ],
+    "alt": [
+     "結婚します",
+     "結婚する"
+    ],
+    "example": {
+     "ja": "姉{あね}は 来年{らいねん} けっこんします。",
+     "en": "My older sister will get married next year."
+    }
    },
    {
     "id": "19-11",
@@ -3166,7 +4084,11 @@ window.LESSON_DATA = {
      8,
      7,
      5
-    ]
+    ],
+    "example": {
+     "ja": "わたしは 東京{とうきょう}に 住{す}んで います。",
+     "en": "I live in Tokyo."
+    }
    },
    {
     "id": "19-12",
@@ -3180,7 +4102,11 @@ window.LESSON_DATA = {
      9,
      16,
      62
-    ]
+    ],
+    "example": {
+     "ja": "プログラミングを 勉強{べんきょう}して います。",
+     "en": "I am studying programming."
+    }
    },
    {
     "id": "19-13",
@@ -3194,7 +4120,11 @@ window.LESSON_DATA = {
      6,
      60,
      25
-    ]
+    ],
+    "example": {
+     "ja": "ジャカルタは インドネシアの 首都{しゅと}です。",
+     "en": "Jakarta is the capital of Indonesia."
+    }
    },
    {
     "id": "19-14",
@@ -3208,7 +4138,15 @@ window.LESSON_DATA = {
      15,
      41,
      12
-    ]
+    ],
+    "alt": [
+     "歳",
+     "才"
+    ],
+    "example": {
+     "ja": "わたしは 二十{にじゅう}さいです。",
+     "en": "I am twenty years old."
+    }
    },
    {
     "id": "19-15",
@@ -3222,7 +4160,11 @@ window.LESSON_DATA = {
      14,
      45,
      46
-    ]
+    ],
+    "example": {
+     "ja": "ゆうこちゃんは 三{さん}さいです。",
+     "en": "Yuko-chan is three years old."
+    }
    },
    {
     "id": "19-16",
@@ -3236,7 +4178,14 @@ window.LESSON_DATA = {
      12,
      9,
      55
-    ]
+    ],
+    "alt": [
+     "幼稚園"
+    ],
+    "example": {
+     "ja": "妹{いもうと}は ようちえんに 通{かよ}って います。",
+     "en": "My little sister goes to kindergarten."
+    }
    },
    {
     "id": "19-17",
@@ -3268,7 +4217,11 @@ window.LESSON_DATA = {
      4,
      5,
      8
-    ]
+    ],
+    "example": {
+     "ja": "弟{おとうと}は 学校{がっこう}に 通{かよ}って います。",
+     "en": "My younger brother goes to school."
+    }
    },
    {
     "id": "19-18",
@@ -3288,7 +4241,11 @@ window.LESSON_DATA = {
      39,
      40,
      5
-    ]
+    ],
+    "example": {
+     "ja": "ご家族{かぞく}は 何人{なんにん}ですか。",
+     "en": "How many people are in your family?"
+    }
    },
    {
     "id": "19-19",
@@ -3308,7 +4265,11 @@ window.LESSON_DATA = {
      57,
      24,
      63
-    ]
+    ],
+    "example": {
+     "ja": "父{ちち}は 会社{かいしゃ}に 行{い}きます。",
+     "en": "My father goes to his company."
+    }
    },
    {
     "id": "19-20",
@@ -3340,7 +4301,11 @@ window.LESSON_DATA = {
      22,
      21,
      10
-    ]
+    ],
+    "example": {
+     "ja": "この 会社{かいしゃ}は 車{くるま}を 生産{せいさん}します。",
+     "en": "This company produces cars."
+    }
    },
    {
     "id": "19-21",
@@ -3372,7 +4337,11 @@ window.LESSON_DATA = {
      22,
      20,
      10
-    ]
+    ],
+    "example": {
+     "ja": "日本{にほん}は 車{くるま}を 輸出{ゆしゅつ}します。",
+     "en": "Japan exports cars."
+    }
    },
    {
     "id": "19-22",
@@ -3404,7 +4373,11 @@ window.LESSON_DATA = {
      21,
      5,
      20
-    ]
+    ],
+    "example": {
+     "ja": "日本{にほん}は 石油{せきゆ}を 輸入{ゆにゅう}します。",
+     "en": "Japan imports petroleum."
+    }
    },
    {
     "id": "19-23",
@@ -3424,7 +4397,11 @@ window.LESSON_DATA = {
      2,
      56,
      58
-    ]
+    ],
+    "example": {
+     "ja": "日本人{にほんじん}は 米{こめ}を 食{た}べます。",
+     "en": "Japanese people eat rice."
+    }
    },
    {
     "id": "19-24",
@@ -3444,7 +4421,11 @@ window.LESSON_DATA = {
      63,
      1,
      62
-    ]
+    ],
+    "example": {
+     "ja": "日本{にほん}の 産業{さんぎょう}は 大{おお}きいです。",
+     "en": "Japan's industry is large."
+    }
    },
    {
     "id": "19-25",
@@ -3458,7 +4439,14 @@ window.LESSON_DATA = {
      60,
      61,
      13
-    ]
+    ],
+    "alt": [
+     "機械"
+    ],
+    "example": {
+     "ja": "この きかいは 新{あたら}しいです。",
+     "en": "This machine is new."
+    }
    },
    {
     "id": "19-26",
@@ -3472,7 +4460,14 @@ window.LESSON_DATA = {
      62,
      59,
      1
-    ]
+    ],
+    "alt": [
+     "石油"
+    ],
+    "example": {
+     "ja": "せきゆは 高{たか}いです。",
+     "en": "Petroleum is expensive."
+    }
    },
    {
     "id": "19-27",
@@ -3500,7 +4495,11 @@ window.LESSON_DATA = {
      28,
      52,
      53
-    ]
+    ],
+    "example": {
+     "ja": "お父{とう}さんは 何{なに}を して いますか。",
+     "en": "What does your father do for work?"
+    }
    },
    {
     "id": "19-28",
@@ -3520,7 +4519,11 @@ window.LESSON_DATA = {
      27,
      54,
      30
-    ]
+    ],
+    "example": {
+     "ja": "父{ちち}は 医者{いしゃ}です。",
+     "en": "My father is a doctor."
+    }
    },
    {
     "id": "19-29",
@@ -3548,7 +4551,11 @@ window.LESSON_DATA = {
      30,
      53,
      27
-    ]
+    ],
+    "example": {
+     "ja": "お母{かあ}さんは お元気{げんき}ですか。",
+     "en": "Is your mother well?"
+    }
    },
    {
     "id": "19-30",
@@ -3568,7 +4575,11 @@ window.LESSON_DATA = {
      29,
      28,
      54
-    ]
+    ],
+    "example": {
+     "ja": "母{はは}は 料理{りょうり}が 上手{じょうず}です。",
+     "en": "My mother is good at cooking."
+    }
    },
    {
     "id": "19-31",
@@ -3596,7 +4607,11 @@ window.LESSON_DATA = {
      32,
      51,
      52
-    ]
+    ],
+    "example": {
+     "ja": "お兄{にい}さんは 何歳{なんさい}ですか。",
+     "en": "How old is your older brother?"
+    }
    },
    {
     "id": "19-32",
@@ -3616,7 +4631,11 @@ window.LESSON_DATA = {
      31,
      52,
      34
-    ]
+    ],
+    "example": {
+     "ja": "兄{あに}は 大学生{だいがくせい}です。",
+     "en": "My older brother is a university student."
+    }
    },
    {
     "id": "19-33",
@@ -3644,7 +4663,11 @@ window.LESSON_DATA = {
      34,
      31,
      37
-    ]
+    ],
+    "example": {
+     "ja": "お姉{ねえ}さんは きれいですね。",
+     "en": "Your older sister is pretty, isn't she?"
+    }
    },
    {
     "id": "19-34",
@@ -3664,7 +4687,11 @@ window.LESSON_DATA = {
      33,
      32,
      38
-    ]
+    ],
+    "example": {
+     "ja": "姉{あね}は 銀行{ぎんこう}で 働{はたら}いて います。",
+     "en": "My older sister works at a bank."
+    }
    },
    {
     "id": "19-35",
@@ -3688,7 +4715,11 @@ window.LESSON_DATA = {
      36,
      51,
      52
-    ]
+    ],
+    "example": {
+     "ja": "弟{おとうと}さんは 何年生{なんねんせい}ですか。",
+     "en": "What year of school is your younger brother in?"
+    }
    },
    {
     "id": "19-36",
@@ -3708,7 +4739,11 @@ window.LESSON_DATA = {
      35,
      52,
      38
-    ]
+    ],
+    "example": {
+     "ja": "弟{おとうと}は 高校生{こうこうせい}です。",
+     "en": "My younger brother is a high school student."
+    }
    },
    {
     "id": "19-37",
@@ -3732,7 +4767,11 @@ window.LESSON_DATA = {
      38,
      35,
      33
-    ]
+    ],
+    "example": {
+     "ja": "妹{いもうと}さんは かわいいですね。",
+     "en": "Your younger sister is cute, isn't she?"
+    }
    },
    {
     "id": "19-38",
@@ -3752,7 +4791,11 @@ window.LESSON_DATA = {
      37,
      36,
      34
-    ]
+    ],
+    "example": {
+     "ja": "妹{いもうと}は 十{じゅう}さいです。",
+     "en": "My younger sister is ten years old."
+    }
    },
    {
     "id": "19-39",
@@ -3776,7 +4819,11 @@ window.LESSON_DATA = {
      40,
      49,
      27
-    ]
+    ],
+    "example": {
+     "ja": "ご主人{しゅじん}は おいくつですか。",
+     "en": "How old is your husband?"
+    }
    },
    {
     "id": "19-40",
@@ -3796,7 +4843,11 @@ window.LESSON_DATA = {
      39,
      50,
      30
-    ]
+    ],
+    "example": {
+     "ja": "主人{しゅじん}は 会社員{かいしゃいん}です。",
+     "en": "My husband is a company employee."
+    }
    },
    {
     "id": "19-41",
@@ -3810,7 +4861,14 @@ window.LESSON_DATA = {
      39,
      50,
      30
-    ]
+    ],
+    "alt": [
+     "夫"
+    ],
+    "example": {
+     "ja": "おっとは 毎日{まいにち} 八時{はちじ}に 家{いえ}を 出{で}ます。",
+     "en": "My husband leaves home at eight every day."
+    }
    },
    {
     "id": "19-42",
@@ -3824,7 +4882,14 @@ window.LESSON_DATA = {
      43,
      45,
      47
-    ]
+    ],
+    "alt": [
+     "奥さん"
+    ],
+    "example": {
+     "ja": "おくさんは お元気{げんき}ですか。",
+     "en": "Is your wife well?"
+    }
    },
    {
     "id": "19-43",
@@ -3844,7 +4909,11 @@ window.LESSON_DATA = {
      54,
      53,
      42
-    ]
+    ],
+    "example": {
+     "ja": "家内{かない}は 料理{りょうり}が 好{す}きです。",
+     "en": "My wife likes cooking."
+    }
    },
    {
     "id": "19-44",
@@ -3858,7 +4927,14 @@ window.LESSON_DATA = {
      42,
      46,
      48
-    ]
+    ],
+    "alt": [
+     "妻"
+    ],
+    "example": {
+     "ja": "つまは 先生{せんせい}です。",
+     "en": "My wife is a teacher."
+    }
    },
    {
     "id": "19-45",
@@ -3886,7 +4962,11 @@ window.LESSON_DATA = {
      46,
      29,
      53
-    ]
+    ],
+    "example": {
+     "ja": "お子{こ}さんは 何人{なんにん}ですか。",
+     "en": "How many children do you have?"
+    }
    },
    {
     "id": "19-46",
@@ -3910,7 +4990,11 @@ window.LESSON_DATA = {
      45,
      54,
      28
-    ]
+    ],
+    "example": {
+     "ja": "子{こ}どもは 二人{ふたり} います。",
+     "en": "I have two children."
+    }
    },
    {
     "id": "19-47",
@@ -3924,7 +5008,14 @@ window.LESSON_DATA = {
      48,
      42,
      45
-    ]
+    ],
+    "alt": [
+     "息子さん"
+    ],
+    "example": {
+     "ja": "むすこさんは 大学生{だいがくせい}ですか。",
+     "en": "Is your son a university student?"
+    }
    },
    {
     "id": "19-48",
@@ -3938,7 +5029,14 @@ window.LESSON_DATA = {
      47,
      44,
      46
-    ]
+    ],
+    "alt": [
+     "息子"
+    ],
+    "example": {
+     "ja": "むすこは サッカーが 好{す}きです。",
+     "en": "My son likes soccer."
+    }
    },
    {
     "id": "19-49",
@@ -3952,7 +5050,14 @@ window.LESSON_DATA = {
      50,
      39,
      29
-    ]
+    ],
+    "alt": [
+     "娘さん"
+    ],
+    "example": {
+     "ja": "むすめさんは おいくつですか。",
+     "en": "How old is your daughter?"
+    }
    },
    {
     "id": "19-50",
@@ -3966,7 +5071,14 @@ window.LESSON_DATA = {
      49,
      40,
      54
-    ]
+    ],
+    "alt": [
+     "娘"
+    ],
+    "example": {
+     "ja": "むすめは ピアノを ひきます。",
+     "en": "My daughter plays the piano."
+    }
    },
    {
     "id": "19-51",
@@ -3990,7 +5102,11 @@ window.LESSON_DATA = {
      52,
      35,
      31
-    ]
+    ],
+    "example": {
+     "ja": "ご兄弟{きょうだい}は いますか。",
+     "en": "Do you have any brothers or sisters?"
+    }
    },
    {
     "id": "19-52",
@@ -4010,7 +5126,11 @@ window.LESSON_DATA = {
      51,
      36,
      31
-    ]
+    ],
+    "example": {
+     "ja": "兄弟{きょうだい}は 三人{さんにん}です。",
+     "en": "There are three of us siblings."
+    }
    },
    {
     "id": "19-53",
@@ -4034,7 +5154,11 @@ window.LESSON_DATA = {
      54,
      43,
      27
-    ]
+    ],
+    "example": {
+     "ja": "ご家族{かぞく}は お元気{げんき}ですか。",
+     "en": "Is your family well?"
+    }
    },
    {
     "id": "19-54",
@@ -4054,7 +5178,11 @@ window.LESSON_DATA = {
      53,
      43,
      28
-    ]
+    ],
+    "example": {
+     "ja": "家族{かぞく}は 四人{よにん}です。",
+     "en": "There are four people in my family."
+    }
    },
    {
     "id": "19-55",
@@ -4074,7 +5202,11 @@ window.LESSON_DATA = {
      63,
      61,
      16
-    ]
+    ],
+    "example": {
+     "ja": "医者{いしゃ}に 薬{くすり}を もらいました。",
+     "en": "I got medicine from the doctor."
+    }
    },
    {
     "id": "19-56",
@@ -4094,7 +5226,11 @@ window.LESSON_DATA = {
      58,
      23,
      2
-    ]
+    ],
+    "example": {
+     "ja": "看護婦{かんごふ}さんは しんせつです。",
+     "en": "The nurse is kind."
+    }
    },
    {
     "id": "19-57",
@@ -4114,7 +5250,11 @@ window.LESSON_DATA = {
      19,
      63,
      24
-    ]
+    ],
+    "example": {
+     "ja": "わたしは 日本語{にほんご}の 教師{きょうし}です。",
+     "en": "I am a Japanese language teacher."
+    }
    },
    {
     "id": "19-58",
@@ -4134,7 +5274,11 @@ window.LESSON_DATA = {
      56,
      57,
      19
-    ]
+    ],
+    "example": {
+     "ja": "弁護士{べんごし}は 忙{いそが}しいです。",
+     "en": "Lawyers are busy."
+    }
    },
    {
     "id": "19-59",
@@ -4154,7 +5298,11 @@ window.LESSON_DATA = {
      26,
      62,
      63
-    ]
+    ],
+    "example": {
+     "ja": "警察官{けいさつかん}に みちを 聞{き}きます。",
+     "en": "I ask a police officer the way."
+    }
    },
    {
     "id": "19-60",
@@ -4174,7 +5322,11 @@ window.LESSON_DATA = {
      61,
      25,
      13
-    ]
+    ],
+    "example": {
+     "ja": "父{ちち}は 公務員{こうむいん}です。",
+     "en": "My father is a government employee."
+    }
    },
    {
     "id": "19-61",
@@ -4194,7 +5346,11 @@ window.LESSON_DATA = {
      60,
      25,
      55
-    ]
+    ],
+    "example": {
+     "ja": "あの 人{ひと}は 会社員{かいしゃいん}です。",
+     "en": "That person is a company employee."
+    }
    },
    {
     "id": "19-62",
@@ -4214,7 +5370,11 @@ window.LESSON_DATA = {
      26,
      59,
      24
-    ]
+    ],
+    "example": {
+     "ja": "あの 建築家{けんちくか}は 有名{ゆうめい}です。",
+     "en": "That architect is famous."
+    }
    },
    {
     "id": "19-63",
@@ -4234,7 +5394,11 @@ window.LESSON_DATA = {
      55,
      24,
      1
-    ]
+    ],
+    "example": {
+     "ja": "兄{あに}は 技術者{ぎじゅつしゃ}です。",
+     "en": "My older brother is an engineer."
+    }
    }
   ]
  },
@@ -4272,7 +5436,11 @@ window.LESSON_DATA = {
      17,
      2,
      3
-    ]
+    ],
+    "example": {
+     "ja": "先生{せんせい}の 声{こえ}を 録音{ろくおん}します。",
+     "en": "I record the teacher's voice."
+    }
    },
    {
     "id": "20-2",
@@ -4304,7 +5472,11 @@ window.LESSON_DATA = {
      1,
      17,
      3
-    ]
+    ],
+    "example": {
+     "ja": "ここに 車{くるま}を 止{と}めて ください。",
+     "en": "Please park the car here."
+    }
    },
    {
     "id": "20-3",
@@ -4318,7 +5490,15 @@ window.LESSON_DATA = {
      17,
      1,
      2
-    ]
+    ],
+    "alt": [
+     "捨てます",
+     "捨てる"
+    ],
+    "example": {
+     "ja": "ごみを すてます。",
+     "en": "I throw away the trash."
+    }
    },
    {
     "id": "20-4",
@@ -4332,7 +5512,14 @@ window.LESSON_DATA = {
      22,
      24,
      13
-    ]
+    ],
+    "alt": [
+     "缶"
+    ],
+    "example": {
+     "ja": "かんを すてて ください。",
+     "en": "Please throw away the can."
+    }
    },
    {
     "id": "20-5",
@@ -4372,7 +5559,11 @@ window.LESSON_DATA = {
      21,
      23,
      6
-    ]
+    ],
+    "example": {
+     "ja": "この 部屋{へや}に 入{はい}っても いいですか。",
+     "en": "May I enter this room?"
+    }
    },
    {
     "id": "20-6",
@@ -4386,7 +5577,15 @@ window.LESSON_DATA = {
      23,
      5,
      21
-    ]
+    ],
+    "alt": [
+     "吸います",
+     "吸う"
+    ],
+    "example": {
+     "ja": "ここで タバコを すっても いいですか。",
+     "en": "May I smoke here?"
+    }
    },
    {
     "id": "20-7",
@@ -4406,7 +5605,11 @@ window.LESSON_DATA = {
      16,
      12,
      15
-    ]
+    ],
+    "example": {
+     "ja": "この 部屋{へや}で 写真{しゃしん}は 禁止{きんし}です。",
+     "en": "Photos are prohibited in this room."
+    }
    },
    {
     "id": "20-8",
@@ -4426,7 +5629,11 @@ window.LESSON_DATA = {
      11,
      9,
      10
-    ]
+    ],
+    "example": {
+     "ja": "この トイレは 使用禁止{しようきんし}です。",
+     "en": "This toilet is out of use."
+    }
    },
    {
     "id": "20-9",
@@ -4446,7 +5653,11 @@ window.LESSON_DATA = {
      11,
      8,
      10
-    ]
+    ],
+    "example": {
+     "ja": "ここは 立入禁止{たちいりきんし}です。",
+     "en": "Entry is prohibited here."
+    }
    },
    {
     "id": "20-10",
@@ -4466,7 +5677,11 @@ window.LESSON_DATA = {
      9,
      11,
      8
-    ]
+    ],
+    "example": {
+     "ja": "ここは 撮影禁止{さつえいきんし}です。",
+     "en": "Photography is prohibited here."
+    }
    },
    {
     "id": "20-11",
@@ -4486,7 +5701,11 @@ window.LESSON_DATA = {
      9,
      8,
      10
-    ]
+    ],
+    "example": {
+     "ja": "この 海{うみ}は 遊泳禁止{ゆうえいきんし}です。",
+     "en": "Swimming is prohibited in this sea."
+    }
    },
    {
     "id": "20-12",
@@ -4510,7 +5729,14 @@ window.LESSON_DATA = {
      7,
      16,
      15
-    ]
+    ],
+    "alt": [
+     "辛い物"
+    ],
+    "example": {
+     "ja": "からい物{もの}は 好{す}きじゃ ありません。",
+     "en": "I do not like spicy food."
+    }
    },
    {
     "id": "20-13",
@@ -4524,7 +5750,11 @@ window.LESSON_DATA = {
      15,
      12,
      16
-    ]
+    ],
+    "example": {
+     "ja": "毎朝{まいあさ} ジョギングを します。",
+     "en": "I jog every morning."
+    }
    },
    {
     "id": "20-14",
@@ -4552,7 +5782,11 @@ window.LESSON_DATA = {
      20,
      7,
      16
-    ]
+    ],
+    "example": {
+     "ja": "お医者{いしゃ}さんに 行{い}きます。",
+     "en": "I go to the doctor."
+    }
    },
    {
     "id": "20-15",
@@ -4566,7 +5800,14 @@ window.LESSON_DATA = {
      12,
      7,
      16
-    ]
+    ],
+    "alt": [
+     "受付"
+    ],
+    "example": {
+     "ja": "うけつけは あちらです。",
+     "en": "The reception is over there."
+    }
    },
    {
     "id": "20-16",
@@ -4590,7 +5831,11 @@ window.LESSON_DATA = {
      7,
      12,
      15
-    ]
+    ],
+    "example": {
+     "ja": "シャワー室{しつ}は どこですか。",
+     "en": "Where is the shower room?"
+    }
    },
    {
     "id": "20-17",
@@ -4622,7 +5867,11 @@ window.LESSON_DATA = {
      3,
      1,
      2
-    ]
+    ],
+    "example": {
+     "ja": "毎日{まいにち} 運動{うんどう}します。",
+     "en": "I exercise every day."
+    }
    },
    {
     "id": "20-18",
@@ -4636,7 +5885,11 @@ window.LESSON_DATA = {
      19,
      20,
      14
-    ]
+    ],
+    "example": {
+     "ja": "わたしは マンションに 住{す}んで います。",
+     "en": "I live in an apartment."
+    }
    },
    {
     "id": "20-19",
@@ -4656,7 +5909,11 @@ window.LESSON_DATA = {
      18,
      14,
      20
-    ]
+    ],
+    "example": {
+     "ja": "会館{かいかん}で 会議{かいぎ}が あります。",
+     "en": "There is a meeting at the hall."
+    }
    },
    {
     "id": "20-20",
@@ -4676,7 +5933,11 @@ window.LESSON_DATA = {
      14,
      7,
      16
-    ]
+    ],
+    "example": {
+     "ja": "管理費{かんりひ}は 一万円{いちまんえん}です。",
+     "en": "The management fee is 10,000 yen."
+    }
    },
    {
     "id": "20-21",
@@ -4690,7 +5951,15 @@ window.LESSON_DATA = {
      5,
      23,
      6
-    ]
+    ],
+    "alt": [
+     "飼います",
+     "飼う"
+    ],
+    "example": {
+     "ja": "犬{いぬ}を かって います。",
+     "en": "I keep a dog."
+    }
    },
    {
     "id": "20-22",
@@ -4704,7 +5973,11 @@ window.LESSON_DATA = {
      4,
      24,
      13
-    ]
+    ],
+    "example": {
+     "ja": "ここは ペットが だめです。",
+     "en": "Pets are not allowed here."
+    }
    },
    {
     "id": "20-23",
@@ -4732,7 +6005,15 @@ window.LESSON_DATA = {
      6,
      5,
      21
-    ]
+    ],
+    "alt": [
+     "泊めます",
+     "泊める"
+    ],
+    "example": {
+     "ja": "友{とも}だちを うちに とめます。",
+     "en": "I let my friend stay at my house."
+    }
    },
    {
     "id": "20-24",
@@ -4746,7 +6027,14 @@ window.LESSON_DATA = {
      4,
      22,
      13
-    ]
+    ],
+    "alt": [
+     "規則"
+    ],
+    "example": {
+     "ja": "学校{がっこう}の きそくを まもります。",
+     "en": "I follow the school rules."
+    }
    }
   ]
  },
@@ -4766,7 +6054,15 @@ window.LESSON_DATA = {
      5,
      27,
      12
-    ]
+    ],
+    "alt": [
+     "弁当",
+     "お弁当"
+    ],
+    "example": {
+     "ja": "お弁当{べんとう}を 持{も}って 行{い}きます。",
+     "en": "I take a boxed lunch with me."
+    }
    },
    {
     "id": "21-2",
@@ -4780,7 +6076,15 @@ window.LESSON_DATA = {
      3,
      26,
      30
-    ]
+    ],
+    "alt": [
+     "泣きます",
+     "泣く"
+    ],
+    "example": {
+     "ja": "赤{あか}ちゃんが なきます。",
+     "en": "The baby cries."
+    }
    },
    {
     "id": "21-3",
@@ -4794,7 +6098,15 @@ window.LESSON_DATA = {
      26,
      30,
      2
-    ]
+    ],
+    "alt": [
+     "笑います",
+     "笑う"
+    ],
+    "example": {
+     "ja": "みんなで わらいました。",
+     "en": "We all laughed together."
+    }
    },
    {
     "id": "21-4",
@@ -4808,7 +6120,15 @@ window.LESSON_DATA = {
      24,
      6,
      20
-    ]
+    ],
+    "alt": [
+     "怒ります",
+     "怒る"
+    ],
+    "example": {
+     "ja": "先生{せんせい}は おこって います。",
+     "en": "The teacher is angry."
+    }
    },
    {
     "id": "21-5",
@@ -4822,7 +6142,14 @@ window.LESSON_DATA = {
      1,
      27,
      10
-    ]
+    ],
+    "alt": [
+     "環境"
+    ],
+    "example": {
+     "ja": "かんきょうを まもりましょう。",
+     "en": "Let's protect the environment."
+    }
    },
    {
     "id": "21-6",
@@ -4836,7 +6163,15 @@ window.LESSON_DATA = {
      20,
      4,
      13
-    ]
+    ],
+    "alt": [
+     "守ります",
+     "守る"
+    ],
+    "example": {
+     "ja": "ルールを まもります。",
+     "en": "I follow the rules."
+    }
    },
    {
     "id": "21-7",
@@ -4850,7 +6185,14 @@ window.LESSON_DATA = {
      8,
      25,
      15
-    ]
+    ],
+    "alt": [
+     "釣り"
+    ],
+    "example": {
+     "ja": "日曜日{にちようび}に つりを します。",
+     "en": "I go fishing on Sundays."
+    }
    },
    {
     "id": "21-8",
@@ -4874,7 +6216,11 @@ window.LESSON_DATA = {
      15,
      7,
      25
-    ]
+    ],
+    "example": {
+     "ja": "たき火{び}を して います。",
+     "en": "We are having a bonfire."
+    }
    },
    {
     "id": "21-9",
@@ -4910,7 +6256,11 @@ window.LESSON_DATA = {
      28,
      24,
      4
-    ]
+    ],
+    "example": {
+     "ja": "ここで たき火{び}を しては いけません。",
+     "en": "You must not make a bonfire here."
+    }
    },
    {
     "id": "21-10",
@@ -4924,7 +6274,11 @@ window.LESSON_DATA = {
      12,
      29,
      19
-    ]
+    ],
+    "example": {
+     "ja": "バイクで 学校{がっこう}へ 行{い}きます。",
+     "en": "I go to school by motorbike."
+    }
    },
    {
     "id": "21-11",
@@ -4938,7 +6292,14 @@ window.LESSON_DATA = {
      8,
      7,
      15
-    ]
+    ],
+    "alt": [
+     "虫"
+    ],
+    "example": {
+     "ja": "むしが います。",
+     "en": "There is an insect."
+    }
    },
    {
     "id": "21-12",
@@ -4952,7 +6313,14 @@ window.LESSON_DATA = {
      10,
      29,
      19
-    ]
+    ],
+    "alt": [
+     "蝶"
+    ],
+    "example": {
+     "ja": "ちょうが とんで います。",
+     "en": "A butterfly is flying."
+    }
    },
    {
     "id": "21-13",
@@ -4966,7 +6334,17 @@ window.LESSON_DATA = {
      20,
      21,
      6
-    ]
+    ],
+    "alt": [
+     "取ります",
+     "取る",
+     "捕ります",
+     "捕る"
+    ],
+    "example": {
+     "ja": "むしを とります。",
+     "en": "I catch insects."
+    }
    },
    {
     "id": "21-14",
@@ -4998,7 +6376,11 @@ window.LESSON_DATA = {
      21,
      13,
      20
-    ]
+    ],
+    "example": {
+     "ja": "はさみで 紙{かみ}を 切{き}ります。",
+     "en": "I cut paper with scissors."
+    }
    },
    {
     "id": "21-15",
@@ -5012,7 +6394,11 @@ window.LESSON_DATA = {
      25,
      8,
      7
-    ]
+    ],
+    "example": {
+     "ja": "ごみを すてないで ください。",
+     "en": "Please do not throw away trash."
+    }
    },
    {
     "id": "21-16",
@@ -5032,7 +6418,11 @@ window.LESSON_DATA = {
      17,
      23,
      27
-    ]
+    ],
+    "example": {
+     "ja": "旅館{りょかん}に とまります。",
+     "en": "I stay at a ryokan."
+    }
    },
    {
     "id": "21-17",
@@ -5052,7 +6442,11 @@ window.LESSON_DATA = {
      23,
      27,
      1
-    ]
+    ],
+    "example": {
+     "ja": "女湯{おんなゆ}は あちらです。",
+     "en": "The women's bath is over there."
+    }
    },
    {
     "id": "21-18",
@@ -5066,7 +6460,11 @@ window.LESSON_DATA = {
      11,
      8,
      7
-    ]
+    ],
+    "example": {
+     "ja": "タオルを 貸{か}して ください。",
+     "en": "Please lend me a towel."
+    }
    },
    {
     "id": "21-19",
@@ -5086,7 +6484,11 @@ window.LESSON_DATA = {
      12,
      29,
      10
-    ]
+    ],
+    "example": {
+     "ja": "水着{みずぎ}を 買{か}いました。",
+     "en": "I bought a swimsuit."
+    }
    },
    {
     "id": "21-20",
@@ -5118,7 +6520,11 @@ window.LESSON_DATA = {
      28,
      6,
      13
-    ]
+    ],
+    "example": {
+     "ja": "かばんに 本{ほん}を 入{い}れます。",
+     "en": "I put a book in my bag."
+    }
    },
    {
     "id": "21-21",
@@ -5150,7 +6556,11 @@ window.LESSON_DATA = {
      13,
      14,
      20
-    ]
+    ],
+    "example": {
+     "ja": "きものを 着{き}ます。",
+     "en": "I wear a kimono."
+    }
    },
    {
     "id": "21-22",
@@ -5182,7 +6592,11 @@ window.LESSON_DATA = {
      30,
      5,
      1
-    ]
+    ],
+    "example": {
+     "ja": "大{おお}きい 音{おと}で 音楽{おんがく}を 聞{き}かないで ください。",
+     "en": "Please do not listen to music at a loud volume."
+    }
    },
    {
     "id": "21-23",
@@ -5196,7 +6610,11 @@ window.LESSON_DATA = {
      17,
      27,
      1
-    ]
+    ],
+    "example": {
+     "ja": "ソフトクリームを 食{た}べます。",
+     "en": "I eat soft-serve ice cream."
+    }
    },
    {
     "id": "21-24",
@@ -5228,7 +6646,11 @@ window.LESSON_DATA = {
      4,
      28,
      6
-    ]
+    ],
+    "example": {
+     "ja": "ここに 荷物{にもつ}を 広{ひろ}げないで ください。",
+     "en": "Please do not spread out your luggage here."
+    }
    },
    {
     "id": "21-25",
@@ -5248,7 +6670,11 @@ window.LESSON_DATA = {
      15,
      8,
      7
-    ]
+    ],
+    "example": {
+     "ja": "荷物{にもつ}が 重{おも}いです。",
+     "en": "The luggage is heavy."
+    }
    },
    {
     "id": "21-26",
@@ -5262,7 +6688,15 @@ window.LESSON_DATA = {
      20,
      30,
      3
-    ]
+    ],
+    "alt": [
+     "置きます",
+     "置く"
+    ],
+    "example": {
+     "ja": "机{つくえ}の 上{うえ}に 本{ほん}を おきます。",
+     "en": "I put a book on the desk."
+    }
    },
    {
     "id": "21-27",
@@ -5286,7 +6720,14 @@ window.LESSON_DATA = {
      1,
      5,
      17
-    ]
+    ],
+    "alt": [
+     "携帯電話"
+    ],
+    "example": {
+     "ja": "けいたい電話{でんわ}を 忘{わす}れました。",
+     "en": "I forgot my mobile phone."
+    }
    },
    {
     "id": "21-28",
@@ -5300,7 +6741,15 @@ window.LESSON_DATA = {
      20,
      9,
      24
-    ]
+    ],
+    "alt": [
+     "化粧します",
+     "化粧する"
+    ],
+    "example": {
+     "ja": "電車{でんしゃ}の 中{なか}で けしょうしないで ください。",
+     "en": "Please do not put on makeup on the train."
+    }
    },
    {
     "id": "21-29",
@@ -5320,7 +6769,11 @@ window.LESSON_DATA = {
      12,
      10,
      19
-    ]
+    ],
+    "example": {
+     "ja": "足{あし}が いたいです。",
+     "en": "My leg hurts."
+    }
    },
    {
     "id": "21-30",
@@ -5334,7 +6787,15 @@ window.LESSON_DATA = {
      26,
      3,
      2
-    ]
+    ],
+    "alt": [
+     "踏みます",
+     "踏む"
+    ],
+    "example": {
+     "ja": "わたしの 足{あし}を ふまないで ください。",
+     "en": "Please do not step on my foot."
+    }
    }
   ]
  },
@@ -5354,7 +6815,14 @@ window.LESSON_DATA = {
      11,
      12,
      3
-    ]
+    ],
+    "alt": [
+     "刺身"
+    ],
+    "example": {
+     "ja": "さしみを 食{た}べた ことが ありますか。",
+     "en": "Have you ever eaten sashimi?"
+    }
    },
    {
     "id": "22-2",
@@ -5368,7 +6836,14 @@ window.LESSON_DATA = {
      6,
      4,
      5
-    ]
+    ],
+    "alt": [
+     "箸"
+    ],
+    "example": {
+     "ja": "はしで ごはんを 食{た}べます。",
+     "en": "I eat rice with chopsticks."
+    }
    },
    {
     "id": "22-3",
@@ -5388,7 +6863,11 @@ window.LESSON_DATA = {
      12,
      11,
      5
-    ]
+    ],
+    "example": {
+     "ja": "着物{きもの}を 着{き}た ことが ありますか。",
+     "en": "Have you ever worn a kimono?"
+    }
    },
    {
     "id": "22-4",
@@ -5402,7 +6881,14 @@ window.LESSON_DATA = {
      2,
      6,
      5
-    ]
+    ],
+    "alt": [
+     "温泉"
+    ],
+    "example": {
+     "ja": "おんせんに 入{はい}った ことが あります。",
+     "en": "I have been in a hot spring."
+    }
    },
    {
     "id": "22-5",
@@ -5422,7 +6908,11 @@ window.LESSON_DATA = {
      4,
      6,
      2
-    ]
+    ],
+    "example": {
+     "ja": "書道{しょどう}を 習{なら}って います。",
+     "en": "I am learning calligraphy."
+    }
    },
    {
     "id": "22-6",
@@ -5442,7 +6932,11 @@ window.LESSON_DATA = {
      4,
      2,
      5
-    ]
+    ],
+    "example": {
+     "ja": "きのう 地震{じしん}が ありました。",
+     "en": "There was an earthquake yesterday."
+    }
    },
    {
     "id": "22-7",
@@ -5474,7 +6968,11 @@ window.LESSON_DATA = {
      9,
      3,
      12
-    ]
+    ],
+    "example": {
+     "ja": "日本{にほん}で たくさん 経験{けいけん}しました。",
+     "en": "I experienced a lot in Japan."
+    }
    },
    {
     "id": "22-8",
@@ -5488,7 +6986,11 @@ window.LESSON_DATA = {
      10,
      6,
      2
-    ]
+    ],
+    "example": {
+     "ja": "まだ 食{た}べて いません。",
+     "en": "I have not eaten yet."
+    }
    },
    {
     "id": "22-9",
@@ -5520,7 +7022,11 @@ window.LESSON_DATA = {
      7,
      1,
      11
-    ]
+    ],
+    "example": {
+     "ja": "去年{きょねん} 日本{にほん}を 旅行{りょこう}しました。",
+     "en": "I traveled around Japan last year."
+    }
    },
    {
     "id": "22-10",
@@ -5534,7 +7040,14 @@ window.LESSON_DATA = {
      8,
      6,
      4
-    ]
+    ],
+    "alt": [
+     "凄い"
+    ],
+    "example": {
+     "ja": "この 映画{えいが}は すごいです。",
+     "en": "This movie is great."
+    }
    },
    {
     "id": "22-11",
@@ -5554,7 +7067,11 @@ window.LESSON_DATA = {
      12,
      1,
      3
-    ]
+    ],
+    "example": {
+     "ja": "外国語{がいこくご}を 勉強{べんきょう}して います。",
+     "en": "I am studying a foreign language."
+    }
    },
    {
     "id": "22-12",
@@ -5574,7 +7091,11 @@ window.LESSON_DATA = {
      11,
      3,
      1
-    ]
+    ],
+    "example": {
+     "ja": "外国{がいこく}へ 行{い}った ことが ありますか。",
+     "en": "Have you ever been abroad?"
+    }
    }
   ]
  },
@@ -5594,7 +7115,15 @@ window.LESSON_DATA = {
      12,
      13,
      29
-    ]
+    ],
+    "alt": [
+     "掃除します",
+     "掃除する"
+    ],
+    "example": {
+     "ja": "部屋{へや}を そうじします。",
+     "en": "I clean my room."
+    }
    },
    {
     "id": "23-2",
@@ -5608,7 +7137,15 @@ window.LESSON_DATA = {
      14,
      15,
      21
-    ]
+    ],
+    "alt": [
+     "洗濯します",
+     "洗濯する"
+    ],
+    "example": {
+     "ja": "日曜日{にちようび}に せんたくします。",
+     "en": "I do laundry on Sundays."
+    }
    },
    {
     "id": "23-3",
@@ -5622,7 +7159,11 @@ window.LESSON_DATA = {
      10,
      20,
      8
-    ]
+    ],
+    "example": {
+     "ja": "仕事{しごと}の あとで 飲{の}みに 行{い}きます。",
+     "en": "I go for a drink after work."
+    }
    },
    {
     "id": "23-4",
@@ -5646,7 +7187,11 @@ window.LESSON_DATA = {
      6,
      16,
      25
-    ]
+    ],
+    "example": {
+     "ja": "スキー場{じょう}で スキーを します。",
+     "en": "I ski at the ski area."
+    }
    },
    {
     "id": "23-5",
@@ -5686,7 +7231,11 @@ window.LESSON_DATA = {
      23,
      21,
      14
-    ]
+    ],
+    "example": {
+     "ja": "三時{さんじ}に スキー場{じょう}に 着{つ}きました。",
+     "en": "We arrived at the ski area at three o'clock."
+    }
    },
    {
     "id": "23-6",
@@ -5700,7 +7249,14 @@ window.LESSON_DATA = {
      4,
      16,
      25
-    ]
+    ],
+    "alt": [
+     "露天風呂"
+    ],
+    "example": {
+     "ja": "ろてんぶろは 気持{きも}ちが いいです。",
+     "en": "An open-air bath feels good."
+    }
    },
    {
     "id": "23-7",
@@ -5720,7 +7276,11 @@ window.LESSON_DATA = {
      28,
      17,
      20
-    ]
+    ],
+    "example": {
+     "ja": "森{もり}を さんぽします。",
+     "en": "I take a walk in the forest."
+    }
    },
    {
     "id": "23-8",
@@ -5744,7 +7304,11 @@ window.LESSON_DATA = {
      20,
      9,
      7
-    ]
+    ],
+    "example": {
+     "ja": "子{こ}どもたちは 雪{ゆき}だるまを つくりました。",
+     "en": "The children made a snowman."
+    }
    },
    {
     "id": "23-9",
@@ -5758,7 +7322,14 @@ window.LESSON_DATA = {
      32,
      8,
      20
-    ]
+    ],
+    "alt": [
+     "お土産"
+    ],
+    "example": {
+     "ja": "おみやげを 買{か}いました。",
+     "en": "I bought a souvenir."
+    }
    },
    {
     "id": "23-10",
@@ -5778,7 +7349,11 @@ window.LESSON_DATA = {
      3,
      16,
      30
-    ]
+    ],
+    "example": {
+     "ja": "ただいま 会議中{かいぎちゅう}です。",
+     "en": "We are in a meeting right now."
+    }
    },
    {
     "id": "23-11",
@@ -5792,7 +7367,14 @@ window.LESSON_DATA = {
      22,
      32,
      25
-    ]
+    ],
+    "alt": [
+     "危ない"
+    ],
+    "example": {
+     "ja": "あぶないですから、さわらないで ください。",
+     "en": "It is dangerous, so please do not touch it."
+    }
    },
    {
     "id": "23-12",
@@ -5806,7 +7388,15 @@ window.LESSON_DATA = {
      1,
      13,
      29
-    ]
+    ],
+    "alt": [
+     "触ります",
+     "触る"
+    ],
+    "example": {
+     "ja": "この 花{はな}に さわらないで ください。",
+     "en": "Please do not touch this flower."
+    }
    },
    {
     "id": "23-13",
@@ -5838,7 +7428,11 @@ window.LESSON_DATA = {
      24,
      1,
      12
-    ]
+    ],
+    "example": {
+     "ja": "図書館{としょかん}で 本{ほん}を 借{か}ります。",
+     "en": "I borrow books from the library."
+    }
    },
    {
     "id": "23-14",
@@ -5852,7 +7446,15 @@ window.LESSON_DATA = {
      2,
      21,
      15
-    ]
+    ],
+    "alt": [
+     "故障します",
+     "故障する"
+    ],
+    "example": {
+     "ja": "コピー機{き}が こしょうしました。",
+     "en": "The copier broke down."
+    }
    },
    {
     "id": "23-15",
@@ -5884,7 +7486,11 @@ window.LESSON_DATA = {
      27,
      18,
      2
-    ]
+    ],
+    "example": {
+     "ja": "来年{らいねん} 日本{にほん}に 留学{りゅうがく}します。",
+     "en": "I will study abroad in Japan next year."
+    }
    },
    {
     "id": "23-16",
@@ -5898,7 +7504,14 @@ window.LESSON_DATA = {
      31,
      25,
      32
-    ]
+    ],
+    "alt": [
+     "事"
+    ],
+    "example": {
+     "ja": "日本語{にほんご}で 話{はな}す ことが できます。",
+     "en": "I can speak in Japanese."
+    }
    },
    {
     "id": "23-17",
@@ -5912,7 +7525,11 @@ window.LESSON_DATA = {
      7,
      28,
      8
-    ]
+    ],
+    "example": {
+     "ja": "先生{せんせい}に アドバイスを もらいました。",
+     "en": "I got advice from my teacher."
+    }
    },
    {
     "id": "23-18",
@@ -5926,7 +7543,15 @@ window.LESSON_DATA = {
      27,
      15,
      2
-    ]
+    ],
+    "alt": [
+     "お願いします",
+     "お願いする"
+    ],
+    "example": {
+     "ja": "この 仕事{しごと}を おねがいします。",
+     "en": "I would like to ask you to do this job."
+    }
    },
    {
     "id": "23-19",
@@ -5940,7 +7565,15 @@ window.LESSON_DATA = {
      24,
      13,
      18
-    ]
+    ],
+    "alt": [
+     "覚えます",
+     "覚える"
+    ],
+    "example": {
+     "ja": "ことばを たくさん おぼえます。",
+     "en": "I memorize a lot of words."
+    }
    },
    {
     "id": "23-20",
@@ -5960,7 +7593,11 @@ window.LESSON_DATA = {
      8,
      9,
      7
-    ]
+    ],
+    "example": {
+     "ja": "あたらしい 服{ふく}を 買{か}いました。",
+     "en": "I bought new clothes."
+    }
    },
    {
     "id": "23-21",
@@ -6008,7 +7645,11 @@ window.LESSON_DATA = {
      23,
      14,
      2
-    ]
+    ],
+    "example": {
+     "ja": "あした お弁当{べんとう}を 持{も}って 来{き}ます。",
+     "en": "I will bring a boxed lunch tomorrow."
+    }
    },
    {
     "id": "23-22",
@@ -6032,7 +7673,11 @@ window.LESSON_DATA = {
      11,
      28,
      7
-    ]
+    ],
+    "example": {
+     "ja": "わたしの 家{いえ}は 駅{えき}から 遠{とお}いです。",
+     "en": "My house is far from the station."
+    }
    },
    {
     "id": "23-23",
@@ -6080,7 +7725,11 @@ window.LESSON_DATA = {
      21,
      5,
      14
-    ]
+    ],
+    "example": {
+     "ja": "傘{かさ}を 持{も}って 行{い}きます。",
+     "en": "I take an umbrella with me."
+    }
    },
    {
     "id": "23-24",
@@ -6094,7 +7743,15 @@ window.LESSON_DATA = {
      19,
      13,
      1
-    ]
+    ],
+    "alt": [
+     "予約します",
+     "予約する"
+    ],
+    "example": {
+     "ja": "ホテルを よやくしました。",
+     "en": "I reserved a hotel."
+    }
    },
    {
     "id": "23-25",
@@ -6108,7 +7765,11 @@ window.LESSON_DATA = {
      31,
      32,
      9
-    ]
+    ],
+    "example": {
+     "ja": "レンタカーで 旅行{りょこう}します。",
+     "en": "I travel by rental car."
+    }
    },
    {
     "id": "23-26",
@@ -6122,7 +7783,14 @@ window.LESSON_DATA = {
      30,
      6,
      4
-    ]
+    ],
+    "alt": [
+     "初めて"
+    ],
+    "example": {
+     "ja": "日本{にほん}へ 来{き}たのは はじめてです。",
+     "en": "It is my first time coming to Japan."
+    }
    },
    {
     "id": "23-27",
@@ -6136,7 +7804,15 @@ window.LESSON_DATA = {
      18,
      15,
      2
-    ]
+    ],
+    "alt": [
+     "緊張します",
+     "緊張する"
+    ],
+    "example": {
+     "ja": "試験{しけん}の とき、きんちょうします。",
+     "en": "I get nervous at exam time."
+    }
    },
    {
     "id": "23-28",
@@ -6150,7 +7826,11 @@ window.LESSON_DATA = {
      17,
      7,
      20
-    ]
+    ],
+    "example": {
+     "ja": "レジュメを 作{つく}りました。",
+     "en": "I made a summary."
+    }
    },
    {
     "id": "23-29",
@@ -6182,7 +7862,11 @@ window.LESSON_DATA = {
      1,
      12,
      13
-    ]
+    ],
+    "example": {
+     "ja": "パスポートを 見{み}せて ください。",
+     "en": "Please show me your passport."
+    }
    },
    {
     "id": "23-30",
@@ -6206,7 +7890,11 @@ window.LESSON_DATA = {
      26,
      31,
      25
-    ]
+    ],
+    "example": {
+     "ja": "何回{なんかい}も 読{よ}みました。",
+     "en": "I read it many times."
+    }
    },
    {
     "id": "23-31",
@@ -6220,7 +7908,11 @@ window.LESSON_DATA = {
      25,
      32,
      9
-    ]
+    ],
+    "example": {
+     "ja": "マイクを 使{つか}って ください。",
+     "en": "Please use the microphone."
+    }
    },
    {
     "id": "23-32",
@@ -6234,7 +7926,11 @@ window.LESSON_DATA = {
      25,
      31,
      9
-    ]
+    ],
+    "example": {
+     "ja": "この プロジェクターは 新{あたら}しいです。",
+     "en": "This projector is new."
+    }
    }
   ]
  },
@@ -6254,7 +7950,11 @@ window.LESSON_DATA = {
      18,
      20,
      9
-    ]
+    ],
+    "example": {
+     "ja": "あしたの スケジュールは どうですか。",
+     "en": "How is tomorrow's schedule?"
+    }
    },
    {
     "id": "24-2",
@@ -6268,7 +7968,14 @@ window.LESSON_DATA = {
      15,
      12,
      13
-    ]
+    ],
+    "alt": [
+     "結婚式"
+    ],
+    "example": {
+     "ja": "友{とも}だちの けっこんしきに 行{い}きます。",
+     "en": "I am going to a friend's wedding."
+    }
    },
    {
     "id": "24-3",
@@ -6282,7 +7989,11 @@ window.LESSON_DATA = {
      14,
      24,
      11
-    ]
+    ],
+    "example": {
+     "ja": "あしたは 会議{かいぎ}が あります。",
+     "en": "There is a meeting tomorrow."
+    }
    },
    {
     "id": "24-4",
@@ -6310,7 +8021,15 @@ window.LESSON_DATA = {
      8,
      12,
      7
-    ]
+    ],
+    "alt": [
+     "泊まります",
+     "泊まる"
+    ],
+    "example": {
+     "ja": "大阪{おおさか}の ホテルに とまります。",
+     "en": "I will stay at a hotel in Osaka."
+    }
    },
    {
     "id": "24-5",
@@ -6324,7 +8043,11 @@ window.LESSON_DATA = {
      13,
      8,
      6
-    ]
+    ],
+    "example": {
+     "ja": "それじゃ、行{い}きましょう。",
+     "en": "Well then, let's go."
+    }
    },
    {
     "id": "24-6",
@@ -6344,7 +8067,11 @@ window.LESSON_DATA = {
      22,
      8,
      5
-    ]
+    ],
+    "example": {
+     "ja": "今度{こんど} いっしょに 行{い}きましょう。",
+     "en": "Let's go together next time."
+    }
    },
    {
     "id": "24-7",
@@ -6358,7 +8085,15 @@ window.LESSON_DATA = {
      23,
      4,
      8
-    ]
+    ],
+    "alt": [
+     "誘います",
+     "誘う"
+    ],
+    "example": {
+     "ja": "友{とも}だちを パーティーに さそいます。",
+     "en": "I invite my friend to a party."
+    }
    },
    {
     "id": "24-8",
@@ -6390,7 +8125,11 @@ window.LESSON_DATA = {
      4,
      25,
      23
-    ]
+    ],
+    "example": {
+     "ja": "けっこんしきに 出席{しゅっせき}します。",
+     "en": "I will attend the wedding."
+    }
    },
    {
     "id": "24-9",
@@ -6410,7 +8149,11 @@ window.LESSON_DATA = {
      10,
      18,
      1
-    ]
+    ],
+    "example": {
+     "ja": "本屋{ほんや}で 本{ほん}を 買{か}います。",
+     "en": "I buy books at the bookstore."
+    }
    },
    {
     "id": "24-10",
@@ -6430,7 +8173,11 @@ window.LESSON_DATA = {
      9,
      20,
      1
-    ]
+    ],
+    "example": {
+     "ja": "名古屋{なごや}は 大阪{おおさか}と 東京{とうきょう}の 間{あいだ}です。",
+     "en": "Nagoya is between Osaka and Tokyo."
+    }
    },
    {
     "id": "24-11",
@@ -6462,7 +8209,11 @@ window.LESSON_DATA = {
      16,
      24,
      21
-    ]
+    ],
+    "example": {
+     "ja": "わたしは 東京{とうきょう}で 生{う}まれました。",
+     "en": "I was born in Tokyo."
+    }
    },
    {
     "id": "24-12",
@@ -6482,7 +8233,11 @@ window.LESSON_DATA = {
      13,
      15,
      2
-    ]
+    ],
+    "example": {
+     "ja": "大阪大学{おおさかだいがく}は 大{おお}きいです。",
+     "en": "Osaka University is large."
+    }
    },
    {
     "id": "24-13",
@@ -6502,7 +8257,11 @@ window.LESSON_DATA = {
      12,
      15,
      2
-    ]
+    ],
+    "example": {
+     "ja": "兄{あに}は 理学部{りがくぶ}の 学生{がくせい}です。",
+     "en": "My older brother is a student in the faculty of science."
+    }
    },
    {
     "id": "24-14",
@@ -6534,7 +8293,11 @@ window.LESSON_DATA = {
      24,
      3,
      11
-    ]
+    ],
+    "example": {
+     "ja": "四月{しがつ}に 大学{だいがく}に 入学{にゅうがく}します。",
+     "en": "I will enter university in April."
+    }
    },
    {
     "id": "24-15",
@@ -6548,7 +8311,11 @@ window.LESSON_DATA = {
      2,
      12,
      13
-    ]
+    ],
+    "example": {
+     "ja": "昔{むかし}、トランジスタラジオが ありました。",
+     "en": "Long ago, there were transistor radios."
+    }
    },
    {
     "id": "24-16",
@@ -6580,7 +8347,11 @@ window.LESSON_DATA = {
      11,
      24,
      19
-    ]
+    ],
+    "example": {
+     "ja": "新{あたら}しい 機械{きかい}を 開発{かいはつ}します。",
+     "en": "We develop a new machine."
+    }
    },
    {
     "id": "24-17",
@@ -6594,7 +8365,11 @@ window.LESSON_DATA = {
      10,
      20,
      1
-    ]
+    ],
+    "example": {
+     "ja": "アメリカへ 行{い}きたいです。",
+     "en": "I want to go to America."
+    }
    },
    {
     "id": "24-18",
@@ -6608,7 +8383,11 @@ window.LESSON_DATA = {
      9,
      1,
      20
-    ]
+    ],
+    "example": {
+     "ja": "サンディエゴは アメリカの 町{まち}です。",
+     "en": "San Diego is a city in America."
+    }
    },
    {
     "id": "24-19",
@@ -6640,7 +8419,11 @@ window.LESSON_DATA = {
      21,
      16,
      11
-    ]
+    ],
+    "example": {
+     "ja": "新{あたら}しい 家{いえ}を 建{た}てます。",
+     "en": "We are going to build a new house."
+    }
    },
    {
     "id": "24-20",
@@ -6654,7 +8437,11 @@ window.LESSON_DATA = {
      1,
      10,
      18
-    ]
+    ],
+    "example": {
+     "ja": "ウォークマンで 音楽{おんがく}を 聞{き}きます。",
+     "en": "I listen to music with a Walkman."
+    }
    },
    {
     "id": "24-21",
@@ -6686,7 +8473,11 @@ window.LESSON_DATA = {
      19,
      11,
      16
-    ]
+    ],
+    "example": {
+     "ja": "授業{じゅぎょう}を 始{はじ}めます。",
+     "en": "We start the class."
+    }
    },
    {
     "id": "24-22",
@@ -6710,7 +8501,11 @@ window.LESSON_DATA = {
      15,
      12,
      2
-    ]
+    ],
+    "example": {
+     "ja": "タイム誌{し}を 読{よ}みました。",
+     "en": "I read Time magazine."
+    }
    },
    {
     "id": "24-23",
@@ -6724,7 +8519,15 @@ window.LESSON_DATA = {
      7,
      4,
      8
-    ]
+    ],
+    "alt": [
+     "選びます",
+     "選ぶ"
+    ],
+    "example": {
+     "ja": "好{す}きな 本{ほん}を えらんで ください。",
+     "en": "Please choose a book you like."
+    }
    },
    {
     "id": "24-24",
@@ -6738,7 +8541,15 @@ window.LESSON_DATA = {
      16,
      11,
      14
-    ]
+    ],
+    "alt": [
+     "亡くなります",
+     "亡くなる"
+    ],
+    "example": {
+     "ja": "おじいさんが なくなりました。",
+     "en": "My grandfather passed away."
+    }
    },
    {
     "id": "24-25",
@@ -6794,7 +8605,11 @@ window.LESSON_DATA = {
      8,
      4,
      3
-    ]
+    ],
+    "example": {
+     "ja": "千春{ちはる}さんと 日本{にほん}で 知{し}り合{あ}いました。",
+     "en": "I got to know Chiharu in Japan."
+    }
    }
   ]
  },
@@ -6814,7 +8629,15 @@ window.LESSON_DATA = {
      26,
      3,
      5
-    ]
+    ],
+    "alt": [
+     "出来ます",
+     "出来る"
+    ],
+    "example": {
+     "ja": "わたしは 日本語{にほんご}が できます。",
+     "en": "I can speak Japanese."
+    }
    },
    {
     "id": "25-2",
@@ -6834,7 +8657,11 @@ window.LESSON_DATA = {
      8,
      22,
      28
-    ]
+    ],
+    "example": {
+     "ja": "運転{うんてん}が 上手{じょうず}ですね。",
+     "en": "You are good at driving, aren't you?"
+    }
    },
    {
     "id": "25-3",
@@ -6848,7 +8675,15 @@ window.LESSON_DATA = {
      5,
      4,
      1
-    ]
+    ],
+    "alt": [
+     "弾きます",
+     "弾く"
+    ],
+    "example": {
+     "ja": "ギターを ひく ことが できます。",
+     "en": "I can play the guitar."
+    }
    },
    {
     "id": "25-4",
@@ -6880,7 +8715,11 @@ window.LESSON_DATA = {
      5,
      3,
      1
-    ]
+    ],
+    "example": {
+     "ja": "カラオケで 歌{うた}を 歌{うた}います。",
+     "en": "I sing songs at karaoke."
+    }
    },
    {
     "id": "25-5",
@@ -6912,7 +8751,11 @@ window.LESSON_DATA = {
      4,
      3,
      1
-    ]
+    ],
+    "example": {
+     "ja": "荷物{にもつ}を 運{はこ}んで ください。",
+     "en": "Please carry the luggage."
+    }
    },
    {
     "id": "25-6",
@@ -6932,7 +8775,11 @@ window.LESSON_DATA = {
      12,
      15,
      18
-    ]
+    ],
+    "example": {
+     "ja": "温度計{おんどけい}は 机{つくえ}の 上{うえ}に あります。",
+     "en": "The thermometer is on the desk."
+    }
    },
    {
     "id": "25-7",
@@ -6956,7 +8803,11 @@ window.LESSON_DATA = {
      11,
      20,
      16
-    ]
+    ],
+    "example": {
+     "ja": "光{ひかり}ファイバーは 速{はや}いです。",
+     "en": "Optical fiber is fast."
+    }
    },
    {
     "id": "25-8",
@@ -6970,7 +8821,11 @@ window.LESSON_DATA = {
      2,
      23,
      10
-    ]
+    ],
+    "example": {
+     "ja": "インターネットで 調{しら}べます。",
+     "en": "I look it up on the Internet."
+    }
    },
    {
     "id": "25-9",
@@ -6984,7 +8839,14 @@ window.LESSON_DATA = {
      24,
      22,
      28
-    ]
+    ],
+    "alt": [
+     "検索"
+    ],
+    "example": {
+     "ja": "インターネットで けんさくします。",
+     "en": "I search on the Internet."
+    }
    },
    {
     "id": "25-10",
@@ -7004,7 +8866,11 @@ window.LESSON_DATA = {
      27,
      23,
      17
-    ]
+    ],
+    "example": {
+     "ja": "高速{こうそく}の インターネットが ひつようです。",
+     "en": "A high-speed Internet connection is necessary."
+    }
    },
    {
     "id": "25-11",
@@ -7024,7 +8890,11 @@ window.LESSON_DATA = {
      7,
      16,
      20
-    ]
+    ],
+    "example": {
+     "ja": "通信{つうしん}が おそいです。",
+     "en": "The communication is slow."
+    }
    },
    {
     "id": "25-12",
@@ -7044,7 +8914,11 @@ window.LESSON_DATA = {
      6,
      18,
      15
-    ]
+    ],
+    "example": {
+     "ja": "今日{きょう}の 気温{きおん}は 三十度{さんじゅうど}です。",
+     "en": "Today's temperature is thirty degrees."
+    }
    },
    {
     "id": "25-13",
@@ -7058,7 +8932,14 @@ window.LESSON_DATA = {
      17,
      12,
      15
-    ]
+    ],
+    "alt": [
+     "測定"
+    ],
+    "example": {
+     "ja": "気温{きおん}を そくていします。",
+     "en": "I measure the temperature."
+    }
    },
    {
     "id": "25-14",
@@ -7072,7 +8953,15 @@ window.LESSON_DATA = {
      17,
      15,
      18
-    ]
+    ],
+    "alt": [
+     "複雑",
+     "複雑な"
+    ],
+    "example": {
+     "ja": "この 機械{きかい}は ふくざつです。",
+     "en": "This machine is complicated."
+    }
    },
    {
     "id": "25-15",
@@ -7092,7 +8981,11 @@ window.LESSON_DATA = {
      6,
      18,
      17
-    ]
+    ],
+    "example": {
+     "ja": "計算{けいさん}が 速{はや}いですね。",
+     "en": "You calculate fast, don't you?"
+    }
    },
    {
     "id": "25-16",
@@ -7106,7 +8999,11 @@ window.LESSON_DATA = {
      20,
      11,
      7
-    ]
+    ],
+    "example": {
+     "ja": "インタビューシートに 書{か}いて ください。",
+     "en": "Please write on the interview sheet."
+    }
    },
    {
     "id": "25-17",
@@ -7130,7 +9027,14 @@ window.LESSON_DATA = {
      13,
      15,
      6
-    ]
+    ],
+    "alt": [
+     "面接者"
+    ],
+    "example": {
+     "ja": "めんせつ者{しゃ}は 田中{たなか}さんです。",
+     "en": "The interviewer is Mr. Tanaka."
+    }
    },
    {
     "id": "25-18",
@@ -7150,7 +9054,11 @@ window.LESSON_DATA = {
      12,
      17,
      15
-    ]
+    ],
+    "example": {
+     "ja": "国籍{こくせき}は どこですか。",
+     "en": "What is your nationality?"
+    }
    },
    {
     "id": "25-19",
@@ -7170,7 +9078,11 @@ window.LESSON_DATA = {
      21,
      28,
      9
-    ]
+    ],
+    "example": {
+     "ja": "年齢{ねんれい}を 書{か}いて ください。",
+     "en": "Please write your age."
+    }
    },
    {
     "id": "25-20",
@@ -7190,7 +9102,11 @@ window.LESSON_DATA = {
      16,
      11,
      7
-    ]
+    ],
+    "example": {
+     "ja": "今日{きょう}は 何曜日{なんようび}ですか。",
+     "en": "What day of the week is it today?"
+    }
    },
    {
     "id": "25-21",
@@ -7204,7 +9120,11 @@ window.LESSON_DATA = {
      28,
      9,
      24
-    ]
+    ],
+    "example": {
+     "ja": "日本語{にほんご}の レベルは どのぐらいですか。",
+     "en": "What is your level of Japanese?"
+    }
    },
    {
     "id": "25-22",
@@ -7228,7 +9148,11 @@ window.LESSON_DATA = {
      24,
      9,
      28
-    ]
+    ],
+    "example": {
+     "ja": "その他{た}の 人{ひと}は 帰{かえ}りました。",
+     "en": "The others went home."
+    }
    },
    {
     "id": "25-23",
@@ -7242,7 +9166,11 @@ window.LESSON_DATA = {
      10,
      27,
      15
-    ]
+    ],
+    "example": {
+     "ja": "レストランで 晩{ばん}ごはんを 食{た}べます。",
+     "en": "I eat dinner at a restaurant."
+    }
    },
    {
     "id": "25-24",
@@ -7262,7 +9190,11 @@ window.LESSON_DATA = {
      9,
      22,
      28
-    ]
+    ],
+    "example": {
+     "ja": "あの 島{しま}に 行{い}きたいです。",
+     "en": "I want to go to that island."
+    }
    },
    {
     "id": "25-25",
@@ -7286,7 +9218,11 @@ window.LESSON_DATA = {
      19,
      5,
      8
-    ]
+    ],
+    "example": {
+     "ja": "日本{にほん}に 三年間{さんねんかん} 住{す}んで います。",
+     "en": "I have lived in Japan for three years."
+    }
    },
    {
     "id": "25-26",
@@ -7318,7 +9254,11 @@ window.LESSON_DATA = {
      1,
      3,
      5
-    ]
+    ],
+    "example": {
+     "ja": "日本{にほん}で 生活{せいかつ}して います。",
+     "en": "I live in Japan."
+    }
    },
    {
     "id": "25-27",
@@ -7332,7 +9272,14 @@ window.LESSON_DATA = {
      23,
      10,
      12
-    ]
+    ],
+    "alt": [
+     "技術"
+    ],
+    "example": {
+     "ja": "日本{にほん}の ぎじゅつは すばらしいです。",
+     "en": "Japan's technology is wonderful."
+    }
    },
    {
     "id": "25-28",
@@ -7346,7 +9293,11 @@ window.LESSON_DATA = {
      22,
      9,
      24
-    ]
+    ],
+    "example": {
+     "ja": "ヨーロッパへ 旅行{りょこう}に 行{い}きたいです。",
+     "en": "I want to travel to Europe."
+    }
    }
   ]
  },
@@ -7366,7 +9317,15 @@ window.LESSON_DATA = {
      2,
      11,
      7
-    ]
+    ],
+    "alt": [
+     "真面目",
+     "真面目な"
+    ],
+    "example": {
+     "ja": "かれは まじめな 学生{がくせい}です。",
+     "en": "He is a serious student."
+    }
    },
    {
     "id": "26-2",
@@ -7398,7 +9357,11 @@ window.LESSON_DATA = {
      5,
      4,
      1
-    ]
+    ],
+    "example": {
+     "ja": "毎日{まいにち} 三十分{さんじゅっぷん} 歩{ある}きます。",
+     "en": "I walk for thirty minutes every day."
+    }
    },
    {
     "id": "26-3",
@@ -7412,7 +9375,14 @@ window.LESSON_DATA = {
      11,
      9,
      6
-    ]
+    ],
+    "alt": [
+     "犯罪"
+    ],
+    "example": {
+     "ja": "はんざいが ふえて います。",
+     "en": "Crime is increasing."
+    }
    },
    {
     "id": "26-4",
@@ -7426,7 +9396,15 @@ window.LESSON_DATA = {
      5,
      2,
      13
-    ]
+    ],
+    "alt": [
+     "増えます",
+     "増える"
+    ],
+    "example": {
+     "ja": "外国{がいこく}の 人{ひと}が ふえました。",
+     "en": "The number of foreigners has increased."
+    }
    },
    {
     "id": "26-5",
@@ -7458,7 +9436,11 @@ window.LESSON_DATA = {
      2,
      4,
      17
-    ]
+    ],
+    "example": {
+     "ja": "研究{けんきゅう}が 進{すす}んで います。",
+     "en": "The research is progressing."
+    }
    },
    {
     "id": "26-6",
@@ -7472,7 +9454,11 @@ window.LESSON_DATA = {
      12,
      9,
      11
-    ]
+    ],
+    "example": {
+     "ja": "アンケートに こたえて ください。",
+     "en": "Please answer the questionnaire."
+    }
    },
    {
     "id": "26-7",
@@ -7486,7 +9472,11 @@ window.LESSON_DATA = {
      14,
      16,
      18
-    ]
+    ],
+    "example": {
+     "ja": "あのう、すみません。",
+     "en": "Um, excuse me."
+    }
    },
    {
     "id": "26-8",
@@ -7514,7 +9504,14 @@ window.LESSON_DATA = {
      11,
      6,
      3
-    ]
+    ],
+    "alt": [
+     "皆"
+    ],
+    "example": {
+     "ja": "みんなで 食{た}べましょう。",
+     "en": "Let's all eat together."
+    }
    },
    {
     "id": "26-10",
@@ -7528,7 +9525,11 @@ window.LESSON_DATA = {
      3,
      1,
      2
-    ]
+    ],
+    "example": {
+     "ja": "よく 勉強{べんきょう}して ください。",
+     "en": "Please study hard."
+    }
    },
    {
     "id": "26-11",
@@ -7542,7 +9543,14 @@ window.LESSON_DATA = {
      9,
      3,
      6
-    ]
+    ],
+    "alt": [
+     "政治"
+    ],
+    "example": {
+     "ja": "せいじの 話{はなし}は 難{むずか}しいです。",
+     "en": "Talk about politics is difficult."
+    }
    },
    {
     "id": "26-12",
@@ -7556,7 +9564,14 @@ window.LESSON_DATA = {
      6,
      9,
      11
-    ]
+    ],
+    "alt": [
+     "関心"
+    ],
+    "example": {
+     "ja": "日本{にほん}の 文化{ぶんか}に かんしんが あります。",
+     "en": "I am interested in Japanese culture."
+    }
    },
    {
     "id": "26-13",
@@ -7570,7 +9585,11 @@ window.LESSON_DATA = {
      8,
      18,
      15
-    ]
+    ],
+    "example": {
+     "ja": "音楽{おんがく}に かんしんが あります。",
+     "en": "I am interested in music."
+    }
    },
    {
     "id": "26-14",
@@ -7584,7 +9603,11 @@ window.LESSON_DATA = {
      7,
      16,
      18
-    ]
+    ],
+    "example": {
+     "ja": "やあ、元気{げんき}ですか。",
+     "en": "Hi, how are you?"
+    }
    },
    {
     "id": "26-15",
@@ -7598,7 +9621,11 @@ window.LESSON_DATA = {
      8,
      18,
      16
-    ]
+    ],
+    "example": {
+     "ja": "うん、わかった。",
+     "en": "Yeah, I got it."
+    }
    },
    {
     "id": "26-16",
@@ -7612,7 +9639,11 @@ window.LESSON_DATA = {
      18,
      8,
      14
-    ]
+    ],
+    "example": {
+     "ja": "日本語{にほんご}は まあまあです。",
+     "en": "My Japanese is so-so."
+    }
    },
    {
     "id": "26-17",
@@ -7626,7 +9657,11 @@ window.LESSON_DATA = {
      5,
      14,
      9
-    ]
+    ],
+    "example": {
+     "ja": "ところで、あしたは 何{なに}を しますか。",
+     "en": "By the way, what are you doing tomorrow?"
+    }
    },
    {
     "id": "26-18",
@@ -7640,7 +9675,14 @@ window.LESSON_DATA = {
      8,
      16,
      14
-    ]
+    ],
+    "alt": [
+     "久しぶり"
+    ],
+    "example": {
+     "ja": "ひさしぶりですね。お元気{げんき}ですか。",
+     "en": "Long time no see. How are you?"
+    }
    }
   ]
  },
@@ -7660,7 +9702,14 @@ window.LESSON_DATA = {
      4,
      3,
      17
-    ]
+    ],
+    "alt": [
+     "寂しい"
+    ],
+    "example": {
+     "ja": "一人{ひとり}で いると、さびしいです。",
+     "en": "I feel lonely when I am alone."
+    }
    },
    {
     "id": "27-2",
@@ -7680,7 +9729,11 @@ window.LESSON_DATA = {
      6,
      26,
      16
-    ]
+    ],
+    "example": {
+     "ja": "頭{あたま}が いたいです。",
+     "en": "I have a headache."
+    }
    },
    {
     "id": "27-3",
@@ -7694,7 +9747,14 @@ window.LESSON_DATA = {
      17,
      1,
      4
-    ]
+    ],
+    "alt": [
+     "痛い"
+    ],
+    "example": {
+     "ja": "はが いたいです。",
+     "en": "My tooth hurts."
+    }
    },
    {
     "id": "27-4",
@@ -7708,7 +9768,14 @@ window.LESSON_DATA = {
      1,
      17,
      3
-    ]
+    ],
+    "alt": [
+     "眠い"
+    ],
+    "example": {
+     "ja": "ねむいですから、もう ねます。",
+     "en": "I am sleepy, so I will go to bed now."
+    }
    },
    {
     "id": "27-5",
@@ -7722,7 +9789,11 @@ window.LESSON_DATA = {
      6,
      2,
      26
-    ]
+    ],
+    "example": {
+     "ja": "ガスを 止{と}めて ください。",
+     "en": "Please turn off the gas."
+    }
    },
    {
     "id": "27-6",
@@ -7742,7 +9813,11 @@ window.LESSON_DATA = {
      2,
      26,
      16
-    ]
+    ],
+    "example": {
+     "ja": "火{ひ}は あぶないです。",
+     "en": "Fire is dangerous."
+    }
    },
    {
     "id": "27-7",
@@ -7770,7 +9845,15 @@ window.LESSON_DATA = {
      12,
      19,
      24
-    ]
+    ],
+    "alt": [
+     "消します",
+     "消す"
+    ],
+    "example": {
+     "ja": "出{で}かける まえに 火{ひ}を けします。",
+     "en": "I put out the fire before going out."
+    }
    },
    {
     "id": "27-8",
@@ -7784,7 +9867,11 @@ window.LESSON_DATA = {
      27,
      28,
      11
-    ]
+    ],
+    "example": {
+     "ja": "フランスへ 行{い}きたいです。",
+     "en": "I want to go to France."
+    }
    },
    {
     "id": "27-9",
@@ -7798,7 +9885,11 @@ window.LESSON_DATA = {
      11,
      16,
      8
-    ]
+    ],
+    "example": {
+     "ja": "パリは フランスの 首都{しゅと}です。",
+     "en": "Paris is the capital of France."
+    }
    },
    {
     "id": "27-10",
@@ -7830,7 +9921,11 @@ window.LESSON_DATA = {
      19,
      24,
      12
-    ]
+    ],
+    "example": {
+     "ja": "車{くるま}を 運転{うんてん}します。",
+     "en": "I drive a car."
+    }
    },
    {
     "id": "27-11",
@@ -7844,7 +9939,14 @@ window.LESSON_DATA = {
      9,
      16,
      27
-    ]
+    ],
+    "alt": [
+     "砂糖"
+    ],
+    "example": {
+     "ja": "コーヒーに さとうを 入{い}れます。",
+     "en": "I put sugar in my coffee."
+    }
    },
    {
     "id": "27-12",
@@ -7858,7 +9960,15 @@ window.LESSON_DATA = {
      7,
      19,
      24
-    ]
+    ],
+    "alt": [
+     "掛けます",
+     "掛ける"
+    ],
+    "example": {
+     "ja": "めがねを かけて います。",
+     "en": "I am wearing glasses."
+    }
    },
    {
     "id": "27-13",
@@ -7878,7 +9988,11 @@ window.LESSON_DATA = {
      14,
      23,
      22
-    ]
+    ],
+    "example": {
+     "ja": "佐渡{さど}は 新潟県{にいがたけん}の 島{しま}です。",
+     "en": "Sado is an island of Niigata Prefecture."
+    }
    },
    {
     "id": "27-14",
@@ -7898,7 +10012,11 @@ window.LESSON_DATA = {
      13,
      23,
      22
-    ]
+    ],
+    "example": {
+     "ja": "新潟県{にいがたけん}は 日本海{にほんかい}の 近{ちか}くです。",
+     "en": "Niigata Prefecture is near the Sea of Japan."
+    }
    },
    {
     "id": "27-15",
@@ -7918,7 +10036,11 @@ window.LESSON_DATA = {
      22,
      20,
      21
-    ]
+    ],
+    "example": {
+     "ja": "旅行会社{りょこうがいしゃ}で ホテルを よやくします。",
+     "en": "I book a hotel at a travel agency."
+    }
    },
    {
     "id": "27-16",
@@ -7932,7 +10054,11 @@ window.LESSON_DATA = {
      11,
      9,
      8
-    ]
+    ],
+    "example": {
+     "ja": "フェリーで 佐渡{さど}へ 行{い}きます。",
+     "en": "I go to Sado by ferry."
+    }
    },
    {
     "id": "27-17",
@@ -7946,7 +10072,15 @@ window.LESSON_DATA = {
      3,
      4,
      1
-    ]
+    ],
+    "alt": [
+     "色々",
+     "色々な"
+    ],
+    "example": {
+     "ja": "いろいろな 国{くに}へ 行{い}きたいです。",
+     "en": "I want to go to various countries."
+    }
    },
    {
     "id": "27-18",
@@ -7960,7 +10094,14 @@ window.LESSON_DATA = {
      20,
      21,
      15
-    ]
+    ],
+    "alt": [
+     "例えば"
+    ],
+    "example": {
+     "ja": "たとえば、りんごや バナナです。",
+     "en": "For example, apples and bananas."
+    }
    },
    {
     "id": "27-19",
@@ -7974,7 +10115,15 @@ window.LESSON_DATA = {
      24,
      12,
      7
-    ]
+    ],
+    "alt": [
+     "探します",
+     "探す"
+    ],
+    "example": {
+     "ja": "かぎを さがして います。",
+     "en": "I am looking for my key."
+    }
    },
    {
     "id": "27-20",
@@ -7988,7 +10137,11 @@ window.LESSON_DATA = {
      15,
      22,
      21
-    ]
+    ],
+    "example": {
+     "ja": "ユースホステルは 安{やす}いです。",
+     "en": "Youth hostels are cheap."
+    }
    },
    {
     "id": "27-21",
@@ -8008,7 +10161,11 @@ window.LESSON_DATA = {
      20,
      25,
      15
-    ]
+    ],
+    "example": {
+     "ja": "この 部屋{へや}は 禁煙{きんえん}です。",
+     "en": "This room is non-smoking."
+    }
    },
    {
     "id": "27-22",
@@ -8028,7 +10185,11 @@ window.LESSON_DATA = {
      15,
      20,
      14
-    ]
+    ],
+    "example": {
+     "ja": "この サービスは 無料{むりょう}です。",
+     "en": "This service is free of charge."
+    }
    },
    {
     "id": "27-23",
@@ -8048,7 +10209,11 @@ window.LESSON_DATA = {
      13,
      14,
      22
-    ]
+    ],
+    "example": {
+     "ja": "昼{ひる}ごはんに 和定食{わていしょく}を 食{た}べます。",
+     "en": "I eat a Japanese set meal for lunch."
+    }
    },
    {
     "id": "27-24",
@@ -8080,7 +10245,11 @@ window.LESSON_DATA = {
      19,
      12,
      10
-    ]
+    ],
+    "example": {
+     "ja": "ドアを 引{ひ}いて ください。",
+     "en": "Please pull the door."
+    }
    },
    {
     "id": "27-25",
@@ -8100,7 +10269,11 @@ window.LESSON_DATA = {
      26,
      28,
      21
-    ]
+    ],
+    "example": {
+     "ja": "入口{いりぐち}は あちらです。",
+     "en": "The entrance is over there."
+    }
    },
    {
     "id": "27-26",
@@ -8120,7 +10293,11 @@ window.LESSON_DATA = {
      25,
      2,
      6
-    ]
+    ],
+    "example": {
+     "ja": "出口{でぐち}は どこですか。",
+     "en": "Where is the exit?"
+    }
    },
    {
     "id": "27-27",
@@ -8148,7 +10325,11 @@ window.LESSON_DATA = {
      8,
      28,
      11
-    ]
+    ],
+    "example": {
+     "ja": "お手洗{てあら}いは どこですか。",
+     "en": "Where is the restroom?"
+    }
    },
    {
     "id": "27-28",
@@ -8168,7 +10349,11 @@ window.LESSON_DATA = {
      25,
      8,
      27
-    ]
+    ],
+    "example": {
+     "ja": "中国語{ちゅうごくご}を 勉強{べんきょう}して います。",
+     "en": "I am studying Chinese."
+    }
    }
   ]
  },
@@ -8188,7 +10373,15 @@ window.LESSON_DATA = {
      6,
      12,
      11
-    ]
+    ],
+    "alt": [
+     "起きます",
+     "起きる"
+    ],
+    "example": {
+     "ja": "ここで 事故{じこ}が おきました。",
+     "en": "An accident happened here."
+    }
    },
    {
     "id": "28-2",
@@ -8208,7 +10401,11 @@ window.LESSON_DATA = {
      3,
      10,
      5
-    ]
+    ],
+    "example": {
+     "ja": "近{ちか}くで 火事{かじ}が ありました。",
+     "en": "There was a fire nearby."
+    }
    },
    {
     "id": "28-3",
@@ -8228,7 +10425,11 @@ window.LESSON_DATA = {
      2,
      5,
      7
-    ]
+    ],
+    "example": {
+     "ja": "事故{じこ}に 気{き}を つけて ください。",
+     "en": "Please watch out for accidents."
+    }
    },
    {
     "id": "28-4",
@@ -8256,7 +10457,15 @@ window.LESSON_DATA = {
      11,
      12,
      6
-    ]
+    ],
+    "alt": [
+     "遭います",
+     "遭う"
+    ],
+    "example": {
+     "ja": "きのう、事故{じこ}に あいました。",
+     "en": "I had an accident yesterday."
+    }
    },
    {
     "id": "28-5",
@@ -8270,7 +10479,11 @@ window.LESSON_DATA = {
      3,
      7,
      8
-    ]
+    ],
+    "example": {
+     "ja": "パスポートを なくしました。",
+     "en": "I lost my passport."
+    }
    },
    {
     "id": "28-6",
@@ -8284,7 +10497,15 @@ window.LESSON_DATA = {
      12,
      11,
      1
-    ]
+    ],
+    "alt": [
+     "無くします",
+     "無くす"
+    ],
+    "example": {
+     "ja": "かぎを なくしました。",
+     "en": "I lost my key."
+    }
    },
    {
     "id": "28-7",
@@ -8304,7 +10525,11 @@ window.LESSON_DATA = {
      9,
      8,
      5
-    ]
+    ],
+    "example": {
+     "ja": "救急車{きゅうきゅうしゃ}を 呼{よ}んで ください。",
+     "en": "Please call an ambulance."
+    }
    },
    {
     "id": "28-8",
@@ -8318,7 +10543,11 @@ window.LESSON_DATA = {
      9,
      7,
      5
-    ]
+    ],
+    "example": {
+     "ja": "パトカーが 来{き}ました。",
+     "en": "A police car came."
+    }
    },
    {
     "id": "28-9",
@@ -8338,7 +10567,11 @@ window.LESSON_DATA = {
      7,
      8,
      3
-    ]
+    ],
+    "example": {
+     "ja": "消防車{しょうぼうしゃ}は 赤{あか}いです。",
+     "en": "Fire engines are red."
+    }
    },
    {
     "id": "28-10",
@@ -8358,7 +10591,11 @@ window.LESSON_DATA = {
      5,
      3,
      7
-    ]
+    ],
+    "example": {
+     "ja": "警察{けいさつ}に 電話{でんわ}します。",
+     "en": "I call the police."
+    }
    },
    {
     "id": "28-11",
@@ -8372,7 +10609,15 @@ window.LESSON_DATA = {
      12,
      4,
      6
-    ]
+    ],
+    "alt": [
+     "渇きます",
+     "渇く"
+    ],
+    "example": {
+     "ja": "のどが かわきましたから、水{みず}を 飲{の}みます。",
+     "en": "I am thirsty, so I will drink water."
+    }
    },
    {
     "id": "28-12",
@@ -8386,7 +10631,15 @@ window.LESSON_DATA = {
      11,
      6,
      4
-    ]
+    ],
+    "alt": [
+     "空きます",
+     "空く"
+    ],
+    "example": {
+     "ja": "おなかが すきましたから、ごはんを 食{た}べます。",
+     "en": "I am hungry, so I will eat."
+    }
    }
   ]
  },
@@ -8406,7 +10659,14 @@ window.LESSON_DATA = {
      23,
      21,
      24
-    ]
+    ],
+    "alt": [
+     "全部"
+    ],
+    "example": {
+     "ja": "ぜんぶ 食{た}べました。",
+     "en": "I ate all of it."
+    }
    },
    {
     "id": "29-2",
@@ -8420,7 +10680,11 @@ window.LESSON_DATA = {
      13,
      4,
      12
-    ]
+    ],
+    "example": {
+     "ja": "この 紙{かみ}を コピーします。",
+     "en": "I photocopy this paper."
+    }
    },
    {
     "id": "29-3",
@@ -8434,7 +10698,14 @@ window.LESSON_DATA = {
      34,
      18,
      32
-    ]
+    ],
+    "alt": [
+     "故障"
+    ],
+    "example": {
+     "ja": "エアコンが こしょうです。",
+     "en": "The air conditioner is broken."
+    }
    },
    {
     "id": "29-4",
@@ -8466,7 +10737,11 @@ window.LESSON_DATA = {
      13,
      36,
      12
-    ]
+    ],
+    "example": {
+     "ja": "新{あたら}しい 家{いえ}を 設計{せっけい}します。",
+     "en": "I design a new house."
+    }
    },
    {
     "id": "29-5",
@@ -8506,7 +10781,11 @@ window.LESSON_DATA = {
      14,
      13,
      12
-    ]
+    ],
+    "example": {
+     "ja": "月曜日{げつようび}の 講義{こうぎ}に 出{で}ます。",
+     "en": "I attend Monday's lecture."
+    }
    },
    {
     "id": "29-6",
@@ -8526,7 +10805,11 @@ window.LESSON_DATA = {
      39,
      3,
      34
-    ]
+    ],
+    "example": {
+     "ja": "きょうは 休講{きゅうこう}です。",
+     "en": "Class is cancelled today."
+    }
    },
    {
     "id": "29-7",
@@ -8540,7 +10823,11 @@ window.LESSON_DATA = {
      31,
      39,
      38
-    ]
+    ],
+    "example": {
+     "ja": "コーヒーは いかがですか。",
+     "en": "Would you like some coffee?"
+    }
    },
    {
     "id": "29-8",
@@ -8554,7 +10841,11 @@ window.LESSON_DATA = {
      31,
      28,
      11
-    ]
+    ],
+    "example": {
+     "ja": "ここで 写真{しゃしん}を とっては だめです。",
+     "en": "You must not take photos here."
+    }
    },
    {
     "id": "29-9",
@@ -8574,7 +10865,11 @@ window.LESSON_DATA = {
      30,
      39,
      32
-    ]
+    ],
+    "example": {
+     "ja": "気分{きぶん}が 悪{わる}いです。",
+     "en": "I feel sick."
+    }
    },
    {
     "id": "29-10",
@@ -8588,7 +10883,14 @@ window.LESSON_DATA = {
      17,
      19,
      26
-    ]
+    ],
+    "alt": [
+     "熱"
+    ],
+    "example": {
+     "ja": "ねつが あります。",
+     "en": "I have a fever."
+    }
    },
    {
     "id": "29-11",
@@ -8602,7 +10904,17 @@ window.LESSON_DATA = {
      33,
      5,
      2
-    ]
+    ],
+    "alt": [
+     "風邪を引きます",
+     "風邪を引く",
+     "風邪をひきます",
+     "風邪をひく"
+    ],
+    "example": {
+     "ja": "かぜを ひきました。",
+     "en": "I caught a cold."
+    }
    },
    {
     "id": "29-12",
@@ -8638,7 +10950,15 @@ window.LESSON_DATA = {
      13,
      14,
      5
-    ]
+    ],
+    "alt": [
+     "咳が出ます",
+     "咳が出る"
+    ],
+    "example": {
+     "ja": "せきが 出{で}ます。",
+     "en": "I have a cough."
+    }
    },
    {
     "id": "29-13",
@@ -8674,7 +10994,11 @@ window.LESSON_DATA = {
      12,
      14,
      5
-    ]
+    ],
+    "example": {
+     "ja": "くしゃみが 出{で}ます。",
+     "en": "I sneeze."
+    }
    },
    {
     "id": "29-14",
@@ -8710,7 +11034,15 @@ window.LESSON_DATA = {
      5,
      13,
      12
-    ]
+    ],
+    "alt": [
+     "鼻水が出ます",
+     "鼻水が出る"
+    ],
+    "example": {
+     "ja": "はなみずが 出{で}ます。",
+     "en": "I have a runny nose."
+    }
    },
    {
     "id": "29-15",
@@ -8724,7 +11056,14 @@ window.LESSON_DATA = {
      24,
      26,
      30
-    ]
+    ],
+    "alt": [
+     "髪"
+    ],
+    "example": {
+     "ja": "かみが ながいです。",
+     "en": "My hair is long."
+    }
    },
    {
     "id": "29-16",
@@ -8738,7 +11077,14 @@ window.LESSON_DATA = {
      25,
      15,
      30
-    ]
+    ],
+    "alt": [
+     "鼻"
+    ],
+    "example": {
+     "ja": "はなが いたいです。",
+     "en": "My nose hurts."
+    }
    },
    {
     "id": "29-17",
@@ -8758,7 +11104,11 @@ window.LESSON_DATA = {
      10,
      19,
      16
-    ]
+    ],
+    "example": {
+     "ja": "口{くち}を 開{あ}けて ください。",
+     "en": "Please open your mouth."
+    }
    },
    {
     "id": "29-18",
@@ -8772,7 +11122,14 @@ window.LESSON_DATA = {
      3,
      34,
      32
-    ]
+    ],
+    "alt": [
+     "肩"
+    ],
+    "example": {
+     "ja": "かたが いたいです。",
+     "en": "My shoulder hurts."
+    }
    },
    {
     "id": "29-19",
@@ -8786,7 +11143,14 @@ window.LESSON_DATA = {
      27,
      9,
      32
-    ]
+    ],
+    "alt": [
+     "指"
+    ],
+    "example": {
+     "ja": "ゆびを 切{き}りました。",
+     "en": "I cut my finger."
+    }
    },
    {
     "id": "29-20",
@@ -8800,7 +11164,14 @@ window.LESSON_DATA = {
      26,
      16,
      30
-    ]
+    ],
+    "alt": [
+     "骨"
+    ],
+    "example": {
+     "ja": "ほねが 折{お}れました。",
+     "en": "I broke a bone."
+    }
    },
    {
     "id": "29-21",
@@ -8820,7 +11191,11 @@ window.LESSON_DATA = {
      1,
      23,
      24
-    ]
+    ],
+    "example": {
+     "ja": "目{め}が いたいです。",
+     "en": "My eyes hurt."
+    }
    },
    {
     "id": "29-22",
@@ -8840,7 +11215,11 @@ window.LESSON_DATA = {
      20,
      25,
      26
-    ]
+    ],
+    "example": {
+     "ja": "首{くび}が いたいです。",
+     "en": "My neck hurts."
+    }
    },
    {
     "id": "29-23",
@@ -8860,7 +11239,11 @@ window.LESSON_DATA = {
      21,
      1,
      22
-    ]
+    ],
+    "example": {
+     "ja": "耳{みみ}が よく 聞{き}こえません。",
+     "en": "I cannot hear well."
+    }
    },
    {
     "id": "29-24",
@@ -8874,7 +11257,14 @@ window.LESSON_DATA = {
      20,
      15,
      25
-    ]
+    ],
+    "alt": [
+     "背中"
+    ],
+    "example": {
+     "ja": "せなかが いたいです。",
+     "en": "My back hurts."
+    }
    },
    {
     "id": "29-25",
@@ -8894,7 +11284,11 @@ window.LESSON_DATA = {
      16,
      22,
      20
-    ]
+    ],
+    "example": {
+     "ja": "手{て}を あらいましょう。",
+     "en": "Let's wash our hands."
+    }
    },
    {
     "id": "29-26",
@@ -8908,7 +11302,14 @@ window.LESSON_DATA = {
      16,
      20,
      30
-    ]
+    ],
+    "alt": [
+     "膝"
+    ],
+    "example": {
+     "ja": "ひざが いたいです。",
+     "en": "My knee hurts."
+    }
    },
    {
     "id": "29-27",
@@ -8922,7 +11323,14 @@ window.LESSON_DATA = {
      9,
      32,
      18
-    ]
+    ],
+    "alt": [
+     "お願い"
+    ],
+    "example": {
+     "ja": "おねがいが あります。",
+     "en": "I have a favor to ask."
+    }
    },
    {
     "id": "29-28",
@@ -8936,7 +11344,11 @@ window.LESSON_DATA = {
      8,
      31,
      23
-    ]
+    ],
+    "example": {
+     "ja": "ああ、わかりました。",
+     "en": "Oh, I see."
+    }
    },
    {
     "id": "29-29",
@@ -8960,7 +11372,11 @@ window.LESSON_DATA = {
      3,
      34,
      18
-    ]
+    ],
+    "example": {
+     "ja": "特{とく}に 質問{しつもん}は ありません。",
+     "en": "I have no questions in particular."
+    }
    },
    {
     "id": "29-30",
@@ -8980,7 +11396,11 @@ window.LESSON_DATA = {
      9,
      24,
      16
-    ]
+    ],
+    "example": {
+     "ja": "この 部分{ぶぶん}が わかりません。",
+     "en": "I do not understand this part."
+    }
    },
    {
     "id": "29-31",
@@ -9008,7 +11428,11 @@ window.LESSON_DATA = {
      9,
      27,
      18
-    ]
+    ],
+    "example": {
+     "ja": "プリンタの 紙{かみ}が ありません。",
+     "en": "The printer has no paper."
+    }
    },
    {
     "id": "29-33",
@@ -9022,7 +11446,17 @@ window.LESSON_DATA = {
      5,
      11,
      40
-    ]
+    ],
+    "alt": [
+     "直します",
+     "直す",
+     "治します",
+     "治す"
+    ],
+    "example": {
+     "ja": "パソコンを なおします。",
+     "en": "I fix the computer."
+    }
    },
    {
     "id": "29-34",
@@ -9036,7 +11470,14 @@ window.LESSON_DATA = {
      3,
      18,
      9
-    ]
+    ],
+    "alt": [
+     "調子"
+    ],
+    "example": {
+     "ja": "パソコンの ちょうしが 悪{わる}いです。",
+     "en": "The computer is not working well."
+    }
    },
    {
     "id": "29-35",
@@ -9050,7 +11491,11 @@ window.LESSON_DATA = {
      37,
      9,
      27
-    ]
+    ],
+    "example": {
+     "ja": "この 音{おと}は おかしいです。",
+     "en": "This sound is strange."
+    }
    },
    {
     "id": "29-36",
@@ -9064,7 +11509,17 @@ window.LESSON_DATA = {
      12,
      13,
      4
-    ]
+    ],
+    "alt": [
+     "見ます",
+     "見る",
+     "診ます",
+     "診る"
+    ],
+    "example": {
+     "ja": "パソコンを みて ください。",
+     "en": "Please check the computer."
+    }
    },
    {
     "id": "29-37",
@@ -9078,7 +11533,11 @@ window.LESSON_DATA = {
      35,
      19,
      9
-    ]
+    ],
+    "example": {
+     "ja": "そういう ことは 知{し}りません。",
+     "en": "I do not know about such things."
+    }
    },
    {
     "id": "29-38",
@@ -9098,7 +11557,11 @@ window.LESSON_DATA = {
      39,
      6,
      34
-    ]
+    ],
+    "example": {
+     "ja": "秋葉原{あきはばら}で パソコンを 買{か}いました。",
+     "en": "I bought a computer in Akihabara."
+    }
    },
    {
     "id": "29-39",
@@ -9118,7 +11581,11 @@ window.LESSON_DATA = {
      9,
      38,
      6
-    ]
+    ],
+    "example": {
+     "ja": "電気屋{でんきや}で テレビを 買{か}います。",
+     "en": "I buy a TV at an electrical appliance shop."
+    }
    },
    {
     "id": "29-40",
@@ -9150,7 +11617,11 @@ window.LESSON_DATA = {
      14,
      2,
      5
-    ]
+    ],
+    "example": {
+     "ja": "工場{こうじょう}を 見学{けんがく}しました。",
+     "en": "I went on a study visit to the factory."
+    }
    }
   ]
  },
@@ -9170,7 +11641,11 @@ window.LESSON_DATA = {
      2,
      7,
      6
-    ]
+    ],
+    "example": {
+     "ja": "春{はる}に なりました。",
+     "en": "It has become spring."
+    }
    },
    {
     "id": "30-2",
@@ -9202,7 +11677,11 @@ window.LESSON_DATA = {
      1,
      7,
      6
-    ]
+    ],
+    "example": {
+     "ja": "授業{じゅぎょう}は 九時{くじ}に 始{はじ}まります。",
+     "en": "Class starts at nine o'clock."
+    }
    },
    {
     "id": "30-3",
@@ -9216,7 +11695,11 @@ window.LESSON_DATA = {
      5,
      13,
      9
-    ]
+    ],
+    "example": {
+     "ja": "日本{にほん}で ホームシックに なりました。",
+     "en": "I became homesick in Japan."
+    }
    },
    {
     "id": "30-4",
@@ -9230,7 +11713,11 @@ window.LESSON_DATA = {
      9,
      13,
      3
-    ]
+    ],
+    "example": {
+     "ja": "ホストファミリーは しんせつです。",
+     "en": "My host family is kind."
+    }
    },
    {
     "id": "30-5",
@@ -9254,7 +11741,11 @@ window.LESSON_DATA = {
      3,
      13,
      9
-    ]
+    ],
+    "example": {
+     "ja": "お正月{しょうがつ}に 家族{かぞく}と 会{あ}います。",
+     "en": "I meet my family at New Year."
+    }
    },
    {
     "id": "30-6",
@@ -9282,7 +11773,15 @@ window.LESSON_DATA = {
      7,
      1,
      2
-    ]
+    ],
+    "alt": [
+     "受けます",
+     "受ける"
+    ],
+    "example": {
+     "ja": "来週{らいしゅう} 試験{しけん}を うけます。",
+     "en": "I will take an exam next week."
+    }
    },
    {
     "id": "30-7",
@@ -9296,7 +11795,15 @@ window.LESSON_DATA = {
      6,
      1,
      2
-    ]
+    ],
+    "alt": [
+     "祝います",
+     "祝う"
+    ],
+    "example": {
+     "ja": "誕生日{たんじょうび}を いわいます。",
+     "en": "We celebrate the birthday."
+    }
    },
    {
     "id": "30-8",
@@ -9324,7 +11831,11 @@ window.LESSON_DATA = {
      4,
      13,
      3
-    ]
+    ],
+    "example": {
+     "ja": "ゴールデンウイークに 旅行{りょこう}します。",
+     "en": "I will travel during Golden Week."
+    }
    },
    {
     "id": "30-10",
@@ -9344,7 +11855,11 @@ window.LESSON_DATA = {
      15,
      3,
      5
-    ]
+    ],
+    "example": {
+     "ja": "今日{きょう}は 大変{たいへん} 忙{いそが}しいです。",
+     "en": "I am very busy today."
+    }
    },
    {
     "id": "30-11",
@@ -9386,7 +11901,14 @@ window.LESSON_DATA = {
      8,
      17,
      11
-    ]
+    ],
+    "alt": [
+     "お陰様で"
+    ],
+    "example": {
+     "ja": "おかげさまで 元気{げんき}です。",
+     "en": "Thanks to you, I am well."
+    }
    },
    {
     "id": "30-13",
@@ -9406,7 +11928,11 @@ window.LESSON_DATA = {
      4,
      9,
      3
-    ]
+    ],
+    "example": {
+     "ja": "日本{にほん}で いい 経験{けいけん}を しました。",
+     "en": "I had a good experience in Japan."
+    }
    },
    {
     "id": "30-14",
@@ -9430,7 +11956,11 @@ window.LESSON_DATA = {
      11,
      6,
      17
-    ]
+    ],
+    "example": {
+     "ja": "田中{たなか}様{さま}、どうぞ。",
+     "en": "Mr. Tanaka, please."
+    }
    },
    {
     "id": "30-15",
@@ -9444,7 +11974,11 @@ window.LESSON_DATA = {
      10,
      5,
      3
-    ]
+    ],
+    "example": {
+     "ja": "いつか 日本{にほん}へ 行{い}きたいです。",
+     "en": "Someday I want to go to Japan."
+    }
    },
    {
     "id": "30-16",
@@ -9458,7 +11992,11 @@ window.LESSON_DATA = {
      13,
      9,
      4
-    ]
+    ],
+    "example": {
+     "ja": "それでは、はじめましょう。",
+     "en": "Well then, let's begin."
+    }
    },
    {
     "id": "30-17",
