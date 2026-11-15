@@ -31,6 +31,10 @@ Logic is separated from the browser, so every rule is a plain function unit-test
 
 **Vocabulary list**
 - All words of the lesson in lesson order, each as a card: word with furigana, romaji, meaning, example (Japanese with furigana, English).
+- It is a full-page **register**: all words at once in compact cards, two columns on a phone (3-4 on wide screens), so one scroll covers the lesson.
+  Reading order is **across** by default (1 2 / 3 4) with a button to switch to **down** (1 3 / 2 4); the choice is remembered.
+- Memorising without leaving the page: a red-sheet cover (meaning or Japanese; tap a card to peek), ✓ known ticks per lesson (remembered), hide-known, shuffle and text size.
+- Text is sized by word length and wraps only at natural points (the ・ between variants, spaces in sentences); nothing may leave its card (checked for every word in the browser test).
 - Entries that are themselves whole sentences (greetings such as `おなかが すきました。`) show no separate example.
 - A speaker button says the word / the sentence when the browser has a Japanese voice (hidden otherwise).
 - Opening it pauses the quiz countdown; closing it restarts the question with a fresh clock. Reading before the first answer is free (that is the
