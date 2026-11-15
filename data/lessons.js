@@ -325,6 +325,9 @@ window.LESSON_DATA = {
      21,
      25,
      14
+    ],
+    "alt": [
+     "お腹が空きました"
     ]
    },
    {
@@ -495,6 +498,9 @@ window.LESSON_DATA = {
      13,
      14,
      25
+    ],
+    "alt": [
+     "喉が渇きました"
     ]
    },
    {
@@ -585,6 +591,9 @@ window.LESSON_DATA = {
      14,
      13,
      21
+    ],
+    "alt": [
+     "疲れました"
     ]
    },
    {
@@ -1159,6 +1168,9 @@ window.LESSON_DATA = {
      21,
      13
     ],
+    "alt": [
+     "出かけております"
+    ],
     "example": {
      "ja": "部長{ぶちょう}は ただいま でかけて おります。",
      "en": "The manager is out right now."
@@ -1213,6 +1225,9 @@ window.LESSON_DATA = {
      11,
      44
     ],
+    "alt": [
+     "後で"
+    ],
     "example": {
      "ja": "あとで 電話{でんわ}します。",
      "en": "I will call you later."
@@ -1252,6 +1267,9 @@ window.LESSON_DATA = {
      47,
      38,
      55
+    ],
+    "alt": [
+     "よろしくお伝えください"
     ]
    },
    {
@@ -1266,6 +1284,9 @@ window.LESSON_DATA = {
      47,
      38,
      21
+    ],
+    "alt": [
+     "失礼します"
     ]
    },
    {
@@ -1301,6 +1322,9 @@ window.LESSON_DATA = {
      55,
      21,
      13
+    ],
+    "alt": [
+     "留守にしております"
     ],
     "example": {
      "ja": "母{はは}は 今日{きょう} るすに して おります。",
@@ -2065,6 +2089,9 @@ window.LESSON_DATA = {
      31,
      43,
      51
+    ],
+    "alt": [
+     "分かりました"
     ]
    },
    {
@@ -2224,6 +2251,9 @@ window.LESSON_DATA = {
      34,
      8,
      43
+    ],
+    "alt": [
+     "じゃあ"
     ],
     "example": {
      "ja": "じゃ、また あした。",
@@ -2508,6 +2538,9 @@ window.LESSON_DATA = {
      45,
      30,
      42
+    ],
+    "alt": [
+     "ごめん下さい"
     ]
    },
    {
@@ -2522,6 +2555,9 @@ window.LESSON_DATA = {
      52,
      30,
      51
+    ],
+    "alt": [
+     "お邪魔します"
     ]
    },
    {
@@ -2716,6 +2752,9 @@ window.LESSON_DATA = {
      42,
      52,
      30
+    ],
+    "alt": [
+     "そろそろ失礼します"
     ]
    },
    {
@@ -2730,6 +2769,9 @@ window.LESSON_DATA = {
      42,
      30,
      51
+    ],
+    "alt": [
+     "お邪魔しました"
     ]
    }
   ]
@@ -3255,6 +3297,9 @@ window.LESSON_DATA = {
      28,
      35
     ],
+    "alt": [
+     "どの位"
+    ],
     "example": {
      "ja": "どのぐらい かかりますか。",
      "en": "How long does it take?"
@@ -3272,6 +3317,10 @@ window.LESSON_DATA = {
      28,
      21,
      44
+    ],
+    "alt": [
+     "掛かります",
+     "掛かる"
     ],
     "example": {
      "ja": "えきまで 十分{じゅっぷん} かかります。",
@@ -7160,6 +7209,9 @@ window.LESSON_DATA = {
      20,
      8
     ],
+    "alt": [
+     "の後で"
+    ],
     "example": {
      "ja": "仕事{しごと}の あとで 飲{の}みに 行{い}きます。",
      "en": "I go for a drink after work."
@@ -9473,6 +9525,10 @@ window.LESSON_DATA = {
      16,
      18
     ],
+    "alt": [
+     "あの",
+     "あのー"
+    ],
     "example": {
      "ja": "あのう、すみません。",
      "en": "Um, excuse me."
@@ -9525,6 +9581,9 @@ window.LESSON_DATA = {
      3,
      1,
      2
+    ],
+    "alt": [
+     "良く"
     ],
     "example": {
      "ja": "よく 勉強{べんきょう}して ください。",
@@ -9585,6 +9644,9 @@ window.LESSON_DATA = {
      8,
      18,
      15
+    ],
+    "alt": [
+     "に関心があります"
     ],
     "example": {
      "ja": "音楽{おんがく}に かんしんが あります。",
@@ -10842,6 +10904,9 @@ window.LESSON_DATA = {
      28,
      11
     ],
+    "alt": [
+     "駄目です"
+    ],
     "example": {
      "ja": "ここで 写真{しゃしん}を とっては だめです。",
      "en": "You must not take photos here."
@@ -11414,6 +11479,9 @@ window.LESSON_DATA = {
      8,
      28,
      38
+    ],
+    "alt": [
+     "よろしくお願いします"
     ]
    },
    {

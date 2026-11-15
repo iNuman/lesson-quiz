@@ -131,6 +131,7 @@
 .st-mic.is-live::before, .st-mic.is-live::after { content: ""; position: absolute; inset: 0; border-radius: 50%; border: 3px solid var(--accent-2); animation: st-ring 1.4s ease-out infinite; }
 .st-mic.is-live::after { animation-delay: .7s; }
 @keyframes st-ring { from { transform: scale(1); opacity: .8; } to { transform: scale(1.7); opacity: 0; } }
+.st-row { display: flex; flex-wrap: wrap; justify-content: center; gap: 0 6px; }
 .st-mic-label { margin: 0; font-weight: 800; }
 .st-notice { margin: 0; padding: 10px 14px; font-size: .88rem; text-align: left; background: color-mix(in srgb, var(--accent-2) 14%, var(--surface)); border-radius: 12px; }
 .st-type { width: 100%; display: grid; gap: 6px; text-align: left; }

@@ -40,9 +40,51 @@
   /** Brings a Japanese answer (any script, width or romaji) to one comparable spelling. */
   const normalizeJapanese = (s) => spellOutLongVowels(kana().normalize(s));
 
+  /* A speech recogniser writes a word however it likes: 甘い物, 甘いもの, あまい物 or あまいもの are all "sweets". So every
+     spelling of a word is accepted in every kanji/kana mix: each kanji run may stand as itself or as its reading. */
+  // digits count as "kanji" here: they have a reading too (2 = に)
+  const KANJI_RUN = /[\u3400-\u9FFF々〆0-9０-９]+|[^\u3400-\u9FFF々〆0-9０-９]+/g;
+  const isKanji = (s) => /^[\u3400-\u9FFF々〆0-9０-９]/.test(s);
+  const MAX_MIXED_RUNS = 6;                  // 2^6 = 64 spellings at most per form
+
+  // [[kanji, reading] or [kana, ""] …] → every spelling with each kanji run either kept or replaced by its reading
+  function mixSegments(segments) {
+    const runs = segments.filter(([, r]) => r).length;
+    if (runs === 0 || runs > MAX_MIXED_RUNS) return [segments.map(([text, r]) => r || text).join(""), segments.map(([text]) => text).join("")];
+    let out = [""];
+    for (const [text, r] of segments) out = out.flatMap((s) => (r ? [s + text, s + r] : [s + text]));
+    return out;
+  }
+
+  /** Splits a written form such as 甘い物 into [[甘, あま], [い, ""], [物, もの]] using a known reading (あまいもの); null if they do not line up. */
+  function alignReading(written, reading) {
+    const toHira = kana().kataToHira;
+    const tokens = written.match(KANJI_RUN) || [];
+    const escape = (s) => s.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+    const pattern = tokens.map((tk) => (isKanji(tk) ? "(.+?)" : escape(toHira(tk)))).join("");
+    const m = new RegExp("^" + pattern + "$").exec(toHira(reading));
+    if (!m) return null;
+    let k = 0;
+    return tokens.map((tk) => (isKanji(tk) ? [tk, m[++k]] : [tk, ""]));
+  }
+
   /** Every normalised string that counts as the right Japanese answer for the word. */
   function japaneseForms(w) {
-    const written = [...japaneseVariants(w.ja), ...japaneseVariants(readingOf(w)), ...(w.alt || []).flatMap(japaneseVariants)];
+    const readings = japaneseVariants(readingOf(w));
+    const written = [...japaneseVariants(w.ja), ...readings];
+    // 1. the word's own kanji / kana segments, mixed
+    if (w.ruby) {
+      const joined = w.ruby.map(([text]) => text).join("");
+      if (joined === w.ja) written.push(...mixSegments(w.ruby).flatMap(japaneseVariants));
+    }
+    // 2. other written forms (窓 for まど), mixed using the word's reading to find each kanji run's sound
+    for (const alt of w.alt || []) {
+      for (const variant of japaneseVariants(alt)) {
+        written.push(variant);
+        const aligned = readings.map((r) => alignReading(variant, r)).find(Boolean);
+        if (aligned) written.push(...mixSegments(aligned));
+      }
+    }
     return uniq(written.map(normalizeJapanese).filter(Boolean));
   }
 

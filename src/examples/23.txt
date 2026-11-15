@@ -1,7 +1,7 @@
 # Lesson 23 examples — headword | sentence (漢字{よみ}) | English | other written forms (optional)
 そうじします・そうじする | 部屋{へや}を そうじします。 | I clean my room. | 掃除します,掃除する
 せんたくします・せんたくする | 日曜日{にちようび}に せんたくします。 | I do laundry on Sundays. | 洗濯します,洗濯する
-～の あとで | 仕事{しごと}の あとで 飲{の}みに 行{い}きます。 | I go for a drink after work.
+～の あとで | 仕事{しごと}の あとで 飲{の}みに 行{い}きます。 | I go for a drink after work. | の後で
 スキー場 | スキー場{じょう}で スキーを します。 | I ski at the ski area.
 着きます・着く(スキー場に～) | 三時{さんじ}に スキー場{じょう}に 着{つ}きました。 | We arrived at the ski area at three o'clock.
 ろてんぶろ | ろてんぶろは 気持{きも}ちが いいです。 | An open-air bath feels good. | 露天風呂

@@ -6,7 +6,7 @@
 出ます・出る(講義に～) | 月曜日{げつようび}の 講義{こうぎ}に 出{で}ます。 | I attend Monday's lecture.
 休講 | きょうは 休講{きゅうこう}です。 | Class is cancelled today.
 いかが | コーヒーは いかがですか。 | Would you like some coffee?
-だめです | ここで 写真{しゃしん}を とっては だめです。 | You must not take photos here.
+だめです | ここで 写真{しゃしん}を とっては だめです。 | You must not take photos here. | 駄目です
 気分 | 気分{きぶん}が 悪{わる}いです。 | I feel sick.
 ねつ | ねつが あります。 | I have a fever. | 熱
 かぜを ひきます・かぜを ひく | かぜを ひきました。 | I caught a cold. | 風邪を引きます,風邪を引く,風邪をひきます,風邪をひく
@@ -29,7 +29,7 @@
 ああ | ああ、わかりました。 | Oh, I see.
 特に | 特{とく}に 質問{しつもん}は ありません。 | I have no questions in particular.
 部分 | この 部分{ぶぶん}が わかりません。 | I do not understand this part.
-よろしく おねがいします。 | = |
+よろしく おねがいします。 | = | | よろしくお願いします
 プリンタ | プリンタの 紙{かみ}が ありません。 | The printer has no paper.
 なおします・なおす | パソコンを なおします。 | I fix the computer. | 直します,直す,治します,治す
 ちょうし | パソコンの ちょうしが 悪{わる}いです。 | The computer is not working well. | 調子

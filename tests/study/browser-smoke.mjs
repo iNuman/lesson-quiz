@@ -106,6 +106,7 @@ try {
   ok(JSON.stringify(before) === JSON.stringify(after), "reading the list does not change the quiz");
   ok(!(await b.eval("(window.__quizDebug.getState()._ui || {}).used")), "reading before the first answer costs no XP");
 
+  await b.eval("localStorage.setItem('jpquiz.study', JSON.stringify({ auto: false }))");
   /* ---------- Speak practice: Hear English, say Japanese ---------- */
   await b.click("[data-study=speak]");
   await b.waitFor("document.querySelector('#st-practice[open]')");
@@ -206,6 +207,39 @@ try {
   const endedText = await txt("#st-practice .st-body");
   ok(endedText.includes("not cleared"), "ending early says how many words are left: " + endedText.replace(/s+/g, " ").slice(0, 160));
   await b.eval("document.querySelector('#st-practice').close()");
+
+  /* ---------- auto-listen: the microphone opens by itself after the assistant has finished ---------- */
+  await b.eval("localStorage.setItem('jpquiz.study', JSON.stringify({ direction: 'en-ja' }))");   // auto-listen is on by default
+  await b.goto(`${BASE}/?debug#/lesson/16`);   // a fresh page: the microphone was reported blocked earlier in this test
+  await b.waitFor("window.__quizDebug && document.querySelector('.opt')");
+  await b.eval("window.__starts = 0; window.__spoken = []");
+  await script([{ say: ["nonsense"] }]);
+  await b.click("[data-study=speak]");
+  await b.waitFor("document.querySelector('#st-practice[open]')");
+  await clickAct("start");
+  await b.waitFor("document.querySelector('.st-verdict')");
+  ok((await b.eval("window.__starts")) === 1, "after the assistant spoke, the microphone opened by itself (no tap)");
+  ok((await b.eval("window.__spoken")).length >= 1, "the assistant spoke before the microphone opened");
+  ok((await txt(".st-verdict")).includes("Not quite"), "the automatically captured answer is judged like a tapped one");
+  await clickAct("next");
+  await b.waitFor("document.querySelector('.st-notice')");
+  ok((await txt(".st-notice")).includes("didn't hear anything"), "silence after auto-listen gives the usual hint");
+  await sleep(700);
+  ok((await b.eval("window.__starts")) === 2, "auto-listen runs once per prompt: silence does not loop");
+  await script([{ say: ["nonsense"] }]);
+  await b.click("#st-mic");
+  await b.waitFor("document.querySelector('.st-verdict')");
+  ok((await b.eval("window.__starts")) === 3, "tapping the microphone still works after an auto-listen");
+  await clickAct("next");
+  await b.waitFor("document.querySelector('.st-mic-label')");
+  await clickAct("auto");
+  ok((await txt("[data-act=auto]")).includes("Off") && (await b.eval("JSON.parse(localStorage.getItem('jpquiz.study')).auto")) === false, "auto-listen can be switched off, and is remembered");
+  await clickAct("replay");
+  await sleep(700);
+  ok((await b.eval("window.__starts")) === 3, "with auto-listen off the microphone waits for a tap");
+  await clickAct("end");
+  await b.eval("document.querySelector('#st-practice').close()");
+  await b.eval("localStorage.setItem('jpquiz.study', JSON.stringify({ auto: false }))");
 
   /* ---------- ending before answering anything must not claim success ---------- */
   await b.click("[data-study=speak]");
