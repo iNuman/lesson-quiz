@@ -306,7 +306,7 @@
     if (seg) { seg.className = (s.status === "correct_feedback" ? "ok" : "bad") + " pop"; }
     const speed = card.querySelector(".speed, .countdown");
     if (speed) speed.remove();
-    card.querySelectorAll(".hint-btn").forEach((b) => b.remove());
+    card.querySelectorAll("#btn-hint, #btn-romaji").forEach((b) => b.remove());
     showTag(E.currentWord(s));
     if (s.status === "wrong_answer_feedback") bindNext();
     return true;
@@ -337,7 +337,7 @@
       <div class="progress-label"><span>Question ${s.index + 1} of ${total}</span><span>${Math.round((done / total) * 100)}%</span></div>
       <div class="track" role="progressbar" aria-label="Lesson progress" aria-valuemin="0" aria-valuemax="${total}" aria-valuenow="${done}">${segs}</div>
       <div class="card${isNewQuestion ? " enter" : ""}${swapping ? " swap" : ""}">
-        <div class="qmeta"><span id="tag-slot">${u.hint || locked ? tagHtml(w) : ""}</span>${locked ? "" : `<span class="qtools">${timerSec ? `<span class="countdown" role="timer" aria-label="Time left" style="--t:${timerSec}s"><b aria-hidden="true">⏱</b><span class="speed-bar"><i></i></span><em>${timerSec}</em></span>` : '<span class="speed" aria-hidden="true" title="Answer fast for bonus XP"><b>⚡</b><span class="speed-bar"><i></i></span></span>'}<button type="button" class="hint-btn" id="btn-hint" aria-pressed="${u.hint}" title="Show or hide the grammar: verb group, i-/na-adjective, and so on (free). Shortcut: H"><span aria-hidden="true">💡</span> Hint</button><button type="button" class="hint-btn" id="btn-romaji" aria-pressed="${u.romaji}" title="Show or hide the romaji (costs bonus XP). Shortcut: R"><span aria-hidden="true">あ</span> Romaji</button></span>`}</div>
+        <div class="qmeta"><span id="tag-slot">${u.hint || locked ? tagHtml(w) : ""}</span><span class="qtools">${locked ? "" : `${timerSec ? `<span class="countdown" role="timer" aria-label="Time left" style="--t:${timerSec}s"><b aria-hidden="true">⏱</b><span class="speed-bar"><i></i></span><em>${timerSec}</em></span>` : '<span class="speed" aria-hidden="true" title="Answer fast for bonus XP"><b>⚡</b><span class="speed-bar"><i></i></span></span>'}<button type="button" class="hint-btn" id="btn-hint" aria-pressed="${u.hint}" title="Show or hide the grammar: verb group, i-/na-adjective, and so on (free). Shortcut: H"><span aria-hidden="true">💡</span> Hint</button><button type="button" class="hint-btn" id="btn-romaji" aria-pressed="${u.romaji}" title="Show or hide the romaji (costs bonus XP). Shortcut: R"><span aria-hidden="true">あ</span> Romaji</button>`}<button type="button" class="hint-btn st-open" data-study="vocab" aria-haspopup="dialog" title="Read this lesson's words with readings and examples"><span aria-hidden="true">📖</span> Vocab</button><button type="button" class="hint-btn st-open" data-study="speak" aria-haspopup="dialog" title="Practise saying the words aloud"><span aria-hidden="true">🎙</span> Speak</button></span></div>
         <div class="prompt jp${long}" lang="ja" id="prompt">${jaHtml(w)}</div>
         ${u.romaji ? romajiHtml(w) : ""}
         <div class="options" role="group" aria-labelledby="prompt">${opts}</div>
@@ -424,6 +424,7 @@
   /* Keyboard: 1–4 or A–D choose an answer. */
   document.addEventListener("keydown", (e) => {
     if (e.metaKey || e.ctrlKey || e.altKey || !current || current.status !== "question") return;
+    if (document.querySelector("dialog[open]") || e.target.closest("input, textarea")) return;   // study dialogs have their own keys and typed input
     if (document.body.classList.contains("mode-n5")) return;   // N5 screens have their own keys and typed input
     const k = e.key.toUpperCase();
     if (k === "H") { e.preventDefault(); onHint(); return; }
@@ -449,4 +450,18 @@
   buildNav();
   G.bindHud();
   route();
+
+  /* Study tools (js/study/): the Vocabulary list and Speak practice dialogs. While one is open the question's countdown
+     is paused; closing it restarts that question. Looking words up after the quiz has begun counts like the Romaji
+     helper (half XP for the open question). Reading before the first answer is free: that is what the list is for. */
+  window.StudyUI.init({
+    lesson: () => (current ? DATA[current.lesson] : null),
+    onOpen() {
+      closeSheets();
+      if (!current || current.status !== "question") return;
+      clearClock();
+      if (current.answered.size > 0) ui(current).used = true;
+    },
+    onClose() { if (current && current.status === "question") render(); },
+  });
 })();

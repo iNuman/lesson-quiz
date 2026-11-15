@@ -1,0 +1,41 @@
+# Lesson 29 examples — headword | sentence (漢字{よみ}) | English | other written forms (optional)
+ぜんぶ | ぜんぶ 食{た}べました。 | I ate all of it. | 全部
+コピーします・コピーする | この 紙{かみ}を コピーします。 | I photocopy this paper.
+こしょう | エアコンが こしょうです。 | The air conditioner is broken. | 故障
+設計します・設計する | 新{あたら}しい 家{いえ}を 設計{せっけい}します。 | I design a new house.
+出ます・出る(講義に～) | 月曜日{げつようび}の 講義{こうぎ}に 出{で}ます。 | I attend Monday's lecture.
+休講 | きょうは 休講{きゅうこう}です。 | Class is cancelled today.
+いかが | コーヒーは いかがですか。 | Would you like some coffee?
+だめです | ここで 写真{しゃしん}を とっては だめです。 | You must not take photos here.
+気分 | 気分{きぶん}が 悪{わる}いです。 | I feel sick.
+ねつ | ねつが あります。 | I have a fever. | 熱
+かぜを ひきます・かぜを ひく | かぜを ひきました。 | I caught a cold. | 風邪を引きます,風邪を引く,風邪をひきます,風邪をひく
+せきが 出ます・せきが 出る | せきが 出{で}ます。 | I have a cough. | 咳が出ます,咳が出る
+くしゃみが 出ます・くしゃみが 出る | くしゃみが 出{で}ます。 | I sneeze.
+はなみずが 出ます・はなみずが 出る | はなみずが 出{で}ます。 | I have a runny nose. | 鼻水が出ます,鼻水が出る
+かみ | かみが ながいです。 | My hair is long. | 髪
+はな | はなが いたいです。 | My nose hurts. | 鼻
+口 | 口{くち}を 開{あ}けて ください。 | Please open your mouth.
+かた | かたが いたいです。 | My shoulder hurts. | 肩
+ゆび | ゆびを 切{き}りました。 | I cut my finger. | 指
+ほね | ほねが 折{お}れました。 | I broke a bone. | 骨
+目 | 目{め}が いたいです。 | My eyes hurt.
+首 | 首{くび}が いたいです。 | My neck hurts.
+耳 | 耳{みみ}が よく 聞{き}こえません。 | I cannot hear well.
+せなか | せなかが いたいです。 | My back hurts. | 背中
+手 | 手{て}を あらいましょう。 | Let's wash our hands.
+ひざ | ひざが いたいです。 | My knee hurts. | 膝
+おねがい | おねがいが あります。 | I have a favor to ask. | お願い
+ああ | ああ、わかりました。 | Oh, I see.
+特に | 特{とく}に 質問{しつもん}は ありません。 | I have no questions in particular.
+部分 | この 部分{ぶぶん}が わかりません。 | I do not understand this part.
+よろしく おねがいします。 | = |
+プリンタ | プリンタの 紙{かみ}が ありません。 | The printer has no paper.
+なおします・なおす | パソコンを なおします。 | I fix the computer. | 直します,直す,治します,治す
+ちょうし | パソコンの ちょうしが 悪{わる}いです。 | The computer is not working well. | 調子
+おかしい | この 音{おと}は おかしいです。 | This sound is strange.
+みます・みる | パソコンを みて ください。 | Please check the computer. | 見ます,見る,診ます,診る
+そういう | そういう ことは 知{し}りません。 | I do not know about such things.
+秋葉原 | 秋葉原{あきはばら}で パソコンを 買{か}いました。 | I bought a computer in Akihabara.
+電気屋 | 電気屋{でんきや}で テレビを 買{か}います。 | I buy a TV at an electrical appliance shop.
+見学します・見学する | 工場{こうじょう}を 見学{けんがく}しました。 | I went on a study visit to the factory.

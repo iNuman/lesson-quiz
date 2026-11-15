@@ -1,0 +1,13 @@
+# Lesson 28 examples — headword | sentence (漢字{よみ}) | English | other written forms (optional)
+おきます・おきる | ここで 事故{じこ}が おきました。 | An accident happened here. | 起きます,起きる
+火事 | 近{ちか}くで 火事{かじ}が ありました。 | There was a fire nearby.
+事故 | 事故{じこ}に 気{き}を つけて ください。 | Please watch out for accidents.
+あいます・あう(事故に～) | きのう、事故{じこ}に あいました。 | I had an accident yesterday. | 遭います,遭う
+パスポート | パスポートを なくしました。 | I lost my passport.
+なくします・なくす | かぎを なくしました。 | I lost my key. | 無くします,無くす
+救急車 | 救急車{きゅうきゅうしゃ}を 呼{よ}んで ください。 | Please call an ambulance.
+パトカー | パトカーが 来{き}ました。 | A police car came.
+消防車 | 消防車{しょうぼうしゃ}は 赤{あか}いです。 | Fire engines are red.
+警察 | 警察{けいさつ}に 電話{でんわ}します。 | I call the police.
+かわきます・かわく(のどが～) | のどが かわきましたから、水{みず}を 飲{の}みます。 | I am thirsty, so I will drink water. | 渇きます,渇く
+すきます・すく(おなかが～) | おなかが すきましたから、ごはんを 食{た}べます。 | I am hungry, so I will eat. | 空きます,空く

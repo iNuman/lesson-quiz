@@ -1,0 +1,29 @@
+# Lesson 27 examples — headword | sentence (漢字{よみ}) | English | other written forms (optional)
+さびしい | 一人{ひとり}で いると、さびしいです。 | I feel lonely when I am alone. | 寂しい
+頭 | 頭{あたま}が いたいです。 | I have a headache.
+いたい | はが いたいです。 | My tooth hurts. | 痛い
+ねむい | ねむいですから、もう ねます。 | I am sleepy, so I will go to bed now. | 眠い
+ガス | ガスを 止{と}めて ください。 | Please turn off the gas.
+火 | 火{ひ}は あぶないです。 | Fire is dangerous.
+けします・けす(火を～) | 出{で}かける まえに 火{ひ}を けします。 | I put out the fire before going out. | 消します,消す
+フランス | フランスへ 行{い}きたいです。 | I want to go to France.
+パリ | パリは フランスの 首都{しゅと}です。 | Paris is the capital of France.
+運転します・運転する | 車{くるま}を 運転{うんてん}します。 | I drive a car.
+さとう | コーヒーに さとうを 入{い}れます。 | I put sugar in my coffee. | 砂糖
+かけます・かける(めがねを～) | めがねを かけて います。 | I am wearing glasses. | 掛けます,掛ける
+佐渡 | 佐渡{さど}は 新潟県{にいがたけん}の 島{しま}です。 | Sado is an island of Niigata Prefecture.
+新潟県 | 新潟県{にいがたけん}は 日本海{にほんかい}の 近{ちか}くです。 | Niigata Prefecture is near the Sea of Japan.
+旅行会社 | 旅行会社{りょこうがいしゃ}で ホテルを よやくします。 | I book a hotel at a travel agency.
+フェリー | フェリーで 佐渡{さど}へ 行{い}きます。 | I go to Sado by ferry.
+いろいろ(な) | いろいろな 国{くに}へ 行{い}きたいです。 | I want to go to various countries. | 色々,色々な
+たとえば | たとえば、りんごや バナナです。 | For example, apples and bananas. | 例えば
+さがします・さがす | かぎを さがして います。 | I am looking for my key. | 探します,探す
+ユースホステル | ユースホステルは 安{やす}いです。 | Youth hostels are cheap.
+禁煙 | この 部屋{へや}は 禁煙{きんえん}です。 | This room is non-smoking.
+無料 | この サービスは 無料{むりょう}です。 | This service is free of charge.
+和定食 | 昼{ひる}ごはんに 和定食{わていしょく}を 食{た}べます。 | I eat a Japanese set meal for lunch.
+引きます・引く | ドアを 引{ひ}いて ください。 | Please pull the door.
+入口 | 入口{いりぐち}は あちらです。 | The entrance is over there.
+出口 | 出口{でぐち}は どこですか。 | Where is the exit?
+お手洗い | お手洗{てあら}いは どこですか。 | Where is the restroom?
+中国語 | 中国語{ちゅうごくご}を 勉強{べんきょう}して います。 | I am studying Chinese.

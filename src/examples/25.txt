@@ -1,0 +1,29 @@
+# Lesson 25 examples — headword | sentence (漢字{よみ}) | English | other written forms (optional)
+できます・できる | わたしは 日本語{にほんご}が できます。 | I can speak Japanese. | 出来ます,出来る
+運転 | 運転{うんてん}が 上手{じょうず}ですね。 | You are good at driving, aren't you?
+ひきます・ひく(ギターを～) | ギターを ひく ことが できます。 | I can play the guitar. | 弾きます,弾く
+歌います・歌う | カラオケで 歌{うた}を 歌{うた}います。 | I sing songs at karaoke.
+運びます・運ぶ | 荷物{にもつ}を 運{はこ}んで ください。 | Please carry the luggage.
+温度計 | 温度計{おんどけい}は 机{つくえ}の 上{うえ}に あります。 | The thermometer is on the desk.
+光ファイバー | 光{ひかり}ファイバーは 速{はや}いです。 | Optical fiber is fast.
+インターネット | インターネットで 調{しら}べます。 | I look it up on the Internet.
+けんさく | インターネットで けんさくします。 | I search on the Internet. | 検索
+高速 | 高速{こうそく}の インターネットが ひつようです。 | A high-speed Internet connection is necessary.
+通信 | 通信{つうしん}が おそいです。 | The communication is slow.
+気温 | 今日{きょう}の 気温{きおん}は 三十度{さんじゅうど}です。 | Today's temperature is thirty degrees.
+そくてい | 気温{きおん}を そくていします。 | I measure the temperature. | 測定
+ふくざつ(な) | この 機械{きかい}は ふくざつです。 | This machine is complicated. | 複雑,複雑な
+計算 | 計算{けいさん}が 速{はや}いですね。 | You calculate fast, don't you?
+インタビューシート | インタビューシートに 書{か}いて ください。 | Please write on the interview sheet.
+めんせつ者 | めんせつ者{しゃ}は 田中{たなか}さんです。 | The interviewer is Mr. Tanaka. | 面接者
+国籍 | 国籍{こくせき}は どこですか。 | What is your nationality?
+年齢 | 年齢{ねんれい}を 書{か}いて ください。 | Please write your age.
+曜日 | 今日{きょう}は 何曜日{なんようび}ですか。 | What day of the week is it today?
+レベル | 日本語{にほんご}の レベルは どのぐらいですか。 | What is your level of Japanese?
+その他 | その他{た}の 人{ひと}は 帰{かえ}りました。 | The others went home.
+レストラン | レストランで 晩{ばん}ごはんを 食{た}べます。 | I eat dinner at a restaurant.
+島 | あの 島{しま}に 行{い}きたいです。 | I want to go to that island.
+―年間 | 日本{にほん}に 三年間{さんねんかん} 住{す}んで います。 | I have lived in Japan for three years.
+生活します・生活する | 日本{にほん}で 生活{せいかつ}して います。 | I live in Japan.
+ぎじゅつ | 日本{にほん}の ぎじゅつは すばらしいです。 | Japan's technology is wonderful. | 技術
+ヨーロッパ | ヨーロッパへ 旅行{りょこう}に 行{い}きたいです。 | I want to travel to Europe.
