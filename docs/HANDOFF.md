@@ -1,7 +1,13 @@
 # Agent handoff: where the project stands
 
-Written 2026-11-15 by Claude Code (Sonnet 5.5) for the next agent (Codex). Everything here was verified on `main` at commit
-`5265d9c` ("Merge pull request #8 from iNuman/feature/n5-kanji-learning"). `main` is the only branch (local and GitHub); the working tree was clean.
+Updated 2026-11-15 for the next agent. The repository state was verified on `main` at commit
+`a2fa9407bfcdaf18239df3558be1a0683fcc8881`. The remote branch `feature/register-order-and-handoff` was deleted at the user's request; this repository operation did not create a commit. Only `main` remains locally and on GitHub. The working tree contains the uncommitted handoff-policy updates to `AGENTS.md` and this file.
+
+## Latest handoff action
+- Added a permanent repository rule requiring `docs/HANDOFF.md` to be refreshed before every completed task ends.
+- Future handoffs must include the exact `HEAD` SHA, branch and working-tree state, completed work, verification, and remaining work or blockers.
+- Verification: `git branch -r --list` showed only `origin/main`; `git rev-parse HEAD` returned the SHA above.
+- Remaining step: these documentation changes are intentionally uncommitted because the user did not request a commit.
 
 ## 1. The project in one paragraph
 A free static Japanese study site (GitHub Pages) for *Book Hakase 2*, Lessons 16–30 (498 words). Learners take a 4-choice vocabulary quiz with game
